@@ -18,7 +18,7 @@ function Navbar() {
                     <nav className="navbar site-navbar offcanvas-active
                         navbar-expand-lg px-0">
                         <div className="brand-logo mr-8">
-                                <Link to="/beta-madpopo-react-app">
+                                <Link to={process.env.PUBLIC_URL + '/'}>
                                     <img src={logo1} alt="" className="light-version-logo" />
                                     <img src={logo2} alt="" className="dark-version-logo" />
                                 </Link>
