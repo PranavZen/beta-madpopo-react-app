@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beta-madpopo-react-app/static/css/main.100e91da.css",
+    "main.css": "/beta-madpopo-react-app/static/css/main.da07da01.css",
     "main.js": "/beta-madpopo-react-app/static/js/main.7c80b8aa.js",
     "static/js/787.ddeae3d3.chunk.js": "/beta-madpopo-react-app/static/js/787.ddeae3d3.chunk.js",
     "static/media/world-white.png": "/beta-madpopo-react-app/static/media/world-white.01b5bb713c7b1cfffa1b.png",
@@ -68,12 +68,12 @@
     "static/media/arrow-right-desktop-1.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-1.27df23a9d073fe62d89c.svg",
     "static/media/arrow-right-desktop-2.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-2.d3663980710bd470b402.svg",
     "static/media/wave-plan.svg": "/beta-madpopo-react-app/static/media/wave-plan.5fabe6835b36775f657c.svg",
-    "main.100e91da.css.map": "/beta-madpopo-react-app/static/css/main.100e91da.css.map",
+    "main.da07da01.css.map": "/beta-madpopo-react-app/static/css/main.da07da01.css.map",
     "main.7c80b8aa.js.map": "/beta-madpopo-react-app/static/js/main.7c80b8aa.js.map",
     "787.ddeae3d3.chunk.js.map": "/beta-madpopo-react-app/static/js/787.ddeae3d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.100e91da.css",
+    "static/css/main.da07da01.css",
     "static/js/main.7c80b8aa.js"
   ]
 }
