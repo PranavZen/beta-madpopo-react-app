@@ -1094,6 +1094,11 @@ div.slick-active.slick-current .main-features-box {
     margin-left: -15px;
   }
 }
+@media screen and (max-width:767px) {
+  .white-bg.light-mode-texts .navbar #mobile-menu .navbar-nav-wrapper #header-navbar-links .nav-item .nav-link {
+    color: #fff !important;
+}
+}
 @media (min-width: 992px) {
   .row-lg {
     display: flex;
