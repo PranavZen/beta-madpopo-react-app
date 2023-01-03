@@ -85,7 +85,7 @@ function Navbar() {
                                                         justify-content-center
                                                         mx-0">
                                                         <div className="col-md-6
-                                                            col-lg-4 mb-10">
+                                                            col-lg-3 mb-10">
                                                             <div
                                                                 className="feature-widget
                                                                 d-sm-flex">
@@ -106,8 +106,8 @@ function Navbar() {
                                                                         className="title
                                                                         coodiv-text-9
                                                                         mb-2
-                                                                        color-blackish-blue">Unmetered
-                                                                        bandwidth</h3>
+                                                                        color-blackish-blue">WordPress Hosting
+                                                                        </h3>
                                                                     <p
                                                                        
                                                                         className="coodiv-text-11
@@ -122,7 +122,7 @@ function Navbar() {
                                                             </div>
                                                         </div>
                                                         <div className="col-md-6
-                                                            col-lg-4 mb-10">
+                                                            col-lg-3 mb-10">
                                                             <div
                                                                 className="feature-widget
                                                                 d-sm-flex">
@@ -143,8 +143,9 @@ function Navbar() {
                                                                         className="title
                                                                         coodiv-text-9
                                                                         mb-2
-                                                                        color-blackish-blue">Domain
-                                                                        registration</h3>
+                                                                        color-blackish-blue">WooCommerce Hosting
+
+                                                                        </h3>
                                                                     <p
                                                                       
                                                                         className="coodiv-text-11
@@ -159,7 +160,7 @@ function Navbar() {
                                                             </div>
                                                         </div>
                                                         <div className="col-md-6
-                                                            col-lg-4 mb-10">
+                                                            col-lg-3 mb-10">
                                                             <div
                                                                 className="feature-widget
                                                                 d-sm-flex">
@@ -180,8 +181,9 @@ function Navbar() {
                                                                         className="title
                                                                         coodiv-text-9
                                                                         mb-2
-                                                                        color-blackish-blue">SSL
-                                                                        certificate</h3>
+                                                                        color-blackish-blue">Linux Web Hosting
+
+                                                                        </h3>
                                                                     <p
                                                                        
                                                                         className="coodiv-text-11
@@ -197,7 +199,7 @@ function Navbar() {
                                                             </div>
                                                         </div>
                                                         <div className="col-md-6
-                                                            col-lg-4 mb-10">
+                                                            col-lg-3 mb-10">
                                                             <div
                                                                 className="feature-widget
                                                                 d-sm-flex">
@@ -218,8 +220,9 @@ function Navbar() {
                                                                         className="title
                                                                         coodiv-text-9
                                                                         mb-2
-                                                                        color-blackish-blue">SSL
-                                                                        certificate</h3>
+                                                                        color-blackish-blue">Windows Web Hosting
+
+                                                                        </h3>
                                                                     <p
                                                                         
                                                                         className="coodiv-text-11
@@ -235,7 +238,7 @@ function Navbar() {
                                                             </div>
                                                         </div>
                                                         <div className="col-md-6
-                                                            col-lg-4 mb-10">
+                                                            col-lg-3 mb-10">
                                                             <div
                                                                 className="feature-widget
                                                                 d-sm-flex">
@@ -256,8 +259,8 @@ function Navbar() {
                                                                         className="title
                                                                         coodiv-text-9
                                                                         mb-2
-                                                                        color-blackish-blue">SSL
-                                                                        certificate</h3>
+                                                                        color-blackish-blue">Virtual Dedicated Server
+                                                                        </h3>
                                                                     <p
                                                                         
                                                                         className="coodiv-text-11
@@ -273,7 +276,7 @@ function Navbar() {
                                                             </div>
                                                         </div>
                                                         <div className="col-md-6
-                                                            col-lg-4 mb-10">
+                                                            col-lg-3 mb-10">
                                                             <div
                                                                 className="feature-widget
                                                                 d-sm-flex">
@@ -294,8 +297,8 @@ function Navbar() {
                                                                         className="title
                                                                         coodiv-text-9
                                                                         mb-2
-                                                                        color-blackish-blue">SSL
-                                                                        certificate</h3>
+                                                                        color-blackish-blue">Dedicated Server
+                                                                        </h3>
                                                                     <p
                                                                         
                                                                         className="coodiv-text-11
@@ -310,7 +313,83 @@ function Navbar() {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        
+                                                        <div className="col-md-6
+                                                            col-lg-3 mb-10">
+                                                            <div
+                                                                className="feature-widget
+                                                                d-sm-flex">
+                                                                <div
+                                                                    className="widget-icon
+                                                                    text-blue
+                                                                    mr-0 mr-lg-6
+                                                                    mb-7
+                                                                    mb-md-0">
+                                                                    <i
+                                                                        className="feather
+                                                                        icon-shield"></i>
+                                                                </div>
+                                                                <div
+                                                                    className="content">
+                                                                    <h3
+                                                                        
+                                                                        className="title
+                                                                        coodiv-text-9
+                                                                        mb-2
+                                                                        color-blackish-blue">Cloud Hosting
+
+                                                                        </h3>
+                                                                    <p
+                                                                        
+                                                                        className="coodiv-text-11
+                                                                        color-blackish-blue-opacity
+                                                                        mb-0">Bring
+                                                                        in all
+                                                                        the
+                                                                        traffic
+                                                                        you
+                                                                        want, we
+                                                                        got ya.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-md-6
+                                                            col-lg-3 mb-10">
+                                                            <div
+                                                                className="feature-widget
+                                                                d-sm-flex">
+                                                                <div
+                                                                    className="widget-icon
+                                                                    text-blue
+                                                                    mr-0 mr-lg-6
+                                                                    mb-7
+                                                                    mb-md-0">
+                                                                    <i
+                                                                        className="feather
+                                                                        icon-shield"></i>
+                                                                </div>
+                                                                <div
+                                                                    className="content">
+                                                                    <h3
+                                                                        
+                                                                        className="title
+                                                                        coodiv-text-9
+                                                                        mb-2
+                                                                        color-blackish-blue">Reseller Hosting
+                                                                        </h3>
+                                                                    <p
+                                                                        
+                                                                        className="coodiv-text-11
+                                                                        color-blackish-blue-opacity
+                                                                        mb-0">Bring
+                                                                        in all
+                                                                        the
+                                                                        traffic
+                                                                        you
+                                                                        want, we
+                                                                        got ya.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                         
                                                         <Link className="btn
                                                             btn-warning
@@ -325,304 +404,6 @@ function Navbar() {
                                     </li>
 
 
-                                    <li className="nav-item dropdown dropdown-mega">
-                                        <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
-                                            id="navbarDropdown120"
-                                            to="#" role="button"
-                                            data-toggle="dropdown"
-                                            aria-haspopup="true"
-                                            aria-expanded="false">Pro Hosting</Link>
-                                        <div className="coodiv-megamenu-dropdown
-                                            center white-bg dropdown-menu
-                                            d-lg-block px-10 py-10"
-                                            aria-labelledby="navbarDropdown120">
-                                            <div className="row
-                                                justify-content-center">
-                                                <div className="col-md-12">
-                                                    <h1 className="coodiv-text-6
-                                                        title
-                                                        color-blackish-blue
-                                                        text-left w-100 d-block
-                                                        mb-10">
-                                                        <span
-                                                            data-i18n="[html]genaral.prohosingtitle">Hosting
-                                                            for every website.</span>
-                                                        <span
-                                                            data-i18n="[html]genaral.prohosingsubtitle"
-                                                            className="d-block
-                                                            coodiv-text-11
-                                                            color-blackish-blue-opacity
-                                                            fw-100">Unlimited
-                                                            storage, unmetered
-                                                            bandwidth,
-                                                            unbeatable hosting.
-                                                            This gator’s got ya
-                                                            covered.</span>
-                                                    </h1>
-                                                </div>
-                                            </div>
-                                            <div className="row
-                                                justify-content-start
-                                                hostings-card-group">
-                                                <div className="col-lg-6 col-md-6
-                                                    col-sm-6 col-xs-8 mb-md-12
-                                                    mb-lg-6 mb-3
-                                                    hostings-card-items">
-                                                    <Link
-                                                        to="wordpress-hosting.html"
-                                                        className="hostings-card
-                                                        d-flex flex-column
-                                                        align-items-center
-                                                        flex-md-row
-                                                        border-separate
-                                                        position-relative
-                                                        rounded-10 px-6 py-8
-                                                        overflow-hidden">
-                                                        <span
-                                                            className="hostings-card-off">15%
-                                                            off!</span>
-                                                        <div className="card-icon
-                                                            d-flex mr-lg-7 mb-9
-                                                            mb-lg-0">
-                                                            <i className="fab
-                                                                fa-wordpress"></i>
-                                                        </div>
-                                                        <div className="card-texts
-                                                            pr-xl-10">
-                                                            <h3
-                                                                data-i18n="[html]genaral.prohosingwordpress"
-                                                                className="coodiv-text-10
-                                                                mb-1
-                                                                coodiv-text-exerpt
-                                                                color-blackish-blue">Wordpress
-                                                                Hosting</h3>
-                                                            <p
-                                                                data-i18n="[html]genaral.prohosingboxsubtetileone"
-                                                                className="coodiv-text-11
-                                                                fw-100 mb-0
-                                                                color-blackish-blue-opacity">Unlimited
-                                                                storage,
-                                                                unmetered
-                                                                bandwidth.</p>
-                                                        </div>
-                                                    </Link>
-                                                </div>
-                                                <div className="col-lg-6 col-md-6
-                                                    col-sm-6 col-xs-8 mb-md-12
-                                                    mb-lg-6 mb-3
-                                                    hostings-card-items">
-                                                    <Link to="web-hosting.html"
-                                                        className="hostings-card
-                                                        d-flex flex-column
-                                                        align-items-center
-                                                        flex-md-row
-                                                        border-separate
-                                                        position-relative
-                                                        rounded-10 px-6 py-8
-                                                        overflow-hidden">
-                                                        <span
-                                                            className="hostings-card-off">25%
-                                                            off!</span>
-                                                        <div className="card-icon
-                                                            d-flex mr-lg-7 mb-9
-                                                            mb-lg-0">
-                                                            <i className="fas
-                                                                fa-server"></i>
-                                                        </div>
-                                                        <div className="card-texts
-                                                            pr-xl-10">
-                                                            <h3
-                                                                data-i18n="[html]genaral.prohosingvps"
-                                                                className="coodiv-text-10
-                                                                mb-1
-                                                                coodiv-text-exerpt
-                                                                color-blackish-blue">Web
-                                                                Hosting</h3>
-                                                            <p
-                                                                data-i18n="[html]genaral.prohosingboxsubtetiletwo"
-                                                                className="coodiv-text-11
-                                                                fw-100 mb-0
-                                                                color-blackish-blue-opacity">Unlimited
-                                                                storage,
-                                                                unmetered
-                                                                bandwidth.</p>
-                                                        </div>
-                                                    </Link>
-                                                </div>
-                                                <div className="col-lg-6 col-md-6
-                                                    col-sm-6 col-xs-8 mb-md-12
-                                                    mb-lg-6 mb-3
-                                                    hostings-card-items">
-                                                    <Link to="vps-hosting.html"
-                                                        className="hostings-card
-                                                        d-flex flex-column
-                                                        align-items-center
-                                                        flex-md-row
-                                                        border-separate
-                                                        position-relative
-                                                        rounded-10 px-6 py-8
-                                                        overflow-hidden">
-                                                        <span
-                                                            className="hostings-card-off">5%
-                                                            off!</span>
-                                                        <div className="card-icon
-                                                            d-flex mr-lg-7 mb-9
-                                                            mb-lg-0">
-                                                            <i className="fas
-                                                                fa-poll"></i>
-                                                        </div>
-                                                        <div className="card-texts
-                                                            pr-xl-10">
-                                                            <h3
-                                                                data-i18n="[html]genaral.prohosingdedicated"
-                                                                className="coodiv-text-10
-                                                                mb-1
-                                                                coodiv-text-exerpt
-                                                                color-blackish-blue">Vps
-                                                                Hosting</h3>
-                                                            <p
-                                                                data-i18n="[html]genaral.prohosingboxsubtetiletree"
-                                                                className="coodiv-text-11
-                                                                fw-100 mb-0
-                                                                color-blackish-blue-opacity">Unlimited
-                                                                storage,
-                                                                unmetered
-                                                                bandwidth.</p>
-                                                        </div>
-                                                    </Link>
-                                                </div>
-                                                <div className="col-lg-6 col-md-6
-                                                    col-sm-6 col-xs-8 mb-md-12
-                                                    mb-lg-6 mb-3
-                                                    hostings-card-items">
-                                                    <Link
-                                                        to="shared-hosting.html"
-                                                        className="hostings-card
-                                                        d-flex flex-column
-                                                        align-items-center
-                                                        flex-md-row
-                                                        border-separate
-                                                        position-relative
-                                                        rounded-10 px-6 py-8
-                                                        overflow-hidden">
-                                                        <span
-                                                            className="hostings-card-off">30%
-                                                            off!</span>
-                                                        <div className="card-icon
-                                                            d-flex mr-lg-7 mb-9
-                                                            mb-lg-0">
-                                                            <i className="fas
-                                                                fa-share-alt"></i>
-                                                        </div>
-                                                        <div className="card-texts
-                                                            pr-xl-10">
-                                                            <h3
-                                                                data-i18n="[html]genaral.prohosingwebhosting"
-                                                                className="coodiv-text-10
-                                                                mb-1
-                                                                coodiv-text-exerpt
-                                                                color-blackish-blue">Shared
-                                                                Hosting</h3>
-                                                            <p
-                                                                data-i18n="[html]genaral.prohosingboxsubtetilefour"
-                                                                className="coodiv-text-11
-                                                                fw-100 mb-0
-                                                                color-blackish-blue-opacity">Unlimited
-                                                                storage,
-                                                                unmetered
-                                                                bandwidth.</p>
-                                                        </div>
-                                                    </Link>
-                                                </div>
-                                                <div className="col-lg-6 col-md-6
-                                                    col-sm-6 col-xs-8 mb-md-12
-                                                    mb-lg-6 mb-3
-                                                    hostings-card-items">
-                                                    <Link
-                                                        to="dedicated-servers.html"
-                                                        className="hostings-card
-                                                        d-flex flex-column
-                                                        align-items-center
-                                                        flex-md-row
-                                                        border-separate
-                                                        position-relative
-                                                        rounded-10 px-6 py-8
-                                                        overflow-hidden">
-                                                        <span
-                                                            className="hostings-card-off">65%
-                                                            off!</span>
-                                                        <div className="card-icon
-                                                            d-flex mr-lg-7 mb-9
-                                                            mb-lg-0">
-                                                            <i className="fas
-                                                                fa-desktop"></i>
-                                                        </div>
-                                                        <div className="card-texts
-                                                            pr-xl-10">
-                                                            <h3
-                                                                data-i18n="[html]genaral.prohosingsharedhosting"
-                                                                className="coodiv-text-10
-                                                                mb-1
-                                                                coodiv-text-exerpt
-                                                                color-blackish-blue">Dedicated
-                                                                Servers</h3>
-                                                            <p
-                                                                data-i18n="[html]genaral.prohosingboxsubtetilefive"
-                                                                className="coodiv-text-11
-                                                                fw-100 mb-0
-                                                                color-blackish-blue-opacity">Unlimited
-                                                                storage,
-                                                                unmetered
-                                                                bandwidth.</p>
-                                                        </div>
-                                                    </Link>
-                                                </div>
-                                                <div className="col-lg-6 col-md-6
-                                                    col-sm-6 col-xs-8 mb-md-12
-                                                    mb-lg-6 mb-3
-                                                    hostings-card-items">
-                                                    <Link
-                                                        to="cpanel-reseller.html"
-                                                        className="hostings-card
-                                                        d-flex flex-column
-                                                        align-items-center
-                                                        flex-md-row
-                                                        border-separate
-                                                        position-relative
-                                                        rounded-10 px-6 py-8
-                                                        overflow-hidden">
-                                                        <span
-                                                            className="hostings-card-off">50%
-                                                            off!</span>
-                                                        <div className="card-icon
-                                                            d-flex mr-lg-7 mb-9
-                                                            mb-lg-0">
-                                                            <i className="fab
-                                                                fa-cpanel"></i>
-                                                        </div>
-                                                        <div className="card-texts
-                                                            pr-xl-10">
-                                                            <h3
-                                                                data-i18n="[html]genaral.prohosingcpanel"
-                                                                className="coodiv-text-10
-                                                                mb-1
-                                                                coodiv-text-exerpt
-                                                                color-blackish-blue">Cpanel
-                                                                Reseller</h3>
-                                                            <p
-                                                                data-i18n="[html]genaral.prohosingboxsubtetilesix"
-                                                                className="coodiv-text-11
-                                                                fw-100 mb-0
-                                                                color-blackish-blue-opacity">Unlimited
-                                                                storage,
-                                                                unmetered
-                                                                bandwidth.</p>
-                                                        </div>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
 
 
                                     <li className="nav-item dropdown dropdown-mega">
@@ -1070,8 +851,8 @@ function Navbar() {
 
                                     <li className="nav-item">
                                         <Link 
-                                            className="nav-link" to="/contact"
-                                            role="button" aria-expanded="false">Contact
+                                            className="nav-link" to="/about"
+                                            role="button" aria-expanded="false">About
                                             Us</Link>
                                     </li>
                                 </ul>
