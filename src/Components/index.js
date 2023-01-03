@@ -1,5 +1,5 @@
-export { default as logo1 } from '../../src/image/logo-main-black.png';
-export { default as logo2 } from '../../src/image/logo-main-white.png';
+export { default as logo1 } from '../../src/image/header/madpopo_final_logo.png';
+export { default as logo2 } from '../../src/image/header/madpopo_final_logo.png';
 export { default as bannerBg1 } from '../../src/image/header/sunset-version/moon.png';
 export { default as bannerBg2 } from '../../src/image/header/helf-circle-01.png';
 export { default as bannerBg3 } from '../../src/image/header/helf-circle-02.png';
@@ -11,4 +11,4 @@ export { default as game1 } from '../../src/image/games/counter.png';
 export { default as game2 } from '../../src/image/games/minecraft.png';
 export { default as game3 } from '../../src/image/games/rust.png';
 export { default as woldMap } from '../../src/image/world-map/global_network.png';
-export { default as fooLogo } from '../../src/image/logo-main-black.png';
+export { default as fooLogo } from '../../src/image/header/madpopo_final_logo.png';

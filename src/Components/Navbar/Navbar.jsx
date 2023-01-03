@@ -14,7 +14,18 @@ function Navbar() {
     <div>
     <header className={scroll ? "site-header header-with-right-menu site-header--absolute fixed-header-layout top-header-fixed white-bg light-mode-texts" : "site-header header-with-right-menu site-header--absolute fixed-header-layout dark-mode-texts"}>
                 <div className="container-fluid pr-lg-9 pl-lg-9">
-
+                <div className='topBarStrip'>
+                  <div className="topInner">
+                     <span className='numSpan'>(24x7) +91 70 42 40 7676</span>
+                     <div className="">
+                       <div className=''>
+                         <span className="">
+                            INR
+                         </span>
+                       </div>
+                     </div>
+                  </div>
+                </div>
                     <nav className="navbar site-navbar offcanvas-active
                         navbar-expand-lg px-0">
                         <div className="brand-logo mr-8">
@@ -23,544 +34,17 @@ function Navbar() {
                                     <img src={logo2} alt="" className="dark-version-logo" />
                                 </Link>
                         </div>
-                        <div id="languagesystem" className="header-lang dropdown
-                            show position-static coodiv-z-index-1">
-                            <Link className="coodiv-text-10 btn-header-lang
-                                position-relative" to="#" role="button"
-                                id="dropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                <i className="feather icon-globe mr-2"></i><span
-                                    data-i18n="[html]systems.langname">EN</span>
-                            </Link>
-                            <div id="languagesystem-slector"
-                                className="header-lang-container dropdown-menu px-8
-                                py-7 px-lg-15 py-lg-15 overflow-scroll-y"
-                                aria-labelledby="dropdownMenuLink">
-                                <div className="row justify-content-between
-                                    align-items-center mb-5">
-                                    <div className="col-lg-4 col-md-8">
-                                        <form action="">
-                                            <div className="form-group
-                                                position-relative mb-0">
-                                                <input className="form-control
-                                                    coodiv-text-9 border
-                                                    min-height-px-64 rounded-20"
-                                                    
-                                                    id="lang-search-input"
-                                                    placeholder="Please entree
-                                                    your language" />
-                                                <button className="btn btn-warning
-                                                    mr-2 coodiv-abs-cr
-                                                    btn-auto-min-width
-                                                    min-height-px-50 w-100
-                                                    w-md-auto rounded-20
-                                                    icon-btn"><i className="feather
-                                                        icon-search"></i></button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div className="white-bg border rounded-20 px-10
-                                    py-10 lang-box-container">
-                                    <div className="lang-box-title position-relative
-                                        coodiv-text-9 d-block
-                                        color-blackish-blue font-weight-bold
-                                        mb-7"><span>America</span></div>
-                                    <ul id="lang-box-ul" className="row
-                                        justify-content-start mb-10">
-                                        <li className="col-md-3">
-                                             <Link to="#"
-                                                data-lng="en"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center
-                                                current-lang active"><i
-                                                    className="img-flag english"></i>
-                                                United States <small>English</small></Link></li>
-                                        <li className="col-md-3">
-                                        <Link to="#"
-                                                data-lng="es"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center"><i
-                                                    className="img-flag argentina"></i>
-                                                Argentina <small>Español</small></Link></li>
-                                        <li className="col-md-3">
-                                        <Link to="#"
-                                                data-lng="pt"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center"><i
-                                                    className="img-flag brasil"></i>
-                                                Brasil <small>Português</small></Link></li>
-                                        <div className="lang-box-title
-                                            position-relative coodiv-text-9
-                                            d-block color-blackish-blue
-                                            font-weight-bold mb-7 col-md-12"><span>Europe</span></div>
-                                        <li className="col-md-3">
-                                        <Link to="#"
-                                                data-lng="po"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center"><i
-                                                    className="img-flag polska"></i>
-                                                Polska <small>Polski</small></Link></li>
-                                        <li className="col-md-3">
-                                        <Link to="#"
-                                                data-lng="ge"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center"><i
-                                                    className="img-flag polska"></i>
-                                                Germany <small>German</small></Link></li>
-                                        <li className="col-md-3">
-                                        <Link to="#"
-                                                data-lng="ru"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center"><i
-                                                    className="img-flag russia"></i>
-                                                Россия <small>Русский</small></Link></li>
-                                        <li className="col-md-3">
-                                        <Link to="#"
-                                                data-lng="ar"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center"><i
-                                                    className="img-flag arabic
-                                                    algeria"></i> Algeria
-                                                <small>Arabic</small></Link></li>
-                                        <li className="col-md-3">
-                                        <Link to="#"
-                                                data-lng="ukr"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center
-                                                mb-lg-0"><i className="img-flag
-                                                    ukraine"></i> Україна
-                                                <small>Українська</small></Link></li>
-                                        <li className="col-md-3"><Link to="#"
-                                                data-lng="fr"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center"><i
-                                                    className="img-flag france"></i>
-                                                France <small>Français</small></Link></li>
-                                        <div className="lang-box-title
-                                            position-relative coodiv-text-9
-                                            d-block color-blackish-blue
-                                            font-weight-bold mb-7 col-md-12"><span>Asia</span></div>
-                                        <li className="col-md-3"><Link to="#"
-                                                data-lng="ar"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center"><i
-                                                    className="img-flag arabic uae"></i>
-                                                UAE <small>Arabic</small></Link></li>
-                                        <li className="col-md-3"><Link to="#"
-                                                data-lng="en-IN"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center"><i
-                                                    className="img-flag india"></i>
-                                                India <small>English</small></Link></li>
-                                        <li className="col-md-3"><Link to="#"
-                                                data-lng="ja"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center
-                                                mb-lg-0"><i className="img-flag
-                                                    japan"></i> 대한민국 <small>한국어</small></Link></li>
-                                        <li className="col-md-3"><Link to="#"
-                                                data-lng="dan"
-                                                className="lang-box-item
-                                                coodiv-text-9 font-weight-bold
-                                                d-flex align-items-center
-                                                mb-lg-0"><i className="img-flag
-                                                    danmark"></i> Danmark
-                                                <small>Dansk</small></Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        
 
 
                         <div className="collapse navbar-collapse" id="mobile-menu">
                             <div className="navbar-nav-wrapper">
                                 <ul id="header-navbar-links" className="navbar-nav
                                     main-menu">
-                                    <li className="nav-item dropdown dropdown-mega">
-                                        <Link className="nav-link dropdown-toggle
-                                            coodiv-toggle-arrow"
-                                            id="navbardemos" to="#demos"
-                                            role="button" data-toggle="dropdown"
-                                            aria-haspopup="true"
-                                            aria-expanded="false">Demos</Link>
-                                        <div className="coodiv-megamenu-dropdown
-                                            demos-area-megamenu
-                                            fullwidth-megamenu center white-bg
-                                            dropdown-menu d-lg-flex px-lg-10
-                                            px-5 py-10"
-                                            aria-labelledby="navbardemos">
-                                            <div className="container-fluid">
-                                                <div className="row
-                                                    justify-content-center
-                                                    mt-lg-6">
-                                                    <div className="col-md-12">
-                                                        <h1 className="coodiv-text-6
-                                                            title
-                                                            color-blackish-blue
-                                                            text-lg-left
-                                                            text-center w-100
-                                                            d-block mb-10">
-                                                            <span>Check pre-made
-                                                                EMYUI Demos</span>
-                                                            <span className="d-block
-                                                                mt-lg-0 mt-5
-                                                                coodiv-text-11
-                                                                color-blackish-blue-opacity
-                                                                fw-100">
-                                                                Build your
-                                                                project in
-                                                                minutes with the
-                                                                help of
-                                                                countless
-                                                                amazing features
-                                                                and elements of
-                                                                EMYUI, and start
-                                                                selling your
-                                                                products with
-                                                                the included
-                                                                WHMCS themes.
-                                                            </span>
-                                                        </h1>
-                                                        <div className="row
-                                                            justify-content-start
-                                                            mega-menu-demos-group">
-                                                            <div className="col-lg-2
-                                                                col-md-4 col-12
-                                                                mb-10 px-lg-1">
-                                                                <Link
-                                                                    to="index-discount.html"
-                                                                    className="mega-menu-demos-item
-                                                                    d-block
-                                                                    light-mode-texts
-                                                                    rounded-10
-                                                                    overflow-hidden
-                                                                    border">
-                                                                   
-                                                                    <div
-                                                                        className="mega-menu-demos-item-body
-                                                                        px-6
-                                                                        py-4">
-                                                                        <h6
-                                                                            className="coodiv-text-10
-                                                                            mt-4
-                                                                            mb-1">Homepage
-                                                                            Discount</h6>
-                                                                        <p
-                                                                            className="coodiv-text-11
-                                                                            fw-100">WebHosting,
-                                                                            reseller
-                                                                            hosting,
-                                                                            WordPress
-                                                                            hosting</p>
-                                                                    </div>
-                                                                </Link>
-                                                            </div>
-                                                            <div className="col-lg-2
-                                                                col-md-4 col-12
-                                                                mb-10 px-lg-1">
-                                                                <Link
-                                                                    to="index-cloud.html"
-                                                                    className="mega-menu-demos-item
-                                                                    d-block
-                                                                    light-mode-texts
-                                                                    rounded-10
-                                                                    overflow-hidden
-                                                                    border">
-                                                                 
-                                                                    <div
-                                                                        className="mega-menu-demos-item-body
-                                                                        px-6
-                                                                        py-4">
-                                                                        <h6
-                                                                            className="coodiv-text-10
-                                                                            mt-4
-                                                                            mb-1">Homepage
-                                                                            Clouds</h6>
-                                                                        <p
-                                                                            className="coodiv-text-11
-                                                                            fw-100">WebHosting,
-                                                                            reseller
-                                                                            hosting,
-                                                                            WordPress
-                                                                            hosting</p>
-                                                                    </div>
-                                                                </Link>
-                                                            </div>
-                                                            <div className="col-lg-2
-                                                                col-md-4 col-12
-                                                                mb-10 px-lg-1">
-                                                                <Link
-                                                                    to="index-security.html"
-                                                                    className="mega-menu-demos-item
-                                                                    d-block
-                                                                    light-mode-texts
-                                                                    rounded-10
-                                                                    overflow-hidden
-                                                                    border">
-                                                                  
-                                                                    <div
-                                                                        className="mega-menu-demos-item-body
-                                                                        px-6
-                                                                        py-4">
-                                                                        <h6
-                                                                            className="coodiv-text-10
-                                                                            mt-4
-                                                                            mb-1">Homepage
-                                                                            Security</h6>
-                                                                        <p
-                                                                            className="coodiv-text-11
-                                                                            fw-100">WebHosting,
-                                                                            reseller
-                                                                            hosting,
-                                                                            WordPress
-                                                                            hosting</p>
-                                                                    </div>
-                                                                </Link>
-                                                            </div>
-                                                            <div className="col-lg-2
-                                                                col-md-4 col-12
-                                                                mb-10 px-lg-1">
-                                                                <Link
-                                                                    to="index-aws.html"
-                                                                    className="mega-menu-demos-item
-                                                                    d-block
-                                                                    light-mode-texts
-                                                                    rounded-10
-                                                                    overflow-hidden
-                                                                    border">
-                                                                    
-                                                                    <div
-                                                                        className="mega-menu-demos-item-body
-                                                                        px-6
-                                                                        py-4">
-                                                                        <h6
-                                                                            className="coodiv-text-10
-                                                                            mt-4
-                                                                            mb-1">Homepage
-                                                                            AWS</h6>
-                                                                        <p
-                                                                            className="coodiv-text-11
-                                                                            fw-100">WebHosting,
-                                                                            reseller
-                                                                            hosting,
-                                                                            WordPress
-                                                                            hosting</p>
-                                                                    </div>
-                                                                </Link>
-                                                            </div>
-                                                            <div className="col-lg-2
-                                                                col-md-4 col-12
-                                                                mb-10 px-lg-1">
-                                                                <Link
-                                                                    to="index.html"
-                                                                    className="mega-menu-demos-item
-                                                                    d-block
-                                                                    light-mode-texts
-                                                                    rounded-10
-                                                                    overflow-hidden
-                                                                    border">
-                                                                    
-                                                                    <div
-                                                                        className="mega-menu-demos-item-body
-                                                                        px-6
-                                                                        py-4">
-                                                                        <h6
-                                                                            className="coodiv-text-10
-                                                                            mt-4
-                                                                            mb-1">Homepage
-                                                                            One</h6>
-                                                                        <p
-                                                                            className="coodiv-text-11
-                                                                            fw-100">WebHosting,
-                                                                            reseller
-                                                                            hosting,
-                                                                            WordPress
-                                                                            hosting</p>
-                                                                    </div>
-                                                                </Link>
-                                                            </div>
-                                                            <div className="col-lg-2
-                                                                col-md-4 col-12
-                                                                mb-10 px-lg-1">
-                                                                <Link
-                                                                    to="index-2.html"
-                                                                    className="mega-menu-demos-item
-                                                                    d-block
-                                                                    light-mode-texts
-                                                                    rounded-10
-                                                                    overflow-hidden
-                                                                    border">
-                                                                  
-                                                                    <div
-                                                                        className="mega-menu-demos-item-body
-                                                                        px-6
-                                                                        py-4">
-                                                                        <h6
-                                                                            className="coodiv-text-10
-                                                                            mt-4
-                                                                            mb-1">Homepage
-                                                                            two</h6>
-                                                                        <p
-                                                                            className="coodiv-text-11
-                                                                            fw-100">WebHosting,
-                                                                            reseller
-                                                                            hosting,
-                                                                            WordPress
-                                                                            hosting</p>
-                                                                    </div>
-                                                                </Link>
-                                                            </div>
-                                                            <div className="col-lg-2
-                                                                col-md-4 col-12
-                                                                mb-10 px-lg-1">
-                                                                <Link
-                                                                    to="index-3.html"
-                                                                    className="mega-menu-demos-item
-                                                                    d-block
-                                                                    light-mode-texts
-                                                                    rounded-10
-                                                                    overflow-hidden
-                                                                    border">
-                                                                    
-                                                                    <div
-                                                                        className="mega-menu-demos-item-body
-                                                                        px-6
-                                                                        py-4">
-                                                                        <h6
-                                                                            className="coodiv-text-10
-                                                                            mt-4
-                                                                            mb-1">Homepage
-                                                                            Three</h6>
-                                                                        <p
-                                                                            className="coodiv-text-11
-                                                                            fw-100">WebHosting,
-                                                                            reseller
-                                                                            hosting,
-                                                                            WordPress
-                                                                            hosting</p>
-                                                                    </div>
-                                                                </Link>
-                                                            </div>
-                                                            <div className="col-lg-2
-                                                                col-md-4 col-12
-                                                                mb-10 px-lg-1">
-                                                                <Link
-                                                                    to="index-4.html"
-                                                                    className="mega-menu-demos-item
-                                                                    d-block
-                                                                    light-mode-texts
-                                                                    rounded-10
-                                                                    overflow-hidden
-                                                                    border">
-                                                                    
-                                                                    <div
-                                                                        className="mega-menu-demos-item-body
-                                                                        px-6
-                                                                        py-4">
-                                                                        <h6
-                                                                            className="coodiv-text-10
-                                                                            mt-4
-                                                                            mb-1">Homepage
-                                                                            Four</h6>
-                                                                        <p
-                                                                            className="coodiv-text-11
-                                                                            fw-100">for
-                                                                            Domain
-                                                                            Name
-                                                                            Registrars
-                                                                            companies</p>
-                                                                    </div>
-                                                                </Link>
-                                                            </div>
-                                                            <div className="col-lg-2
-                                                                col-md-4 col-12
-                                                                mb-10 px-lg-1">
-                                                                <Link
-                                                                    to="index-vpn.html"
-                                                                    className="mega-menu-demos-item
-                                                                    d-block
-                                                                    light-mode-texts
-                                                                    rounded-10
-                                                                    overflow-hidden
-                                                                    border">
-                                                                   
-                                                                    <div
-                                                                        className="mega-menu-demos-item-body
-                                                                        px-6
-                                                                        py-4">
-                                                                        <h6
-                                                                            className="coodiv-text-10
-                                                                            mt-4
-                                                                            mb-1">Homepage
-                                                                            VPN</h6>
-                                                                        <p
-                                                                            className="coodiv-text-11
-                                                                            fw-100">landing
-                                                                            page
-                                                                            for
-                                                                            VPN
-                                                                            providers</p>
-                                                                    </div>
-                                                                </Link>
-                                                            </div>
-                                                            <div className="col-lg-2
-                                                                col-md-4 col-12
-                                                                mb-10 px-lg-1">
-                                                                <Link
-                                                                    to="index-cdn.html"
-                                                                    className="mega-menu-demos-item
-                                                                    d-block
-                                                                    light-mode-texts
-                                                                    rounded-10
-                                                                    overflow-hidden
-                                                                    border">
-                                                                   
-                                                                    <div
-                                                                        className="mega-menu-demos-item-body
-                                                                        px-6
-                                                                        py-4">
-                                                                        <h6
-                                                                            className="coodiv-text-10
-                                                                            mt-4
-                                                                            mb-1">Homepage
-                                                                            CDN</h6>
-                                                                        <p
-                                                                            className="coodiv-text-11
-                                                                            fw-100">landing
-                                                                            page
-                                                                            for
-                                                                            CDN
-                                                                            providers</p>
-                                                                    </div>
-                                                                </Link>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-
-
-                                    <li className="nav-item dropdown dropdown-mega">
-                                        <Link data-i18n="[html]menu.hosting"
-                                            className="nav-link dropdown-toggle
-                                            coodiv-toggle-arrow"
+                                     <li className="nav-item dropdown dropdown-mega">
+                                        <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
                                             id="navbarDropdown90"
-                                            to="#features" role="button"
+                                            to="#" role="button"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
                                             aria-expanded="false">Hosting</Link>
@@ -572,18 +56,17 @@ function Navbar() {
                                             <div className="row
                                                 justify-content-center mt-lg-6
                                                 mx-0 w-100">
-                                                <div className="col-md-8">
+                                                <div className="col-md-12">
                                                     <h1 className="coodiv-text-6
                                                         title
                                                         color-blackish-blue
                                                         text-lg-left text-center
                                                         w-100 d-block mb-14">
-                                                        <span
-                                                            data-i18n="[html]genaral.webhostingfirstsentess">Web
+                                                        <span>Web
                                                             hosting that scales
                                                             from easy to expert.</span>
                                                         <span
-                                                            data-i18n="[html]genaral.webhostingfirstsentesssub"
+                                                            
                                                             className="d-block
                                                             mt-lg-0 mt-5
                                                             coodiv-text-11
@@ -619,14 +102,14 @@ function Navbar() {
                                                                 <div
                                                                     className="content">
                                                                     <h3
-                                                                        data-i18n="[html]genaral.bandwidthfeatures"
+                                                                       
                                                                         className="title
                                                                         coodiv-text-9
                                                                         mb-2
                                                                         color-blackish-blue">Unmetered
                                                                         bandwidth</h3>
                                                                     <p
-                                                                        data-i18n="[html]genaral.bandwidthtext"
+                                                                       
                                                                         className="coodiv-text-11
                                                                         color-blackish-blue-opacity
                                                                         mb-0">Show
@@ -656,14 +139,14 @@ function Navbar() {
                                                                 <div
                                                                     className="content">
                                                                     <h3
-                                                                        data-i18n="[html]genaral.domainfeatures"
+                                                                       
                                                                         className="title
                                                                         coodiv-text-9
                                                                         mb-2
                                                                         color-blackish-blue">Domain
                                                                         registration</h3>
                                                                     <p
-                                                                        data-i18n="[html]genaral.domaintext"
+                                                                      
                                                                         className="coodiv-text-11
                                                                         color-blackish-blue-opacity
                                                                         mb-0">Claim
@@ -693,14 +176,14 @@ function Navbar() {
                                                                 <div
                                                                     className="content">
                                                                     <h3
-                                                                        data-i18n="[html]genaral.sslfeatures"
+                                                                      
                                                                         className="title
                                                                         coodiv-text-9
                                                                         mb-2
                                                                         color-blackish-blue">SSL
                                                                         certificate</h3>
                                                                     <p
-                                                                        data-i18n="[html]genaral.ssltext"
+                                                                       
                                                                         className="coodiv-text-11
                                                                         color-blackish-blue-opacity
                                                                         mb-0">Bring
@@ -713,62 +196,139 @@ function Navbar() {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <Link
-                                                            data-i18n="[html]genaral.getstarted"
-                                                            className="btn
+                                                        <div className="col-md-6
+                                                            col-lg-4 mb-10">
+                                                            <div
+                                                                className="feature-widget
+                                                                d-sm-flex">
+                                                                <div
+                                                                    className="widget-icon
+                                                                    text-blue
+                                                                    mr-0 mr-lg-6
+                                                                    mb-7
+                                                                    mb-md-0">
+                                                                    <i
+                                                                        className="feather
+                                                                        icon-shield"></i>
+                                                                </div>
+                                                                <div
+                                                                    className="content">
+                                                                    <h3
+                                                                        
+                                                                        className="title
+                                                                        coodiv-text-9
+                                                                        mb-2
+                                                                        color-blackish-blue">SSL
+                                                                        certificate</h3>
+                                                                    <p
+                                                                        
+                                                                        className="coodiv-text-11
+                                                                        color-blackish-blue-opacity
+                                                                        mb-0">Bring
+                                                                        in all
+                                                                        the
+                                                                        traffic
+                                                                        you
+                                                                        want, we
+                                                                        got ya.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-md-6
+                                                            col-lg-4 mb-10">
+                                                            <div
+                                                                className="feature-widget
+                                                                d-sm-flex">
+                                                                <div
+                                                                    className="widget-icon
+                                                                    text-blue
+                                                                    mr-0 mr-lg-6
+                                                                    mb-7
+                                                                    mb-md-0">
+                                                                    <i
+                                                                        className="feather
+                                                                        icon-shield"></i>
+                                                                </div>
+                                                                <div
+                                                                    className="content">
+                                                                    <h3
+                                                                        
+                                                                        className="title
+                                                                        coodiv-text-9
+                                                                        mb-2
+                                                                        color-blackish-blue">SSL
+                                                                        certificate</h3>
+                                                                    <p
+                                                                        
+                                                                        className="coodiv-text-11
+                                                                        color-blackish-blue-opacity
+                                                                        mb-0">Bring
+                                                                        in all
+                                                                        the
+                                                                        traffic
+                                                                        you
+                                                                        want, we
+                                                                        got ya.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-md-6
+                                                            col-lg-4 mb-10">
+                                                            <div
+                                                                className="feature-widget
+                                                                d-sm-flex">
+                                                                <div
+                                                                    className="widget-icon
+                                                                    text-blue
+                                                                    mr-0 mr-lg-6
+                                                                    mb-7
+                                                                    mb-md-0">
+                                                                    <i
+                                                                        className="feather
+                                                                        icon-shield"></i>
+                                                                </div>
+                                                                <div
+                                                                    className="content">
+                                                                    <h3
+                                                                        
+                                                                        className="title
+                                                                        coodiv-text-9
+                                                                        mb-2
+                                                                        color-blackish-blue">SSL
+                                                                        certificate</h3>
+                                                                    <p
+                                                                        
+                                                                        className="coodiv-text-11
+                                                                        color-blackish-blue-opacity
+                                                                        mb-0">Bring
+                                                                        in all
+                                                                        the
+                                                                        traffic
+                                                                        you
+                                                                        want, we
+                                                                        got ya.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        
+                                                        <Link className="btn
                                                             btn-warning
                                                             coodiv-text-9
-                                                            d-block w-100 mx-4
-                                                            mx-lg-0"
-                                                            to="web-hosting.html">Get
-                                                            started now</Link>
+                                                            d-block w-50 "
+                                                            to="#">Sign In</Link>
                                                     </div>
                                                 </div>
-                                                <div className="col-md-4">
-                                                    <div className="megamenu-ads
-                                                        justify-content-between
-                                                        pt-10 pb-6 px-10">
-                                                        <h3 className="txtar
-                                                            coodiv-text-6 title
-                                                            mt-5">
-                                                            <span
-                                                                data-i18n="[html]genaral.signupforhosting">Sign
-                                                                up for web
-                                                                hosting today!</span>
-                                                            <span
-                                                                data-i18n="[html]genaral.hostingbannertext"
-                                                                className="txtar
-                                                                coodiv-text-11
-                                                                mb-0 mt-2
-                                                                d-block fw-100">A
-                                                                ton of website
-                                                                hosting options,
-                                                                99.9% uptime
-                                                                guarantee start
-                                                                only at.</span>
-                                                            <span className="txtar
-                                                                megamenu-ads-price
-                                                                mt-8 d-block">$2.75/mo*</span>
-                                                        </h3>
-                                                        <Link
-                                                            data-i18n="[html]genaral.getstartedfree"
-                                                            className="btn btn-red
-                                                            coodiv-text-9 txtar"
-                                                            to="shared-hosting.html">Get
-                                                            started free</Link>
-                                                    </div>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </li>
 
 
                                     <li className="nav-item dropdown dropdown-mega">
-                                        <Link data-i18n="[html]menu.prohosting"
-                                            className="nav-link dropdown-toggle
-                                            coodiv-toggle-arrow"
+                                        <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
                                             id="navbarDropdown120"
-                                            to="#prohisting" role="button"
+                                            to="#" role="button"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
                                             aria-expanded="false">Pro Hosting</Link>
@@ -1066,10 +626,8 @@ function Navbar() {
 
 
                                     <li className="nav-item dropdown dropdown-mega">
-                                        <Link data-i18n="[html]menu.domains"
-                                            className="nav-link dropdown-toggle
-                                            coodiv-toggle-arrow"
-                                            id="domaindropdown" to="#domains"
+                                        <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
+                                            id="domaindropdown" to="#"
                                             role="button" data-toggle="dropdown"
                                             aria-haspopup="true"
                                             aria-expanded="false">Domains</Link>
@@ -1185,11 +743,9 @@ function Navbar() {
 
 
                                     <li className="nav-item dropdown">
-                                        <Link data-i18n="[html]menu.needhelp"
-                                            className="nav-link dropdown-toggle
-                                            coodiv-toggle-arrow"
+                                        <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
                                             id="navbarDropdownHelp"
-                                            to="#features" role="button"
+                                            to="#" role="button"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
                                             aria-expanded="false">Need help ?</Link>
@@ -1274,11 +830,9 @@ function Navbar() {
 
 
                                     <li className="nav-item dropdown dropdown-mega">
-                                        <Link data-i18n="[html]menu.pages"
-                                            className="nav-link dropdown-toggle
-                                            coodiv-toggle-arrow"
+                                        <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
                                             id="navbarDropdownPages"
-                                            to="#features" role="button"
+                                            to="#" role="button"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
                                             aria-expanded="false">Pages</Link>
@@ -1526,11 +1080,11 @@ function Navbar() {
                         </div>
 
 
-                        <div className="header-btn ml-auto ml-lg-10 mr-5 d-none
+                        <div className="header-btn ml-auto ml-lg-10 d-none
                             d-xs-block position-relative">
                             <Link data-i18n="[html]genaral.freetrial" className="btn
-                                btn-warning coodiv-text-9" to="#">Free trial</Link>
-                            <Link className="headerphone-number">(+866) 96-88554434</Link>
+                                btn-warning coodiv-text-9" to="#">Login</Link>
+                            
                         </div>
 
 

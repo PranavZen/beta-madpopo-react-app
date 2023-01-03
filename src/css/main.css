@@ -950,6 +950,27 @@ body {
 .default-shape {
   display: block;
 }
+.topBarStrip .topInner{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+.topBarStrip .topInner span{
+  font-size: 14px;
+  
+}
+.dark-mode-texts .topBarStrip .topInner .numSpan{
+color: #fff;
+}
+.light-mode-texts .topBarStrip .topInner .numSpan{
+  color: #161c2d;
+}
+.light-mode-texts .topBarStrip{
+  
+  padding-top: 5px;
+
+}
 .dark-bg .dark-version-logo,
 .dark-mode-texts .dark-version-logo {
   display: block;
@@ -1948,7 +1969,7 @@ ul.special-helf-box-list li.not-chacked {
 
 /*---------------- Header styles -----------------*/
 .site-header .navbar {
-  padding: 1.2rem 1rem;
+  padding: 0 1rem;
 }
 header.site-header.fixed-header-layout {
   -webkit-transition: all 0.2s ease-in-out;
@@ -1969,14 +1990,12 @@ header.site-header.fixed-header-layout.top-header-fixed {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   padding: 0;
-  height: 85px;
-  border-bottom: 1px solid hwb(0deg 0% 100% / 4%);
+  height: 110px;
+  box-shadow: 0 0 5px -1px #8a8989;
 }
-header.site-header.fixed-header-layout.top-header-fixed a.headerphone-number {
-  display: none;
-}
+
 header.site-header.fixed-header-layout.top-header-fixed .navbar {
-  padding: 1rem 1rem;
+  padding: 0 1rem;
 }
 header.site-header.fixed-header-layout.top-header-fixed .header-lang-container {
   top: 80px;
@@ -2288,7 +2307,8 @@ a.headerphone-number {
 }
 .brand-logo > a > img,
 .brand-logo-signup > a > img {
-  height: 30px;
+  height: 100%;
+  width: 140px;
 }
 .header-google-map {
   position: absolute !important;
@@ -5524,7 +5544,7 @@ ul.footer-list li:hover a.footer-list-link {
 }
 .main-menu > li > .nav-link {
   color: #fff !important;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   position: relative;
   opacity: 0.9;
