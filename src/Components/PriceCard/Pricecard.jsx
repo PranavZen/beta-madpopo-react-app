@@ -36,8 +36,8 @@ class Pricecard extends React.Component {
                         cardDDOS : 'Unlimited',
                         
                     },
-                    
-                ]
+                     
+                ]  
             }
         }
 

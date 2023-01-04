@@ -25,7 +25,7 @@ function FaqAccorionItems({ faqVal, onToggle, active }) {
           {questions}
         </button>
       </div>
-
+ 
       <div
         
         className={`${active ? "openToogle" : "closeToogle"}`}

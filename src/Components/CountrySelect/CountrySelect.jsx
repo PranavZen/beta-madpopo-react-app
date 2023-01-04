@@ -16,7 +16,7 @@ export default function CountrySelect() {
         selectedSize={selectedSize}
         showOptionLabel={showOptionLabel}
         optionsSize={optionsSize}
-        placeholder={placeholder}
+        placeholder={placeholder} 
         searchable={searchable}
         searchPlaceholder={searchPlaceholder}
         alignOptionsToRight={alignOptionsToRight}

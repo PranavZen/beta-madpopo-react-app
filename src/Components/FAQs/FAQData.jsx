@@ -38,7 +38,7 @@ const faqData = [
         id: 7,
         questions:`Is MadPopo secure enough to host WordPress?`,
         answersPara1: `You can't call yourself a great web hosting provider if you don't take security seriously! That's why we invest more money in security solutions. The infrastructure provided by us to make sure that the use of collective intelligence makes all servers entirely secure.`,
-        answersPara2: `We also make web honeypots and other features that guarantee defence against potentially fatal attacks. You can sleep easy, knowing that you're safe with MadPopo.`,
+        answersPara2: `We also make web honeypots and other features that guarantee defence against potentially fatal attacks. You can sleep easy, knowing that you're safe with MadPopo. `,
     },
 ];
 

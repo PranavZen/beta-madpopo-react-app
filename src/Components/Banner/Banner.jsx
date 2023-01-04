@@ -3,7 +3,7 @@ import Pricecard from "../PriceCard/Pricecard";
 
 import TypedComponent from "../TypedComponent";
 
-function Banner() {
+function Banner() {  
   return (
     <div>
       <TypedComponent />

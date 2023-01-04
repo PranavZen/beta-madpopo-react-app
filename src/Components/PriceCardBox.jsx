@@ -23,7 +23,7 @@ const PriceCardBox = ({
         </li>
         <li>
           <span>SSH accese</span>
-          <span>{cardSSHAccess}</span>
+          <span>{cardSSHAccess}</span> 
         </li>
         <li>
           <span>Anti DDOS protection</span>

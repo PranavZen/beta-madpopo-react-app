@@ -1244,7 +1244,7 @@ button:focus {
 .line-height-20 {
   line-height: 20px !important;
 }
-.openToogle .card-body.faqCard p{
+.openToogle .card-body.faqCard p{ 
   font-size: 14px;
   text-align: justify;
 }
