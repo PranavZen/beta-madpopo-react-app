@@ -47,7 +47,7 @@ function Footer() {
                   </div> 
                 </div>
 
-                <div className="col-4 col-lg-2">
+                <div className="col-4 col-lg-2"> 
                   <div className="footer-block mb-13 mb-lg-4">
                     <h4 className="block-title coodiv-text-7 mb-4 position-relative">
                       Our services
