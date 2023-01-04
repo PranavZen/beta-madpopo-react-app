@@ -32,22 +32,19 @@ function Footer() {
                     <ul className="footer-contact-list list-unstyled">
                       <li>
                         <span className="badge coodiv-badge badge-warning rounded-pill coodiv-text-12 position-relative">
-                          <i className="fa fa-envelope"></i> support@coodiv.net
+                          <i className="fa fa-envelope"></i>  mail@madpopo.com
                         </span>
                       </li>
                       <li>
                         <span className="badge coodiv-badge badge badge-info rounded-pill coodiv-text-12 position-relative">
-                          <i className="fa fa-phone"></i> +123-456-6788-99
+                          <i className="fa fa-phone"></i> +91 70 42 40 7676
                         </span>
                       </li>
                     </ul>
                     <p className="coodiv-text-11 pr-lg-10">
-                      Our mission is to make life easier for website developers
-                      and their customers.
-                      <br /> We do it by offering easy to use, fast and reliable
-                      web hosting services.
+                    MadPopo offers superior, reliable and affordable WordPress Managed Hosting to individuals and small businesses.
                     </p>
-                  </div>
+                  </div> 
                 </div>
 
                 <div className="col-4 col-lg-2">
@@ -279,8 +276,7 @@ function Footer() {
               <div className="row align-items-center">
                 <div className="col-lg-8">
                   <p className="copyright-text coodiv-text-11 mb-6 mb-lg-0 coodiv-text-color-opacity text-center text-lg-left">
-                    © 2022 Copyright, All Right Reserved, Made with Love by
-                    coodiv with a lots of coffee
+                  Copyright © 2023 MadPopo. All Rights Reserved.
                   </p>
                 </div>
                 <div className="col-lg-4 text-center text-lg-right">
