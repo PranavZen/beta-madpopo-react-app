@@ -3,6 +3,7 @@ import React from 'react';
 import { logo1 } from '../../Components/index';
 import { logo2 } from '../../Components/index';
 import { Link } from 'react-router-dom';
+import CountrySelect from '../CountrySelect/CountrySelect';
 function Navbar() {
     const [scroll, setScroll] = useState(false);
  useEffect(() => {
@@ -16,19 +17,17 @@ function Navbar() {
                 <div className="container-fluid pr-lg-9 pl-lg-9">
                 <div className='topBarStrip'>
                   <div className="topInner">
-                     <span className='numSpan'>(24x7) +91 70 42 40 7676</span>
-                     <div className="">
-                       <div className=''>
-                         <span className="">
-                            INR
-                         </span>
+                     <span className='numSpan'><span className='textBold'><i className="fa fa-phone"></i> Need Help ?</span> Call Us 24/7 : <a href="tel:+91 7042407676">+91 70 42 40 7676</a></span>
+                     <div className="inrSelectWrap">
+                       <div className='inrSelectBox'>
+                         <CountrySelect/>
                        </div>
                      </div>
                   </div>
                 </div>
                     <nav className="navbar site-navbar offcanvas-active
                         navbar-expand-lg px-0">
-                        <div className="brand-logo mr-8">
+                        <div className="brand-logo mr-8 newBrandLogo">
                                 <Link to={process.env.PUBLIC_URL + '/'}>
                                     <img src={logo1} alt="" className="light-version-logo" />
                                     <img src={logo2} alt="" className="dark-version-logo" />
@@ -95,9 +94,7 @@ function Navbar() {
                                                                     mr-0 mr-lg-6
                                                                     mb-7
                                                                     mb-md-0">
-                                                                    <i
-                                                                        className="feather
-                                                                        icon-server"></i>
+                                                                    <i className="fa fa-wordpress"></i>
                                                                 </div>
                                                                 <div
                                                                     className="content">
@@ -170,9 +167,7 @@ function Navbar() {
                                                                     mr-0 mr-lg-6
                                                                     mb-7
                                                                     mb-md-0">
-                                                                    <i
-                                                                        className="feather
-                                                                        icon-shield"></i>
+                                                                    <i className="fa fa-linux"></i>
                                                                 </div>
                                                                 <div
                                                                     className="content">
@@ -209,9 +204,7 @@ function Navbar() {
                                                                     mr-0 mr-lg-6
                                                                     mb-7
                                                                     mb-md-0">
-                                                                    <i
-                                                                        className="feather
-                                                                        icon-shield"></i>
+                                                                    <i className="fa fa-windows"></i>
                                                                 </div>
                                                                 <div
                                                                     className="content">
@@ -248,9 +241,9 @@ function Navbar() {
                                                                     mr-0 mr-lg-6
                                                                     mb-7
                                                                     mb-md-0">
-                                                                    <i
-                                                                        className="feather
-                                                                        icon-shield"></i>
+                                                                    
+                                                                    <i className="fa fa-cloud"></i>
+                                                                   
                                                                 </div>
                                                                 <div
                                                                     className="content">
@@ -286,9 +279,7 @@ function Navbar() {
                                                                     mr-0 mr-lg-6
                                                                     mb-7
                                                                     mb-md-0">
-                                                                    <i
-                                                                        className="feather
-                                                                        icon-shield"></i>
+                                                                    <i className="fa fa-server"></i>
                                                                 </div>
                                                                 <div
                                                                     className="content">
@@ -324,9 +315,7 @@ function Navbar() {
                                                                     mr-0 mr-lg-6
                                                                     mb-7
                                                                     mb-md-0">
-                                                                    <i
-                                                                        className="feather
-                                                                        icon-shield"></i>
+                                                                    <i className="fa fa-cloud"></i>
                                                                 </div>
                                                                 <div
                                                                     className="content">
@@ -430,8 +419,7 @@ function Navbar() {
                                                         color-blackish-blue
                                                         text-left w-100
                                                         d-block">
-                                                        <span
-                                                            data-i18n="[html]genaral.snagyourdomain">Snag
+                                                        <span >Snag
                                                             your fav domain.</span>
                                                         <span className="d-block
                                                             coodiv-text-11
@@ -453,8 +441,7 @@ function Navbar() {
                                                         color-blackish-blue
                                                         text-left w-100
                                                         d-block">
-                                                        <span
-                                                            data-i18n="[html]genaral.transferdomain">Transfer
+                                                        <span >Transfer
                                                             your domain to us.</span>
                                                         <span className="d-block
                                                             coodiv-text-11
@@ -464,8 +451,7 @@ function Navbar() {
                                                     </h1>
                                                 </Link>
                                             </div>
-                                            <div className="px-lg-10 pb-lg-10
-                                                pt-lg-13 pt-10 px-5 pb-8
+                                            <div className="pt-10
                                                 mega-menu-body">
                                                 <div className="row
                                                     justify-content-center">
@@ -497,9 +483,7 @@ function Navbar() {
                                                                         domain
                                                                         name"
                                                                         fdprocessedid="ie3xhm" />
-                                                                    <button
-                                                                        data-i18n="[html]genaral.check"
-                                                                        className="form-btn
+                                                                    <button className="form-btn
                                                                         btn
                                                                         btn-primary
                                                                         mr-2
@@ -511,10 +495,26 @@ function Navbar() {
                                                                 </div>
                                                             </form>
                                                         </div>
-                                                        <div className="form-bottom
-                                                            excerpt
-                                                            text-center">
-                                                            <p>Lorem20  kla cadlc kokowc kodq </p>
+                                                        
+                                                    </div>
+                                                    <div className='col-xl-12 col-lg-12 col-md-12'>
+                                                    <div className='domaulListing d-flex flex-wrap pb-5'>
+                                                        <div className='col-md-6 listTitle'>
+                                                        <p>Free with domain</p>
+                                                        <ul className='listFeatureDomain'>
+                                                            <li><span><i className="feather icon-check"></i> 2 Free Email Accounts</span></li>
+                                                            <li><span><i className="feather icon-check"></i> Privacy Protection</span></li>
+                                                            <li><span><i className="feather icon-check"></i> Domain Theft Protection</span></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className='col-md-6 listTitle'>
+                                                        <p>Free DNS services</p>
+                                                        <ul className='listFeatureDomain'>
+                                                            <li><span><i className="feather icon-check"></i> DNS Management</span></li>
+                                                            <li><span><i className="feather icon-check"></i> Domain Forwarding</span></li>
+                                                            <li><span><i className="feather icon-check"></i> Multiple Mail Forwards</span></li>
+                                                        </ul>
+                                                    </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -524,337 +524,356 @@ function Navbar() {
 
 
                                     <li className="nav-item dropdown">
+                                        <Link to="#" className="nav-link">Help Center</Link>
+                                    </li>
+
+
+                                    {
+                                    //     <li className="nav-item dropdown dropdown-mega">
+                                    //     <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
+                                    //         id="navbarDropdownPages"
+                                    //         to="#" role="button"
+                                    //         data-toggle="dropdown"
+                                    //         aria-haspopup="true"
+                                    //         aria-expanded="false">Pages</Link>
+                                    //     <div className="bg-transparent border-0
+                                    //         shadow-0 coodiv-megamenu-dropdown
+                                    //         mini-version light-bg center
+                                    //         white-bg dropdown-menu d-lg-block"
+                                    //         aria-labelledby="navbarDropdownPages">
+                                    //         <div className="row
+                                    //             justify-content-center">
+                                    //             <div className="col-md-4 pr-lg-0
+                                    //                 mb-3 mb-lg-0">
+                                    //                 <h5 className="d-block py-5
+                                    //                     color-blackish-blue
+                                    //                     coodiv-text-9 pl-9 mb-0
+                                    //                     rounded-top-10
+                                    //                     coodiv-bg-gray-2-opacity-visible
+                                    //                     border-bottom-3-green">
+                                    //                     <span
+                                    //                         data-i18n="[html]genaral.corepages">Core
+                                    //                         pages</span> <span
+                                    //                         className="d-block
+                                    //                         color-blackish-blue-opacity
+                                    //                         coodiv-text-12 mt-n2
+                                    //                         font-weight-light">simple
+                                    //                         sub text pages</span>
+                                    //                 </h5>
+                                    //                 <ul
+                                    //                     className="mega-menu-dropdown-ul
+                                    //                     border-opacity
+                                    //                     border-top-0 py-6
+                                    //                     rounded-bottom-20
+                                    //                     shadow-2 white-bg">
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             to="start-vpn.html">Start
+                                    //                             VPN</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             to="network.html">Our
+                                    //                             network</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             to="index-vpn.html">index
+                                    //                             VPN</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             to="index-cdn.html">index
+                                    //                             CDN</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.aboutus"
+                                    //                             to="about.html">About
+                                    //                             Us</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.helpcentre"
+                                    //                             to="help-center.html">Help
+                                    //                             Center</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.allsupporttopics"
+                                    //                             to="all-topics.html">All
+                                    //                             Support Topics</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.serverstatus"
+                                    //                             to="status-page.html">Servers
+                                    //                             status</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.inchistory"
+                                    //                             to="incident-history.html">Incident
+                                    //                             History</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.incpost"
+                                    //                             to="incident-post.html">Incident
+                                    //                             Post</Link></li>
+                                    //                 </ul>
+                                    //             </div>
+                                    //             <div className="col-md-4 pr-0
+                                    //                 pl-lg-2 mb-3 mb-lg-0">
+                                    //                 <h5 className="d-block py-5
+                                    //                     color-blackish-blue
+                                    //                     coodiv-text-9 pl-9 mb-0
+                                    //                     rounded-top-10
+                                    //                     coodiv-bg-gray-2-opacity-visible
+                                    //                     border-bottom-3-green">
+                                    //                     <span
+                                    //                         data-i18n="[html]genaral.planspages">Plans
+                                    //                         pages</span> <span
+                                    //                         className="d-block
+                                    //                         color-blackish-blue-opacity
+                                    //                         coodiv-text-12 mt-n2
+                                    //                         font-weight-light">simple
+                                    //                         sub text pages</span>
+                                    //                 </h5>
+                                    //                 <ul
+                                    //                     className="mega-menu-dropdown-ul
+                                    //                     border-opacity
+                                    //                     border-top-0 py-6
+                                    //                     rounded-bottom-20
+                                    //                     shadow-2 white-bg">
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.cloudvpshosting"
+                                    //                             to="cloudvps-hosting.html">Cloud
+                                    //                             Vps Hosting</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.cpanelresslers"
+                                    //                             to="cpanel-reseller.html">Cpanel
+                                    //                             Reseller</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.dedicatedservers"
+                                    //                             to="dedicated-servers.html">Dedicated
+                                    //                             Servers</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.domainsregisteration"
+                                    //                             to="domains-registration.html">Domains
+                                    //                             Registration</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.googleworkspace"
+                                    //                             to="google-workspace.html">Google
+                                    //                             Workspace</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.minecraftservers"
+                                    //                             to="minecraft.html">Minecraft
+                                    //                             Servers</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.sharedhosting"
+                                    //                             to="shared-hosting.html">Shared
+                                    //                             Hosting</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.vpshosting"
+                                    //                             to="vps-hosting.html">Vps
+                                    //                             Hosting</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.webhosting"
+                                    //                             to="web-hosting.html">Web
+                                    //                             hosting</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.websitebluider"
+                                    //                             to="website-builder.html">Website
+                                    //                             Builder</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.wordpresshosting"
+                                    //                             to="wordpress-hosting.html">Wordpress
+                                    //                             Hosting</Link></li>
+                                    //                 </ul>
+                                    //             </div>
+                                    //             <div className="col-md-4 pl-lg-2">
+                                    //                 <h5 className="d-block py-5
+                                    //                     color-blackish-blue
+                                    //                     coodiv-text-9 pl-9 mb-0
+                                    //                     rounded-top-10
+                                    //                     coodiv-bg-gray-2-opacity-visible
+                                    //                     border-bottom-3-green">
+                                    //                     <span
+                                    //                         data-i18n="[html]genaral.mainpages">Main
+                                    //                         pages</span> <span
+                                    //                         className="d-block
+                                    //                         color-blackish-blue-opacity
+                                    //                         coodiv-text-12 mt-n2
+                                    //                         font-weight-light">simple
+                                    //                         sub text pages</span>
+                                    //                 </h5>
+                                    //                 <ul
+                                    //                     className="mega-menu-dropdown-ul
+                                    //                     border-opacity
+                                    //                     border-top-0 py-6
+                                    //                     rounded-bottom-20
+                                    //                     shadow-2 white-bg">
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.standardblog"
+                                    //                             to="blog.html">Standard
+                                    //                             Blog</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.blogstyletwo"
+                                    //                             to="blog-2.html">Blog
+                                    //                             style 2</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.blogstyletree"
+                                    //                             to="blog-3.html">Blog
+                                    //                             style 3</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.blogsingle"
+                                    //                             to="blog-single.html">Blog
+                                    //                             Single Standard</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.blogsingletwo"
+                                    //                             to="blog-single-2.html">Blog
+                                    //                             Single style 2</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.signinpage"
+                                    //                             to="sign-in.html">Sign-in
+                                    //                             Page</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.signuppage"
+                                    //                             to="sign-up.html">Sign-up
+                                    //                             Page</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                    //                             data-i18n="[html]menu.forgetpass"
+                                    //                             to="forget-password.html">Forget
+                                    //                             Password</Link></li>
+                                    //                     <li
+                                    //                         className="drop-menu-item"><Link
+                                                                
+                                    //                             to="/contact">Contact
+                                    //                             Us</Link></li>
+                                    //                 </ul>
+                                    //             </div>
+                                    //         </div>
+                                    //     </div>
+                                    // </li>
+                                }
+
+                                    
+                                    <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
                                             id="navbarDropdownHelp"
                                             to="#" role="button"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
-                                            aria-expanded="false">Need help ?</Link>
+                                            aria-expanded="false">About Us</Link>
                                         <ul className="coodiv-menu-dropdown
                                             dropdown-menu"
                                             aria-labelledby="navbarDropdownHelp">
-                                            <li className="drop-menu-item"><Link
-                                                    data-i18n="[html]menu.helpcentre"
-                                                    to="help-center.html">Help
-                                                    Center</Link></li>
-                                            <li className="drop-menu-item"><Link
-                                                    data-i18n="[html]menu.allsupporttopics"
-                                                    to="all-topics.html">All
-                                                    Support Topics</Link></li>
-                                            <li className="drop-menu-item dropdown">
-                                                <Link
-                                                    data-i18n="[html]menu.serverstatus"
-                                                    className="dropdown-toggle
-                                                    gr-toggle-arrow"
-                                                    id="navbarDropdownSub"
-                                                    to="#" role="button"
-                                                    data-toggle="dropdown"
-                                                    aria-haspopup="true"
-                                                    aria-expanded="false">Servers
-                                                    status</Link>
-                                                <ul className="coodiv-menu-dropdown
-                                                    dropdown-menu"
-                                                    aria-labelledby="navbarDropdownSub">
-                                                    <li className="drop-menu-item"><Link
-                                                            data-i18n="[html]menu.statuspage"
-                                                            to="status-page.html">Status
-                                                            Page</Link></li>
-                                                    <li className="drop-menu-item"><Link
-                                                            data-i18n="[html]menu.inchistory"
-                                                            to="incident-history.html">Incident
-                                                            History</Link></li>
-                                                    <li className="drop-menu-item"><Link
-                                                            data-i18n="[html]menu.incpost"
-                                                            to="incident-post.html">Incident
-                                                            Post</Link></li>
-                                                </ul>
+                                            <li className="drop-menu-item">
+                                            <Link to="#">Global infrastructure</Link></li>
+                                            <li className="drop-menu-item">
+                                            <Link to="all-topics.html">Company Blog</Link></li>
+                                            {
+                                            //     <li className="drop-menu-item dropdown">
+                                            //     <Link className="dropdown-toggle
+                                            //         gr-toggle-arrow"
+                                            //         id="navbarDropdownSub"
+                                            //         to="#" role="button"
+                                            //         data-toggle="dropdown"
+                                            //         aria-haspopup="true"
+                                            //         aria-expanded="false">Servers
+                                            //         status</Link>
+                                            //     <ul className="coodiv-menu-dropdown
+                                            //         dropdown-menu"
+                                            //         aria-labelledby="navbarDropdownSub">
+                                            //         <li className="drop-menu-item"><Link
+                                            //                 data-i18n="[html]menu.statuspage"
+                                            //                 to="status-page.html">Status
+                                            //                 Page</Link></li>
+                                            //         <li className="drop-menu-item"><Link
+                                            //                 data-i18n="[html]menu.inchistory"
+                                            //                 to="incident-history.html">Incident
+                                            //                 History</Link></li>
+                                            //         <li className="drop-menu-item"><Link
+                                            //                 data-i18n="[html]menu.incpost"
+                                            //                 to="incident-post.html">Incident
+                                            //                 Post</Link></li>
+                                            //     </ul>
+                                            // </li>
+                                        }
+                                        { 
+                                            // <li className="drop-menu-item dropdown">
+                                            //     <Link data-i18n="[html]menu.blog"
+                                            //         className="dropdown-toggle
+                                            //         gr-toggle-arrow"
+                                            //         id="navbarDropdownSubBlog"
+                                            //         to="#" role="button"
+                                            //         data-toggle="dropdown"
+                                            //         aria-haspopup="true"
+                                            //         aria-expanded="false">Blog</Link>
+                                            //     <ul className="coodiv-menu-dropdown
+                                            //         dropdown-menu"
+                                            //         aria-labelledby="navbarDropdownSubBlog">
+                                            //         <li className="drop-menu-item"><Link
+                                            //                 data-i18n="[html]menu.standardblog"
+                                            //                 to="blog.html">Standard
+                                            //                 Blog</Link></li>
+                                            //         <li className="drop-menu-item"><Link
+                                            //                 data-i18n="[html]menu.blogstyletwo"
+                                            //                 to="blog-2.html">Blog
+                                            //                 style 2</Link></li>
+                                            //         <li className="drop-menu-item"><Link
+                                            //                 data-i18n="[html]menu.blogstyletree"
+                                            //                 to="blog-3.html">Blog
+                                            //                 style 3</Link></li>
+                                            //         <li className="drop-menu-item"><Link
+                                            //                 data-i18n="[html]menu.blogsingle"
+                                            //                 to="blog-single.html">Blog
+                                            //                 Single Standard</Link></li>
+                                            //         <li className="drop-menu-item"><Link
+                                            //                 data-i18n="[html]menu.blogsingletwo"
+                                            //                 to="blog-single-2.html">Blog
+                                            //                 Single style 2</Link></li>
+                                            //     </ul>
+                                            // </li>
+                                        }
+                                            <li className="drop-menu-item">
+                                                <Link to="#">Terms & Conditions</Link>
                                             </li>
-                                            <li className="drop-menu-item dropdown">
-                                                <Link data-i18n="[html]menu.blog"
-                                                    className="dropdown-toggle
-                                                    gr-toggle-arrow"
-                                                    id="navbarDropdownSubBlog"
-                                                    to="#" role="button"
-                                                    data-toggle="dropdown"
-                                                    aria-haspopup="true"
-                                                    aria-expanded="false">Blog</Link>
-                                                <ul className="coodiv-menu-dropdown
-                                                    dropdown-menu"
-                                                    aria-labelledby="navbarDropdownSubBlog">
-                                                    <li className="drop-menu-item"><Link
-                                                            data-i18n="[html]menu.standardblog"
-                                                            to="blog.html">Standard
-                                                            Blog</Link></li>
-                                                    <li className="drop-menu-item"><Link
-                                                            data-i18n="[html]menu.blogstyletwo"
-                                                            to="blog-2.html">Blog
-                                                            style 2</Link></li>
-                                                    <li className="drop-menu-item"><Link
-                                                            data-i18n="[html]menu.blogstyletree"
-                                                            to="blog-3.html">Blog
-                                                            style 3</Link></li>
-                                                    <li className="drop-menu-item"><Link
-                                                            data-i18n="[html]menu.blogsingle"
-                                                            to="blog-single.html">Blog
-                                                            Single Standard</Link></li>
-                                                    <li className="drop-menu-item"><Link
-                                                            data-i18n="[html]menu.blogsingletwo"
-                                                            to="blog-single-2.html">Blog
-                                                            Single style 2</Link></li>
-                                                </ul>
+                                            <li className="drop-menu-item">
+                                                <Link to="#">Careers</Link>
                                             </li>
-                                            <li className="drop-menu-item"><Link
-                                                    data-i18n="[html]menu.submiteaticket"
-                                                    to="#">Submit a ticket</Link></li>
+                                            <li className="drop-menu-item">
+                                                <Link to="#">Happy Customers</Link>
+                                            </li>
+                                            <li className="drop-menu-item">
+                                                <Link to="#">Contact</Link>
+                                            </li>
+                                            <li className="drop-menu-item">
+                                                <Link to="#">Submit a ticket</Link>
+                                            </li>
                                         </ul>
                                     </li>
 
 
-                                    <li className="nav-item dropdown dropdown-mega">
-                                        <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
-                                            id="navbarDropdownPages"
-                                            to="#" role="button"
-                                            data-toggle="dropdown"
-                                            aria-haspopup="true"
-                                            aria-expanded="false">Pages</Link>
-                                        <div className="bg-transparent border-0
-                                            shadow-0 coodiv-megamenu-dropdown
-                                            mini-version light-bg center
-                                            white-bg dropdown-menu d-lg-block"
-                                            aria-labelledby="navbarDropdownPages">
-                                            <div className="row
-                                                justify-content-center">
-                                                <div className="col-md-4 pr-lg-0
-                                                    mb-3 mb-lg-0">
-                                                    <h5 className="d-block py-5
-                                                        color-blackish-blue
-                                                        coodiv-text-9 pl-9 mb-0
-                                                        rounded-top-10
-                                                        coodiv-bg-gray-2-opacity-visible
-                                                        border-bottom-3-green">
-                                                        <span
-                                                            data-i18n="[html]genaral.corepages">Core
-                                                            pages</span> <span
-                                                            className="d-block
-                                                            color-blackish-blue-opacity
-                                                            coodiv-text-12 mt-n2
-                                                            font-weight-light">simple
-                                                            sub text pages</span>
-                                                    </h5>
-                                                    <ul
-                                                        className="mega-menu-dropdown-ul
-                                                        border-opacity
-                                                        border-top-0 py-6
-                                                        rounded-bottom-20
-                                                        shadow-2 white-bg">
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                to="start-vpn.html">Start
-                                                                VPN</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                to="network.html">Our
-                                                                network</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                to="index-vpn.html">index
-                                                                VPN</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                to="index-cdn.html">index
-                                                                CDN</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.aboutus"
-                                                                to="about.html">About
-                                                                Us</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.helpcentre"
-                                                                to="help-center.html">Help
-                                                                Center</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.allsupporttopics"
-                                                                to="all-topics.html">All
-                                                                Support Topics</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.serverstatus"
-                                                                to="status-page.html">Servers
-                                                                status</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.inchistory"
-                                                                to="incident-history.html">Incident
-                                                                History</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.incpost"
-                                                                to="incident-post.html">Incident
-                                                                Post</Link></li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-md-4 pr-0
-                                                    pl-lg-2 mb-3 mb-lg-0">
-                                                    <h5 className="d-block py-5
-                                                        color-blackish-blue
-                                                        coodiv-text-9 pl-9 mb-0
-                                                        rounded-top-10
-                                                        coodiv-bg-gray-2-opacity-visible
-                                                        border-bottom-3-green">
-                                                        <span
-                                                            data-i18n="[html]genaral.planspages">Plans
-                                                            pages</span> <span
-                                                            className="d-block
-                                                            color-blackish-blue-opacity
-                                                            coodiv-text-12 mt-n2
-                                                            font-weight-light">simple
-                                                            sub text pages</span>
-                                                    </h5>
-                                                    <ul
-                                                        className="mega-menu-dropdown-ul
-                                                        border-opacity
-                                                        border-top-0 py-6
-                                                        rounded-bottom-20
-                                                        shadow-2 white-bg">
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.cloudvpshosting"
-                                                                to="cloudvps-hosting.html">Cloud
-                                                                Vps Hosting</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.cpanelresslers"
-                                                                to="cpanel-reseller.html">Cpanel
-                                                                Reseller</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.dedicatedservers"
-                                                                to="dedicated-servers.html">Dedicated
-                                                                Servers</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.domainsregisteration"
-                                                                to="domains-registration.html">Domains
-                                                                Registration</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.googleworkspace"
-                                                                to="google-workspace.html">Google
-                                                                Workspace</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.minecraftservers"
-                                                                to="minecraft.html">Minecraft
-                                                                Servers</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.sharedhosting"
-                                                                to="shared-hosting.html">Shared
-                                                                Hosting</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.vpshosting"
-                                                                to="vps-hosting.html">Vps
-                                                                Hosting</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.webhosting"
-                                                                to="web-hosting.html">Web
-                                                                hosting</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.websitebluider"
-                                                                to="website-builder.html">Website
-                                                                Builder</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.wordpresshosting"
-                                                                to="wordpress-hosting.html">Wordpress
-                                                                Hosting</Link></li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-md-4 pl-lg-2">
-                                                    <h5 className="d-block py-5
-                                                        color-blackish-blue
-                                                        coodiv-text-9 pl-9 mb-0
-                                                        rounded-top-10
-                                                        coodiv-bg-gray-2-opacity-visible
-                                                        border-bottom-3-green">
-                                                        <span
-                                                            data-i18n="[html]genaral.mainpages">Main
-                                                            pages</span> <span
-                                                            className="d-block
-                                                            color-blackish-blue-opacity
-                                                            coodiv-text-12 mt-n2
-                                                            font-weight-light">simple
-                                                            sub text pages</span>
-                                                    </h5>
-                                                    <ul
-                                                        className="mega-menu-dropdown-ul
-                                                        border-opacity
-                                                        border-top-0 py-6
-                                                        rounded-bottom-20
-                                                        shadow-2 white-bg">
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.standardblog"
-                                                                to="blog.html">Standard
-                                                                Blog</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.blogstyletwo"
-                                                                to="blog-2.html">Blog
-                                                                style 2</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.blogstyletree"
-                                                                to="blog-3.html">Blog
-                                                                style 3</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.blogsingle"
-                                                                to="blog-single.html">Blog
-                                                                Single Standard</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.blogsingletwo"
-                                                                to="blog-single-2.html">Blog
-                                                                Single style 2</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.signinpage"
-                                                                to="sign-in.html">Sign-in
-                                                                Page</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.signuppage"
-                                                                to="sign-up.html">Sign-up
-                                                                Page</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                data-i18n="[html]menu.forgetpass"
-                                                                to="forget-password.html">Forget
-                                                                Password</Link></li>
-                                                        <li
-                                                            className="drop-menu-item"><Link
-                                                                
-                                                                to="/contact">Contact
-                                                                Us</Link></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-
-
-                                    <li className="nav-item">
-                                        <Link 
-                                            className="nav-link" to="/about"
-                                            role="button" aria-expanded="false">About
-                                            Us</Link>
-                                    </li>
+                                     {
+                                    //     <li className="nav-item">
+                                    //      <Link 
+                                    //         className="nav-link" to="/about"
+                                    //         role="button" aria-expanded="false">About
+                                    //         Us</Link>
+                                    // </li>
+                                }
                                 </ul>
 
                             </div>

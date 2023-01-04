@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { logo2 } from "../../Components/index";
+import { fooLogo } from "../../Components/index";
 
 function Footer() {
   return (
@@ -26,7 +26,7 @@ function Footer() {
                   <div className="footer-block mb-13 mb-lg-9">
                     <div className="brand-logo mb-7">
                       <Link to="#">
-                        <img src={logo2} alt="" className="dark-version-logo" />
+                        <img src={fooLogo} alt="" className="dark-version-logo" />
                       </Link>
                     </div>
                     <ul className="footer-contact-list list-unstyled">

@@ -4,14 +4,15 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "../src/css/bootstrap.css";
 import "../src/css/custom.css";
 import "../src/css/main.css";
+import "../src/css/flag.css";
 import Home from './Pages/Home';
-import AboutUs from "./Pages/AboutUs";
+import ContactUs from "./Pages/ContactUs";
 function App() {
   return (
     <Router>
       <Routes> 
         <Route path={process.env.PUBLIC_URL + '/'} element={<Home />}/>
-        <Route path="/about" element={<AboutUs />}/>
+        <Route path="/contact" element={<ContactUs />}/>
       </Routes>
     </Router>
   );

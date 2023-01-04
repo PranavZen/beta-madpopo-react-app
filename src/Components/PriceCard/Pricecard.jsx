@@ -8,8 +8,8 @@ class Pricecard extends React.Component {
                 sections: [
                     {   
                         id : 1,
-                        cardTitle : 'Starter WP blog',
-                        cardPrice : '$23.22',
+                        cardTitle : 'POPO L',
+                        cardPrice : '₹159.99/Mo',
                         cardOffer : 'offer - 30%',
                         cardCapacity : '5TB',
                         cardSSHAccess : 'Unlimited',
@@ -18,8 +18,8 @@ class Pricecard extends React.Component {
                     },
                     {  
                         id : 2,
-                        cardTitle : 'Professional WP blog',
-                        cardPrice : '$56.99',
+                        cardTitle : 'POPO XL',
+                        cardPrice : '₹269.99/Mo',
                         cardOffer : 'offer - 30%',
                         cardCapacity : '5TB',
                         cardSSHAccess : 'Unlimited',
@@ -28,8 +28,8 @@ class Pricecard extends React.Component {
                     },
                     {  
                         id : 3,
-                        cardTitle : 'Professional WP store',
-                        cardPrice : '$95.22',
+                        cardTitle : 'POPO XXL',
+                        cardPrice : '₹289.99/Mo',
                         cardOffer : 'offer - 30%',
                         cardCapacity : '5TB',
                         cardSSHAccess : 'Unlimited',
@@ -44,7 +44,7 @@ class Pricecard extends React.Component {
     render(){
         return(
                 <div className='container coodiv-z-index-1 position-relative'>
-                   <div className="row align-items-center justify-content-center">
+                   <div className="row align-items-center justify-content-center ddosPriceCardRow">
                 {
                     this.state.sections.map( ( { id,cardTitle, cardPrice, cardOffer, cardCapacity, cardSSHAccess, cardDDOS} ) => (
                         <PriceCardBox key={id} cardTitle={cardTitle} cardPrice={cardPrice} cardOffer={cardOffer} cardCapacity={cardCapacity} cardSSHAccess={cardSSHAccess} cardDDOS={cardDDOS}/>

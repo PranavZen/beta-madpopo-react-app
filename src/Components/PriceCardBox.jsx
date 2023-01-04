@@ -8,8 +8,8 @@ const PriceCardBox = ({
   cardSSHAccess,
   cardDDOS,
 }) => ( 
-  <div className="col-lg-4 mb-15 mb-lg-0">
-    <div className="ddos-attack-package not-feaures-package shadow-2">
+  <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
+    <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
       <h2 className="coodiv-text-9 mb-0">{cardTitle}</h2>
       <span>from</span>
       <div className="ddos-attack-price d-flex justify-content-between align-items-center mt-7 py-4">
@@ -62,7 +62,7 @@ const PriceCardBox = ({
         </li>
       </ul>
       <button className="btn btn-primary coodiv-hover-y w-100 mt-9 coodiv-text-9">
-            Get started for free
+            Buy Now
       </button>
     </div>
   </div>

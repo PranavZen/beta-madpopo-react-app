@@ -90,7 +90,7 @@ function TypedComponent() {
           <div className="col-md-9 col-lg-7 col-xl-9">
             <div className="hero-content dark-mode-texts mb-15 mb-lg-10 text-center text-md-left">
               <h4 className="coodiv-text-12 text-uppercase mb-3 coodiv-color-green-opacity-7">
-                with emyui
+                with madpopo
               </h4>
               <h1 className="coodiv-text-3 text-white d-block mb-0">
                 Choose flexible pricing plan for you
