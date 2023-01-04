@@ -2394,20 +2394,22 @@ a.headerphone-number {
   position: relative;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2)::before{
-  border-radius: 12px;
-  content: "We Recommended";
-  position: absolute;
-  top: -34px;
-  left: 15px;
-  width: 92%;
-  height: 45px;
-  color: #fff;
-  background-color: #ff6a00;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background-color: #ff6a00;
+  border-radius: 12px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  color: #fff;
+  content: "We Recommended";
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  left: 15px;
+  position: absolute;
+  top: -34px;
+  width: 92%;
+  padding-bottom: 5px;
+  font-size: 14px;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2) .priceCardDdos{
   border: 5px solid #ff6a00;
@@ -10527,6 +10529,10 @@ ul#lang-box-ul {
   height: 25px;
   margin-right: 10px;
 }
+.reviews-overview .reviews-stars{
+  display: flex;
+  gap: 3px;
+}
 .reviews-overview .reviews-stars i {
   height: 27px;
   width: 27px;
@@ -10543,7 +10549,7 @@ ul#lang-box-ul {
 }
 .reviews-overview strong {
   color: #161c2d;
-  margin-left: 5px;
+  margin: 0 3px;
 }
 .brand-logos .single-brand img {
   opacity: 0.3;

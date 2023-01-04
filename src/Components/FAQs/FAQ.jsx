@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { fooLogo } from "../index"
 import faqData from "../FAQs/FAQData";
 import FaqAccorionItems from "../FAQs/FaqAccorionItems";
 
@@ -95,12 +94,10 @@ function FAQ(props) {
                                 d-lg-flex
                                 align-items-center"
               >
-                <img className="website-logo" src={fooLogo} alt="main logo" />{" "}
-                is rated
-                <strong>Excellent</strong>
+              <strong>MadPopo</strong>  is rated <strong>Excellent</strong>
                 <span
                   className="reviews-stars
-                                    ml-5"
+                                    mx-3"
                 >
                   <i
                     className="feather
