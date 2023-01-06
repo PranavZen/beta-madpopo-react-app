@@ -769,7 +769,7 @@ body {
 }
 html,body,p,h1,h2,h3,h4,h5,h6,span,li,a,select{
   font-family: 'Urbanist', sans-serif;
-  letter-spacing: .8px;
+ 
 }
 /* default body elements colors  */
 body {
@@ -780,7 +780,7 @@ body {
   --background-5: #ecf2f7; /*---- fifth backround color -----*/
   --background-6: #fff; /*---- sixth backround color -----*/
   --background-7: #edf9f2; /*---- seventh backround color -----*/
-  --color-h: #161c2d; /*---- headings text color -----*/
+  --color-h: #252526; /*---- headings text color -----*/
   --color-h-sub: rgba(22, 28, 45, 0.4); /*---- sub headings text color -----*/
   --color-texts-opacity: rgba(
     22,
@@ -788,7 +788,7 @@ body {
     45,
     0.7
   ); /*---- texts color opacity -----*/
-  --color-texts: #161c2d; /*---- text color -----*/
+  --color-texts: #252526; /*---- text color -----*/
   --btn-border: rgba(3, 3, 3, 0.3); /*---- buttons border color -----*/
   --border-color: #e7e9ed; /*---- border color -----*/
 }
@@ -836,7 +836,7 @@ body {
   --background-5: #ecf2f7; /*---- fifth backround color -----*/
   --background-6: #fff; /*---- sixth backround color -----*/
   --background-7: #edf9f2; /*---- seventh backround color -----*/
-  --color-h: #161c2d; /*---- headings text color -----*/
+  --color-h: #252526; /*---- headings text color -----*/
   --color-h-sub: rgba(22, 28, 45, 0.4); /*---- sub headings text color -----*/
   --color-texts-opacity: rgba(
     22,
@@ -844,7 +844,7 @@ body {
     45,
     0.7
   ); /*---- texts color opacity -----*/
-  --color-texts: #161c2d; /*---- text color -----*/
+  --color-texts: #252526; /*---- text color -----*/
   --btn-border: rgba(3, 3, 3, 0.3); /*---- buttons border color -----*/
   --border-color: #e7e9ed; /*---- border color -----*/
 }
@@ -967,10 +967,10 @@ body {
 color: #fff;
 }
 .light-mode-texts .topBarStrip .topInner .numSpan{
-  color: #161c2d;
+  color: #252526;
 }
 .dark-mode-texts .topBarStrip .topInner .numSpan{
-  color: #161c2d;
+  color: #252526;
 }
 .topBarStrip .topInner .numSpan .textBold{
   padding-right: 10px;
@@ -992,6 +992,15 @@ color: #fff;
   width: 110px;
     height: 35px;
     padding: 0 10px;
+}
+.ReactFlagsSelect-module_selectFlag__2q5gC{
+  font-size: 16px !important;
+}
+.ReactFlagsSelect-module_secondaryLabel__37t1D{
+  padding-left: 0 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #252526 !important;
 }
 .inrSelectWrap .inrSelectBox .selectCountry .ReactFlagsSelect-module_flagsSelect__2pfa2 #rfs-btn:focus{
   outline: none;
@@ -1029,10 +1038,10 @@ color: #fff;
   border: 0;
 }
 .white-bg.light-mode-texts .navbar #mobile-menu .navbar-nav-wrapper #header-navbar-links .nav-item .nav-link{
-  color: #161c2d !important;
+  color: #252526 !important;
 }
 .site-header.light-mode-texts .coodiv-toggle-arrow{
-  color: #161c2d !important;
+  color: #252526 !important;
 }
 .main-features-box {
   padding: 20px;
@@ -1183,7 +1192,7 @@ div.slick-active.slick-current .main-features-box {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #161c2d;
+  color: #252526;
 }
 .listFeatureDomain{
   
@@ -1195,7 +1204,7 @@ div.slick-active.slick-current .main-features-box {
 .listFeatureDomain li span{
   font-size: 13px;
   font-weight: 100;
-  color: #161c2db3;
+  color: #252526b3;
 }
 .listFeatureDomain li span i{
   color: #00bf6f;
@@ -2393,13 +2402,14 @@ a.headerphone-number {
     width: 100%;
     height: 100%;
     position: absolute;
-    left: -55px;
-    top: -255px;
+    left: -65px;
+    top: -240px;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2) .priceCardDdos{
   border: 5px solid #ff6a00;
  
 }
+
 .pcImageWrap{
   width: 455px;
   height: auto;
@@ -2907,7 +2917,7 @@ a.headerphone-number {
 }
 .ddos-attack-package .ddos-first-features li span:last-child {
   font-weight: bold;
-  color: #161c2d;
+  color: #252526;
 }
 .ddos-attack-package .ddos-second-features {
   margin-top: 15px;
@@ -3104,13 +3114,14 @@ a.headerphone-number {
 .headLoginBtn{
   color: #fff;
   background: #0000ff;
-  font-size: 14px !important;
+  font-size: 16px !important;
   opacity: 1;
   height: 40px;
   width: 110px;
   border-radius: 50px;
   max-width: 110px;
   min-width: 110px;
+  font-weight: 700;
 }
 .bgPositions{
   position: relative; 
@@ -4236,7 +4247,7 @@ a.popover-host-features:hover {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 700 !important;
-  color: #161c2d;
+  color: #252526;
   margin-bottom: 0;
   padding-left: 5px;
 }
@@ -4269,7 +4280,7 @@ a.popover-host-features:hover {
   font-size: 0.85rem;
   line-height: 1.5;
   font-weight: 700 !important;
-  color: #161c2d;
+  color: #252526;
   margin-bottom: 0;
 }
 .comparison-box .comparison-box-right-side .side .right-side-plan-slider i {
@@ -5056,7 +5067,7 @@ overflow: hidden;
   font-size: 1.3rem;
   
   line-height: 1.375;
-  color: #161c2d;
+  color: #252526;
   margin-bottom: 0;
   position: relative;
   display: inline-block;
@@ -5216,11 +5227,11 @@ overflow: hidden;
   
   line-height: 20px;
   margin-bottom: 0;
-  color: #161c2d;
+  color: #252526;
   position: relative;
 }
 .social-numbers.light-bg a h3 {
-  color: #161c2d !important;
+  color: #252526 !important;
 }
 .social-numbers a h3:before {
   background: #68d585;
@@ -5634,12 +5645,12 @@ ul.footer-list li:hover a.footer-list-link {
   transform: rotate(-180deg);
 }
 .main-menu > li > .nav-link {
-  color: #161c2d !important;
-  font-size: 16px;
-  font-weight: 400;
+  color: #252526 !important;
+  font-size: 18px;
+  font-weight: 600;
   position: relative;
-  opacity: 0.9;
-  
+  opacity: 1;
+
 }
 .main-menu .nav-item .nav-link:before {
   content: "";
@@ -8073,7 +8084,7 @@ ul.footer-list li:hover a.footer-list-link {
 
 /*--- template bg blackish blue opacity ---*/
 .coodiv-bg-blackish-blue-opacity-opacity-visible {
-  background-color: #161c2d;
+  background-color: #252526;
 }
 .coodiv-bg-blackish-blue-opacity-opacity-1 {
   background-color: rgba(22, 28, 45, 0.1);
@@ -8105,10 +8116,10 @@ ul.footer-list li:hover a.footer-list-link {
 
 /*--- template color blackish blue opacity ---*/
 .coodiv-color-blackish-blue-opacity-opacity-visible {
-  color: #161c2d;
+  color: #252526;
 }
 .color-blackish-blue {
-  color: #161c2d;
+  color: #252526;
 }
 .color-blackish-blue-opacity {
   color: rgba(22, 28, 45, 0.7);
@@ -10164,7 +10175,7 @@ a.coodiv-hover-text-blue:hover i {
 }
 .site-header.white-bg .btn-header-lang,
 .site-header.light-mode-texts .btn-header-lang {
-  color: #161c2d !important;
+  color: #252526 !important;
 }
 header.site-header a,
 .coodiv-toggle-arrow i {
@@ -10198,7 +10209,7 @@ header.site-header a,
   padding-right: 15px;
 }
 .lang-box-container .lang-box-item {
-  color: #161c2d;
+  color: #252526;
   margin-bottom: 25px;
   position: relative;
   padding-right: 15px;
@@ -10565,7 +10576,7 @@ ul#lang-box-ul {
   height: 30px;
 }
 .reviews-overview strong {
-  color: #161c2d;
+  color: #252526;
   margin: 0 3px;
 }
 .brand-logos .single-brand img {
@@ -13214,7 +13225,7 @@ border-radius: 23px;
 @media screen and (max-width: 991px) and (min-width: 590px) {
   .social-numbers a:nth-child(2) h3,
   .social-numbers a:nth-child(4) h3 {
-    color: #161c2d;
+    color: #252526;
   }
   .social-numbers a:nth-child(2) h3 span,
   .social-numbers a:nth-child(4) h3 span {
@@ -13431,7 +13442,7 @@ border-radius: 23px;
   position: relative;
 }
 .emyui-demo-tabs-nav .nav-item .nav-link:hover {
-  color: #161c2d;
+  color: #252526;
 }
 .emyui-demo-tabs-nav .nav-item .nav-link:after {
   content: "";
@@ -13449,7 +13460,7 @@ border-radius: 23px;
   width: 100%;
 }
 .emyui-demo-tabs-nav .nav-item .nav-link.active {
-  color: #161c2d;
+  color: #252526;
 }
 .emyui-demo-tabs-nav .nav-item .nav-link .badge-new {
   background: #dde3f0;

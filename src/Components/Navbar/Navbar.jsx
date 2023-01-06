@@ -46,7 +46,9 @@ function Navbar() {
                                             to="#" role="button"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
-                                            aria-expanded="false">Hosting</Link>
+                                            aria-expanded="false">Hosting <i class="material-symbols-outlined">
+                                            keyboard_arrow_down
+                                            </i></Link>
                                         <div className="coodiv-megamenu-dropdown
                                             fullwidth-megamenu center white-bg
                                             dropdown-menu d-lg-flex px-lg-10
@@ -400,7 +402,9 @@ function Navbar() {
                                             id="domaindropdown" to="#"
                                             role="button" data-toggle="dropdown"
                                             aria-haspopup="true"
-                                            aria-expanded="false">Domains</Link>
+                                            aria-expanded="false">Domains <i class="material-symbols-outlined">
+                                            keyboard_arrow_down
+                                            </i></Link>
                                         <div className="coodiv-megamenu-dropdown
                                             mini-version center white-bg
                                             dropdown-menu d-lg-block pt-0"
@@ -775,7 +779,9 @@ function Navbar() {
                                             to="#" role="button"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
-                                            aria-expanded="false">About Us</Link>
+                                            aria-expanded="false">About Us <i class="material-symbols-outlined">
+                                            keyboard_arrow_down
+                                            </i></Link>
                                         <ul className="coodiv-menu-dropdown
                                             dropdown-menu"
                                             aria-labelledby="navbarDropdownHelp">

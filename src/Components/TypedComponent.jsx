@@ -39,13 +39,13 @@ function TypedComponent() {
         <div className="row justify-content-start">
           <div className="col-md-9 col-lg-7 col-xl-9">
             <div className="hero-content dark-mode-texts mb-15 mb-lg-10 text-center text-md-left">
-              <h4 className="coodiv-text-12 text-uppercase mb-3 coodiv-color-green-opacity-7">
+              <h4 className="coodiv-text-12 text-uppercase mb-3 smalText">
                 with madpopo
               </h4>
-              <h1 className="coodiv-text-3 text-white d-block mb-0">
+              <h1 className="coodiv-text-3 d-block mb-0 typedTextMain">
                 Choose flexible pricing plan for you
               </h1>
-              <h1 className="coodiv-text-3 position-relative mb-5">
+              <h1 className="coodiv-text-3 position-relative mb-5 typedText">
                 <span id="typed" ref={(el)} className="typed strike-bottom green d-inline-block">
                   and
                 </span>
@@ -53,7 +53,7 @@ function TypedComponent() {
                   |
                 </span>
               </h1>
-              <p className="coodiv-text-9 mb-0 coodiv-color-white-opacity-9 mb-10">
+              <p className="coodiv-text-9 mb-0 mb-10 typedSmallText">
                 Unlimited boards and workflows. no credit card needed
               </p>
             </div>
