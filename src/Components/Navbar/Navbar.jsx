@@ -12,8 +12,8 @@ function Navbar() {
    });
  }, []);
   return (
-    <div>
-    <header className={scroll ? "site-header header-with-right-menu site-header--absolute fixed-header-layout top-header-fixed white-bg light-mode-texts" : "site-header header-with-right-menu site-header--absolute fixed-header-layout dark-mode-texts"}>
+   
+    <header className={scroll ? "bgtop site-header header-with-right-menu site-header--absolute fixed-header-layout top-header-fixed white-bg light-mode-texts" : "bgtop site-header header-with-right-menu site-header--absolute fixed-header-layout dark-mode-texts"}>
                 <div className="container-fluid pr-lg-9 pl-lg-9">
                 <div className='topBarStrip'>
                   <div className="topInner">
@@ -906,7 +906,7 @@ function Navbar() {
 
                 </div>
             </header>
-    </div>
+   
   )
 }
 

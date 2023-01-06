@@ -3105,6 +3105,7 @@ a.headerphone-number {
   height: 1020px;
   width: 100%;
   position: relative;
+  background-attachment: fixed;
 }
 .hero-area-coodiv.snow-montagne .left-montagne-part {
   background: url(../image/header/snow-montagne/left-part.png) no-repeat;
