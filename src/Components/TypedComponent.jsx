@@ -1,7 +1,8 @@
 import React from "react";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-import { bannerBg1, bannerBg2, bannerBg3, bannerBg4 } from "../Components/index";
+import { pcImage } from "../Components/index";
+
 function TypedComponent() {
   const el = useRef(null);
 
@@ -14,15 +15,15 @@ function TypedComponent() {
         "and more...",
       ],
       stringsElement: null,
-      typeSpeed: 400,
-      startDelay: 800,
-      backSpeed: 400,
-      backDelay: 2100,
+      typeSpeed: 180,
+      startDelay: 1200,
+      backSpeed: 180,
+      backDelay: 500,
       smartBackspace: false,
       showCursor: false,
-      // cursorChar: "|",
-      
       loop: true,
+      loopCount: 5,
+      contentType: 'html',
     });
   });
   return (
@@ -56,6 +57,11 @@ function TypedComponent() {
                 Unlimited boards and workflows. no credit card needed
               </p>
             </div>
+          </div>
+          <div className="col-md-3 col-lg-5 col-xl-3">
+              <div className="pcImageWrap">
+                <img src={pcImage} alt="" />
+              </div>
           </div>
         </div>
       </div>

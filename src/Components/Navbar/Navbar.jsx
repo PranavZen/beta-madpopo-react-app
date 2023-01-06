@@ -882,8 +882,8 @@ function Navbar() {
 
                         <div className="header-btn ml-auto ml-lg-10 d-none
                             d-xs-block position-relative">
-                            <Link data-i18n="[html]genaral.freetrial" className="btn
-                                btn-warning coodiv-text-9" to="#">Login</Link>
+                            <Link to="" className="btn
+                                headLoginBtn coodiv-text-9">Login</Link>
                             
                         </div>
 
