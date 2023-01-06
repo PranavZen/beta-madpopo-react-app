@@ -30,60 +30,9 @@ function TypedComponent() {
     // Choose flexible pricing plan for you <span className="typed" ref={(el)}></span>
     // </h1>
     <div className="hero-area-coodiv snow-montagne position-relative">
-      <div className="header-hero-backgrounds">
-        <div id="particles-bg">
-          <canvas
-            className="particles-js-canvas-el"
-            
-            width="1898"
-            height="950"
-          ></canvas>
-        </div>
-        <span className="back-mountain-light"></span>
-        <span className="back-mountain-sun"></span>
-        <span className="right-montagne-part"></span>
-        <span className="illustration-element"></span>
-        <span className="left-montagne-part"></span>
-        <span className="sunset-fog"></span>
-        <span className="sunsetcloud"></span>
-        <div className="bottom-montagne-part">
-          <span></span>
-        </div>
-        <div className="t-first">
-          <img
-            className="layer layer2"
-            data-depth="-0.20"
-            src={bannerBg1}
-            alt=""
-          />
-        </div>
-      </div>
-      <div
-        className="shape-1 coodiv-abs-tr aos-init aos-animate"
-        data-aos="fade-up"
-        data-aos-duration="500"
-        data-aos-once="true"
-      >
-        <img src={bannerBg2} alt="" />
-      </div>
-      <div
-        className="shape-2 coodiv-abs-tr aos-init aos-animate"
-        data-aos="fade-down-left"
-        data-aos-duration="800"
-        data-aos-delay="300"
-        data-aos-once="true"
-      >
-        <img src={bannerBg3} alt="" />
-      </div>
-      <div
-        className="shape-3 coodiv-abs-tr aos-init aos-animate"
-        data-aos="fade-down-left"
-        data-aos-duration="1100"
-        data-aos-delay="600"
-        data-aos-once="true"
-      >
-        <img src={bannerBg4} alt="" />
-      </div>
+      
+      
+      
 
       <div className="container position-relative coodiv-z-index-2">
         <div className="row justify-content-start">
