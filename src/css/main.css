@@ -2393,7 +2393,7 @@ a.headerphone-number {
     width: 100%;
     height: 100%;
     position: absolute;
-    left: -64px;
+    left: -55px;
     top: -255px;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2) .priceCardDdos{
@@ -14702,10 +14702,10 @@ body.aws-html-theme .header-alert-notification {
   display: grid;
 }
 .hero-area-emyui-aws-title {
-  ;
+  
   line-height: 1.2;
   font-weight: 900;
-  font-family: playfair display, serif;
+  
 }
 .domain-checker-emyui-aws-homepage {
   background-color: #242424;
