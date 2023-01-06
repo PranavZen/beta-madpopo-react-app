@@ -5656,17 +5656,11 @@ ul.footer-list li:hover a.footer-list-link {
   content: "";
   position: absolute;
   z-index: -1;
-  top: 64%;
+  top: 70%;
   left: 13px;
   right: 13px;
-  height: 3px;
-  background: #24d261;
-  background: rgb(64, 255, 131);
-  background: linear-gradient(
-    90deg,
-    rgb(31 194 88) 0%,
-    rgba(36, 210, 97, 1) 100%
-  );
+  height: 2px;
+  background: #ff6a00;
   transform: scale3d(1, 0, 1);
   transform-origin: 50% 100%;
   transition: transform 0.3s;
