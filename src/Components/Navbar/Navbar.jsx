@@ -19,7 +19,7 @@ function Navbar() {
                   <div className="topInner">
                      <span className='numSpan'><span className='textBold'><i className="fa fa-phone"></i> Need Help ?</span> Call Us 24/7 : <a href="tel:+91 7042407676">+91 70 42 40 7676</a></span>
                      <div className="inrSelectWrap"> 
-                       <div className='inrSelectBox'> 
+                       <div className='inrSelectBox'>  
                          <CountrySelect/>
                        </div>
                      </div>

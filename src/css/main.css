@@ -3109,7 +3109,7 @@ a.headerphone-number {
   background: linear-gradient(to bottom, #f6cd9d 31%, #fffefd 103%);
 }
 .bgPositions{
-  position: relative;
+  position: relative; 
   width: 100%;
 }
 .bgPositions .topElm_left{

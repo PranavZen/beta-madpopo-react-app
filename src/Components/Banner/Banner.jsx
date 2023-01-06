@@ -6,7 +6,7 @@ import TypedComponent from "../TypedComponent";
 
 function Banner() {  
   return (
-    <div className="bgPositions">
+    <div className="bgPositions"> 
     <div className="topElm_left">
         
       </div>
