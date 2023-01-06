@@ -3099,13 +3099,54 @@ a.headerphone-number {
   top: 0;
 }
 .hero-area-coodiv.snow-montagne {
-  background: url(../image/hbg2.png);
+  /* background: url(../image/hbg2.png);
   background-size: 100% 100%;
-  background-position: center;
+  background-position: center; */
   height: 1020px;
   width: 100%;
   position: relative;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+  background: linear-gradient(to bottom, #f6cd9d 31%, #fffefd 103%);
+}
+.bgPositions{
+  position: relative;
+  width: 100%;
+}
+.bgPositions .topElm_left{
+  background: url(../image/left-top-elm.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: -120% -43%;
+  width: 1440px;
+  height: 100%;
+  position: absolute;
+  left: -216px;
+  z-index: 1;
+  opacity: 0.3;
+}
+.bgPositions .leftElm_mid{
+  background: url(../image/left-mid-elm.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: -247% 35%;
+  width: 1440px;
+  height: 100%;
+  position: absolute;
+  left: -216px;
+  z-index: 1;
+  opacity: 0.3;
+}
+.bgPositions .rightElm_mid{
+  background: url(../image/right-elm.png);
+  background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 305% 25%;
+    width: 1440px;
+    height: 100%;
+    position: absolute;
+    right: -216px;
+    z-index: 1;
+    opacity: 0.3;
 }
 .hero-area-coodiv.snow-montagne .left-montagne-part {
   background: url(../image/header/snow-montagne/left-part.png) no-repeat;
@@ -3520,7 +3561,8 @@ div.slick-active.slick-current .main-features-box {
 #myTabslide{
   height: 100%;
   padding: 0 0 0;
-  background: #fff;
+  z-index: 1;
+  position: relative;
   margin-top: -500px;
 }
 .pricing-plan-tree .badge-plan {
