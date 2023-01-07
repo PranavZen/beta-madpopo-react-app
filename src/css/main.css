@@ -989,7 +989,7 @@ color: #fff;
   color: #ff6a00;
 }
 .inrSelectWrap .inrSelectBox .selectCountry .ReactFlagsSelect-module_flagsSelect__2pfa2 #rfs-btn{
-  width: 110px;
+  width: 90px;
     height: 35px;
     padding: 0 10px;
 }
@@ -1006,8 +1006,8 @@ color: #fff;
   outline: none;
   box-shadow: none;
 }
-.ReactFlagsSelect-module_selectBtn__19wW7:after{
-  border: 0 !important;
+.ReactFlagsSelect-module_selectBtn__19wW7:after, .ReactFlagsSelect-module_selectBtn__19wW7[aria-expanded="true"]:after{
+  margin-left: 0px !important;
 }
 .light-mode-texts .topBarStrip{
   
@@ -2382,7 +2382,7 @@ a.headerphone-number {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   color: #fff;
-  content: "We Recommended";
+  content: "Recommended";
   display: flex;
   height: 45px;
   justify-content: center;
@@ -2391,7 +2391,8 @@ a.headerphone-number {
   top: -34px;
   width: 65%;
   padding-bottom: 5px;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2)::after {
   content: "";
@@ -2402,20 +2403,29 @@ a.headerphone-number {
     width: 100%;
     height: 100%;
     position: absolute;
-    left: -65px;
+    left: -68px;
     top: -240px;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2) .priceCardDdos{
   border: 5px solid #ff6a00;
  
 }
-
+.priceCardDdos .priceCardTitle{
+  font-size: 18px;
+  font-weight: 700;
+  color: #252526;
+}
+.priceCardPriceAmt{
+  font-size: 32px;
+  font-weight: 800;
+  color: #252526;
+}
 .pcImageWrap{
-  width: 455px;
-  height: auto;
-  position: absolute;
-  right: -126px;
-  top: -65px;
+  width: 485px;
+    height: auto;
+    position: absolute;
+    right: -95px;
+    top: -85px;
 }
 .pcImageWrap img{
   width: 100%;
@@ -2453,11 +2463,7 @@ a.headerphone-number {
     #dee1ec 100%
   );
 }
-@media (min-width: 992px) {
-  .hero-area-coodiv {
-    padding-top: 11.25rem !important;
-  }
-}
+
 .hero-area-coodiv .header-hero-backgrounds .montains-01 {
   background: url(../image/header/mount/mount-1.png) no-repeat;
   position: absolute;
@@ -2828,7 +2834,7 @@ a.headerphone-number {
   overflow: hidden;
 }
 .safari-browser-mockup .main-ddos-attack-charactuer {
-  width: 460px;
+  width: 330px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -3110,6 +3116,7 @@ a.headerphone-number {
   /* background: linear-gradient(to bottom, #f6cd9d 31%, #fffefd 103%); */
 
   background: linear-gradient(to bottom, #f7dfbb 41%, #ffffff 103%);
+  padding-top: 230px;
 }
 .headLoginBtn{
   color: #fff;
@@ -3142,14 +3149,14 @@ a.headerphone-number {
 .bgPositions .leftElm_mid{
   background: url(../image/left-mid-elm-1.png);
   background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: -247% 35%;
-  width: 1440px;
-  height: 100%;
-  position: absolute;
-  left: -216px;
-  z-index: 1;
-  opacity: 0.3;
+    background-repeat: no-repeat;
+    background-position: -247% 40%;
+    width: 1695px;
+    height: 100%;
+    position: absolute;
+    left: -216px;
+    z-index: 1;
+    opacity: 0.3;
 }
 .bgPositions .rightElm_mid{
   background: url(../image/right-elm.png);
@@ -3162,6 +3169,26 @@ a.headerphone-number {
     right: -216px;
     z-index: 1;
     opacity: 0.3;
+}
+.smalText{
+  font-size: 18px;
+  font-weight: 700;
+  color: #252526;
+}
+.typedTextMain{
+  font-size: 40px;
+    font-weight: 800;
+    color: #252526;
+}
+.typedText{
+  font-size: 40px;
+    font-weight: 800;
+    color: #252526;
+}
+.typedSmallText{
+  font-size: 16px;
+  color: #e9a33d;
+  font-weight: 600;
 }
 .hero-area-coodiv.snow-montagne .left-montagne-part {
   background: url(../image/header/snow-montagne/left-part.png) no-repeat;
@@ -3575,7 +3602,7 @@ div.slick-active.slick-current .main-features-box {
   padding: 0 0 0;
   z-index: 1;
   position: relative;
-  margin-top: -500px;
+  margin-top: -450px;
 }
 .pricing-plan-tree .badge-plan {
   padding: 10px 0;
@@ -10026,7 +10053,7 @@ a.coodiv-hover-text-blue:hover i {
   z-index: -1;
 }
 .strike-bottom.green::after {
-  background: #68d585;
+  background: #ff6a00;
 }
 .strike-bottom.red::after {
   background: #f64b4b;

@@ -8,8 +8,8 @@ class Pricecard extends React.Component {
                 sections: [
                     {   
                         id : 1,
-                        cardTitle : 'POPO L',
-                        cardPrice : '₹159.99/Mo',
+                        cardTitle : 'Windows Hosting',
+                        cardPrice : '$159.99',
                         cardOffer : 'offer - 30%',
                         cardCapacity : '5TB',
                         cardSSHAccess : 'Unlimited',
@@ -18,8 +18,8 @@ class Pricecard extends React.Component {
                     },
                     {  
                         id : 2,
-                        cardTitle : 'POPO XL',
-                        cardPrice : '₹269.99/Mo',
+                        cardTitle : 'WordPress Hosting',
+                        cardPrice : '$269.99',
                         cardOffer : 'offer - 30%',
                         cardCapacity : '5TB',
                         cardSSHAccess : 'Unlimited',
@@ -28,8 +28,8 @@ class Pricecard extends React.Component {
                     },
                     {  
                         id : 3,
-                        cardTitle : 'POPO XXL',
-                        cardPrice : '₹289.99/Mo',
+                        cardTitle : 'Virtual Private Server',
+                        cardPrice : '$289.99',
                         cardOffer : 'offer - 30%',
                         cardCapacity : '5TB',
                         cardSSHAccess : 'Unlimited',

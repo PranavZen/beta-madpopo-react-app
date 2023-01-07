@@ -15,3 +15,5 @@ export { default as fooLogo } from '../../src/image/header/madpopo_final_logo_wh
 export { default as bgleftMid } from '../../src/image/left-mid-elm.png';
 export { default as bgRightMid } from '../../src/image/right-elm.png';
 export { default as pcImage } from '../../src/image/header-pc.png';
+export { default as pcImage2 } from '../../src/image/header-pc2.png';
+export { default as migration } from '../../src/image/migrationMeeting.png';

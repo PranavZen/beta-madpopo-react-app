@@ -10,10 +10,10 @@ const PriceCardBox = ({
 }) => ( 
   <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
     <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
-      <h2 className="coodiv-text-9 mb-0">{cardTitle}</h2>
+      <h2 className="priceCardTitle mb-0">{cardTitle}</h2>
       <span>from</span>
       <div className="ddos-attack-price d-flex justify-content-between align-items-center mt-7 py-4">
-        <h2 className="coodiv-text-4">{cardPrice}</h2>
+        <h2 className="priceCardPriceAmt">{cardPrice}</h2>
         <span>{cardOffer}</span>
       </div>
       <ul className="ddos-first-features border-top">

@@ -46,7 +46,7 @@ function Navbar() {
                                             to="#" role="button"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
-                                            aria-expanded="false">Hosting <i class="material-symbols-outlined">
+                                            aria-expanded="false">Hosting <i className="material-symbols-outlined">
                                             keyboard_arrow_down
                                             </i></Link>
                                         <div className="coodiv-megamenu-dropdown
@@ -402,7 +402,7 @@ function Navbar() {
                                             id="domaindropdown" to="#"
                                             role="button" data-toggle="dropdown"
                                             aria-haspopup="true"
-                                            aria-expanded="false">Domains <i class="material-symbols-outlined">
+                                            aria-expanded="false">Domains <i className="material-symbols-outlined">
                                             keyboard_arrow_down
                                             </i></Link>
                                         <div className="coodiv-megamenu-dropdown
@@ -779,7 +779,7 @@ function Navbar() {
                                             to="#" role="button"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
-                                            aria-expanded="false">About Us <i class="material-symbols-outlined">
+                                            aria-expanded="false">About Us <i className="material-symbols-outlined">
                                             keyboard_arrow_down
                                             </i></Link>
                                         <ul className="coodiv-menu-dropdown
