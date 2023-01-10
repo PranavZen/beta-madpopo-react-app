@@ -43,14 +43,13 @@ function MainTabSection() {
     autoplaySpeed: 1500,
     arrows: false,
     fade: true,
-    adaptiveHeight: true,
     
   };
   return (
     <section id="myTabslide">
       <div className="container mt-lg-n30 mt-n15">
         <Slider {...settings2} className="main-homepage-plans-slider" asNavFor={nav2}
-        ref={(slider1) => setNav1(slider1)} slidesToShow={1}>
+        ref={(slider1) => setNav1(slider1)} slidesToShow={1} adaptiveHeight={true}>
           <FirstTabContent />
           <SecondTabContent />
           <ThirdTabContent />

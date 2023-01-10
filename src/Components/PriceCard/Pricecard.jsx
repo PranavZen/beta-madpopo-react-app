@@ -43,7 +43,7 @@ class Pricecard extends React.Component {
 
     render(){
         return(
-                <div className='container coodiv-z-index-1 position-relative'>
+                <div className='container coodiv-z-index-1 position-relative firstSliderPadding'>
                    <div className="row align-items-center justify-content-center ddosPriceCardRow">
                 {
                     this.state.sections.map( ( { id,cardTitle, cardPrice, cardOffer, cardCapacity, cardSSHAccess, cardDDOS} ) => (
