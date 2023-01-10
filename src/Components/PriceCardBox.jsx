@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PriceCardBox = ({
   cardTitle,
@@ -10,24 +11,34 @@ const PriceCardBox = ({
 }) => ( 
   <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
     <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
+      <div className="toggleWrap d-flex">
       <h2 className="priceCardTitle mb-0">{cardTitle}</h2>
-      <span>from</span>
+      
+      </div>
+      <span className="fromText">from</span>
+      <div className="selectDaysWrap">
+      <select className="selectDay">
+      <option value="one">1 year</option>
+      <option value="two">2 years</option>
+      <option value="three">3 years</option>
+    </select>
+      </div>
       <div className="ddos-attack-price d-flex justify-content-between align-items-center mt-7 py-4">
         <h2 className="priceCardPriceAmt">{cardPrice}</h2>
         <span>{cardOffer}</span>
       </div>
       <ul className="ddos-first-features border-top">
         <li>
-          <span>Capacity</span>
-          <span>{cardCapacity}</span>
+          <span className="capTitle">Capacity</span>
+          <span className="capAmt">{cardCapacity}</span>
         </li>
         <li>
-          <span>SSH accese</span>
-          <span>{cardSSHAccess}</span> 
+          <span className="capTitle">SSH accese</span>
+          <span className="capAmt">{cardSSHAccess}</span> 
         </li>
         <li>
-          <span>Anti DDOS protection</span>
-          <span>{cardDDOS}</span>
+          <span className="capTitle">Anti DDOS protection</span>
+          <span className="capAmt">{cardDDOS}</span>
         </li>
       </ul>
       <ul className="ddos-second-features border-top">

@@ -68,8 +68,8 @@ function MainTabSection() {
           <i className="feather icon-server">
               
           </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3">Web hosting</h5>
-          <p className="coodiv-text-12 mb-0">Lorem Ipsum is simply
+          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">Web hosting</h5>
+          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
               dummy</p>
       </div>
 
@@ -78,8 +78,8 @@ function MainTabSection() {
           <i className="feather icon-shield">
               
           </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3">SSL certificate</h5>
-          <p className="coodiv-text-12 mb-0">Lorem Ipsum is simply
+          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">SSL certificate</h5>
+          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
               dummy</p>
       </div>
 
@@ -88,8 +88,8 @@ function MainTabSection() {
           <i className="feather icon-play">
               
           </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3">Games servers</h5>
-          <p className="coodiv-text-12 mb-0">Lorem Ipsum is simply
+          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">Games servers</h5>
+          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
               dummy</p>
       </div>
 
@@ -98,8 +98,8 @@ function MainTabSection() {
           <i className="feather icon-headphones">
              
           </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3">voice servers</h5>
-          <p className="coodiv-text-12 mb-0">Lorem Ipsum is simply
+          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">voice servers</h5>
+          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
               dummy</p>
       </div>
 
@@ -108,16 +108,16 @@ function MainTabSection() {
           <i className="feather icon-cpu">
               
           </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3">Cpanel reseller</h5>
-          <p className="coodiv-text-12 mb-0">Lorem Ipsum is simply
+          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">Cpanel reseller</h5>
+          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
               dummy</p>
       </div>
       <div className="services-box-tab">
           <i className="feather icon-cpu">
               
           </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3">Another plan</h5>
-          <p className="coodiv-text-12 mb-0">Lorem Ipsum is simply
+          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">Another plan</h5>
+          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
               dummy</p>
       </div>
           </Slider>

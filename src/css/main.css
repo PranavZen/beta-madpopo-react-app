@@ -1202,9 +1202,10 @@ div.slick-active.slick-current .main-features-box {
 
 }
 .listFeatureDomain li span{
-  font-size: 13px;
-  font-weight: 100;
-  color: #252526b3;
+  font-size: 14px !important;
+  font-weight: 600;
+  color: #161c2db3 !important;
+  line-height: 1.4 !important;
 }
 .listFeatureDomain li span i{
   color: #00bf6f;
@@ -2399,12 +2400,13 @@ a.headerphone-number {
   background-image: url(../image/card_pose_1.png);
   background-repeat: no-repeat;
     background-size: cover;
-    background-position: 65% 0%;
+    background-position: 60% 0%;
     width: 100%;
     height: 100%;
     position: absolute;
-    left: -68px;
+    left: -107px;
     top: -240px;
+    pointer-events: none;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2) .priceCardDdos{
   border: 5px solid #ff6a00;
@@ -2876,6 +2878,25 @@ a.headerphone-number {
     transform: translatey(0px);
   }
 }
+#pricing-dynamic-deck--head2{
+  position: absolute;
+    top: 20px;
+    right: 50px;
+}
+#pricing-dynamic-deck--head2 .price-deck-trigger{
+  width: 100px;
+  height: 30px;
+}
+#pricing-dynamic-deck--head2 .price-deck-trigger.active span{
+  left: calc(100% - 43px);
+}
+#pricing-dynamic-deck--head2 .price-deck-trigger span{
+  width: 38px;
+  height: 20px;
+}
+#pricing-dynamic-deck--head2 .price-deck-trigger span.year{
+  right: -8px;
+}
 .ddos-attack-plan {
   padding-top: 430px;
   margin-top: -380px;
@@ -2937,6 +2958,7 @@ a.headerphone-number {
   font-size: 14px;
   line-height: 1.71;
   align-items: center !important;
+  font-weight: 600;
 }
 .ddos-attack-package .ddos-second-features li i {
   color: #8bc34a;
@@ -2953,9 +2975,21 @@ a.headerphone-number {
   font-size: 14px;
   line-height: 1.71;
   align-items: center !important;
+  margin-bottom: 15px;
+}
+.ddos-attack-package .ddos-third-features li:last-child{
+  margin-bottom: 0;
+}
+.ddos-attack-package .ddos-third-features li span{
+  font-weight: 600;
+  color: #161c2db3;
+  font-size: 14px;
 }
 .ddos-attack-package .ddos-third-features li strong {
   display: block;
+  font-weight: 700;
+  color: #252526;
+  font-size: 16px;
 }
 .ddos-attack-package .ddos-third-features li i {
   color: #8bc34a;
@@ -3598,12 +3632,13 @@ div.slick-active.slick-current .main-features-box {
 
 /*---------------- third plan table styles -----------------*/
 #myTabslide{
-  height: 100%;
+ 
   padding: 0 0 0;
   z-index: 1;
   position: relative;
   margin-top: -450px;
 }
+
 .pricing-plan-tree .badge-plan {
   padding: 10px 0;
   text-align: center;
@@ -4128,6 +4163,10 @@ a.popover-host-features:hover {
 }
 .main-homepage-plans-slider .slick-list{
   overflow: visible;
+  height: auto;
+}
+.main-homepage-plans-slider .slick-list .slick-slide{
+  height: auto;
 }
 .services-box-container .services-box-tabs-box .services-box-tab {
   cursor: pointer;
@@ -5679,25 +5718,7 @@ ul.footer-list li:hover a.footer-list-link {
   opacity: 1;
 
 }
-.main-menu .nav-item .nav-link:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 70%;
-  left: 13px;
-  right: 13px;
-  height: 2px;
-  background: #ff6a00;
-  transform: scale3d(1, 0, 1);
-  transform-origin: 50% 100%;
-  transition: transform 0.3s;
-  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
-}
-.main-menu .nav-item .nav-link:hover::before,
-.main-menu .nav-item.menu-hover .nav-link:before {
-  transform: scale3d(1, 1, 1);
-  transform-origin: 50% 0;
-}
+
 .main-menu .nav-item .nav-link:hover {
   opacity: 1;
 }
@@ -5785,6 +5806,50 @@ ul.footer-list li:hover a.footer-list-link {
   padding: 0;
   list-style: none;
 }
+.abtMenu{
+  padding: 15px 30px 15px !important;
+  left: 215% !important;
+}
+.abtMenu .abtMenuList .drop-menu-item{
+  margin-bottom: 10px;
+}
+.abtMenu .abtMenuList .drop-menu-item a{
+  color: #252526;
+  font-weight: 700;
+}
+.abtMenu .abtMenuList .drop-menu-item a:hover{
+color: #ff6a00;
+}
+.mainTitleDrop{
+  font-size: 24px;
+  font-weight: 700;
+}
+.subTitleDrop{
+  font-size: 16px !important;
+  font-weight: 600;
+  color: #161c2db3 !important;
+}
+.wblink{
+  font-size: 18px !important;
+  font-weight: 700;
+}
+.wbsubLink{
+  font-size: 14px !important;
+    font-weight: 600;
+    color: #161c2db3 !important;
+    line-height: 1.4 !important;
+}
+.textPBold{
+  font-weight: 700 !important;
+  color: #000!important;
+}
+.slickSyncBtnText{
+  font-weight: 700;
+}
+.slickSyncSubBtnText{
+  font-weight: 600;
+
+}
 @media (min-width: 992px) {
   .coodiv-menu-dropdown > .drop-menu-item > .coodiv-menu-dropdown {
     top: 10px;
@@ -5834,7 +5899,7 @@ ul.footer-list li:hover a.footer-list-link {
 }
 @media (min-width: 992px) {
   .nav-item.dropdown:hover > .coodiv-megamenu-dropdown.center {
-    transform: translateX(-100%) translateY(-10px);
+    transform: translateX(-100%) translateY(10px);
     z-index: 9999;
     opacity: 1;
     pointer-events: visible;
@@ -11236,11 +11301,47 @@ rder-radius: 20px;
 .feature-widget .widget-icon i {
   font-size: 25px;
   font-weight: 100;
-  color: #473bf0;
+  color: #ff6a00;
   margin-top: 7px;
   display: block;
 }
+.selectDaysWrap{
+  margin-top: 15px;
+}
+.selectDaysWrap .selectDay{
+  width: 30%;
+  height: 35px;
+  border-radius: 6px;
+  padding: 0 10px;
+  background: #ff6a00;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;  
+  appearance: none;
+  position: relative;
+  appearance: none;
+    background-image: url(../image/download.png);
+    background-repeat: no-repeat;
+    background-position: 60px 12px;
+    background-size: 1em;
+ 
+}
 
+.selectDaysWrap .selectDay:focus{
+  outline: none;
+  box-shadow: none;
+}
+.fromText{
+  font-weight: 600;
+}
+.capTitle{
+  font-weight: 600;
+}
+.capAmt{
+  font-weight: 700 !important;
+}
 /*---------------- gbpr badge -----------------*/
 .gbpr-badge-fixed {
   background: #2051e2;
