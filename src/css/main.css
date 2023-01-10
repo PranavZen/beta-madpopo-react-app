@@ -2817,14 +2817,14 @@ a.headerphone-number {
   background: rgb(11,78,120);
   background: linear-gradient(180deg, rgba(11,78,120,1) 31%, rgba(9,62,95,1) 71%);
   top: 55px;
-  bottom: 75px;
+  bottom: 55px;
   left: 1px;
   right: 0;
   border-radius: 0 0 15px 15px;
   overflow: hidden;
 }
 .safari-browser-mockup .main-ddos-attack-charactuer {
-  width: 330px;
+  width: 385px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -3378,8 +3378,8 @@ a.headerphone-number {
 }
 .safari-browser-mockup .wp-floting-img {
   position: absolute;
-  width: 247px;
-  bottom: 20%;
+  width: 195px;
+  bottom: 30%;
   left: 0;
   right: 0;
   margin: auto;
