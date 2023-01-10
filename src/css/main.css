@@ -2866,6 +2866,35 @@ a.headerphone-number {
     transform: translatey(0px);
   }
 }
+.windowTitle{
+  font-size: 48px !important;
+  font-weight: 800;
+}
+.wondowDecs{
+  font-size: 14px !important;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.4 !important;
+}
+.get_stardetWindowBtn{
+  background: #ff912c;
+    width: 120px;
+    padding: 0;
+    min-width: 120px;
+    height: 35px;
+    border-radius: 6px !important;
+    color: #fff;
+    font-size: 16px !important;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+.get_stardetWindowBtn:hover{
+  color: #fff;
+}
+.get_stardetWindowBtn:focus{
+  outline: none;
+  box-shadow: none;
+}
 #pricing-dynamic-deck--head2{
   position: absolute;
     top: 20px;
@@ -4206,7 +4235,7 @@ a.popover-host-features:hover {
 }
 .services-box-container .services-box-tabs-box .services-box-tab:after {
   content: "";
-  background: #80deea;
+  background: #0014ed;
   height: 5px;
   width: 0;
   position: absolute;
@@ -4236,7 +4265,7 @@ a.popover-host-features:hover {
   display: block;
   margin: 0 auto 15px;
   line-height: 62px;
-  background-color: #b2ebf2;
+  background-color: #8d94fe;
   color: #fff;
   font-size: 22px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -4256,7 +4285,7 @@ a.popover-host-features:hover {
   display: block;
   margin: 0 auto 15px;
   line-height: 62px;
-  background-color: #00bcd4;
+  background-color: #0014ed;
   color: #fff;
   font-size: 19px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -4273,7 +4302,7 @@ a.popover-host-features:hover {
   height: 0;
   border-style: solid;
   border-width: 0 7px 7px 7px;
-  border-color: transparent transparent #80deea transparent;
+  border-color: transparent transparent #0014ed transparent;
   position: absolute;
   top: -7px;
   left: 0;
@@ -5853,7 +5882,7 @@ color: #ff6a00;
   font-weight: 700;
 }
 .subTitleDrop{
-  font-size: 16px !important;
+  font-size: 15px !important;
   font-weight: 600;
   color: #161c2db3 !important;
 }
@@ -5862,7 +5891,7 @@ color: #ff6a00;
   font-weight: 700;
 }
 .wbsubLink{
-  font-size: 14px !important;
+  font-size: 15px !important;
     font-weight: 600;
     color: #161c2db3 !important;
     line-height: 1.4 !important;
@@ -5873,10 +5902,13 @@ color: #ff6a00;
 }
 .slickSyncBtnText{
   font-weight: 700;
+  font-size: 16px !important;
 }
 .slickSyncSubBtnText{
   font-weight: 600;
-
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+  padding-top: 5px;
 }
 @media (min-width: 992px) {
   .coodiv-menu-dropdown > .drop-menu-item > .coodiv-menu-dropdown {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { migration } from "../Components/index";
 
 function Migration() {
@@ -18,21 +19,21 @@ function Migration() {
           />
           <div className="ddos-attack-mockup">
             <div className="ddos-attack-main-text text-center pt-lg-20 pt-10 px-5 dark-mode-texts position-relative coodiv-z-index-1">
-              <h5 className="coodiv-text-4">Free WordPress Migration</h5>
-              <p className="coodiv-text-11 font-weight-light px-lg-25 px-10">
+              <h5 className="coodiv-text-4 windowTitle">Free WordPress Migration</h5>
+              <p className="coodiv-text-11 wondowDecs px-lg-25 px-10">
                 Quick and secure, guaranteed 99.99% uptime, feature-rich
                 WordPress hosting solution. Over 60 million people choose
                 WordPress to power their websites and blogs. Born out of a
                 desire for an elegant personal publishing system built on PHP
                 and MySQL, its potential has evolved to a full content
-                management system.{" "}
+                management system.
               </p>
-              <a
-                href="https://emyui.pdthemes.de/wordpress-hosting/"
-                className="btn btn-green coodiv-text-9 font-weight-light rounded-20"
+              <Link
+                to=""
+                className="btn get_stardetWindowBtn coodiv-text-9 rounded-20"
               >
                 Get started
-              </a>
+              </Link>
             </div>
             <img
               decoding="async"
