@@ -2814,20 +2814,8 @@ a.headerphone-number {
 }
 .safari-browser-mockup .ddos-attack-mockup {
   position: absolute;
-  background-image: linear-gradient(
-    225deg,
-    #26203c 0,
-    #231e36 39%,
-    #676083 100%
-  );
-  background-image: linear-gradient(
-    225deg,
-    #26203c 0,
-    #231e36 39%,
-    #676083 100%
-  );
-  background-size: 400% 400%;
-  animation: gradient-animation 20s ease infinite;
+  background: rgb(11,78,120);
+  background: linear-gradient(180deg, rgba(11,78,120,1) 31%, rgba(9,62,95,1) 71%);
   top: 55px;
   bottom: 75px;
   left: 1px;
@@ -3203,6 +3191,45 @@ a.headerphone-number {
     right: -216px;
     z-index: 1;
     opacity: 0.3;
+}
+.safari-browser-mockup{
+  overflow: hidden;
+}
+.topLeftIco{
+  background: url(../image/migrationWindow-left.png);
+  background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1270px;
+    height: 100%;
+    position: absolute;
+    left: -47%;
+    top: -5%;
+    z-index: 1;
+}
+.topRightIco{
+  background: url(../image/migrationWindow-right-top.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -48%;
+  top: -10%;
+  z-index: 1;
+}
+.btnRightIco{
+  background: url(../image/migrationWindow-right-btm.png);
+  background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -48%;
+    top: 5%;
+    z-index: 1;
 }
 .smalText{
   font-size: 18px;
@@ -5721,6 +5748,7 @@ ul.footer-list li:hover a.footer-list-link {
 
 .main-menu .nav-item .nav-link:hover {
   opacity: 1;
+  font-weight: 700;
 }
 @media (min-width: 992px) {
   .main-menu > li > .nav-link {

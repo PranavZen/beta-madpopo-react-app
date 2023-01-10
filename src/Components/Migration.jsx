@@ -5,7 +5,11 @@ function Migration() {
   return (
     <section className="ddos-attack-section pt-25 pb-12">
       <div className="container">
+     
         <div className="safari-browser-mockup position-relative">
+        <div className="topLeftIco"></div>
+        <div className="topRightIco"></div>
+        <div className="btnRightIco"></div>
           <img
             decoding="async"
             className="w-100"
