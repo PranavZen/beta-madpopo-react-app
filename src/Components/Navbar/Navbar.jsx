@@ -108,7 +108,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10"
                           >
-                            <div
+                            <Link to="/WordpressHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -130,11 +130,11 @@ function Navbar() {
                                   Show your visitors you take security seriously.
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
                           <div
                             className="col-md-6 col-lg-3 mb-10">
-                            <div
+                            <Link to="/WoocommerceHosting"
                               className="feature-widget d-sm-flex">
                               <div
                                 className="widget-icon text-blue mr-0 mr-lg-6 mb-7 mb-md-0">
@@ -157,13 +157,13 @@ function Navbar() {
                                   Claim your name and get yourself online.
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
                           <div
                             className="col-md-6
                                                             col-lg-3 mb-10"
                           >
-                            <div
+                            <Link to="/LinuxWebHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -193,13 +193,13 @@ function Navbar() {
                                   Bring in all the traffic you want, we got ya.
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
                           <div
                             className="col-md-6
                                                             col-lg-3 mb-10"
                           >
-                            <div
+                            <Link to="/WindowsWebHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -229,13 +229,13 @@ function Navbar() {
                                   Bring in all the traffic you want, we got ya.
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
                           <div
                             className="col-md-6
                                                             col-lg-3 mb-10"
                           >
-                            <div
+                            <Link to="/VirtualDedicatedServer"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -265,13 +265,13 @@ function Navbar() {
                                   Bring in all the traffic you want, we got ya.
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
                           <div
                             className="col-md-6
                                                             col-lg-3 mb-10"
                           >
-                            <div
+                            <Link to="/DedicatedServer"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -301,13 +301,13 @@ function Navbar() {
                                   Bring in all the traffic you want, we got ya.
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
                           <div
                             className="col-md-6
                                                             col-lg-3 mb-10"
                           >
-                            <div
+                            <Link to="/CloudHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -337,13 +337,13 @@ function Navbar() {
                                   Bring in all the traffic you want, we got ya.
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
                           <div
                             className="col-md-6
                                                             col-lg-3 mb-10"
                           >
-                            <div
+                            <Link to="/ResellerHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -373,7 +373,7 @@ function Navbar() {
                                   Bring in all the traffic you want, we got ya.
                                 </p>
                               </div>
-                            </div>
+                            </Link>
                           </div>
 
                           <Link
@@ -851,7 +851,7 @@ function Navbar() {
                     dropdown-menu d-flex flex-wrap abtMenu"
                     aria-labelledby="navbarDropdownHelp"
                   >
-                    <h1 className="coodiv-text-6 title color-blackish-blue text-lg-left text-center w-100 d-block mb-8 dropdownMenuTitle">
+                    <h1 className="coodiv-text-6 title color-blackish-blue text-lg-left text-center w-100 d-block mb-12 dropdownMenuTitle">
                       <span className="mainTitleDrop">About us</span>
                       <span
                         className="d-block about-our-storymt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop">

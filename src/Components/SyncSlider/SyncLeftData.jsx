@@ -19,14 +19,14 @@ const LeftData =[
             id : 13,
             buttonTitle : '#1 Managed WordPress hosting',
             buttonData1 : 'No more waiting for days after ordering, we provision orders throughout the day and night',
-            buttonIcon : <i className="fa fa-wordpress-simple"></i>,
+            buttonIcon : <i className="fa fa-wordpress"></i>,
             buttonNumber : '3',
         },
         {  
             id : 14,
             buttonTitle : 'Dedicated AMD EPYC CPU servers',
             buttonData1 : 'No more waiting for days after ordering, we provision orders throughout the day and night',
-            buttonIcon : <i className="fa fa-wordpress-simple"></i>,
+            buttonIcon : <i className="feather icon-server"></i>,
             buttonNumber : '4',
         },
 
