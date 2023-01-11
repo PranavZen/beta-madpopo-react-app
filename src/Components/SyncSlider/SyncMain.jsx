@@ -19,7 +19,7 @@ function SyncMain(props) {
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
-        autoplay:false,
+        autoplay:true,
         autoplaySpeed:3500,
         arrows:true,
         afterChange: (index) => {

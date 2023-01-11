@@ -5,37 +5,34 @@ function SyncRightBox(props) {
     
   return (
     
-                                <div className="pricing-box-one plan-with-montains eee" style={{background: props.bgColor}}>
+                                <div className="pricing-box-one plan-with-montains slidePriceCardPosition" style={{background: props.bgColor}}>
                                    
-                                    <div className="price-content">
+                                    <div className="price-content ">
                                         <span className="small-title-header-span">
                                            {props.planTitle}
                                             <span className="plan-badge">{props.planOffer}</span>
                                         </span>
                                         <div className="d-flex align-items-end
-                                            mt-11">
+                                            mt-11 currencyData">
                                             <span className="currency mr-2
-                                                coodiv-text-6 font-weight-light
+                                                coodiv-text-6 changeCurrencyColor
                                                 line-spacing-none
                                                 text-blackish-blue">{props.planCurrency}</span>
                                             <h2 className="price-value coodiv-text-2
-                                                font-weight-bold
+                                                mainCurrencyPrice
                                                 line-spacing-none mb-0
                                                 dynamic-value
                                                 text-blackish-blue"
                                                 >
                                                 {props.planPiceF}
                                                 <span className="coodiv-text-8
-                                                    font-weight-light">{props.planPicePaisa}</span>
+                                                    subCurrencyPrice">{props.planPicePaisa}</span>
                                             </h2>
                                         </div>
                                         <span className="price-bottom-text
                                             dynamic-value coodiv-text-11 mt-2
-                                            text-blackish-blue coodiv-opacity-7
-                                            d-inline-flex" data-active="billed
-                                            yearly" data-monthly="billed
-                                            monthly" data-yearly="billed
-                                            yearly"></span>
+                                            text-blackish-blue
+                                            d-inline-flex priceYear">billed yearly</span>
                                         <ul className="card-list list-style-check
                                             pl-0 mt-5 mt-lg-11">
                                             <li className="coodiv-text-10 mb-2">{props.planIcon} {props.planList1}</li>
