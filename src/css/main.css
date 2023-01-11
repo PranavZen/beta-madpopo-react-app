@@ -3182,6 +3182,14 @@ a.headerphone-number {
   min-width: 110px;
   font-weight: 700;
 }
+.menusHover a{
+  padding: 10px;
+}
+.menusHover a:hover{
+  box-shadow: 0 0 7px -1px #ccc;
+  border-radius: 6px;
+  transition: all .20s ease-in;
+}
 .bgPositions{
   position: relative; 
   width: 100%;

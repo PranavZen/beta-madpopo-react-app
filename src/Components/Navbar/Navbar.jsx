@@ -106,7 +106,7 @@ function Navbar() {
                         >
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10"
+                                                            col-lg-3 mb-10 menusHover"
                           >
                             <Link to="/WordpressHosting"
                               className="feature-widget
@@ -133,7 +133,7 @@ function Navbar() {
                             </Link>
                           </div>
                           <div
-                            className="col-md-6 col-lg-3 mb-10">
+                            className="col-md-6 col-lg-3 mb-10 menusHover">
                             <Link to="/WoocommerceHosting"
                               className="feature-widget d-sm-flex">
                               <div
@@ -161,7 +161,7 @@ function Navbar() {
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10"
+                                                            col-lg-3 mb-10 menusHover"
                           >
                             <Link to="/LinuxWebHosting"
                               className="feature-widget
@@ -197,7 +197,7 @@ function Navbar() {
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10"
+                                                            col-lg-3 mb-10 menusHover"
                           >
                             <Link to="/WindowsWebHosting"
                               className="feature-widget
@@ -233,7 +233,7 @@ function Navbar() {
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10"
+                                                            col-lg-3 mb-10 menusHover"
                           >
                             <Link to="/VirtualDedicatedServer"
                               className="feature-widget
@@ -269,7 +269,7 @@ function Navbar() {
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10"
+                                                            col-lg-3 mb-10 menusHover"
                           >
                             <Link to="/DedicatedServer"
                               className="feature-widget
@@ -305,7 +305,7 @@ function Navbar() {
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10"
+                                                            col-lg-3 mb-10 menusHover"
                           >
                             <Link to="/CloudHosting"
                               className="feature-widget
@@ -341,7 +341,7 @@ function Navbar() {
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10"
+                                                            col-lg-3 mb-10 menusHover"
                           >
                             <Link to="/ResellerHosting"
                               className="feature-widget
