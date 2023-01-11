@@ -9,11 +9,16 @@ const RightData = [
         planIcon : <i className="feather icon-check"></i>,
         planList1 : 'Commercial License',
         planList2 : '00+ HTML UI Elements',
-        planList3 : 'Unlimited Domain Support',
+        planList3 : 'Unlimited Domain Support', 
         planList4 : '6 months premium support',
-        planList5 : 'Lifetime updates',    
+        planList15 : 'Lifetime updates',
+        bgColor: "linear-gradient(150deg, rgba(9,187,254,1) 36%, rgba(85,74,237,1) 70%)",
+        smallTitleColor: "#fff",
+        planbadgeBgColor: "#ecebfd",
+        planbadgeTextColor: "#000",
      },
      {  
+        
          id : 22,
          planTitle : ' Starter plan',
         planPiceF : '20',
@@ -26,7 +31,7 @@ const RightData = [
         planList3 : 'Unlimited Domain Support',
         planList4 : '6 months premium support',
         planList5 : 'Lifetime updates',
-         
+        bgColor: "linear-gradient(150deg, rgba(9,187,254,1) 36%, rgba(74,201,237,1) 70%)"
      },
      {  
          id : 23,
@@ -41,6 +46,7 @@ const RightData = [
          planList3 : 'Unlimited Domain Support',
          planList4 : '6 months premium support',
          planList5 : 'Lifetime updates',
+         bgColor: "linear-gradient(150deg, rgba(9,187,254,1) 36%, rgba(74,237,180,1) 70%)"
      },
      {  
          id : 24,
@@ -55,6 +61,7 @@ const RightData = [
          planList3 : 'Unlimited Domain Support',
          planList4 : '6 months premium support',
          planList5 : 'Lifetime updates',
+         bgColor: "linear-gradient(150deg, rgba(9,187,254,1) 36%, rgba(237,213,74,1) 70%)"
      },
 ]
 

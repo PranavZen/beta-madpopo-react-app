@@ -1271,6 +1271,10 @@ button:focus {
 .openToogle .card-body.faqCard p{ 
   font-size: 14px;
   text-align: justify;
+  font-weight: 600;
+}
+.btn_circleBg{
+  background: #ff912c;
 }
 /*---------------- ul list stylesheets -----------------*/
 .list-bill-plan {
@@ -3602,25 +3606,20 @@ div.slick-active.slick-current .main-features-box {
 }
 .plan-with-montains {
   overflow: hidden;
+  height: 580px;
+  position: relative;
 }
-.plan-with-montains:after {
-  content: "";
-  background: url(../image/header/mount/mount-2.png) no-repeat;
-  position: absolute;
-  right: -20px;
-  bottom: -40px;
-  overflow: hidden;
-  width: 360px;
-  height: 240px;
-  z-index: -1;
-  background-size: contain;
-}
+
 .btn-special-home-plan {
   color: #fff;
   background-color: #ff5722;
   border-color: #ff5722;
   display: block;
   outline: 0 !important;
+  position: absolute;
+    width: 90%;
+    left: 5%;
+    bottom: 10%;
 }
 .btn-special-home-plan:hover {
   color: #fff;

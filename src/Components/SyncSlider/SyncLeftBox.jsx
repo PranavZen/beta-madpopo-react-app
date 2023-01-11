@@ -18,7 +18,7 @@ function SyncLeftBox(props) {
         <span className="main-features-box-number">{props.buttonNumber}</span>
         <div
           className="media-icon circle-sm
-                        bg-blue mr-8"
+                        btn_circleBg mr-8"
         >
           <span
             className="text-white

@@ -4,7 +4,7 @@ import { migration } from "../Components/index";
 
 function Migration() {
   return (
-    <section className="ddos-attack-section pt-25 pb-12">
+    <section className="ddos-attack-section pt-12 pb-12">
       <div className="container">
      
         <div className="safari-browser-mockup position-relative">

@@ -6,17 +6,12 @@ import RightData from "./SyncRightData";
 import LeftData from "./SyncLeftData";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-// function nButtons(val) {
-//     return true;
-// }
-// function nSlides(val) {
-//   // console.log(val)
-//   return true;
-// }
- 
+
 function SyncMain(props) {
+  
     const [nav1, setNav1] = useState();
     const [nav2, setNav2] = useState();
+    
     var settings = {
         dots: true,
         infinite: true,
@@ -24,9 +19,31 @@ function SyncMain(props) {
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
-        autoplay:true,
-  autoplaySpeed:3500,
-  arrows:true,
+        autoplay:false,
+        autoplaySpeed:3500,
+        arrows:true,
+        afterChange: (index) => {
+    switch (index) {
+        case 0: 
+            
+            console.log(index)
+            break;
+        case 1:
+          
+          console.log(index)
+            break;
+            case 2:
+          
+          console.log(index)
+            break;
+            case 3:
+          
+          console.log(index)
+            break;
+        
+        default:
+    }
+},
         responsive: [
           {
             breakpoint: 1024,
@@ -57,7 +74,7 @@ function SyncMain(props) {
   return (
     
     <div
-      className="sevrices-plans  pb-7 pt-lg-10 pb-lg-15 bg-default-6
+      className="sevrices-plans pt-15 pb-20 bg-default-6
     fancy-animation-block-two position-relative "
     >
       <div className="container">
@@ -117,6 +134,7 @@ function SyncMain(props) {
                         planList2={val.planList2}
                         planList3={val.planList3}
                         planList4={val.planList4}
+                        bgColor={val.bgColor}
                       />
                       );
                 })
