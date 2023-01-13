@@ -22,28 +22,7 @@ function SyncMain(props) {
         autoplay:true,
         autoplaySpeed:3500,
         arrows:true,
-        afterChange: (index) => {
-    switch (index) {
-        case 0: 
-            
-            console.log(index)
-            break;
-        case 1:
-          
-          console.log(index)
-            break;
-            case 2:
-          
-          console.log(index)
-            break;
-            case 3:
-          
-          console.log(index)
-            break;
-        
-        default:
-    }
-},
+       
         responsive: [
           {
             breakpoint: 1024,

@@ -2434,6 +2434,12 @@ a.headerphone-number {
   width: 100%;
   height: 100%;
 }
+.pcImageWrap .roatateSVG{
+  background: transparent;
+  position: absolute;
+  left: -130px;
+  pointer-events: none;
+}
 .hero-area-coodiv {
   /* background-image: linear-gradient(
     225deg,

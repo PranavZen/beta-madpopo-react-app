@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-import { pcImage } from "../Components/index";
+import { pcImage, pcImage3, pcSVG } from "../Components/index";
 
 function TypedComponent() {
   const el = useRef(null);
@@ -59,6 +59,9 @@ function TypedComponent() {
           </div>
           <div className="col-md-4 col-lg-6 col-xl-4">
               <div className="pcImageWrap">
+               { 
+                // <img className="roatateSVG" src={pcSVG} alt="" />
+              }
                 <img src={pcImage} alt="" />
               </div>
           </div>
