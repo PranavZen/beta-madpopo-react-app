@@ -7,8 +7,8 @@ function Pricecard(props) {
     <div className='container coodiv-z-index-1 position-relative firstSliderPadding'>
                    <div className="row align-items-center justify-content-center ddosPriceCardRow">
                 {
-                    mainDataPricing.map( ( { id,cardTitle, cardPrice1, cardOffer, cardCapacity, cardSSHAccess, cardDDOS, cardPrice2, cardPrice3} ) => (
-                        <PriceCardBox key={id} id={id} cardTitle={cardTitle} cardPrice1={cardPrice1} cardPrice2={cardPrice2} cardPrice3={cardPrice3} cardOffer={cardOffer} cardCapacity={cardCapacity} cardSSHAccess={cardSSHAccess} cardDDOS={cardDDOS}/>
+                    mainDataPricing.map( ( { id,label,cardTitle, cardPrice1, cardOffer, cardCapacity, cardSSHAccess, cardDDOS, cardPrice2, cardPrice3} ) => (
+                        <PriceCardBox key={id} id={id} label={label} cardTitle={cardTitle} cardPrice1={cardPrice1} cardPrice2={cardPrice2} cardPrice3={cardPrice3} cardOffer={cardOffer} cardCapacity={cardCapacity} cardSSHAccess={cardSSHAccess} cardDDOS={cardDDOS}/>
                     ))
                 } 
                    </div>

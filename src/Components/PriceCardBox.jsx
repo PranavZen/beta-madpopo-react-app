@@ -3,7 +3,7 @@ import pricingSEctionData from "./PriceCard/PricingCardData";
 
 function PriceCardBox(props) {
   const pricingValues = pricingSEctionData.pricingValues;
-  console.log(pricingValues);
+  // console.log(pricingValues);
   const options = [
     { label: "1 year", value: 1 },
 
@@ -11,32 +11,45 @@ function PriceCardBox(props) {
 
     { label: "3 years", value: 3 },
   ];
-  const [value, setValue] = useState("$159.99");
-  const handleChange = (event,param1) => {
-    setValue(pricingValues[event.target.value][0]['cardPrice'+param1]);
-    
-    console.log("Years "+ event.target.value);
-    console.log(pricingValues[event.target.value][0]['cardPrice'+param1])
+  const [value, setValue] = useState("");
+  const handleChange = (event, param1) => {
+    setValue(pricingValues[event.target.value][0]["cardPrice" + param1]);
+
+    console.log("Years " + event.target.value);
+    console.log(pricingValues[event.target.value][0]["cardPrice" + param1]);
+    // console.log(options[0].label);
+   
     console.log("card no : " + param1);
   };
   return (
     <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
       <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
         <div className="toggleWrap d-flex">
-          <h2 className="priceCardTitle mb-0" >{props.cardTitle} {props.id}</h2>
+          <h2 className="priceCardTitle mb-0">
+            {props.cardTitle} {props.id}
+          </h2>
         </div>
         <span className="fromText">from</span>
         <div className="selectDaysWrap">
           <form>
-            <select className="selectDay" value={value} onChange={event => handleChange(event, props.id)}>
-              {options.map((option,label) => (
-                <option value={option.value} key={label}>{option.label}</option>
+            <select
+              className="selectDay"
+              value={options.value}
+              options={options}
+              onChange={(event) => handleChange(event, props.id)}
+              
+            >
+              {options.map((option, id) => (
+                <option value={option.value} key={id} >
+                  {option.label}
+                </option>
               ))}
             </select>
+            
           </form>
         </div>
         <div className="ddos-attack-price d-flex justify-content-between align-items-center mt-7 py-4">
-          <h2 className="priceCardPriceAmt"> {value} </h2>
+          <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}  </h2>
           <span>{props.cardOffer}</span>
         </div>
         <ul className="ddos-first-features border-top">

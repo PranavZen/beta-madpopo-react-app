@@ -32,7 +32,8 @@ const pricingSEctionData = {
     1: [
       {
         id: 11,
-        cardPrice1: "$11",
+         label: "1 Year",
+         cardPrice1: "$11",
          cardPrice2: "$12",
          cardPrice3: "$13",
       },
@@ -52,6 +53,7 @@ const pricingSEctionData = {
     2: [
       {
         id: 2,
+        label: "2 Years",
         cardPrice1: "$21",
         cardPrice2: "$22",
         cardPrice3: "$23",
@@ -71,7 +73,7 @@ const pricingSEctionData = {
     ],
     3: [
       {
-       
+        label: "3 Years",
         cardPrice1: "$31",
         cardPrice2: "$32",
         cardPrice3: "$33",
