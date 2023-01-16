@@ -2452,6 +2452,7 @@ a.headerphone-number {
   color: #fff;
   text-align: center;
   font-weight: 700;
+  font-size: 38px;
 }
 .wpBestChoiceWrap .wpBest_choiceRow{
   display: flex;
@@ -2480,6 +2481,53 @@ a.headerphone-number {
 .wp_choice_rightBox .wp_choiceImgWrap img{
    width: 100%;
   height: auto;
+}
+.wp_features .wp_featuersWrapper{
+  padding: 85px 0;
+}
+.wp_features .wp_featuersWrapper .wpSectionTitle h2{
+  color: #252526;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;   
+  padding-bottom: 60px;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox{
+   text-align: center;
+   margin-bottom: 50px;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .col-md-4:nth-child(4) .wp_featuresInnerBox{
+  margin-bottom: 0;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .col-md-4:nth-child(5) .wp_featuresInnerBox{
+  margin-bottom: 0;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .col-md-4:nth-child(6) .wp_featuresInnerBox{
+  margin-bottom: 0;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox .wp_fetureImageWrap{
+  margin-bottom: 20px;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox .wp_fetureImageWrap img{
+  width: auto;
+  height: auto;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #252526;
+  margin-bottom: 10px;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox p{
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2){
   margin-top: -55px;

@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
+import WordpressHostingFeatures from "../../Components/WordpressHostingPageComponent/WordpressHostingFeatures";
 import WordpressHostingPriceCard from "../../Components/WordpressHostingPageComponent/WordpressHostingPriceCard";
 import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
 
@@ -17,6 +18,9 @@ function WordpressHosting() {
         <WordpressHostingPriceCard />
       </div>
       <WpBestChoice/>
+      <div class="wp_features">
+        <WordpressHostingFeatures/>
+      </div>
       <Footer />
     </div>
   );
