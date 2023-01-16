@@ -26,7 +26,7 @@ function PriceCardBox(props) {
       <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
         <div className="toggleWrap d-flex">
           <h2 className="priceCardTitle mb-0">
-            {props.cardTitle} {props.id}
+            {props.cardTitle}
           </h2>
         </div>
         <span className="fromText">from</span>

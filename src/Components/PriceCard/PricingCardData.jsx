@@ -3,11 +3,11 @@ const pricingSEctionData = {
     {
       id: 1,
       cardTitle: "Windows Hosting",
-
       cardOffer: "offer - 30%",
       cardCapacity: "5TB",
       cardSSHAccess: "Unlimited",
       cardDDOS: "Unlimited",
+      wordpressHostingTitle: "POPO - L"
     },
     {
       id: 2,
@@ -17,6 +17,7 @@ const pricingSEctionData = {
       cardCapacity: "5TB",
       cardSSHAccess: "Unlimited",
       cardDDOS: "Unlimited",
+      wordpressHostingTitle: "POPO - XL"
     },
     {
       id: 3,
@@ -26,6 +27,7 @@ const pricingSEctionData = {
       cardCapacity: "5TB",
       cardSSHAccess: "Unlimited",
       cardDDOS: "Unlimited",
+      wordpressHostingTitle: "POPO - XXL"
     },
   ],
   pricingValues: {

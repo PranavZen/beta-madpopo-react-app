@@ -19,3 +19,5 @@ export { default as pcImage2 } from '../../src/image/header-pc2.png';
 export { default as pcImage3 } from '../../src/image/Computer_Table.png';
 export { default as pcSVG } from '../../src/image/Banner_Support_3-01.svg';
 export { default as migration } from '../../src/image/migrationMeeting.png';
+export { default as wpHostRightImg } from '../../src/image/wp_hositing_rightImg.webp';
+export { default as wpHostLefttImg } from '../../src/image/wp_hositing_leftImg.webp';
