@@ -108,7 +108,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="./WordpressHosting"
+                            <Link to="/WordpressHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >

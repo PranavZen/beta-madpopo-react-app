@@ -963,6 +963,23 @@ body {
   font-size: 14px;
   
 }
+.wp_hostingBgImg .dark-mode-texts .navbar #mobile-menu .navbar-nav-wrapper #header-navbar-links .nav-item a{
+  color: #fff !important;
+}
+.wp_hostingBgImg .dark-mode-texts .topBarStrip .topInner .numSpan{
+  color: #fff;
+}
+.wp_hostingBgImg .dark-mode-texts .topBarStrip .topInner .inrSelectWrap .inrSelectBox .selectCountry .ReactFlagsSelect-module_flagsSelect__2pfa2 #rfs-btn .ReactFlagsSelect-module_selectValue__152eS .ReactFlagsSelect-module_secondaryLabel__37t1D{
+  color: #fff !important;
+} 
+.wp_hostingBgImg .dark-mode-texts .topBarStrip .topInner .inrSelectWrap .inrSelectBox .selectCountry .ReactFlagsSelect-module_flagsSelect__2pfa2 .ReactFlagsSelect-module_selectBtn__19wW7:after{
+  border-top: 5px solid #ffffff !important;
+  
+}
+.wp_hostingBgImg .dark-mode-texts .topBarStrip .topInner .inrSelectWrap .inrSelectBox .selectCountry .ReactFlagsSelect-module_flagsSelect__2pfa2 .ReactFlagsSelect-module_selectBtn__19wW7[aria-expanded="true"]:after {
+border-bottom: 5px solid #fff !important;
+border-top: 0 !important;
+}
 .dark-mode-texts .topBarStrip .topInner .numSpan{
 color: #fff;
 }
@@ -5765,10 +5782,10 @@ ul.footer-list li:hover a.footer-list-link {
   color: #414f7b;
 }
 .footer-section.light-mode-texts .brand-logo .dark-version-logo {
-  display: none;
+  display: block;
 }
 .footer-section.dark-mode-texts .brand-logo .light-version-logo {
-  display: none;
+  display: block;
 }
 .white-text-btn {
   color: #fff !important;
