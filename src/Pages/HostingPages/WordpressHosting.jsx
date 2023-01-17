@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
+import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";
 import WordpressHostingFeatures from "../../Components/WordpressHostingPageComponent/WordpressHostingFeatures";
 import WordpressHostingPriceCard from "../../Components/WordpressHostingPageComponent/WordpressHostingPriceCard";
 import WordpressPlansListing from "../../Components/WordpressHostingPageComponent/WordpressPlansListing";
@@ -29,8 +30,8 @@ function WordpressHosting() {
       <div className="trusedPlanSection">
       <TrustedClientsSlide/>
       </div>
-      <div className="h-100">
-      <h1>kjdckjdb</h1>
+      <div className="wp_hostingFaqSection">
+        <WordpressHostingFAQ/>
       </div>
       <Footer />
     </div>

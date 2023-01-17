@@ -1,0 +1,31 @@
+import React from "react";
+import wpFaqData from "../WordpressHostingPageComponent/WpFaqData";
+
+function WordpressHostingFAQ() {
+  return (
+    <div className="container">
+      <div className="wp_faqSectionTitle">
+        <h5>Frequently Asked Questions</h5>
+      </div>
+      <div className="wp_faqRow">
+
+      {
+        wpFaqData.map((faqItems)=>{
+        return(
+            <div className="wp_faq_Box" key={faqItems.id}>
+            <h6>{faqItems.faqQue}</h6>
+            <p>
+            {faqItems.faqAns}
+            </p>
+          </div>
+        )
+      })
+    }
+
+        
+      </div>
+    </div>
+  );
+}
+
+export default WordpressHostingFAQ;

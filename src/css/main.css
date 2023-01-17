@@ -1003,13 +1003,18 @@ border-top: 0 !important;
   font-family: FontAwesome;
   content: "\f060";
   font-size: 26px;
-  color: #020b14;
+  color: #673ee1;
+  opacity: 1;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-next::before{
   font-family: FontAwesome;
     content:  "\f061";
     font-size: 26px; 
-     color: #020b14;
+     color: #673ee1;
+     opacity: 1;
+}
+.trusedPlanSection .clientSlideRow .clientSlickSlider .slick-prev.slick-disabled:before, .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-next.slick-disabled:before{
+  opacity: .75;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-next{
   display: block;
@@ -1063,6 +1068,37 @@ border-top: 0 !important;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap .clientTestimonial p{
   text-align: justify;
+}
+.wp_hostingFaqSection{
+  padding: 80px 0;
+}
+.wp_hostingFaqSection .wp_faqSectionTitle h5{
+  color: #252526;
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    padding-bottom: 60px;
+}
+.wp_hostingFaqSection .wp_faqRow .wp_faq_Box{
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #2525262e;
+}
+.wp_hostingFaqSection .wp_faqRow .wp_faq_Box:last-child{
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.wp_hostingFaqSection .wp_faqRow .wp_faq_Box h6{
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.wp_hostingFaqSection .wp_faqRow .wp_faq_Box p{
+  font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #252526;
 }
 .dark-mode-texts .topBarStrip .topInner .numSpan{
 color: #fff;
@@ -2486,7 +2522,7 @@ a.headerphone-number {
 }
 .wp_img_overlayContent{
   position: absolute;
-    top: 7%;
+    top: 4.5%;
     margin-bottom: 30px;
     left: 50%;
     transform: translate(-50%, -50%);
