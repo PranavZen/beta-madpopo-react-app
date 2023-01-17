@@ -108,7 +108,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to={process.env.PUBLIC_URL + '/WordpressHosting'}
+                            <Link to="/beta-madpopo-react-app/WordpressHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -134,7 +134,7 @@ function Navbar() {
                           </div>
                           <div
                             className="col-md-6 col-lg-3 mb-10 menusHover">
-                            <Link to={process.env.PUBLIC_URL + '/WoocommerceHosting'}
+                            <Link to="/beta-madpopo-react-app/WoocommerceHosting"
                               className="feature-widget d-sm-flex">
                               <div
                                 className="widget-icon text-blue mr-0 mr-lg-6 mb-7 mb-md-0">
@@ -163,7 +163,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to={process.env.PUBLIC_URL + '/LinuxWebHosting'}
+                            <Link to="/beta-madpopo-react-app/LinuxWebHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -199,7 +199,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to={process.env.PUBLIC_URL + '/WindowsWebHosting'}
+                            <Link to="/beta-madpopo-react-app/WindowsWebHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -235,7 +235,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to={process.env.PUBLIC_URL + '/VirtualDedicatedServer'}
+                            <Link to="/beta-madpopo-react-app/VirtualDedicatedServer"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -271,7 +271,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to={process.env.PUBLIC_URL + '/DedicatedServer'}
+                            <Link to="/beta-madpopo-react-app/DedicatedServer"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -307,7 +307,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to={process.env.PUBLIC_URL + '/CloudHosting'}
+                            <Link to="/beta-madpopo-react-app/CloudHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -343,7 +343,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to={process.env.PUBLIC_URL + '/ResellerHosting'}
+                            <Link to="/beta-madpopo-react-app/ResellerHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
