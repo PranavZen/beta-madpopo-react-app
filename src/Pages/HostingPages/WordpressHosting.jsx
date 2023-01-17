@@ -29,6 +29,9 @@ function WordpressHosting() {
       <div className="trusedPlanSection">
       <TrustedClientsSlide/>
       </div>
+      <div className="h-100">
+      <h1>kjdckjdb</h1>
+      </div>
       <Footer />
     </div>
   );

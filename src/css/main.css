@@ -990,14 +990,45 @@ border-top: 0 !important;
   font-size: 38px;
   padding-bottom: 60px;
 }
+.trusedPlanSection .clientSlideRow .clientSlickSlider .slick-prev{
+  top: 95%;
+  display: block;
+  left: 46%;
+  width: 40px;
+  height: 40px;
+  bottom: 0;
+  z-index: 9;
+}
+.trusedPlanSection .clientSlideRow .clientSlickSlider .slick-prev::before{
+  font-family: FontAwesome;
+  content: "\f060";
+  font-size: 26px;
+  color: #020b14;
+}
+.trusedPlanSection .clientSlideRow .clientSlickSlider .slick-next::before{
+  font-family: FontAwesome;
+    content:  "\f061";
+    font-size: 26px; 
+     color: #020b14;
+}
+.trusedPlanSection .clientSlideRow .clientSlickSlider .slick-next{
+  display: block;
+  top: 95%;
+  right: 46%;
+  width: 40px;
+  height: 40px;
+  z-index: 9;
+}
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list{
   margin: 0 -10px 0 -10px;
+  height: 100% !important;
+  padding-bottom: 85px;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide{
   padding: 20px 30px 0px;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap{
-  height: auto;
+  height: 520px;
     border-radius: 16px;
     box-shadow: 0 1rem 2rem rgb(0 0 0 / 10%);
     padding: 40px;
