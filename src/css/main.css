@@ -2544,7 +2544,7 @@ a.headerphone-number {
   flex-wrap: wrap;
 }
 .wp_plansListing .wp_plans_listSection .wp_plansRow .palnsWrapbox{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   display: flex;
   gap: 20px;
   justify-content: flex-start;

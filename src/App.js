@@ -19,14 +19,14 @@ function App() {
     <Router>
       <Routes> 
         <Route path={process.env.PUBLIC_URL + '/'} element={<Home />}/>
-        <Route path="/WordpressHosting" element={<WordpressHosting />}/>
-        <Route path="/WoocommerceHosting" element={<WoocommerceHosting />}/>
-        <Route path="/LinuxWebHosting" element={<LinuxWebHosting />}/>
-        <Route path="/WindowsWebHosting" element={<WindowsWebHosting />}/>
-        <Route path="/VirtualDedicatedServer" element={<VirtualDedicatedServer />}/>
-        <Route path="/DedicatedServer" element={<DedicatedServer />}/>
-        <Route path="/CloudHosting" element={<CloudHosting />}/>
-        <Route path="/ResellerHosting" element={<ResellerHosting />}/>
+        <Route path="beta-madpopo-react-app/WordpressHosting" element={<WordpressHosting />}/>
+        <Route path="beta-madpopo-react-app/WoocommerceHosting" element={<WoocommerceHosting />}/>
+        <Route path="beta-madpopo-react-app/LinuxWebHosting" element={<LinuxWebHosting />}/>
+        <Route path="beta-madpopo-react-app/WindowsWebHosting" element={<WindowsWebHosting />}/>
+        <Route path="beta-madpopo-react-app/VirtualDedicatedServer" element={<VirtualDedicatedServer />}/>
+        <Route path="beta-madpopo-react-app/DedicatedServer" element={<DedicatedServer />}/>
+        <Route path="beta-madpopo-react-app/CloudHosting" element={<CloudHosting />}/>
+        <Route path="beta-madpopo-react-app/ResellerHosting" element={<ResellerHosting />}/>
       </Routes>
     </Router>
   );
