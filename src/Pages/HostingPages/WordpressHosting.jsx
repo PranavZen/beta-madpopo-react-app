@@ -3,6 +3,7 @@ import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import WordpressHostingFeatures from "../../Components/WordpressHostingPageComponent/WordpressHostingFeatures";
 import WordpressHostingPriceCard from "../../Components/WordpressHostingPageComponent/WordpressHostingPriceCard";
+import WordpressPlansListing from "../../Components/WordpressHostingPageComponent/WordpressPlansListing";
 import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
 
 function WordpressHosting() {
@@ -17,11 +18,12 @@ function WordpressHosting() {
       <div className="wp_pricingBox">
         <WordpressHostingPriceCard />
       </div>
-      <WpBestChoice/>
-      <div class="wp_features">
-        <WordpressHostingFeatures/>
+      <WpBestChoice />
+      <div className="wp_features">
+        <WordpressHostingFeatures />
       </div>
       <div className="wp_plansListing">
+        <WordpressPlansListing />
       </div>
       <Footer />
     </div>

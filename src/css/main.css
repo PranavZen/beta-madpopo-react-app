@@ -2529,6 +2529,50 @@ a.headerphone-number {
   text-align: center;
   font-weight: 400;
 }
+.wp_plansListing .wp_plans_listSection{
+  padding-bottom: 70px;
+}
+.wp_plansListing .wp_plans_listSection .wp_plansSectionTitle h2{
+  color: #252526;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  padding-bottom: 60px;
+}
+.wp_plansListing .wp_plans_listSection .wp_plansRow{
+  display: flex;
+  flex-wrap: wrap;
+}
+.wp_plansListing .wp_plans_listSection .wp_plansRow .palnsWrapbox{
+  margin-bottom: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wp_plansListing .wp_plans_listSection .wp_plansRow .palnsWrapbox .icon_box{
+  background: #f1f1f1;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.wp_plansListing .wp_plans_listSection .wp_plansRow .palnsWrapbox .icon_box span{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wp_plansListing .wp_plans_listSection .wp_plansRow .palnsWrapbox .icon_box span i{
+  font-size: 24px;
+  color: #673ee1;
+}
+.wp_plansListing .wp_plans_listSection .wp_plansRow .palnsWrapbox .plans_listName h5{
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
 .ddosPriceCardRow .priceCardWrap:nth-child(2){
   margin-top: -55px;
   position: relative;
