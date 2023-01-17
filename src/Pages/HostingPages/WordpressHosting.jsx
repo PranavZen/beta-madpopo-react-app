@@ -21,6 +21,8 @@ function WordpressHosting() {
       <div class="wp_features">
         <WordpressHostingFeatures/>
       </div>
+      <div className="wp_plansListing">
+      </div>
       <Footer />
     </div>
   );

@@ -19,14 +19,14 @@ function App() {
     <Router>
       <Routes> 
         <Route path={process.env.PUBLIC_URL + '/'} element={<Home />}/>
-        <Route path="/WordpressHosting" element={<WordpressHosting />}/>
-        <Route path="/WoocommerceHosting" element={<WoocommerceHosting />}/>
-        <Route path="/LinuxWebHosting" element={<LinuxWebHosting />}/>
-        <Route path="/WindowsWebHosting" element={<WindowsWebHosting />}/>
-        <Route path="/VirtualDedicatedServer" element={<VirtualDedicatedServer />}/>
-        <Route path="/DedicatedServer" element={<DedicatedServer />}/>
-        <Route path="/CloudHosting" element={<CloudHosting />}/>
-        <Route path="/ResellerHosting" element={<ResellerHosting />}/>
+        <Route path={process.env.PUBLIC_URL + '/WordpressHosting'} element={<WordpressHosting />}/>
+        <Route path={process.env.PUBLIC_URL + '/WoocommerceHosting'} element={<WoocommerceHosting />}/>
+        <Route path={process.env.PUBLIC_URL + '/LinuxWebHosting'} element={<LinuxWebHosting />}/>
+        <Route path={process.env.PUBLIC_URL + '/WindowsWebHosting'} element={<WindowsWebHosting />}/>
+        <Route path={process.env.PUBLIC_URL + '/VirtualDedicatedServer'} element={<VirtualDedicatedServer />}/>
+        <Route path={process.env.PUBLIC_URL + '/DedicatedServer'} element={<DedicatedServer />}/>
+        <Route path={process.env.PUBLIC_URL + '/CloudHosting'} element={<CloudHosting />}/>
+        <Route path={process.env.PUBLIC_URL + '/ResellerHosting'} element={<ResellerHosting />}/>
       </Routes>
     </Router>
   );
