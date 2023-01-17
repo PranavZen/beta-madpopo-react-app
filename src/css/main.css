@@ -978,7 +978,7 @@ body {
 }
 .wp_hostingBgImg .dark-mode-texts .topBarStrip .topInner .inrSelectWrap .inrSelectBox .selectCountry .ReactFlagsSelect-module_flagsSelect__2pfa2 .ReactFlagsSelect-module_selectBtn__19wW7[aria-expanded="true"]:after {
 border-bottom: 5px solid #fff !important;
-border-top: 0 !important;
+border-top: 0 !important; 
 }
 .dark-mode-texts .topBarStrip .topInner .numSpan{
 color: #fff;
@@ -2402,7 +2402,7 @@ a.headerphone-number {
 }
 .wp_img_overlayContent{
   position: absolute;
-    top: 10%;
+    top: 7%;
     margin-bottom: 30px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -2436,7 +2436,7 @@ a.headerphone-number {
   padding-bottom: 115px;
 }
 .wp_pricingBox .Word_host_price_Sec{
-  padding-top:40%;
+  padding-top:35%;
 }
 .Word_host_price_Sec .ddosPriceCardRow{
   padding: 0 15px;
