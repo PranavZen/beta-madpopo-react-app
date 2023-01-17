@@ -108,7 +108,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/WordpressHosting"
+                            <Link to={process.env.PUBLIC_URL + '/WordpressHosting'}
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -134,7 +134,7 @@ function Navbar() {
                           </div>
                           <div
                             className="col-md-6 col-lg-3 mb-10 menusHover">
-                            <Link to="/WoocommerceHosting"
+                            <Link to={process.env.PUBLIC_URL + '/WoocommerceHosting'}
                               className="feature-widget d-sm-flex">
                               <div
                                 className="widget-icon text-blue mr-0 mr-lg-6 mb-7 mb-md-0">
@@ -163,7 +163,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/LinuxWebHosting"
+                            <Link to={process.env.PUBLIC_URL + '/LinuxWebHosting'}
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -199,7 +199,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/WindowsWebHosting"
+                            <Link to={process.env.PUBLIC_URL + '/WindowsWebHosting'}
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -235,7 +235,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/VirtualDedicatedServer"
+                            <Link to={process.env.PUBLIC_URL + '/VirtualDedicatedServer'}
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -271,7 +271,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/DedicatedServer"
+                            <Link to={process.env.PUBLIC_URL + '/DedicatedServer'}
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -307,7 +307,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/CloudHosting"
+                            <Link to={process.env.PUBLIC_URL + '/CloudHosting'}
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -343,7 +343,7 @@ function Navbar() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/ResellerHosting"
+                            <Link to={process.env.PUBLIC_URL + '/ResellerHosting'}
                               className="feature-widget
                                                                 d-sm-flex"
                             >
