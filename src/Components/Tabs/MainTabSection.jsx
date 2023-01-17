@@ -26,11 +26,10 @@ function MainTabSection() {
     autoplaySpeed: 1500,
     arrows: false,
     responsive: [
-        { breakpoint: 557, settings: { slidesToShow: 1, slidesToScroll: 1 } },
-        { breakpoint: 768, settings: { slidesToShow: 2 } },
-        { breakpoint: 991, settings: { slidesToShow: 3 } },
-      ],
-    
+      { breakpoint: 557, settings: { slidesToShow: 1, slidesToScroll: 1 } },
+      { breakpoint: 768, settings: { slidesToShow: 2 } },
+      { breakpoint: 991, settings: { slidesToShow: 3 } },
+    ],
   };
   var settings2 = {
     dots: false,
@@ -43,13 +42,18 @@ function MainTabSection() {
     autoplaySpeed: 1500,
     arrows: false,
     fade: true,
-    
   };
   return (
     <section id="myTabslide">
       <div className="container mt-lg-n30 mt-n15">
-        <Slider {...settings2} className="main-homepage-plans-slider" asNavFor={nav2}
-        ref={(slider1) => setNav1(slider1)} slidesToShow={1} adaptiveHeight={true}>
+        <Slider
+          {...settings2}
+          className="main-homepage-plans-slider"
+          asNavFor={nav2}
+          ref={(slider1) => setNav1(slider1)}
+          slidesToShow={1}
+          adaptiveHeight={true}
+        >
           <FirstTabContent />
           <SecondTabContent />
           <ThirdTabContent />
@@ -58,67 +62,69 @@ function MainTabSection() {
           <SixthTabContent />
         </Slider>
         <div className="services-box-container">
-          <Slider {...settings} className="services-box-tabs-box border-opacity border-top-0" asNavFor={nav1} 
-          ref={(slider2) => setNav2(slider2)}
-          slidesToShow={5}
-      swipeToSlide={true}
-      focusOnSelect={true}>
-          <div className="services-box-tab">
-          <i className="feather icon-server">
-              
-          </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">Web hosting</h5>
-          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
-              dummy</p>
-      </div>
-
-
-      <div className="services-box-tab">
-          <i className="feather icon-shield">
-              
-          </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">SSL certificate</h5>
-          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
-              dummy</p>
-      </div>
-
-
-      <div className="services-box-tab">
-          <i className="feather icon-play">
-              
-          </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">Games servers</h5>
-          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
-              dummy</p>
-      </div>
-
-
-      <div className="services-box-tab">
-          <i className="feather icon-headphones">
-             
-          </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">voice servers</h5>
-          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
-              dummy</p>
-      </div>
-
-
-      <div className="services-box-tab">
-          <i className="feather icon-cpu">
-              
-          </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">Cpanel reseller</h5>
-          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
-              dummy</p>
-      </div>
-      <div className="services-box-tab">
-          <i className="feather icon-cpu">
-              
-          </i>
-          <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">Another plan</h5>
-          <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">Lorem Ipsum is simply
-              dummy</p>
-      </div>
+          <Slider
+            {...settings}
+            className="services-box-tabs-box border-opacity border-top-0"
+            asNavFor={nav1}
+            ref={(slider2) => setNav2(slider2)}
+            slidesToShow={5}
+            swipeToSlide={true}
+            focusOnSelect={true}
+          >
+            <div className="services-box-tab">
+              <i className="feather icon-server"></i>
+              <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
+                Web hosting
+              </h5>
+              <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
+                Lorem Ipsum is simply dummy
+              </p>
+            </div>
+            <div className="services-box-tab">
+              <i className="feather icon-shield"></i>
+              <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
+                SSL certificate
+              </h5>
+              <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
+                Lorem Ipsum is simply dummy
+              </p>
+            </div>
+            <div className="services-box-tab">
+              <i className="feather icon-play"></i>
+              <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
+                Games servers
+              </h5>
+              <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
+                Lorem Ipsum is simply dummy
+              </p>
+            </div>
+            <div className="services-box-tab">
+              <i className="feather icon-headphones"></i>
+              <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
+                voice servers
+              </h5>
+              <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
+                Lorem Ipsum is simply dummy
+              </p>
+            </div>
+            <div className="services-box-tab">
+              <i className="feather icon-cpu"></i>
+              <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
+                Cpanel reseller
+              </h5>
+              <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
+                Lorem Ipsum is simply dummy
+              </p>
+            </div>
+            <div className="services-box-tab">
+              <i className="feather icon-cpu"></i>
+              <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
+                Another plan
+              </h5>
+              <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
+                Lorem Ipsum is simply dummy
+              </p>
+            </div>
           </Slider>
         </div>
       </div>
