@@ -17,6 +17,7 @@ export { default as bgRightMid } from '../../src/image/right-elm.png';
 export { default as pcImage } from '../../src/image/header-pc.png';
 export { default as pcImage2 } from '../../src/image/header-pc2.png';
 export { default as pcImage3 } from '../../src/image/Computer_Table.png';
+export { default as faceImage } from '../../src/image/Face_1.png';
 export { default as pcSVG } from '../../src/image/Banner_Support_3-01.svg';
 export { default as migration } from '../../src/image/migrationMeeting.png';
 export { default as wpHostRightImg } from '../../src/image/wp_hositing_rightImg.webp';

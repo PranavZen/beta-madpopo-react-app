@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-import { pcImage, pcImage3, pcSVG } from "../Components/index";
+import { faceImage, pcImage, pcImage3, pcSVG } from "../Components/index";
 
 function TypedComponent() {
   const el = useRef(null); 
@@ -60,7 +60,26 @@ function TypedComponent() {
           <div className="col-md-4 col-lg-6 col-xl-4">
               <div className="pcImageWrap">
               
-                <img src={pcImage3} alt="" />
+              <div className="position-relative">
+              <div class="circle">
+              <div class="icon-block">
+                <img src="https://ucarecdn.com/ae76ecf5-1d3f-4edc-884c-dc2984976a7e/appicon.png" alt="app icon" />
+              </div>
+              <div class="icon-block">
+                <img src="https://ucarecdn.com/2323ebfc-5b14-47ae-959a-191e82d0103a/blockchainicon.png" alt="blockchain icon" />
+              </div>
+              <div class="icon-block">
+                <img src="https://ucarecdn.com/5e4802ac-8684-41f3-8657-1e0834d07abe/arvricon.png" alt="ar-vr icon" />
+              </div>
+              <div class="icon-block">
+                <img src="https://ucarecdn.com/61a82adc-7eef-4e50-a7d5-8e11ef76ff31/artificialintelligenceicon.png" alt="artificial intelligence icon" />
+              </div>
+            </div>
+              <div class="center-logo">
+                 <img src={pcImage3} alt="" />
+              </div>
+              </div>
+                
               </div>
           </div>
         </div>

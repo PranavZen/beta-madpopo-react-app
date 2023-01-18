@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import React from "react";
 import { logo1 } from "../../Components/index";
-import { logo2 } from "../../Components/index";
+// import { logo2 } from "../../Components/index";
 import { Link } from "react-router-dom";
 import CountrySelect from "../CountrySelect/CountrySelect";
 function NavbarInner() {
