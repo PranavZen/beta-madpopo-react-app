@@ -20,7 +20,7 @@ function Footer() {
       <div className="container">
         <div className="footer-section dark-mode-texts">
           <div className="container">
-            <div className="footer-top pt-15 pt-lg-25 pb-lg-19">
+            <div className="footer-top pt-15 pt-lg-10 pb-lg-19">
               <div className="row">
                 <div className="col-12 col-lg-3">
                   <div className="footer-block mb-13 mb-lg-9">

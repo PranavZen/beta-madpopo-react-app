@@ -5,13 +5,13 @@ import FAQ from "../Components/FAQs/FAQ";
 import Footer from "../Components/Footer/Footer";
 import Hostareawrap from "../Components/HostingArea/Hostareawrap";
 import Migration from "../Components/Migration";
-import Navbar from "../Components/Navbar/Navbar";
+import NavbarInner from "../Components/Navbar/NavbarInner";
 import SyncMain from "../Components/SyncSlider/SyncMain";
 
 function Home() {
   return (
     <div className="site-wrapper overflow-hidden">
-      <Navbar />
+      <NavbarInner />
       <Banner />
       <Migration />
       <SyncMain />

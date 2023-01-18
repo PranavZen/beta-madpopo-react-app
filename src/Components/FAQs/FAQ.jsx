@@ -14,7 +14,7 @@ function FAQ(props) {
         setClicked(index);
        };
   return (
-    <div>
+  
       <div
         className="faq-section pt-13 pt-lg-25 pb-15
     pb-md-20 pb-lg-32 white-mode-texts
@@ -127,7 +127,7 @@ function FAQ(props) {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 }
 
