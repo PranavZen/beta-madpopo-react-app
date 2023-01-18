@@ -49,7 +49,7 @@ function PriceCardBox(props) {
           </form>
         </div>
         <div className="ddos-attack-price d-flex justify-content-between align-items-center mt-7 py-4">
-          <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}  </h2>
+          <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}<span className="monthSpan">/Month</span></h2>
           <span>{props.cardOffer}</span>
         </div>
         <ul className="ddos-first-features border-top">

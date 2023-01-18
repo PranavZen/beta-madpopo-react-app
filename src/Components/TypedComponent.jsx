@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import { pcImage, pcImage3, pcSVG } from "../Components/index";
 
 function TypedComponent() {
-  const el = useRef(null);
+  const el = useRef(null); 
 
   useEffect(() => {
     new Typed(el.current, {
@@ -59,10 +59,8 @@ function TypedComponent() {
           </div>
           <div className="col-md-4 col-lg-6 col-xl-4">
               <div className="pcImageWrap">
-               { 
-                // <img className="roatateSVG" src={pcSVG} alt="" />
-              }
-                <img src={pcImage} alt="" />
+              
+                <img src={pcImage3} alt="" />
               </div>
           </div>
         </div>

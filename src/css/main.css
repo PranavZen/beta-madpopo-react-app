@@ -1099,6 +1099,18 @@ border-top: 0 !important;
     margin-bottom: 0;
     font-weight: 400;
     color: #252526;
+    text-align: justify;
+}
+
+.btn-primary{
+  background-color: #0014ed;
+  border-color: #0014ed;
+  color: #fff;
+}
+.btn-primary:hover{
+  background-color: #0015ff;
+  border-color: #0015ff;
+  color: #fff;
 }
 .dark-mode-texts .topBarStrip .topInner .numSpan{
 color: #fff;
@@ -2522,7 +2534,7 @@ a.headerphone-number {
 }
 .wp_img_overlayContent{
   position: absolute;
-    top: 4.5%;
+    top: 3.8%;
     margin-bottom: 30px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -2562,7 +2574,7 @@ a.headerphone-number {
   padding: 0 15px;
 }
 .wpBestChoiceWrap{
-  background: #673ee4;
+  background: #0014ed;
   padding: 40px 0 65px;
 }
 .wpBestChoiceWrap .wpChoiceSecTitle{
@@ -2742,6 +2754,11 @@ a.headerphone-number {
   font-size: 32px;
   font-weight: 800;
   color: #252526;
+}
+.priceCardPriceAmt .monthSpan{
+  font-size: 16px !important;
+  background: transparent !important;
+  color: #000 !important;
 }
 .pcImageWrap{
   width: 485px;
@@ -6330,7 +6347,7 @@ color: #ff6a00;
 }
 @media (min-width: 992px) {
   .nav-item.dropdown:hover > .coodiv-megamenu-dropdown.center {
-    transform: translateX(-100%) translateY(10px);
+    transform: translateX(-100%) translateY(0);
     z-index: 9999;
     opacity: 1;
     pointer-events: visible;

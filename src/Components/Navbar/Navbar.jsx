@@ -378,12 +378,12 @@ function Navbar() {
 
                           <Link
                             className="btn
-                                                            btn-warning
+                            btn-primary
                                                             coodiv-text-9
                                                             d-block w-50 "
                             to="#"
                           >
-                            Sign In
+                            Buy Now
                           </Link>
                         </div>
                       </div>

@@ -9,7 +9,7 @@ export { default as bannerBg6 } from '../../src/image/payment/icon-maestro.png';
 export { default as bannerBg7 } from '../../src/image/payment/icon-bitcoin.png';
 export { default as game1 } from '../../src/image/games/counter.png';
 export { default as game2 } from '../../src/image/games/minecraft.png';
-export { default as game3 } from '../../src/image/games/rust.png';
+export { default as game3 } from '../../src/image/games/rust.png'; 
 export { default as woldMap } from '../../src/image/world-map/global_network.png';
 export { default as fooLogo } from '../../src/image/header/madpopo_final_logo_nav_white.png';
 export { default as bgleftMid } from '../../src/image/left-mid-elm.png';
