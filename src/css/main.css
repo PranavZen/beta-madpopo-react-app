@@ -2205,7 +2205,7 @@ header.site-header.fixed-header-layout.top-header-fixed {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   padding: 0;
-  height: 120px;
+  height: 110px;
   box-shadow: 0 0 5px -1px #8a8989;
 }
 
@@ -2488,7 +2488,7 @@ a.headerphone-number {
 .brand-logo > a > img,
 .brand-logo-signup > a > img {
   height: 100%;
-  width: 140px;
+  width: 165px;
 }
 .header-google-map {
   position: absolute !important;
@@ -6160,7 +6160,7 @@ ul.footer-list li:hover a.footer-list-link {
   margin-right: 0;
 }
 .brand-logo.newBrandLogo{
-  margin-top: -30px;
+  margin-top: -45px;
 }
 .footer-section.light-mode-texts ul.footer-list li a.footer-list-link {
   color: #414f7b;
@@ -9145,7 +9145,8 @@ color: #ff6a00;
   width: 100px;
 }
 .footer-gradient-default {
-  background-image: linear-gradient( 90deg, #171a26 0, #171a26 39%, #171a26 100% );
+  /* background-image: linear-gradient( 90deg, #171a26 0, #171a26 39%, #171a26 100% ); */
+  background: rgb(36,40,55);
 }
 .footer-gradient-default-2 {
   background-image: linear-gradient(
