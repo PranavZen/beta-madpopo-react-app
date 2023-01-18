@@ -2804,12 +2804,12 @@ a.headerphone-number {
   text-shadow: 1px 1px #8d8d8d;
   display: block;
 }
-.icon-block .small_circletext {
+/* .icon-block .small_circletext {
   margin: 0px auto;
  
   animation: Rotate-reverse 20s linear infinite;
   -webkit-animation: Rotate-reverse 20s linear infinite;
-}
+} */
 .icon-block:first-child {
   top: -9%;
   left: 50%;
@@ -2848,10 +2848,10 @@ a.headerphone-number {
   border: 5px dotted #ff6a00;
   border-radius: 50%;
 }
-.circle .icon-block img {
+.circle .icon-block .small_circletext {
   animation: img-rotate 20s linear infinite;
   -webkit-animation: img-rotate 20s linear infinite;
-}
+} 
 
 /* keyframe animation */
 
