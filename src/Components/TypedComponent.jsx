@@ -63,22 +63,22 @@ function TypedComponent() {
               <div className="position-relative">
               <div class="circle">
               <div class="icon-block">
-                <img src="https://ucarecdn.com/ae76ecf5-1d3f-4edc-884c-dc2984976a7e/appicon.png" alt="app icon" />
+                <div className="small_cir"><span className="small_circletext">.com</span></div>
               </div>
               <div class="icon-block">
-                <img src="https://ucarecdn.com/2323ebfc-5b14-47ae-959a-191e82d0103a/blockchainicon.png" alt="blockchain icon" />
+              <div className="small_cir"><span className="small_circletext">.net</span></div>
               </div>
               <div class="icon-block">
-                <img src="https://ucarecdn.com/5e4802ac-8684-41f3-8657-1e0834d07abe/arvricon.png" alt="ar-vr icon" />
+              <div className="small_cir"><span className="small_circletext">.xyz</span></div>
               </div>
               <div class="icon-block">
-                <img src="https://ucarecdn.com/61a82adc-7eef-4e50-a7d5-8e11ef76ff31/artificialintelligenceicon.png" alt="artificial intelligence icon" />
+              <div className="small_cir"><span className="small_circletext">.shop</span></div>
               </div>
               <div class="icon-block">
-                <img src="https://ucarecdn.com/61a82adc-7eef-4e50-a7d5-8e11ef76ff31/artificialintelligenceicon.png" alt="artificial intelligence icon" />
+              <div className="small_cir"><span className="small_circletext">.me</span></div>
               </div>
               <div class="icon-block">
-                <img src="https://ucarecdn.com/61a82adc-7eef-4e50-a7d5-8e11ef76ff31/artificialintelligenceicon.png" alt="artificial intelligence icon" />
+              <div className="small_cir"><span className="small_circletext">.org</span></div>
               </div>
             </div>
               <div class="center-logo">

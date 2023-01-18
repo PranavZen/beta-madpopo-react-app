@@ -2792,14 +2792,21 @@ a.headerphone-number {
   -webkit-align-items: center;
   justify-content: center;
   -webkit-justify-content: center;
-  background-image: linear-gradient(180deg, #4967e6 0%, #627bf4 100%);
-  -webkit-background-image: linear-gradient(180deg, #4967e6 0%, #627bf4 100%);
-  box-shadow: 0 2px 4px 0 #3e5ada;
-  -webkit-box-shadow: 0 2px 4px 0 #3e5ada;
+  background-image: linear-gradient(180deg, #f2ddd7 0%, #f6e1db 100%);
+  -webkit-background-image: linear-gradient(180deg, #f2ddd7 0%, #f6e1db 100%);
+  box-shadow: 0 -1px 4px 0 #cfb2aa;
+  -webkit-box-shadow: 0 -1px 4px 0 #cfb2aa;
 }
-.icon-block img {
+.small_circletext{
+  color: #ff6a00;
+  font-weight: 800;
+  font-size: 22px;
+  text-shadow: 1px 1px #8d8d8d;
+  display: block;
+}
+.icon-block .small_circletext {
   margin: 0px auto;
-  width: 86%;
+ 
   animation: Rotate-reverse 20s linear infinite;
   -webkit-animation: Rotate-reverse 20s linear infinite;
 }
