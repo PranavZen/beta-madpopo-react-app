@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/beta-madpopo-react-app/static/css/main.e5109d1a.css",
-    "main.js": "/beta-madpopo-react-app/static/js/main.b1a89960.js",
+    "main.css": "/beta-madpopo-react-app/static/css/main.f2b17cc7.css",
+    "main.js": "/beta-madpopo-react-app/static/js/main.9f2e29e2.js",
     "static/js/787.3e488476.chunk.js": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js",
+    "static/media/Face_1.png": "/beta-madpopo-react-app/static/media/Face_1.943177cd336f17076102.png",
     "static/media/Computer_Table.png": "/beta-madpopo-react-app/static/media/Computer_Table.1072ef90285972c97530.png",
     "static/media/Banner_Support_3-01.svg": "/beta-madpopo-react-app/static/media/Banner_Support_3-01.6ebd1b7f2c6701499374a6cb0f197763.svg",
     "static/media/wordpress_Hosting.png": "/beta-madpopo-react-app/static/media/wordpress_Hosting.1697388e780573d361d3.png",
@@ -92,12 +93,12 @@
     "static/media/arrow-right-desktop-1.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-1.27df23a9d073fe62d89c.svg",
     "static/media/arrow-right-desktop-2.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-2.d3663980710bd470b402.svg",
     "static/media/wave-plan.svg": "/beta-madpopo-react-app/static/media/wave-plan.5fabe6835b36775f657c.svg",
-    "main.e5109d1a.css.map": "/beta-madpopo-react-app/static/css/main.e5109d1a.css.map",
-    "main.b1a89960.js.map": "/beta-madpopo-react-app/static/js/main.b1a89960.js.map",
+    "main.f2b17cc7.css.map": "/beta-madpopo-react-app/static/css/main.f2b17cc7.css.map",
+    "main.9f2e29e2.js.map": "/beta-madpopo-react-app/static/js/main.9f2e29e2.js.map",
     "787.3e488476.chunk.js.map": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5109d1a.css",
-    "static/js/main.b1a89960.js"
+    "static/css/main.f2b17cc7.css",
+    "static/js/main.9f2e29e2.js"
   ]
 }
