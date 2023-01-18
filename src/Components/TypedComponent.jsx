@@ -74,9 +74,15 @@ function TypedComponent() {
               <div class="icon-block">
                 <img src="https://ucarecdn.com/61a82adc-7eef-4e50-a7d5-8e11ef76ff31/artificialintelligenceicon.png" alt="artificial intelligence icon" />
               </div>
+              <div class="icon-block">
+                <img src="https://ucarecdn.com/61a82adc-7eef-4e50-a7d5-8e11ef76ff31/artificialintelligenceicon.png" alt="artificial intelligence icon" />
+              </div>
+              <div class="icon-block">
+                <img src="https://ucarecdn.com/61a82adc-7eef-4e50-a7d5-8e11ef76ff31/artificialintelligenceicon.png" alt="artificial intelligence icon" />
+              </div>
             </div>
               <div class="center-logo">
-                 <img src={pcImage3} alt="" />
+                 <img src={faceImage} alt="" />
               </div>
               </div>
                 
