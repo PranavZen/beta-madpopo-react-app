@@ -1058,10 +1058,11 @@ border-top: 0 !important;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap p{
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
   font-weight: 400;
   color: #252526;
+  line-height: 1.8;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap .clientTestimonial{
   margin-top: 25px;
@@ -1097,11 +1098,12 @@ border-top: 0 !important;
   margin-bottom: 20px;
 }
 .wp_hostingFaqSection .wp_faqRow .wp_faq_Box p{
-  font-size: 18px;
+  font-size: 16px;
     margin-bottom: 0;
     font-weight: 400;
     color: #252526;
     text-align: justify;
+    line-height: 1.8;
 }
 
 .btn-primary{
@@ -2604,9 +2606,10 @@ a.headerphone-number {
 }
 .wp_choice_leftBox .wp_choice_ContentBox p{
   font-size: 16px;
-    color: #fff;
+    color: #fff; 
     font-weight: 500;
     text-align: justify;
+    line-height: 1.8;
 }
 .wp_choice_rightBox .wp_choiceImgWrap{
     width: 100%;
@@ -2662,6 +2665,7 @@ a.headerphone-number {
   font-size: 16px;
   text-align: center;
   font-weight: 400;
+  line-height: 1.8;
 }
 .wp_plansListing .wp_plans_listSection{
   padding-bottom: 70px;
@@ -9002,7 +9006,7 @@ color: #ff6a00;
   height: 100%;
   z-index: 1;
   position: absolute;
-  bottom: -77%;
+  bottom: -80%;
   left: -5%;
   pointer-events: none;
 } 
