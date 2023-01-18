@@ -1092,7 +1092,7 @@ border-top: 0 !important;
   border-bottom: 0;
 }
 .wp_hostingFaqSection .wp_faqRow .wp_faq_Box h6{
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -8996,6 +8996,20 @@ color: #ff6a00;
   position: absolute;
   bottom: 0;
   z-index: 0;
+}
+.pose_1{
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: -77%;
+  left: -5%;
+  pointer-events: none;
+} 
+.pose_1 img{
+  width: 30%;
+  height: auto;
+  pointer-events: none;
 }
 .bg-wave-box-end-z1.newSVG{
   bottom: -80%;

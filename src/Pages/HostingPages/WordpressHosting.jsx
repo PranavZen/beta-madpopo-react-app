@@ -1,4 +1,5 @@
 import React from "react";
+import { footerPose1 } from "../../Components";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
@@ -31,6 +32,9 @@ function WordpressHosting() {
       <TrustedClientsSlide/>
       </div>
       <div className="wp_hostingFaqSection">
+      <div className="pose_1">
+      <img src={footerPose1} alt="Footer Imgage"/>
+      </div>
       <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
           <defs>
             <linearGradient id="footer-gradient">
