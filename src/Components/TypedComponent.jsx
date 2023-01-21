@@ -61,27 +61,27 @@ function TypedComponent() {
               <div className="pcImageWrap">
               
               <div className="position-relative">
-              <div class="circle">
-              <div class="icon-block">
+              <div className="circle">
+              <div className="icon-block">
                 <div className="small_cir"><span className="small_circletext">.com</span></div>
               </div>
-              <div class="icon-block">
+              <div className="icon-block">
               <div className="small_cir"><span className="small_circletext">.net</span></div>
               </div>
-              <div class="icon-block">
+              <div className="icon-block">
               <div className="small_cir"><span className="small_circletext">.xyz</span></div>
               </div>
-              <div class="icon-block">
+              <div className="icon-block">
               <div className="small_cir"><span className="small_circletext">.shop</span></div>
               </div>
-              <div class="icon-block">
+              <div className="icon-block">
               <div className="small_cir"><span className="small_circletext">.me</span></div>
               </div>
-              <div class="icon-block">
+              <div className="icon-block">
               <div className="small_cir"><span className="small_circletext">.org</span></div>
               </div>
             </div>
-              <div class="center-logo">
+              <div className="center-logo">
                  <img src={faceImage} alt="" />
               </div>
               </div>

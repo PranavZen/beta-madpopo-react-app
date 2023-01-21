@@ -15,6 +15,7 @@ import VirtualDedicatedServer from "./Pages/HostingPages/VirtualDedicatedServer"
 import WindowsWebHosting from "./Pages/HostingPages/WindowsWebHosting";
 import LinuxWebHosting from "./Pages/HostingPages/LinuxWebHosting";
 function App() {
+
   return (
     <Router>
       <Routes> 

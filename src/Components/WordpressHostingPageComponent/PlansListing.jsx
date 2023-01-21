@@ -76,4 +76,4 @@ const palnsListing = [
     },
 ]
 
-export default palnsListing
+export default palnsListing;

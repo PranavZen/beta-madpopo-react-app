@@ -1,5 +1,5 @@
 import React from "react";
-import { footerPose1 } from "../../Components";
+import { footerPose1,wp_logo } from "../../Components";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
@@ -8,16 +8,31 @@ import WordpressHostingFeatures from "../../Components/WordpressHostingPageCompo
 import WordpressHostingPriceCard from "../../Components/WordpressHostingPageComponent/WordpressHostingPriceCard";
 import WordpressPlansListing from "../../Components/WordpressHostingPageComponent/WordpressPlansListing";
 import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
-
+import {
+  MouseParallaxChild,
+  MouseParallaxContainer
+} from "react-parallax-mouse";
 function WordpressHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg">
       <Navbar />
+      
       <div className="wp_img_overlayContent">
         <p>WOrdpress Hosting</p>
         <h1>Choose flexible pricing plan for you and more...</h1>
         <span>Unlimited boards and workflows. no credit card needed</span>
       </div>
+      <MouseParallaxContainer className={"wp_outerBox"}>
+      
+      <MouseParallaxChild
+        factorX={0.04}
+        factorY={0.04}
+        className={"wp_innerBox"}
+      >
+        <img src={wp_logo} alt="Wordpress Logo" />
+      </MouseParallaxChild>
+     
+    </MouseParallaxContainer>
       <div className="wp_pricingBox">
         <WordpressHostingPriceCard />
       </div>

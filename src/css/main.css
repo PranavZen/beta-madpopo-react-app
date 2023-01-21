@@ -1304,6 +1304,7 @@ div.slick-active.slick-current .main-features-box {
   .white-bg.light-mode-texts .navbar #mobile-menu .navbar-nav-wrapper #header-navbar-links .nav-item .nav-link {
     color: #fff !important;
 }
+
 }
 @media (min-width: 992px) {
   .row-lg {
@@ -2528,7 +2529,7 @@ a.headerphone-number {
 /*---------------- Page hero styles -----------------*/
 
 .wp_hostingBgImg{
-  background-image: url(.././image/header/HostingPages/wordpress_Hosting.png);
+  background-image: url(.././image/header/HostingPages/wordpress_Hostingnew.png);
   background-position: 100% 0%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -2568,12 +2569,14 @@ a.headerphone-number {
   font-weight: 600;
   font-size: 16px;
 }
+
 .wp_pricingBox{
   padding-bottom: 115px;
+  margin-top: -130px;
 }
-.wp_pricingBox .Word_host_price_Sec{
+/* .wp_pricingBox .Word_host_price_Sec{
   padding-top:35%;
-}
+} */
 .Word_host_price_Sec .ddosPriceCardRow{
   padding: 0 15px;
 }
@@ -2589,6 +2592,18 @@ a.headerphone-number {
   text-align: center;
   font-weight: 700;
   font-size: 38px;
+}
+.wp_innerBox{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: auto;
+  height: auto;
+  pointer-events: none;
+}
+.wp_innerBox img{
+  width: 45%;
+  margin-right: -5%;
 }
 .wpBestChoiceWrap .wpBest_choiceRow{
   display: flex;
@@ -15883,6 +15898,9 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   }
   header.site-header.fixed-header-layout.top-header-fixed {
     height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   header.site-header.fixed-header-layout.top-header-fixed
     .header-lang-container {
@@ -15954,5 +15972,18 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   .coodiv-megamenu-dropdown .aws-style-megamenu-body [class*="col-"] {
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+
+/* Media Queries By Paranv */
+@media screen and (max-width:767px) {
+  .brand-logo.newBrandLogo{
+    margin-top: 0;
+  }
+  .brand-logo > a > img, .brand-logo-signup > a > img{
+    width: 90px;
+  }
+  .light-mode-texts .topBarStrip{
+    display: none;
   }
 }
