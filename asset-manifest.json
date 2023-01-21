@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/beta-madpopo-react-app/static/css/main.748793ca.css",
-    "main.js": "/beta-madpopo-react-app/static/js/main.ff7ab373.js",
+    "main.css": "/beta-madpopo-react-app/static/css/main.32162bcc.css",
+    "main.js": "/beta-madpopo-react-app/static/js/main.72df3517.js",
     "static/js/787.3e488476.chunk.js": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js",
     "static/media/Face_1.png": "/beta-madpopo-react-app/static/media/Face_1.943177cd336f17076102.png",
     "static/media/Computer_Table.png": "/beta-madpopo-react-app/static/media/Computer_Table.1072ef90285972c97530.png",
     "static/media/Banner_Support_3-01.svg": "/beta-madpopo-react-app/static/media/Banner_Support_3-01.6ebd1b7f2c6701499374a6cb0f197763.svg",
-    "static/media/wordpress_Hosting.png": "/beta-madpopo-react-app/static/media/wordpress_Hosting.1697388e780573d361d3.png",
     "static/media/header-pc.png": "/beta-madpopo-react-app/static/media/header-pc.27ed126d388dac6bde64.png",
     "static/media/world-white.png": "/beta-madpopo-react-app/static/media/world-white.01b5bb713c7b1cfffa1b.png",
     "static/media/left-mid-elm-1.png": "/beta-madpopo-react-app/static/media/left-mid-elm-1.2c0cf20f28128e40254a.png",
+    "static/media/wordpress_Hostingnew.png": "/beta-madpopo-react-app/static/media/wordpress_Hostingnew.103b53a502caaa03b2cc.png",
     "static/media/build.png": "/beta-madpopo-react-app/static/media/build.9ed76e34fdadf7a4cfa6.png",
     "static/media/right-elm.png": "/beta-madpopo-react-app/static/media/right-elm.c670a751bedaa1896180.png",
     "static/media/left-mid-elm.png": "/beta-madpopo-react-app/static/media/left-mid-elm.59940117fc4935e21115.png",
     "static/media/left-top-elm.png": "/beta-madpopo-react-app/static/media/left-top-elm.27697dd125b4f4ed4e66.png",
     "static/media/header-pc2.png": "/beta-madpopo-react-app/static/media/header-pc2.5f5f328657e6ca59cdf6.png",
+    "static/media/wordpress_innerLogo.png": "/beta-madpopo-react-app/static/media/wordpress_innerLogo.76935950f4b926b3c1d4.png",
     "static/media/feather6cfa.svg?t=1501841394106": "/beta-madpopo-react-app/static/media/feather6cfa.29ae650770ffb8a6a3ba.svg",
     "static/media/migrationMeeting.png": "/beta-madpopo-react-app/static/media/migrationMeeting.2b43034eef7da1d181ff.png",
     "static/media/mountain-base.png": "/beta-madpopo-react-app/static/media/mountain-base.d414a67d4bb7607a34e6.png",
@@ -94,12 +95,12 @@
     "static/media/arrow-right-desktop-1.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-1.27df23a9d073fe62d89c.svg",
     "static/media/arrow-right-desktop-2.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-2.d3663980710bd470b402.svg",
     "static/media/wave-plan.svg": "/beta-madpopo-react-app/static/media/wave-plan.5fabe6835b36775f657c.svg",
-    "main.748793ca.css.map": "/beta-madpopo-react-app/static/css/main.748793ca.css.map",
-    "main.ff7ab373.js.map": "/beta-madpopo-react-app/static/js/main.ff7ab373.js.map",
+    "main.32162bcc.css.map": "/beta-madpopo-react-app/static/css/main.32162bcc.css.map",
+    "main.72df3517.js.map": "/beta-madpopo-react-app/static/js/main.72df3517.js.map",
     "787.3e488476.chunk.js.map": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.748793ca.css",
-    "static/js/main.ff7ab373.js"
+    "static/css/main.32162bcc.css",
+    "static/js/main.72df3517.js"
   ]
 }
