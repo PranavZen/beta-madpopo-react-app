@@ -8,7 +8,7 @@ function WpBestChoice() {
         <div className="wpChoiceSecTitle">
             <h2>Why Our WordPress Hosting Is the Best Choice</h2>
         </div>
-        <div className="wpBest_choiceRow">
+        <div className="wpBest_choiceRow padBtm_50">
           <div className="col-md-5">
             <div className="wp_choice_leftBox">
               <div className="wp_choice_ContentBox">

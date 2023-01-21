@@ -2610,6 +2610,9 @@ a.headerphone-number {
   justify-content: space-between;
   align-items: center;
 }
+.padBtm_50{
+  padding-bottom: 50px;
+}
 .wp_choice_leftBox .wp_choice_ContentBox:nth-child(1){
   margin-bottom: 45px;
 }

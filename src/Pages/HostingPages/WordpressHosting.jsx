@@ -13,6 +13,7 @@ import {
   MouseParallaxContainer
 } from "react-parallax-mouse";
 function WordpressHosting() {
+  
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg">
       <Navbar />
