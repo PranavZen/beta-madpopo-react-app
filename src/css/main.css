@@ -9030,6 +9030,9 @@ color: #ff6a00;
   height: auto;
   pointer-events: none;
 }
+.pose_1.homeFooImg{
+  bottom: -68%;
+}
 .bg-wave-box-end-z1.newSVG{
   bottom: -80%;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import faqData from "../FAQs/FAQData";
 import FaqAccorionItems from "../FAQs/FaqAccorionItems";
+import { footerPose1 } from "..";
 
 function FAQ(props) {
     const [clicked, setClicked] = useState("0");
@@ -21,6 +22,9 @@ function FAQ(props) {
     with-planet-bg overflow-hidden position-relative
     border-top"
       >
+      <div className="pose_1 homeFooImg">
+      <img src={footerPose1} alt="Footer Imgage"/>
+      </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
           <defs>
             <linearGradient id="footer-gradient">
