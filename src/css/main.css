@@ -2729,9 +2729,13 @@ a.headerphone-number {
   font-size: 20px;
   font-weight: 700;
 }
+.wp_hostingBgImg .ddosPriceCardRow .priceCardWrap:nth-child(2){
+  transform: scale(1.1);
+}
 .ddosPriceCardRow .priceCardWrap:nth-child(2){
-  margin-top: -55px;
+  /* margin-top: -55px; */
   position: relative;
+
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2)::before{
   align-items: center;
@@ -4248,6 +4252,7 @@ div.slick-active.slick-current .main-features-box {
   position: relative;
   margin-top: -485px;
 }
+
 .slick-slider .slick-track, .slick-slider .slick-list{
   height: 100%;
 }
