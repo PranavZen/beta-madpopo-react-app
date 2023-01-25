@@ -2802,6 +2802,16 @@ a.headerphone-number {
   width: 30%;
   margin: 0 auto;
 }
+.pcImageWrap .center-logo.logo2{
+  width: 80%;
+  margin: -55px auto auto auto;
+  position: relative;
+}
+.pcImageWrap .center-logo.logo2 img{
+  transform: rotate(0);
+  position: relative;
+}
+
 .pcImageWrap img{
   width: 100%;
   height: 100%;

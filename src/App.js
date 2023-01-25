@@ -14,6 +14,7 @@ import DedicatedServer from "./Pages/HostingPages/DedicatedServer";
 import VirtualDedicatedServer from "./Pages/HostingPages/VirtualDedicatedServer";
 import WindowsWebHosting from "./Pages/HostingPages/WindowsWebHosting";
 import LinuxWebHosting from "./Pages/HostingPages/LinuxWebHosting";
+import Home2 from "./Pages/Home2";
 function App() {
 
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="beta-madpopo-react-app/DedicatedServer" element={<DedicatedServer />}/>
         <Route path="beta-madpopo-react-app/CloudHosting" element={<CloudHosting />}/>
         <Route path="beta-madpopo-react-app/ResellerHosting" element={<ResellerHosting />}/>
+        <Route path="beta-madpopo-react-app/Home2" element={<Home2 />}/>
       </Routes>
     </Router>
   );

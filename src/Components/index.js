@@ -30,3 +30,4 @@ export { default as wpFeatureImg4 } from '../../src/image/wordpress/one-click-wp
 export { default as wpFeatureImg5 } from '../../src/image/wordpress/automated-backups.webp';
 export { default as wpFeatureImg6 } from '../../src/image/wordpress/wp-pro-features.webp';
 export { default as wp_logo } from '../../src/image/wordpress_innerLogo.png';
+export { default as tableImg } from '../../src/image/24_Shadow.png';

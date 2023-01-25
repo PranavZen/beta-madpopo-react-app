@@ -586,7 +586,7 @@ function NavbarInner() {
                 </li>
 
                 <li className="nav-item dropdown">
-                  <Link to="#" className="nav-link">
+                  <Link to="/beta-madpopo-react-app/Home2" className="nav-link">
                     Help Center
                   </Link>
                 </li>
