@@ -7,7 +7,7 @@ const pricingSEctionData = {
       cardCapacity: "5TB",
       cardSSHAccess: "Unlimited",
       cardDDOS: "Unlimited",
-      wordpressHostingTitle: "POPO - L"
+      wordpressHostingTitle: "POPO - L",
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const pricingSEctionData = {
       cardCapacity: "5TB",
       cardSSHAccess: "Unlimited",
       cardDDOS: "Unlimited",
-      wordpressHostingTitle: "POPO - XL"
+      wordpressHostingTitle: "POPO - XL",
     },
     {
       id: 3,
@@ -27,71 +27,72 @@ const pricingSEctionData = {
       cardCapacity: "5TB",
       cardSSHAccess: "Unlimited",
       cardDDOS: "Unlimited",
-      wordpressHostingTitle: "POPO - XXL"
+      wordpressHostingTitle: "POPO - XXL",
     },
   ],
   pricingValues: {
     1: [
       {
-        id: 11,
-         label: "1 Year",
-         cardPrice1: "$11",
-         cardPrice2: "$12",
-         cardPrice3: "$13",
+        id: 1,
+        label: "1 Year",
+        cardPrice1: "$h-1c-1y",
+        cardPrice2: "$h-2c-1y",
+        cardPrice3: "$h-3c-1y",
       },
-    //   {
-    //     id: 12,
-    //     cardPrice: "$269.99",
-    //     cardPrice2: "$270.99",
-    //     cardPrice3: "$271.99",
-    //   },
-    //   {
-    //     id: 13,
-    //     cardPrice: "$289.99",
-    //     cardPrice2: "$290.99",
-    //     cardPrice3: "$291.99",
-    //   },
+      //   {
+      //     id: 12,
+      //     cardPrice: "$269.99",
+      //     cardPrice2: "$270.99",
+      //     cardPrice3: "$271.99",
+      //   },
+      //   {
+      //     id: 13,
+      //     cardPrice: "$289.99",
+      //     cardPrice2: "$290.99",
+      //     cardPrice3: "$291.99",
+      //   },
     ],
     2: [
       {
         id: 2,
         label: "2 Years",
-        cardPrice1: "$21",
-        cardPrice2: "$22",
-        cardPrice3: "$23",
+        cardPrice1: "$h-1c-2y",
+        cardPrice2: "$h-2c-2y",
+        cardPrice3: "$h-3c-2y",
       },
-    //   {
-    //     id: 22,
-    //     cardPrice: "$269.99",
-    //     cardPrice2: "$270.99",
-    //     cardPrice3: "$271.99",
-    //   },
-    //   {
-    //     id: 23,
-    //     cardPrice: "$289.99",
-    //     cardPrice2: "$290.99",
-    //     cardPrice3: "$291.99",
-    //   },
+      //   {
+      //     id: 22,
+      //     cardPrice: "$269.99",
+      //     cardPrice2: "$270.99",
+      //     cardPrice3: "$271.99",
+      //   },
+      //   {
+      //     id: 23,
+      //     cardPrice: "$289.99",
+      //     cardPrice2: "$290.99",
+      //     cardPrice3: "$291.99",
+      //   },
     ],
     3: [
       {
+        id: 3,
         label: "3 Years",
-        cardPrice1: "$31",
-        cardPrice2: "$32",
-        cardPrice3: "$33",
+        cardPrice1: "$h-1c-3y",
+        cardPrice2: "$h-2c-3y",
+        cardPrice3: "$h-3c-3y",
       },
-    //   {
-    //     id: 32,
-    //     cardPrice: "$269.99",
-    //     cardPrice2: "$270.99",
-    //     cardPrice3: "$271.99",
-    //   },
-    //   {
-    //     id: 34,
-    //     cardPrice: "$289.99",
-    //     cardPrice2: "$290.99",
-    //     cardPrice3: "$291.99",
-    //   },
+      //   {
+      //     id: 32,
+      //     cardPrice: "$269.99",
+      //     cardPrice2: "$270.99",
+      //     cardPrice3: "$271.99",
+      //   },
+      //   {
+      //     id: 34,
+      //     cardPrice: "$289.99",
+      //     cardPrice2: "$290.99",
+      //     cardPrice3: "$291.99",
+      //   },
     ],
   },
 };

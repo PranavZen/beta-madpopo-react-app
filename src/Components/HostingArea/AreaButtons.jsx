@@ -2,12 +2,12 @@ import React from 'react'
 
 function AreaButtons() {
     
-  return (
+  return ( 
    
 
                         <div className="nav" id="global-network-tabs" role="tablist"
                             aria-orientation="vertical">
-
+ 
                             <a className="network-country
                                 nav-link active"
                                 id="global-network-country-01-tab"

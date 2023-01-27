@@ -10,9 +10,9 @@ function AreaInfo() {
         aria-labelledby="global-network-country-01-tab">
         <div className="row justify-content-start">
             <div className="col-md-6 border-right pr-9">
-                <h5 className="coodiv-text-7">Algeria server
+                <h5 className="coodiv-text-7">Algeria server 
                     (EU)</h5>
-                <p className="coodiv-text-11">
+                <p className="coodiv-text-11"> 
                     is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has
                     been the industry's standard dummy text

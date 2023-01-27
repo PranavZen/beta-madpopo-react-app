@@ -392,198 +392,320 @@ function NavbarInner() {
                 </li>
 
                 <li className="nav-item dropdown dropdown-mega">
-                  <Link
-                    className="nav-link dropdown-toggle coodiv-toggle-arrow"
-                    id="domaindropdown"
-                    to="#"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Domains{" "}
-                    <i className="material-symbols-outlined">
-                      keyboard_arrow_down
-                    </i>
-                  </Link>
+                <Link
+                  className="nav-link dropdown-toggle coodiv-toggle-arrow"
+                  id="domaindropdown"
+                  to="#"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Domains
+                  <i className="material-symbols-outlined">
+                    keyboard_arrow_down
+                  </i>
+                </Link>
+                <div
+                  className="coodiv-megamenu-dropdown
+                                          mini-version center white-bg
+                                          dropdown-menu d-lg-block pt-0"
+                  aria-labelledby="domaindropdown"
+                >
                   <div
-                    className="coodiv-megamenu-dropdown
-                                            mini-version center white-bg
-                                            dropdown-menu d-lg-block pt-0"
-                    aria-labelledby="domaindropdown"
+                    className="row
+                                              justify-content-start
+                                              mega-menu-header nav"
+                    role="tablist"
+                    aria-orientation="vertical"
+                    id="global-network-tabs"
+                  >
+                    <a
+                      className="toggle-domain-s-t
+                                                  d-inline-block col-md-6
+                                                  active-link-border pl-lg-10
+                                                  pt-lg-8 pb-lg-5 pl-6 pt-4
+                                                  pb-4 rounded-top-left-8 nav-link active"
+                                                  id="global-network-country-001-tab"
+                                                  data-toggle="pill"
+                                                  href="#global-network-country-001" role="tab"
+                                                  aria-controls="global-network-country-001"
+                                                  aria-selected="true"
+                                                  
+                    >
+                      <h1
+                        className="coodiv-text-8
+                                                      title
+                                                      color-blackish-blue
+                                                      text-left w-100
+                                                      d-block mainTitleDrop"
+                      >
+                        <span>Snag your fav domain.1</span>
+                        <span
+                          className="d-block
+                                                          coodiv-text-11
+                                                          color-blackish-blue-opacity
+                                                          subTitleDrop"
+                        >
+                          Grab a .com starting at{" "}
+                          <span className="textPBold">$12.95/yr*</span>.
+                        </span>
+                      </h1>
+                    </a>
+                    <a
+                      className="toggle-domain-s-t
+                                                  d-md-inline-block d-none
+                                                  col-md-6
+                                                  active-link-border
+                                                  pl-lg-10 pt-lg-8 pb-lg-5
+                                                  pl-6 pt-4 pb-4
+                                                  rounded-top-right-8 nav-link"
+                                                  id="global-network-country-002-tab"
+                              data-toggle="pill"
+                              href="#global-network-country-002" role="tab"
+                              aria-controls="global-network-country-002"
+                              aria-selected="false"
+                              
+                    >
+                      <h1
+                        className="coodiv-text-8
+                                                      title
+                                                      color-blackish-blue
+                                                      text-left w-100
+                                                      d-block mainTitleDrop"
+                      >
+                        <span>Transfer your domain to us.</span>
+                        <span
+                          className="d-block
+                                                          coodiv-text-11
+                                                          color-blackish-blue-opacity
+                                                          subTitleDrop"
+                        >
+                          starting at
+                          <b className="textPBold"> $5.88/yr*</b>.
+                        </span>
+                      </h1>
+                    </a>
+                  </div>
+                  <div
+                    className="pt-10
+                                              mega-menu-body tab-content " id="global-network-tabsContent"
                   >
                     <div
                       className="row
-                                                justify-content-start
-                                                mega-menu-header"
-                    >
-                      <Link
-                        className="toggle-domain-s-t
-                                                    d-inline-block col-md-6
-                                                    active-link-border pl-lg-10
-                                                    pt-lg-8 pb-lg-5 pl-6 pt-4
-                                                    pb-4 rounded-top-left-8"
-                        to="#"
-                      >
-                        <h1
-                          className="coodiv-text-8
-                                                        title
-                                                        color-blackish-blue
-                                                        text-left w-100
-                                                        d-block mainTitleDrop"
-                        >
-                          <span>Snag your fav domain.</span>
-                          <span
-                            className="d-block
-                                                            coodiv-text-11
-                                                            color-blackish-blue-opacity
-                                                            subTitleDrop"
-                          >
-                            Grab a .com starting at <span className="textPBold">$12.95/yr*</span>.
-                          </span>
-                        </h1>
-                      </Link>
-                      <Link
-                        className="toggle-domain-s-t
-                                                    d-md-inline-block d-none
-                                                    col-md-6
-                                                    not-active-link-border
-                                                    pl-lg-10 pt-lg-8 pb-lg-5
-                                                    pl-6 pt-4 pb-4
-                                                    rounded-top-right-8"
-                        to="domains-registration.html"
-                      >
-                        <h1
-                          className="coodiv-text-8
-                                                        title
-                                                        color-blackish-blue
-                                                        text-left w-100
-                                                        d-block mainTitleDrop"
-                        >
-                          <span>Transfer your domain to us.</span>
-                          <span
-                            className="d-block
-                                                            coodiv-text-11
-                                                            color-blackish-blue-opacity
-                                                            subTitleDrop"
-                          >
-                            starting at
-                            <b className="textPBold"> $5.88/yr*</b>.
-                          </span>
-                        </h1>
-                      </Link>
-                    </div>
-                    <div
-                      className="pt-10
-                                                mega-menu-body"
+                                                  justify-content-center tab-pane fade show active"
+                                                  id="global-network-country-001" role="tabpanel"
+                                                  aria-labelledby="global-network-country-001-tab"
                     >
                       <div
-                        className="row
-                                                    justify-content-center"
+                        className="col-xl-12
+                                                      col-lg-7 col-md-8
+                                                      col-sm-11"
                       >
                         <div
-                          className="col-xl-12
-                                                        col-lg-7 col-md-8
-                                                        col-sm-11"
+                          className="domain-search-form
+                                                          mb-8"
                         >
-                          <div
-                            className="domain-search-form
-                                                            mb-8"
-                          >
-                            <form action="domains-registration.html">
-                              <div
-                                className="form-group
-                                                                    position-relative
-                                                                    text-lg-left
-                                                                    text-center"
+                          <form action="domains-registration.html">
+                            <div
+                              className="form-group
+                                                                  position-relative
+                                                                  text-lg-left
+                                                                  text-center"
+                            >
+                              <input
+                                className="form-control
+                                                                      coodiv-text-9
+                                                                      border-separate
+                                                                      mb-lg-6
+                                                                      mb-2
+                                                                      min-height-px-64"
+                                type="text"
+                                id="domain"
+                                name="domaine"
+                                placeholder="Enter
+                                                                      your
+                                                                      domain
+                                                                      name"
+                                fdprocessedid="ie3xhm"
+                              />
+                              <button
+                                className="form-btn
+                                                                      btn
+                                                                      btn-primary
+                                                                      mr-2
+                                                                      coodiv-abs-md-cr
+                                                                      min-height-px-50
+                                                                      w-100
+                                                                      w-md-auto"
+                                fdprocessedid="6zse4p"
                               >
-                                <input
-                                  className="form-control
-                                                                        coodiv-text-9
-                                                                        border-separate
-                                                                        mb-lg-6
-                                                                        mb-2
-                                                                        min-height-px-64"
-                                  type="text"
-                                  id="domain"
-                                  name="domaine"
-                                  placeholder="Enter
-                                                                        your
-                                                                        domain
-                                                                        name"
-                                  fdprocessedid="ie3xhm"
-                                />
-                                <button
-                                  className="form-btn
-                                                                        btn
-                                                                        btn-primary
-                                                                        mr-2
-                                                                        coodiv-abs-md-cr
-                                                                        min-height-px-50
-                                                                        w-100
-                                                                        w-md-auto"
-                                  fdprocessedid="6zse4p"
-                                >
-                                  check
-                                </button>
-                              </div>
-                            </form>
+                                check
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div className="col-xl-12 col-lg-12 col-md-12">
+                        <div className="domaulListing d-flex flex-wrap pb-5">
+                          <div className="col-md-6 listTitle">
+                            <p>Free with domain</p>
+                            <ul className="listFeatureDomain">
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i> 2
+                                  Free Email Accounts
+                                </span>
+                              </li>
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i>{" "}
+                                  Privacy Protection
+                                </span>
+                              </li>
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i>{" "}
+                                  Domain Theft Protection
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div className="col-md-6 listTitle">
+                            <p>Free DNS services</p>
+                            <ul className="listFeatureDomain">
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i> DNS
+                                  Management
+                                </span>
+                              </li>
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i>{" "}
+                                  Domain Forwarding
+                                </span>
+                              </li>
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i>{" "}
+                                  Multiple Mail Forwards
+                                </span>
+                              </li>
+                            </ul>
                           </div>
                         </div>
-                        <div className="col-xl-12 col-lg-12 col-md-12">
-                          <div className="domaulListing d-flex flex-wrap pb-5">
-                            <div className="col-md-6 listTitle">
-                              <p>Free with domain</p>
-                              <ul className="listFeatureDomain">
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i> 2
-                                    Free Email Accounts
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i>{" "}
-                                    Privacy Protection
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i>{" "}
-                                    Domain Theft Protection
-                                  </span>
-                                </li>
-                              </ul>
+                      </div>
+                    </div>
+                    <div
+                      className="row
+                                                  justify-content-center tab-pane fade"
+                                                  id="global-network-country-002" role="tabpanel"
+                                                  aria-labelledby="global-network-country-002-tab"
+                    >
+                      <div
+                        className="col-xl-12
+                                                      col-lg-7 col-md-8
+                                                      col-sm-11"
+                      >
+                        <div
+                          className="domain-search-form
+                                                          mb-8"
+                        >
+                          <form action="">
+                            <div
+                              className="form-group
+                                                                  position-relative
+                                                                  text-lg-left
+                                                                  text-center"
+                            >
+                              <input
+                                className="form-control
+                                                                      coodiv-text-9
+                                                                      border-separate
+                                                                      mb-lg-6
+                                                                      mb-2
+                                                                      min-height-px-64"
+                                type="text"
+                                id="domain"
+                                name="domaine"
+                                placeholder="Enter
+                                                                      your
+                                                                      domain
+                                                                      name"
+                                fdprocessedid="ie3xhm"
+                              />
+                              <button
+                                className="form-btn
+                                                                      btn
+                                                                      btn-primary
+                                                                      mr-2
+                                                                      coodiv-abs-md-cr
+                                                                      min-height-px-50
+                                                                      w-100
+                                                                      w-md-auto"
+                                fdprocessedid="6zse4p"
+                              >
+                                check
+                              </button>
                             </div>
-                            <div className="col-md-6 listTitle">
-                              <p>Free DNS services</p>
-                              <ul className="listFeatureDomain">
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i> DNS
-                                    Management
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i>{" "}
-                                    Domain Forwarding
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i>{" "}
-                                    Multiple Mail Forwards
-                                  </span>
-                                </li>
-                              </ul>
-                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div className="col-xl-12 col-lg-12 col-md-12">
+                        <div className="domaulListing d-flex flex-wrap pb-5">
+                          <div className="col-md-6 listTitle">
+                            <p>Free with domain2</p>
+                            <ul className="listFeatureDomain">
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i> 2
+                                  Free Email Accounts2
+                                </span>
+                              </li>
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i>{" "}
+                                  Privacy Protection2
+                                </span>
+                              </li>
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i>{" "}
+                                  Domain Theft Protection2
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div className="col-md-6 listTitle">
+                            <p>Free DNS services</p>
+                            <ul className="listFeatureDomain">
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i> DNS
+                                  Management
+                                </span>
+                              </li>
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i>{" "}
+                                  Domain Forwarding
+                                </span>
+                              </li>
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i>{" "}
+                                  Multiple Mail Forwards
+                                </span>
+                              </li>
+                            </ul>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </li>
+                </div>
+              </li>
 
                 <li className="nav-item dropdown">
                   <Link to="/beta-madpopo-react-app/Home2" className="nav-link">

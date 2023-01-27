@@ -1,9 +1,22 @@
 import React, { useState } from "react";
+import { useLocation } from 'react-router-dom';
 import pricingSEctionData from "./PriceCard/PricingCardData";
+import pricingSEctionData2 from "./PriceCard/PriceCardDataTwo";
 
 function PriceCardBox(props) {
-  const pricingValues = pricingSEctionData.pricingValues;
-  // console.log(pricingValues);
+  const locationN = useLocation();
+  console.log(locationN.pathname);
+  let  pricingValues = pricingSEctionData2.pricingValues;
+  if (locationN.pathname === "/beta-madpopo-react-app/WordpressHosting"){
+    console.log("if - WP Hosting Page");
+    pricingValues = pricingSEctionData2.pricingValues;
+  }
+  else{
+    pricingValues = pricingSEctionData.pricingValues;
+    console.log("else - Home Page");
+  }
+  
+  console.log(pricingValues);
   const options = [
     { label: "1 year", value: 1 },
 
@@ -49,8 +62,12 @@ function PriceCardBox(props) {
           </form>
         </div>
         <div className="ddos-attack-price d-flex justify-content-between align-items-center mt-7 py-4">
-          <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}<span className="monthSpan">/Month</span></h2>
-          <span>{props.cardOffer}</span>
+         { 
+        // <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}<span className="monthSpan">/Month</span></h2>
+      }
+      <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}<span className="monthSpan">/ Month</span></h2>
+      
+        <span>{props.cardOffer}</span>
         </div>
         <ul className="ddos-first-features border-top">
           <li>

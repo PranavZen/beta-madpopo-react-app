@@ -2,17 +2,17 @@ import React from 'react'
 
 import PriceCardBox from "../PriceCardBox";
  
-import pricingSEctionData from "../PriceCard/PricingCardData";
+import pricingSEctionData2 from "../PriceCard/PriceCardDataTwo";
 function WordpressHostingPriceCard() {
     
-  const mainDataPricing = pricingSEctionData.mainDataPricing;
+  const mainDataPricing2 = pricingSEctionData2.mainDataPricing;
   return (
     <div className="container coodiv-z-index-1 position-relative firstSliderPadding Word_host_price_Sec">
         <div className="row align-items-center justify-content-center ddosPriceCardRow">
-          {mainDataPricing.map(
+          {mainDataPricing2.map(
             ({
               id,
-              label,
+              label, 
               cardTitle,
               cardPrice1,
               cardOffer,

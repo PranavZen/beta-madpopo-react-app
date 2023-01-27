@@ -1360,12 +1360,12 @@ a {
 a:hover {
   color: #473bf0;
 }
-a.active-link-border {
+a.active-link-border.active{
   border-bottom: 3px solid #68d585;
 }
-a.not-active-link-border {
+/* a.not-active-link-border {
   border-bottom: 3px solid #dce2e5;
-}
+} */
 p {
   font-size: 1.1875rem;
   color: var(--color-texts-opacity);
@@ -11453,6 +11453,49 @@ ul#lang-box-ul {
 .network-map-container .network-country:hover,
 .network-map-container .network-country.active {
   background: #ecd02b;
+}
+.network-map-container .network-country.active::after{
+background-color: transparent;
+  animation: pulsate .9s ease-out;
+  animation-iteration-count:infinite;
+  border: 10px solid #ecd02b;
+  border-radius: 50px;
+  width: 22px;
+  height: 17px;
+}
+/* .network-map-container .network-country.active::before{
+  background-color: transparent;
+    animation: pulsate 0.5s ease-out;
+    animation-iteration-count:infinite;
+    border: 3px solid #ecd02b;
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    background: #3b95d8;
+    border-radius: 34px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -107px;
+    z-index: -2;
+  } */
+
+@keyframes pulsate {
+  0% {
+    transform:scale(0.01);
+    
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+    
+  }
+  100% {
+    transform:scale(1.4);
+    opacity:0;
+   
+  }
 }
 .network-map-container .network-country:hover .network-country-bottom-border,
 .network-map-container .network-country.active .network-country-bottom-border {
