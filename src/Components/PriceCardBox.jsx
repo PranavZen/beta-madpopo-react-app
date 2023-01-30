@@ -34,6 +34,7 @@ function PriceCardBox(props) {
    
     console.log("card no : " + param1);
   };
+  console.log(pricingValues[1][0]["cardPrice"+props.id])
   return (
     <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
       <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
@@ -65,7 +66,7 @@ function PriceCardBox(props) {
          { 
         // <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}<span className="monthSpan">/Month</span></h2>
       }
-      <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}<span className="monthSpan">/ Month</span></h2>
+      <h2 className="priceCardPriceAmt">{value ? value : pricingValues[1][0]["cardPrice"+props.id]}<span className="monthSpan">/ Month</span></h2>
       
         <span>{props.cardOffer}</span>
         </div>

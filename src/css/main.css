@@ -9028,18 +9028,18 @@ color: #ff6a00;
   color: #252526;
   font-size: 2.25rem;
   font-weight: 700;
-  padding-bottom: 25px;
+  padding-bottom: 28px;
   text-align: center;
   margin-bottom: 0;
 }
 
 .web_speed_section .webSpeedWrap .webSpeedList{
-  padding-left: 0;
+  padding-left: 15px;
 }
 .web_speed_section .webSpeedWrap .webSpeedList li{
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 10px;
   margin-bottom: 15px;
 }
 .web_speed_section .webSpeedWrap .webSpeedList li:last-child{

@@ -33,9 +33,9 @@ const pricingSEctionData2 = {
         {
           id: 1,
            label: "1 Year",
-           cardPrice1: "$wp-1c-1y",
-           cardPrice2: "$wp-2c-1y",
-           cardPrice3: "$wp-3c-1y",
+           cardPrice1: "$20",
+           cardPrice2: "$21",
+           cardPrice3: "$22",
         },
       //   {
       //     id: 12,
@@ -54,9 +54,9 @@ const pricingSEctionData2 = {
         {
           id: 2,
           label: "2 Years",
-          cardPrice1: "$wp-1c-2y",
-           cardPrice2: "$wp-2c-2y",
-           cardPrice3: "$wp-3c-2y",
+          cardPrice1: "$30",
+           cardPrice2: "$31",
+           cardPrice3: "$32",
         },
       //   {
       //     id: 22,
@@ -75,9 +75,9 @@ const pricingSEctionData2 = {
         {
           id: 3,
           label: "3 Years",
-          cardPrice1: "$wp-1c-3y",
-           cardPrice2: "$wp-2c-3y",
-           cardPrice3: "$wp-3c-3y",
+          cardPrice1: "$40",
+           cardPrice2: "$41",
+           cardPrice3: "$42",
         },
       //   {
       //     id: 32,
