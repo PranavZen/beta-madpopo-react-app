@@ -60,13 +60,7 @@ function FAQ(props) {
                 >
                   FREQUENTLY ASKED QUESTIONS
                 </h2>
-                <p
-                  className="coodiv-text-8
-                                    mb-0"
-                >
-                  Below you'll find answers to the questions we get asked the
-                  most about our services.
-                </p>
+                
               </div>
             </div>
           </div>

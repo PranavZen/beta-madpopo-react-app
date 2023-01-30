@@ -1071,7 +1071,7 @@ border-top: 0 !important;
   text-align: justify;
 }
 .wp_hostingFaqSection{
-  padding: 80px 0 215px;
+  padding: 80px 0 310px;
   height: 100%;
   position: relative;
 }
@@ -8998,7 +8998,8 @@ color: #ff6a00;
   z-index: -1;
 }
 .web_speed_section{
-  padding: 60px 0 110px;
+  padding: 120px 0 110px;
+  background: #fafbff;
 }
 .web_speed_section .webSpeedWrap{
   flex-wrap: wrap;
@@ -9025,9 +9026,9 @@ color: #ff6a00;
 }
 .web_speed_section .webSpeedWrap .webSpeedSectionTitle h3{
   color: #252526;
-  font-size: 38px;
+  font-size: 2.25rem;
   font-weight: 700;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   text-align: center;
   margin-bottom: 0;
 }
@@ -9039,21 +9040,24 @@ color: #ff6a00;
   list-style: none;
   display: flex;
   gap: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+.web_speed_section .webSpeedWrap .webSpeedList li:last-child{
+  margin-bottom: 0;
 }
 .web_speed_section .webSpeedWrap .webSpeedList li span{
   padding-top: 5px;
 }
 .web_speed_section .webSpeedWrap .webSpeedList li span i{
   color: #00bf6f;
-  font-weight: 800;
+  /* font-weight: 800; */
   font-size: 18px;
 }
 .web_speed_section .webSpeedWrap .webSpeedList li p{
   color: #252526;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.8;
+  font-weight: 500;
+  line-height: 1.6;
   margin-bottom: 0;
 }
 /* .with-planet-bg:after {
@@ -9107,6 +9111,7 @@ color: #ff6a00;
   height: auto;
   pointer-events: none;
 }
+
 .pose_1.homeFooImg{
   bottom: -68%;
 }
