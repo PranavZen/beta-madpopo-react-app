@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beta-madpopo-react-app/static/css/main.e7174012.css",
-    "main.js": "/beta-madpopo-react-app/static/js/main.3fa16c12.js",
+    "main.css": "/beta-madpopo-react-app/static/css/main.726aed79.css",
+    "main.js": "/beta-madpopo-react-app/static/js/main.88ebe040.js",
     "static/js/787.3e488476.chunk.js": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js",
     "static/media/Face_1.png": "/beta-madpopo-react-app/static/media/Face_1.943177cd336f17076102.png",
     "static/media/Computer_Table.png": "/beta-madpopo-react-app/static/media/Computer_Table.1072ef90285972c97530.png",
@@ -73,35 +73,30 @@
     "static/media/rust.png": "/beta-madpopo-react-app/static/media/rust.effde1c630f4acec93b2.png",
     "static/media/minecraft.png": "/beta-madpopo-react-app/static/media/minecraft.d2f07c597b3ca59f59da.png",
     "static/media/counter.png": "/beta-madpopo-react-app/static/media/counter.823956189849d37cc664.png",
+    "static/media/automatic_update.png": "/beta-madpopo-react-app/static/media/automatic_update.46aee6a46cd705ba0874.png",
     "static/media/pattern-1.png": "/beta-madpopo-react-app/static/media/pattern-1.9d59dbb291f5505f55b3.png",
     "static/media/pattern-6.png": "/beta-madpopo-react-app/static/media/pattern-6.c19d944179d81c8074f7.png",
     "static/media/pattern-5.png": "/beta-madpopo-react-app/static/media/pattern-5.e4a951352994dc3c31f6.png",
     "static/media/pattern-landing.png": "/beta-madpopo-react-app/static/media/pattern-landing.41e612e150cfa9f5ab61.png",
     "static/media/curved-arrow-with-broken-line.svg": "/beta-madpopo-react-app/static/media/curved-arrow-with-broken-line.6b4dbb05c6c774ae4822.svg",
     "static/media/wpml-widget-filter.svg": "/beta-madpopo-react-app/static/media/wpml-widget-filter.78f54ff290af05b056d2.svg",
-    "static/media/wp-pro-features.webp": "/beta-madpopo-react-app/static/media/wp-pro-features.12f74e255a5f3e1caf07.webp",
     "static/media/l6-how-timeline.html": "/beta-madpopo-react-app/static/media/l6-how-timeline.c1bb72ac0d58e82696eb.html",
     "static/media/slick.svg": "/beta-madpopo-react-app/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/wordpress-staging-tool.webp": "/beta-madpopo-react-app/static/media/wordpress-staging-tool.5b2bc52b28d22f2369ae.webp",
     "static/media/slick.eot": "/beta-madpopo-react-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/beta-madpopo-react-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/automated-backups.webp": "/beta-madpopo-react-app/static/media/automated-backups.def5ee7db76720045d1f.webp",
     "index.html": "/beta-madpopo-react-app/index.html",
-    "static/media/optimized-technology.webp": "/beta-madpopo-react-app/static/media/optimized-technology.1ade7b7398ac1710a3ab.webp",
     "static/media/slick.woff": "/beta-madpopo-react-app/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/wordpress-updates.webp": "/beta-madpopo-react-app/static/media/wordpress-updates.bf8741e48d8a0cbd1d2e.webp",
-    "static/media/one-click-wp-installer.webp": "/beta-madpopo-react-app/static/media/one-click-wp-installer.ecb28339d4a357084640.webp",
     "static/media/arrow-right-desktop-3.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-3.5f108fa08c4dab202fb7.svg",
     "static/media/arrow-right-desktop-4.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-4.c0dbea6c9b1dd769ab8f.svg",
     "static/media/arrow-right-desktop-1.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-1.27df23a9d073fe62d89c.svg",
     "static/media/arrow-right-desktop-2.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-2.d3663980710bd470b402.svg",
     "static/media/wave-plan.svg": "/beta-madpopo-react-app/static/media/wave-plan.5fabe6835b36775f657c.svg",
-    "main.e7174012.css.map": "/beta-madpopo-react-app/static/css/main.e7174012.css.map",
-    "main.3fa16c12.js.map": "/beta-madpopo-react-app/static/js/main.3fa16c12.js.map",
+    "main.726aed79.css.map": "/beta-madpopo-react-app/static/css/main.726aed79.css.map",
+    "main.88ebe040.js.map": "/beta-madpopo-react-app/static/js/main.88ebe040.js.map",
     "787.3e488476.chunk.js.map": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7174012.css",
-    "static/js/main.3fa16c12.js"
+    "static/css/main.726aed79.css",
+    "static/js/main.88ebe040.js"
   ]
 }
