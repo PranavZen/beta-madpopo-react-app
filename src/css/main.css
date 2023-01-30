@@ -2660,7 +2660,7 @@ a.headerphone-number {
 }
 .wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox{
    text-align: center;
-   margin-bottom: 50px;
+   margin-bottom: 65px;
 }
 .wp_features .wp_featuersWrapper .wp_FeatureRow .col-md-4:nth-child(4) .wp_featuresInnerBox{
   margin-bottom: 0;
@@ -2675,8 +2675,11 @@ a.headerphone-number {
   margin-bottom: 20px;
 }
 .wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox .wp_fetureImageWrap img{
-  width: auto;
+  width: 75px;
   height: auto;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox .wp_fetureImageWrap img.width100{
+  width: 95px;
 }
 .wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox h4{
   font-size: 22px;

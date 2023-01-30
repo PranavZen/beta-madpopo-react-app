@@ -33,7 +33,7 @@ function WordpressHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox">
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg2} alt="WordPress Staging Tool" />
+                <img src={wpFeatureImg2} alt="WordPress Staging Tool" className="width100"/>
               </div>
               <h4>WordPress Staging Tool</h4>
               <p>
@@ -61,7 +61,7 @@ function WordpressHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox">
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg4} alt="1-Click WordPress Installer" />
+                <img src={wpFeatureImg4} alt="1-Click WordPress Installer" className="width100"/>
               </div>
               <h4>1-Click WordPress Installer</h4>
               <p>
