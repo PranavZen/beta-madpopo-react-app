@@ -53,7 +53,7 @@ function TypedComponent() {
                 </span>
               </h1>
               <p className="mb-0 mb-10 typedSmallText">
-                Unlimited boards and workflows. no credit card needed
+                  Book your domain now or connect our experts migrate your website for free
               </p>
             </div>
           </div>

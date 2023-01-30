@@ -8997,7 +8997,7 @@ color: #ff6a00;
   overflow: hidden;
   z-index: -1;
 }
-.with-planet-bg:after {
+/* .with-planet-bg:after {
   content: "";
   background: url(../image/header/planet-3.png) no-repeat;
   position: absolute;
@@ -9008,7 +9008,7 @@ color: #ff6a00;
   overflow: hidden;
   z-index: -1;
   background-size: contain;
-}
+} */
 .bg-box-gradient-1 {
   background-image: linear-gradient(
     225deg,
