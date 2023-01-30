@@ -21,12 +21,8 @@ function Migration() {
             <div className="ddos-attack-main-text text-center pt-lg-20 pt-10 px-5 dark-mode-texts position-relative coodiv-z-index-1">
               <h5 className="coodiv-text-4 windowTitle">Free WordPress Migration</h5>
               <p className="coodiv-text-11 wondowDecs px-lg-25 px-10">
-                Quick and secure, guaranteed 99.99% uptime, feature-rich
-                WordPress hosting solution. Over 60 million people choose
-                WordPress to power their websites and blogs. Born out of a
-                desire for an elegant personal publishing system built on PHP
-                and MySQL, its potential has evolved to a full content
-                management system.
+              Madpopo offers a complimentary WordPress migration service, where our experts will assist you in transferring your wordPress website to Madpopo.
+
               </p>
               <Link
                 to=""
