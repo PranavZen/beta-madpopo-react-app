@@ -5,7 +5,7 @@ import { fooLogo } from "../../Components/index";
 
 function Footer() {
   return (
-    <div className="dark-mode-texts footer-gradient-default overflow-hidden position-relative">
+    <div className="dark-mode-texts footer-gradient-default overflow-hidden position-relative madPopoEl">
       <svg
         className="bg-wave-box-end"
         

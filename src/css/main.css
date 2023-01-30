@@ -1071,7 +1071,7 @@ border-top: 0 !important;
   text-align: justify;
 }
 .wp_hostingFaqSection{
-  padding: 80px 0 310px;
+  padding: 80px 0 240px;
   height: 100%;
   position: relative;
 }
@@ -1081,6 +1081,9 @@ border-top: 0 !important;
     font-weight: 700;
     font-size: 38px;
     padding-bottom: 60px;
+}
+.wp_hostingFaqSection .wp_faqRow{
+  padding: 0 95px;
 }
 .wp_hostingFaqSection .wp_faqRow .wp_faq_Box{
   padding-bottom: 40px;
@@ -1381,9 +1384,11 @@ button:focus {
 
 .openToogle{
   display: block;
+  transition: all 32s ease-in-out;
 }
 .closeToogle{
   display: none;
+  transition: all 32s ease-in-out;
 }
 .fw-100 {
   font-weight: 100 !important;
@@ -9102,19 +9107,31 @@ color: #ff6a00;
   height: 100%;
   z-index: 1;
   position: absolute;
-  bottom: -77%;
-  left: -5%;
+  bottom: -82%;
+  left: 5%;
   pointer-events: none;
 } 
 .pose_1 img{
-  width: 30%;
+  width: 20%;
   height: auto;
   pointer-events: none;
 }
-
-.pose_1.homeFooImg{
-  bottom: -68%;
+.faq-section{
+  padding: 100px 0 220px;
 }
+.pose_1.homeFooImg{
+  bottom: -72%;
+}
+/* .madPopoEl::before{
+content: "";
+background-image: url(../../src/image/footer_pose-1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+right: 0;
+top: 0;
+} */
 .bg-wave-box-end-z1.newSVG{
   bottom: -80%;
 }

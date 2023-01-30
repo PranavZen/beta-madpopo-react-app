@@ -17,8 +17,7 @@ function FAQ(props) {
   return (
   
       <div
-        className="faq-section pt-13 pt-lg-25 pb-15
-    pb-md-20 pb-lg-32 white-mode-texts
+        className="faq-section white-mode-texts
     with-planet-bg overflow-hidden position-relative
     border-top"
       >
