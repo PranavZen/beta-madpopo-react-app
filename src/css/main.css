@@ -8997,6 +8997,65 @@ color: #ff6a00;
   overflow: hidden;
   z-index: -1;
 }
+.web_speed_section{
+  padding: 60px 0 110px;
+}
+.web_speed_section .webSpeedWrap{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.web_speed_section .webSpeedWrap .leftCstmWidth{
+  flex: 0 0 52%;
+  max-width: 52%;
+}
+.web_speed_section .webSpeedWrap .rightCstmWidth{
+  flex: 0 0 42%;
+  max-width: 42%;
+}
+.web_speed_section .webSpeedWrap .webSpeedImgWrap{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.web_speed_section .webSpeedWrap .webSpeedImgWrap img{
+  width: 100%;
+  height: auto;
+}
+.web_speed_section .webSpeedWrap .webSpeedSectionTitle h3{
+  color: #252526;
+  font-size: 38px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.web_speed_section .webSpeedWrap .webSpeedList{
+  padding-left: 0;
+}
+.web_speed_section .webSpeedWrap .webSpeedList li{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.web_speed_section .webSpeedWrap .webSpeedList li span{
+  padding-top: 5px;
+}
+.web_speed_section .webSpeedWrap .webSpeedList li span i{
+  color: #00bf6f;
+  font-weight: 800;
+  font-size: 18px;
+}
+.web_speed_section .webSpeedWrap .webSpeedList li p{
+  color: #252526;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
 /* .with-planet-bg:after {
   content: "";
   background: url(../image/header/planet-3.png) no-repeat;
