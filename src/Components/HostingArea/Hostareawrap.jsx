@@ -6,7 +6,7 @@ import AreaInfo from './AreaInfo';
 function Hostareawrap() {
   return (
     <div className="our-servers-place-section position-relative bg-dark-blue
-                bg-pattern pattern-3 pt-14 pt-lg-25 pb-0 overflow-hidden">
+                bg-pattern pattern-3 pt-14 pt-lg-22 pb-0 overflow-hidden">
                 <span className="section-side-shadow-black-white"></span>
                 <div className="container">
 

@@ -15,10 +15,12 @@ import VirtualDedicatedServer from "./Pages/HostingPages/VirtualDedicatedServer"
 import WindowsWebHosting from "./Pages/HostingPages/WindowsWebHosting";
 import LinuxWebHosting from "./Pages/HostingPages/LinuxWebHosting";
 import Home2 from "./Pages/Home2";
+import ScrollToTop from './Components/ScrollToTop';
 function App() {
 
   return (
     <Router>
+    <ScrollToTop/>
       <Routes> 
         <Route path={process.env.PUBLIC_URL + '/'} element={<Home />}/>
         <Route path="beta-madpopo-react-app/WordpressHosting" element={<WordpressHosting />}/>
