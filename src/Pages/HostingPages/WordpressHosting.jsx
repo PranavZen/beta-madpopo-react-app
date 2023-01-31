@@ -38,7 +38,7 @@ function WordpressHosting() {
       </MouseParallaxChild>
      
     </MouseParallaxContainer>
-      <div className="wp_pricingBox" data-aos="zoom-in" data-aos-duration='1200'>
+      <div className="wp_pricingBox" data-aos="zoom-in" data-aos-duration='2200'>
         <WordpressHostingPriceCard />
       </div>
       <div className="wpChoiceSection">
