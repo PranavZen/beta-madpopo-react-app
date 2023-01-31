@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beta-madpopo-react-app/static/css/main.726aed79.css",
-    "main.js": "/beta-madpopo-react-app/static/js/main.ebe42627.js",
+    "main.css": "/beta-madpopo-react-app/static/css/main.2c30b82d.css",
+    "main.js": "/beta-madpopo-react-app/static/js/main.b520dbe7.js",
     "static/js/787.3e488476.chunk.js": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js",
     "static/media/Face_1.png": "/beta-madpopo-react-app/static/media/Face_1.943177cd336f17076102.png",
     "static/media/Computer_Table.png": "/beta-madpopo-react-app/static/media/Computer_Table.1072ef90285972c97530.png",
@@ -91,12 +91,12 @@
     "static/media/arrow-right-desktop-1.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-1.27df23a9d073fe62d89c.svg",
     "static/media/arrow-right-desktop-2.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-2.d3663980710bd470b402.svg",
     "static/media/wave-plan.svg": "/beta-madpopo-react-app/static/media/wave-plan.5fabe6835b36775f657c.svg",
-    "main.726aed79.css.map": "/beta-madpopo-react-app/static/css/main.726aed79.css.map",
-    "main.ebe42627.js.map": "/beta-madpopo-react-app/static/js/main.ebe42627.js.map",
+    "main.2c30b82d.css.map": "/beta-madpopo-react-app/static/css/main.2c30b82d.css.map",
+    "main.b520dbe7.js.map": "/beta-madpopo-react-app/static/js/main.b520dbe7.js.map",
     "787.3e488476.chunk.js.map": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.726aed79.css",
-    "static/js/main.ebe42627.js"
+    "static/css/main.2c30b82d.css",
+    "static/js/main.b520dbe7.js"
   ]
 }
