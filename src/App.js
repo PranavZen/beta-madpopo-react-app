@@ -1,5 +1,5 @@
 
-import React from "react";
+import React,{useEffect} from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "../src/css/bootstrap.css";
 import "../src/css/custom.css";
@@ -16,8 +16,12 @@ import WindowsWebHosting from "./Pages/HostingPages/WindowsWebHosting";
 import LinuxWebHosting from "./Pages/HostingPages/LinuxWebHosting";
 import Home2 from "./Pages/Home2";
 import ScrollToTop from './Components/ScrollToTop';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function App() {
-
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <Router>
     <ScrollToTop/>

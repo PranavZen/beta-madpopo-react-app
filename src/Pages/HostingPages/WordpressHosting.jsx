@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React from "react";
 import { footerPose1,wp_logo } from "../../Components";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
@@ -8,16 +8,13 @@ import WordpressHostingFeatures from "../../Components/WordpressHostingPageCompo
 import WordpressHostingPriceCard from "../../Components/WordpressHostingPageComponent/WordpressHostingPriceCard";
 import WordpressPlansListing from "../../Components/WordpressHostingPageComponent/WordpressPlansListing";
 import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import {
   MouseParallaxChild,
   MouseParallaxContainer
 } from "react-parallax-mouse";
 function WordpressHosting() {
-  useEffect(() => {
-    AOS.init();
-  }, [])
+ 
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg">
       <Navbar />
