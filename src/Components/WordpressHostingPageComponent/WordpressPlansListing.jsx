@@ -3,7 +3,7 @@ import palnsListing from "../WordpressHostingPageComponent/PlansListing";
 
 function WordpressPlansListing(props) {
   return (
-    <div className="wp_plans_listSection">
+    <div className="wp_plans_listSection" data-aos="fade-left" data-aos-duration='1200'>
       <div className="container">
         <div className="wp_plansSectionTitle">
           <h2>All WordPress Hosting Plans include :</h2>

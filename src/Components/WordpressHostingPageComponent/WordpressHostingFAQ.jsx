@@ -3,7 +3,7 @@ import wpFaqData from "../WordpressHostingPageComponent/WpFaqData";
 
 function WordpressHostingFAQ() {
   return (
-    <div className="container">
+    <div className="container" data-aos="zoom-in" data-aos-duration='1200'>
       <div className="wp_faqSectionTitle">
         <h5>Frequently Asked Questions</h5>
       </div>

@@ -8,7 +8,7 @@ function WpBestChoice() {
         <div className="wpChoiceSecTitle">
             <h2>Why Our WordPress Hosting Is the Best Choice</h2>
         </div>
-        <div className="wpBest_choiceRow padBtm_50">
+        <div className="wpBest_choiceRow padBtm_50" data-aos="fade-left" data-aos-duration='1200'>
           <div className="col-md-5">
             <div className="wp_choice_leftBox">
               <div className="wp_choice_ContentBox">
@@ -40,7 +40,7 @@ function WpBestChoice() {
             </div>
           </div>
         </div>
-        <div className="wpBest_choiceRow">
+        <div className="wpBest_choiceRow" data-aos="fade-right" data-aos-duration='1200'>
           <div className="col-md-6">
             <div className="wp_choice_rightBox">
               <div className="wp_choiceImgWrap">

@@ -17,7 +17,7 @@ function WordpressHostingFeatures() {
       <div className="container">
         <div className="wp_FeatureRow">
           <div className="col-md-4">
-            <div className="wp_featuresInnerBox">
+            <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
                 <img src={wpFeatureImg1} alt="Optimized Technology" />
               </div>
@@ -31,7 +31,7 @@ function WordpressHostingFeatures() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="wp_featuresInnerBox">
+            <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
                 <img src={wpFeatureImg2} alt="WordPress Staging Tool" className="width100"/>
               </div>
@@ -45,7 +45,7 @@ function WordpressHostingFeatures() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="wp_featuresInnerBox">
+            <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
                 <img src={wpFeatureImg3} alt="Automatic Updates" />
               </div>
@@ -59,7 +59,7 @@ function WordpressHostingFeatures() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="wp_featuresInnerBox">
+            <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
                 <img src={wpFeatureImg4} alt="1-Click WordPress Installer" className="width100"/>
               </div>
@@ -72,7 +72,7 @@ function WordpressHostingFeatures() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="wp_featuresInnerBox">
+            <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
                 <img src={wpFeatureImg5} alt="Automated Backups" />
               </div>
@@ -85,7 +85,7 @@ function WordpressHostingFeatures() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="wp_featuresInnerBox">
+            <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
                 <img src={wpFeatureImg6} alt="WordPress Pro Features" />
               </div>
