@@ -9,10 +9,10 @@ function TypedComponent() {
   useEffect(() => {
     new Typed(el.current, {
       strings: [
-        "resellers hosting company",
-        "web hosting company",
-        "domains business",
-        "and more...",
+        "Create a Breathtaking WordPress Website",
+        // "web hosting company",
+        // "domains business",
+        // "and more...",
       ],
       stringsElement: null,
       typeSpeed: 180,
@@ -42,18 +42,18 @@ function TypedComponent() {
                 with madpopo
               </h4>
               <h1 className="d-block mb-0 typedTextMain">
-                Choose flexible pricing plan for you
+               Find the Ideal WordPress Hosting to Align with Your Objectives
               </h1>
               <h1 className="position-relative mb-5 typedText">
                 <span id="typed" ref={(el)} className="typed strike-bottom green d-inline-block">
-                  and
+                  
                 </span>
                 <span className="typed-cursor" aria-hidden="true">
                   |
                 </span>
               </h1>
               <p className="mb-0 mb-10 typedSmallText">
-                  Book your domain now or connect our experts migrate your website for free
+              Secure your domain today or have our experts seamlessly transfer your website at no cost.
               </p>
             </div>
           </div>
