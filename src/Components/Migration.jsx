@@ -21,7 +21,7 @@ function Migration() {
             <div className="ddos-attack-main-text text-center pt-lg-20 pt-10 px-5 dark-mode-texts position-relative coodiv-z-index-1">
               <h5 className="coodiv-text-4 windowTitle">Free WordPress Migration</h5>
               <p className="coodiv-text-11 wondowDecs px-lg-25 px-10">
-              Madpopo provides a gratis WordPress migration service, where our specialists will support you in moving your WordPress website to Madpopo.
+              We understand that changing hosting providers can be a hassle, which is why we're thrilled to offer unlimited migrations of your WordPress site from any hosting provider without any downtime or data loss.
               </p>
               <Link
                 to=""

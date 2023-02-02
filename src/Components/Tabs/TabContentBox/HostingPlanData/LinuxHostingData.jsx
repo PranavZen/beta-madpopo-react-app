@@ -1,0 +1,51 @@
+const LinuxData=[
+    {
+        id: 1,
+        cardlinuxTitle: "RockeyBoost",
+        cardlinuxSubTitle: "Optimal solution for Beginners",
+        cardlinuxOgPrice: `$32`,
+        cardlinuxOffer: "offer - 30%",
+        cardlinuxCapacity: "10GB",
+        cardlinuxSSHAccess: "Unlimited",
+        cardlinuxOPt1: "Free Domain 1st Year*",
+        cardlinuxOPT2:`1`,
+        cardlinuxOPT3:`10`,
+        cardlinuxOPT4:`20`,
+        cardlinuxOPT5:`2`,
+        cardlinuxOPT6:`Weekly Backup`,
+        
+      },
+      {
+        id: 2,
+        cardlinuxTitle: "RockyPro",
+        cardlinuxSubTitle: "Ideal for personal websites",
+        cardlinuxOgPrice: `$33`,
+        cardlinuxOffer: "offer - 30%",
+        cardlinuxCapacity: "20GB",
+        cardlinuxSSHAccess: "Unlimited",
+        cardlinuxOPt1: "Free Domain 1st Year*",
+        cardlinuxOPT2:`5`,
+        cardlinuxOPT3:`20`,
+        cardlinuxOPT4:`50`,
+        cardlinuxOPT5:`10`,
+        cardlinuxOPT6:`Weekly Backup`,
+        
+      },
+      {
+        id: 3,
+        cardlinuxTitle: "RockyBusiness",
+        cardlinuxSubTitle: "Suitable for small business.",
+        cardlinuxOgPrice: `$34`,
+        cardlinuxOffer: "offer - 30%",
+        cardlinuxCapacity: "30GB",
+        cardlinuxSSHAccess: "Unlimited",
+        cardlinuxOPt1: "Free Domain 1st Year*",
+        cardlinuxOPT2:`10`,
+        cardlinuxOPT3:`30`,
+        cardlinuxOPT4:`100`,
+        cardlinuxOPT5:`20`,
+        cardlinuxOPT6:`Daily Backup`,
+        
+      },
+]
+export default LinuxData;

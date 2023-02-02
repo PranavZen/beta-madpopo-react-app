@@ -11,6 +11,7 @@ function Pricecard(props) {
             id,
             label,
             cardTitle,
+            cardSubTitle,
             cardPrice1,
             cardOffer,
             cardCapacity,
@@ -18,12 +19,17 @@ function Pricecard(props) {
             cardDDOS,
             cardPrice2,
             cardPrice3,
+            cardOgPrice,
+            wpNode,
+            wpWeeklyBckp,
           }) => (
             <PriceCardBox
               key={id}
               id={id}
               label={label}
               cardTitle={cardTitle}
+              cardSubTitle={cardSubTitle}
+              cardOgPrice={cardOgPrice}
               cardPrice1={cardPrice1}
               cardPrice2={cardPrice2}
               cardPrice3={cardPrice3}
@@ -31,6 +37,8 @@ function Pricecard(props) {
               cardCapacity={cardCapacity}
               cardSSHAccess={cardSSHAccess}
               cardDDOS={cardDDOS}
+              wpNode={wpNode}
+              wpWeeklyBckp={wpWeeklyBckp}
             />
           )
         )}

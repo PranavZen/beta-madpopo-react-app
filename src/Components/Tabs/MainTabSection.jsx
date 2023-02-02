@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import FifthTabContent from "./TabContentBox/FifthTabContent";
 import FirstTabContent from "./TabContentBox/FirstTabContent";
-import FourthTabContent from "./TabContentBox/FourthTabContent";
 import SecondTabContent from "./TabContentBox/SecondTabContent";
-import SixthTabContent from "./TabContentBox/SixthTabContent";
-import ThirdTabContent from "./TabContentBox/ThirdTabContent";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SeventhTabContent from "./TabContentBox/SeventhTabContent";
-import EighthTabContent from "./TabContentBox/EighthTabContent";
+import WindowsTabContent from "./TabContentBox/WindowsTabContent";
+import SixthTabContent from "./TabContentBox/SixthTabContent";
+import ThirdTabContent from "./TabContentBox/ThirdTabContent";
 
 function MainTabSection() {
   const [nav1, setNav1] = useState();
@@ -58,12 +55,9 @@ function MainTabSection() {
         >
           <FirstTabContent />
           <SecondTabContent />
+          <WindowsTabContent />
           <ThirdTabContent />
-          <FourthTabContent />
-          <FifthTabContent />
-          <SixthTabContent />
-          <SeventhTabContent />
-          <EighthTabContent />
+          
         </Slider>
         <div className="services-box-container">
           <Slider
@@ -71,7 +65,7 @@ function MainTabSection() {
             className="services-box-tabs-box border-opacity border-top-0"
             asNavFor={nav1}
             ref={(slider2) => setNav2(slider2)}
-            slidesToShow={5}
+            slidesToShow={3}
             swipeToSlide={true}
             focusOnSelect={true}
           >
@@ -81,72 +75,39 @@ function MainTabSection() {
                 Wordpress hosting
               </h5>
               <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
-                Lorem Ipsum is simply dummy
+              Hassle-Free Managed WordPress Hosting
+
               </p>
             </div>
             <div className="services-box-tab">
               <i className="fa fa-shopping-cart"></i>
               <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
-              WooCommerce Hosting
+              Linux Web Hosting
               </h5>
               <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
-                Lorem Ipsum is simply dummy
+              Fast & Secure Hosting For Any Website
+
               </p>
             </div>
             <div className="services-box-tab">
               <i className="fa fa-linux"></i>
               <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
-              Linux Web Hosting
+              Windows Web Hosting
               </h5>
               <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
-                Lorem Ipsum is simply dummy
+              For websites built in ASP.Net & MSSQL
               </p>
             </div>
             <div className="services-box-tab">
               <i className="fa fa-windows"></i>
               <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
-              Windows Web Hosting
+              Virtual Private Server
               </h5>
               <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
-                Lorem Ipsum is simply dummy
+              Grow Your Business with Cloud Hosting
               </p>
             </div>
-            <div className="services-box-tab">
-              <i className="fa fa-cloud"></i>
-              <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
-               Virtual Dedicated Server
-              </h5>
-              <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
-                Lorem Ipsum is simply dummy
-              </p>
-            </div>
-            <div className="services-box-tab">
-              <i className="fa fa-server"></i>
-              <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
-                Dedicated Server
-              </h5>
-              <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
-                Lorem Ipsum is simply dummy
-              </p>
-            </div>
-            <div className="services-box-tab">
-              <i className="fa fa-envelope-o"></i>
-              <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
-                Business Email Hosting
-              </h5>
-              <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
-                Lorem Ipsum is simply dummy
-              </p>
-            </div>
-            <div className="services-box-tab">
-              <i className="fa fa-users"></i>
-              <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
-                Reseller Hosting
-              </h5>
-              <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
-                Lorem Ipsum is simply dummy
-              </p>
-            </div>
+            
           </Slider>
         </div>
       </div>

@@ -7,9 +7,7 @@ export { default as bannerBg4 } from '../../src/image/header/helf-circle-03.png'
 export { default as bannerBg5 } from '../../src/image/payment/icon-visa.png';
 export { default as bannerBg6 } from '../../src/image/payment/icon-maestro.png';
 export { default as bannerBg7 } from '../../src/image/payment/icon-bitcoin.png';
-export { default as game1 } from '../../src/image/games/counter.png';
-export { default as game2 } from '../../src/image/games/minecraft.png';
-export { default as game3 } from '../../src/image/games/rust.png'; 
+
 export { default as woldMap } from '../../src/image/world-map/global_network.png';
 export { default as fooLogo } from '../../src/image/header/madpopo_final_logo_nav_white.png';
 export { default as bgleftMid } from '../../src/image/left-mid-elm.png';
@@ -23,12 +21,13 @@ export { default as pcSVG } from '../../src/image/Banner_Support_3-01.svg';
 export { default as migration } from '../../src/image/migrationMeeting.png';
 export { default as wpHostRightImg } from '../../src/image/sporty-couple.png';
 export { default as wpHostLefttImg } from '../../src/image/24x7.png';
-export { default as wpFeatureImg1 } from '../../src/image/wordpress/optimized_technology.png';
-export { default as wpFeatureImg2 } from '../../src/image/wordpress/wordpress_staging_tool.png';
-export { default as wpFeatureImg3 } from '../../src/image/wordpress/automatic_update.png';
-export { default as wpFeatureImg4 } from '../../src/image/wordpress/one_click_installation.png';
-export { default as wpFeatureImg5 } from '../../src/image/wordpress/automated_backup.png';
-export { default as wpFeatureImg6 } from '../../src/image/wordpress/wordpress_pro_feature.png';
+export { default as wpFeatureImg1 } from '../../src/image/wordpress/optimized_technology.svg';
+export { default as wpFeatureImg2 } from '../../src/image/wordpress/wordpress_staging_tool.svg';
+export { default as wpFeatureImg3 } from '../../src/image/wordpress/automatic_update.svg';
+export { default as wpFeatureImg4 } from '../../src/image/wordpress/one_click_installation.svg';
+export { default as wpFeatureImg5 } from '../../src/image/wordpress/automated_backup.svg';
+export { default as wpFeatureImg6 } from '../../src/image/wordpress/wordpress_pro_feature.svg';
 export { default as wp_logo } from '../../src/image/wordpress_innerLogo.png';
 export { default as tableImg } from '../../src/image/24_Shadow.png';
 export { default as webSpeedImg } from '../../src/image/webSpeedData.png';
+

@@ -1,28 +1,27 @@
 import React, { useState } from "react";
-import { useLocation } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 import pricingSEctionData from "./PriceCard/PricingCardData";
 import pricingSEctionData2 from "./PriceCard/PriceCardDataTwo";
 
 function PriceCardBox(props) {
   const locationN = useLocation();
   console.log(locationN.pathname);
-  let  pricingValues = pricingSEctionData2.pricingValues;
-  if (locationN.pathname === "/beta-madpopo-react-app/WordpressHosting"){
+  let pricingValues = pricingSEctionData2.pricingValues;
+  if (locationN.pathname === "/beta-madpopo-react-app/WordpressHosting") {
     console.log("if - WP Hosting Page");
     pricingValues = pricingSEctionData2.pricingValues;
-  }
-  else{
+  } else {
     pricingValues = pricingSEctionData.pricingValues;
     console.log("else - Home Page");
   }
-  
+
   console.log(pricingValues);
   const options = [
-    { label: "1 year", value: 1 },
+    { label: "3 year", value: 3 },
 
     { label: "2 years", value: 2 },
 
-    { label: "3 years", value: 3 },
+    { label: "1 years", value: 1 },
   ];
   const [value, setValue] = useState("");
   const handleChange = (event, param1) => {
@@ -31,19 +30,17 @@ function PriceCardBox(props) {
     console.log("Years " + event.target.value);
     console.log(pricingValues[event.target.value][0]["cardPrice" + param1]);
     // console.log(options[0].label);
-   
+
     console.log("card no : " + param1);
   };
-  console.log(pricingValues[1][0]["cardPrice"+props.id])
+  console.log(pricingValues[1][0]["cardPrice" + props.id]);
   return (
     <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
       <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
         <div className="toggleWrap d-flex">
-          <h2 className="priceCardTitle mb-0">
-            {props.cardTitle}
-          </h2>
+          <h2 className="priceCardTitle mb-0">{props.cardTitle}</h2>
         </div>
-        <span className="fromText">from</span>
+        <span className="fromText">{props.cardSubTitle}</span>
         <div className="selectDaysWrap">
           <form>
             <select
@@ -51,73 +48,90 @@ function PriceCardBox(props) {
               value={options.value}
               options={options}
               onChange={(event) => handleChange(event, props.id)}
-              
+              // defaultValue={options[2]}
             >
               {options.map((option, id) => (
-                <option value={option.value} key={id} >
+                <option value={option.value} key={id}>
                   {option.label}
                 </option>
               ))}
             </select>
-            
           </form>
         </div>
+
         <div className="ddos-attack-price d-flex justify-content-between align-items-center mt-7 py-4">
-         { 
-        // <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}<span className="monthSpan">/Month</span></h2>
-      }
-      <h2 className="priceCardPriceAmt">{value ? value : pricingValues[1][0]["cardPrice"+props.id]}<span className="monthSpan">/ Month</span></h2>
-      
-        <span>{props.cardOffer}</span>
+          {
+            // <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}<span className="monthSpan">/Month</span></h2>
+          }
+          <h2 className="priceCardPriceAmt">
+            {value ? value : pricingValues[3][0]["cardPrice" + props.id]}
+            <span className="monthSpan">/ mo</span>
+          </h2>
+
+          <span>{props.cardOffer}</span>
+        </div>
+        <div className="orginalPriceWrap">
+          <p className="desPriceText">
+            <span>Discounted from</span> <del>{props.cardOgPrice} / mo</del>
+          </p>
         </div>
         <ul className="ddos-first-features border-top">
           <li>
-            <span className="capTitle">Capacity</span>
+            <span className="capTitle">SSD Storage</span>
             <span className="capAmt">{props.cardCapacity}</span>
           </li>
           <li>
-            <span className="capTitle">SSH accese</span>
+            <span className="capTitle">Unmetered Traffic </span>
             <span className="capAmt">{props.cardSSHAccess}</span>
           </li>
           <li>
-            <span className="capTitle">Anti DDOS protection</span>
+            <span className="capTitle">Premium Theme of Value</span>
             <span className="capAmt">{props.cardDDOS}</span>
           </li>
         </ul>
         <ul className="ddos-second-features border-top">
           <li>
-            <i className="feather icon-check-circle mr-3"></i> Unlimited
-            Bandwidth
+            <i className="feather icon-check-circle mr-3"></i> Free Domain 1st
+            Year*
           </li>
           <li>
-            <i className="feather icon-check-circle mr-3"></i> Full backup
-            Systems
+            <i className="feather icon-check-circle mr-3"></i> Premium
+            Theme,Save $399
           </li>
           <li>
-            <i className="feather icon-check-circle mr-3"></i> Free Domain
+            <i className="feather icon-check-circle mr-3"></i> Free WP
+            Installation
           </li>
           <li>
-            <i className="feather icon-check-circle mr-3"></i> Unlimited
-            Database
+            <i className="feather icon-check-circle mr-3"></i> Free Speed
+            Enhancing CDN
           </li>
           <li>
-            <i className="feather icon-check-circle mr-3"></i> Fast SSD Storage
+            <i className="feather icon-check-circle mr-3"></i> WordPress
+            Autoupdates
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i> Free SSL
+          </li>
+
+          <li>
+            <i className="feather icon-check-circle mr-3"></i>{" "}
+            {props.wpWeeklyBckp}
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i>Ecommerce Enabled
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i>Managed WordPress
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i>Out-of-the-box Caching
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i>100% renewable energy match
           </li>
         </ul>
-        <ul className="ddos-third-features border-top">
-          <li>
-            <span>
-              <strong>Dedicated project</strong>big companis,we chose to works
-              with it
-            </span>
-          </li>
-          <li>
-            <span>
-              <strong>Easy feedback sharing</strong>Choose your edition, Try it
-              free for 14 days
-            </span>
-          </li>
-        </ul>
+       
         <button className="btn btn-primary coodiv-hover-y w-100 mt-9 coodiv-text-9">
           Buy Now
         </button>

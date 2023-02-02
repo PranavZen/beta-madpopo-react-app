@@ -2,15 +2,15 @@ const LeftData =[
     
         {   
             id : 11,
-            buttonTitle : 'The Optimal Web Hosting Package',
-            buttonData1 : 'Our hosting packages are expertly crafted to accommodate the demands of all, offering a comprehensive solution for all your web hosting needs.',
+            buttonTitle : 'The best web hosting plan',
+            buttonData1 : 'Our hosting plans are carefully designed to meet the needs of everyone, providing a solution for all your web hosting requirements.',
             buttonIcon : <i className="feather icon-server"></i>,
             buttonNumber : '1',    
         },
         {  
             id : 12,
             buttonTitle : 'Fully Managed SSD-Based Cloud VPS',
-            buttonData1 : 'Our VPS hosting servers with self-administration are fitted with cutting-edge Intel Xeon processors, ample RAM, and substantial SSD storage, offering the necessary processing power to efficiently manage medium to large-scale online projects.',
+            buttonData1 : 'Our self-managed VPS hosting servers are equipped with state-of-the-art Intel Xeon processors, ample RAM, and substantial SSD storage. These resources provide the necessary processing power to handle medium to large-scale online projects with ease.',
             buttonIcon : <i className="feather icon-cloud"></i>,
             buttonNumber : '2',
             
@@ -18,14 +18,14 @@ const LeftData =[
         {  
             id : 13,
             buttonTitle : '#1 Wordpress Hosting',
-            buttonData1 : 'Our Managed WordPress Hosting Packages offer specialized hosting solutions for WordPress users, including an intuitive Control Panel, single-click setup, and pre-installed performance plugins, allowing you to swiftly establish a speedy website and elevate your online presence.',
+            buttonData1 : 'Our Managed WordPress Hosting Plans provide specialized hosting services for WordPress users, including a user-friendly Virtual Panel, one-click installation, and pre-installed performance plugins, enabling you to quickly establish a fast website and enhance your online presence',
             buttonIcon : <i className="fa fa-wordpress"></i>,
             buttonNumber : '3',
         },
         {  
             id : 14,
             buttonTitle : 'Premier Dedicated Server Provider',
-            buttonData1 : 'Madpopo Offers Premium High-Performance Dedicated Servers, Driven by Top-Notch Hardware. Secured with a 99.99% Uptime Commitment and Supported by Outstanding Assistance.',
+            buttonData1 : 'Madpopo Provides Elite High-Performance Dedicated Servers, Fuelled by Superior Hardware. Secured with 99.99% Uptime Guarantee and Backed by Exceptional Support',
             buttonIcon : <i className="feather icon-server"></i>,
             buttonNumber : '4',
         },
