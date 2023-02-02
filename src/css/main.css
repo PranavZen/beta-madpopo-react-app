@@ -2537,7 +2537,7 @@ a.headerphone-number {
 /*---------------- Page hero styles -----------------*/
 
 .wp_hostingBgImg{
-  background-image: url(.././image/header/HostingPages/wordpress_Hostingnew.png);
+  background-image: url(.././image/header/HostingPages/wordpress_hostingnew.png);
   background-position: 100% 0%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -2840,7 +2840,7 @@ border-color: #00e100;
   align-items: center;
 }
 .pcImageWrap .center-logo{
-  width: 30%;
+  width: 100%;
   margin: 0 auto;
 }
 .pcImageWrap .center-logo.logo2{
@@ -3815,7 +3815,7 @@ border-color: #00e100;
   overflow: hidden;
 }
 .topLeftIco{
-  background: url(../image/migrationWindow-left.png);
+  background: url(../image/migrationwindow-left.png);
   background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
@@ -3828,7 +3828,7 @@ border-color: #00e100;
     pointer-events: none;
 }
 .topRightIco{
-  background: url(../image/migrationWindow-right-top.png);
+  background: url(../image/migrationwindow-right-top.png);
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
@@ -3841,7 +3841,7 @@ border-color: #00e100;
   pointer-events: none;
 }
 .btnRightIco{
-  background: url(../image/migrationWindow-right-btm.png);
+  background: url(../image/migrationwindow-right-btm.png);
   background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
@@ -4056,7 +4056,7 @@ div.slick-active.slick-current .main-features-box {
 }
 .slidePriceCardPosition:after{
   content: "";
-  background: url(../image/sliderCartoon.png);
+  background: url(../image/slidercartoon.png);
   background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
@@ -4071,7 +4071,7 @@ div.slick-active.slick-current .main-features-box {
 }
 .slidePriceCardPosition:before{
   content: "";
-  background: url(../image/sliderBtmImg.png);
+  background: url(../image/sliderbtmimg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -9288,7 +9288,7 @@ top: 0;
   background: linear-gradient(90deg, #23272b, #444);
 }
 .bg-dark-blue {
-  background-color: #2e3dbe;
+  background-color: #0056ed;
 }
 .white-text {
   color: #fff;
@@ -11456,28 +11456,32 @@ ul#lang-box-ul {
 
 /*---------------- template network map stylesheets -----------------*/
 #global-network-country-01-tab{
-  bottom: 74%;
-  left: 0%;
+  bottom: 42%;
+  left: -75%;
 }
 #global-network-country-02-tab{
-  bottom: 56%; 
-  left: -68%;
+  bottom: 66%;
+  left: -54%;
 }
 #global-network-country-03-tab{
-  bottom: 40%; 
-  left: -55%;
+  bottom: 30%;
+  left: -43%;
 }
 #global-network-country-04-tab{
-  bottom: 40%; 
-  left: 12%;
+  bottom: 35%;
+  left: 75%;
 }
 #global-network-country-05-tab{
-  bottom: 60%;
-   left: 44%;
+  bottom: 46%;
+  left: 53%;
 }
 #global-network-country-06-tab{
-  bottom: 68%; 
-  left: 66%;
+  bottom: 75%;
+  left: 0%;
+}
+#global-network-country-07-tab{
+  bottom: 53%;
+  left: -12%;
 }
 .network-map-container .network-country {
   width: fit-content;

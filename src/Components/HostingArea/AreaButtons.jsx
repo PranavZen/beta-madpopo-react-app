@@ -15,7 +15,7 @@ function AreaButtons() {
                                 href="#global-network-country-01" role="tab"
                                 aria-controls="global-network-country-01"
                                 aria-selected="true">
-                                <span className="coodiv-text-12">Algeria <small>Medea</small></span>
+                                <span className="coodiv-text-12">USA  <small>Central</small></span>
                                 <i className="network-country-bottom-border"></i>
                             </a>
 
@@ -26,7 +26,7 @@ function AreaButtons() {
                                 href="#global-network-country-02" role="tab"
                                 aria-controls="global-network-country-02"
                                 aria-selected="false">
-                                <span className="coodiv-text-12">USA <small>california</small></span>
+                                <span className="coodiv-text-12">USA <small>East</small></span>
                                 <i className="network-country-bottom-border"></i>
                             </a>
 
@@ -37,7 +37,7 @@ function AreaButtons() {
                                 href="#global-network-country-03" role="tab"
                                 aria-controls="global-network-country-03"
                                 aria-selected="false">
-                                <span className="coodiv-text-12">Brazil <small>Brasilia</small></span>
+                                <span className="coodiv-text-12">USA <small>West</small></span>
                                 <i className="network-country-bottom-border"></i>
                             </a>
 
@@ -48,8 +48,8 @@ function AreaButtons() {
                                 href="#global-network-country-04" role="tab"
                                 aria-controls="global-network-country-04"
                                 aria-selected="true">
-                                <span className="coodiv-text-12">South Africa
-                                    <small>South Africa</small></span>
+                                <span className="coodiv-text-12">Asia
+                                    <small>Singapore</small></span>
                                 <i className="network-country-bottom-border"></i>
                             </a>
 
@@ -60,8 +60,7 @@ function AreaButtons() {
                                 href="#global-network-country-05" role="tab"
                                 aria-controls="global-network-country-05"
                                 aria-selected="false">
-                                <span className="coodiv-text-12">India <small>New
-                                        Delhi</small></span>
+                                <span className="coodiv-text-12">India <small>Mumbai</small></span>
                                 <i className="network-country-bottom-border"></i>
                             </a>
 
@@ -72,9 +71,19 @@ function AreaButtons() {
                                 href="#global-network-country-06" role="tab"
                                 aria-controls="global-network-country-06"
                                 aria-selected="false">
-                                <span className="coodiv-text-12">Russia <small>Moscow</small></span>
+                                <span className="coodiv-text-12">European Union  <small>Germany</small></span>
                                 <i className="network-country-bottom-border"></i>
                             </a>
+                            <a 
+                            className="network-country nav-link"
+                            id="global-network-country-07-tab"
+                            data-toggle="pill"
+                            href="#global-network-country-07" role="tab"
+                            aria-controls="global-network-country-07"
+                            aria-selected="false">
+                            <span className="coodiv-text-12">UK  <small>London</small></span>
+                            <i className="network-country-bottom-border"></i>
+                        </a>
 
                         </div>
 
