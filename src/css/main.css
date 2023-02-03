@@ -2645,6 +2645,34 @@ a.headerphone-number {
    width: 100%;
   height: auto;
 }
+.linux_pricingBox{
+  margin-top: -215px;
+  padding-bottom: 90px;
+}
+.windows_pricingBox{
+  margin-top: -225px;
+  padding-bottom: 160px;
+}
+.vds_pricingBox{
+  margin-top: -225px;
+  padding-bottom: 95px;
+}
+.ds_pricingBox{
+  margin-top: -225px;
+  padding-bottom: 95px;
+}
+.cloudHost_pricingBox{
+  margin-top: -225px;
+  padding-bottom: 95px;
+}
+.resellerHosting_pricingBox{
+  margin-top: -225px;
+  padding-bottom: 95px;
+}
+.windows_pricingBox .ddosPriceCardRow.blueCard .priceCardWrap:nth-child(2)::after{
+  left: -106px;
+  top: -265px;
+}
 .wp_features .wp_featuersWrapper{
   padding: 85px 0;
 }
@@ -2774,7 +2802,7 @@ border-color: #00e100;
   background-color: #00e100;
 }
 .ddosPriceCardRow.blueCard .priceCardWrap:nth-child(2)::after{
-  left: -100px;
+  left: -99px;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2)::after {
   content: "";

@@ -46,7 +46,7 @@ function MainTabSection() {
       <div className="container mt-lg-n30 mt-n15">
         <Slider
           {...settings2}
-          className="main-homepage-plans-slider"
+          className="main-homepage-plans-slider" 
           asNavFor={nav2}
           ref={(slider1) => setNav1(slider1)}
           slidesToShow={1}
