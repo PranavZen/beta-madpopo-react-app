@@ -10,7 +10,7 @@ function WindowsHostingPriceCard(props) {
           {WindowsHostingDatas.map(
             ({
               id,
-              label, 
+              label,  
               winHostTitle,
               winHostSubTitle,
               winHostOgPrice,
@@ -30,6 +30,7 @@ function WindowsHostingPriceCard(props) {
               winHOPt4,
               winHOPt5,
               winHOPt6,
+              winHostAnchor
               
             }) => (
               <WindowsPricingCardBox
@@ -55,6 +56,7 @@ function WindowsHostingPriceCard(props) {
                 winHOPt4={ winHOPt4}
                 winHOPt5={ winHOPt5}
                 winHOPt6={ winHOPt6}
+                winHostAnchor={winHostAnchor}
               />
             )
           )}

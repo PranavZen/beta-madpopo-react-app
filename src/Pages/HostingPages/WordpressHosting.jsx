@@ -20,7 +20,7 @@ function WordpressHosting() {
       <Navbar />
       
       <div className="wp_img_overlayContent">
-        <p>WOrdpress Hosting</p>
+        <p>Wordpress Hosting</p>
         <h1>Choose flexible pricing plan for you and more...</h1>
         <span>Unlimited boards and workflows. no credit card needed</span>
       </div>
@@ -55,7 +55,7 @@ function WordpressHosting() {
       <img src={footerPose1} alt="Footer Imgage"/>
       </div>
       <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
-          <defs>
+          <defs> 
             <linearGradient id="footer-gradient">
               <stop offset="0%" stopColor="#212433" />
               <stop offset="39%" stopColor="#242837" />

@@ -5,7 +5,6 @@ import SecondTabContent from "./TabContentBox/SecondTabContent";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import WindowsTabContent from "./TabContentBox/WindowsTabContent";
-import SixthTabContent from "./TabContentBox/SixthTabContent";
 import ThirdTabContent from "./TabContentBox/ThirdTabContent";
 
 function MainTabSection() {

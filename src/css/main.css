@@ -2773,6 +2773,9 @@ border-color: #00e100;
 .ddosPriceCardRow.blueCard .priceCardWrap:nth-child(2)::before{
   background-color: #00e100;
 }
+.ddosPriceCardRow.blueCard .priceCardWrap:nth-child(2)::after{
+  left: -100px;
+}
 .ddosPriceCardRow .priceCardWrap:nth-child(2)::after {
   content: "";
   background-image: url(../image/card_pose_1.png);
@@ -2782,13 +2785,21 @@ border-color: #00e100;
     width: 100%;
     height: 100%;
     position: absolute;
-    left: -104px;
+    left: -103px;
     top: -240px;
     pointer-events: none;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2) .priceCardDdos{
   border: 5px solid #ff6a00;
  
+}
+.linuxHostingCardWrap{
+  position: relative;
+  z-index: 99;
+}
+.linuxHostingCardWrap .linuxOuterPrice{
+  position: relative;
+  z-index: 100;
 }
 .linuxHostingCardWrap .linuxOuterPrice:nth-child(2)::before{
   align-items: center;
@@ -2814,10 +2825,18 @@ border-color: #00e100;
   font-weight: 700;
   color: #252526;
 }
+.priceCardDdos .priceCardTitle a{
+  /* color: #0056ed; */
+  color: #252526;
+}
 .linuxCardTitle{
   font-size: 18px;
   font-weight: 700;
   color: #252526;
+}
+.linuxCardTitle a{
+  color: #252526;
+  pointer-events: all;
 }
 .priceCardPriceAmt{
   font-size: 32px;
@@ -4391,7 +4410,7 @@ a.popover-host-features:hover {
 /*---------------- fourth plan table styles -----------------*/
 .games-plan .plan-header {
   height: 100%;
-  padding: 0 20px;
+  padding: 0 0;
   box-shadow: 0 20px 20px -21px rgb(22 28 45 / 9%);
 }
 .games-plan .game-logo {
@@ -4410,10 +4429,13 @@ a.popover-host-features:hover {
 }
 .games-plan .game-title h3 {
   font-size: 18px;
-  line-height: 22px;
+  line-height: 5px;
   margin-bottom: 0;
   text-align: left;
   margin-top: 5px;
+}
+.games-plan .game-title h3 a{
+  color: #252526;
 }
 .games-plan .game-title h2 {
   font-size: 2rem;
@@ -12148,6 +12170,10 @@ rder-radius: 20px;
 }
 .fromText{
   font-weight: 600;
+}
+.fromText.vpiText{
+  font-size: 16px;
+  text-align: left;
 }
 .desPriceText{
   font-weight: 500;

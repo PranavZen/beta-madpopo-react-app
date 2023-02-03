@@ -38,7 +38,7 @@ function PriceCardBox(props) {
     <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
       <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
         <div className="toggleWrap d-flex">
-          <h2 className="priceCardTitle mb-0">{props.cardTitle}</h2>
+          <h2 className="priceCardTitle mb-1"><a href={props.cardAnchorLink}>{props.cardTitle}</a></h2>
         </div>
         <span className="fromText">{props.cardSubTitle}</span>
         <div className="selectDaysWrap">

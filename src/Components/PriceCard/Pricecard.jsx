@@ -22,6 +22,7 @@ function Pricecard(props) {
             cardOgPrice,
             wpNode,
             wpWeeklyBckp,
+            cardAnchorLink
           }) => (
             <PriceCardBox
               key={id}
@@ -39,6 +40,7 @@ function Pricecard(props) {
               cardDDOS={cardDDOS}
               wpNode={wpNode}
               wpWeeklyBckp={wpWeeklyBckp}
+              cardAnchorLink={cardAnchorLink}
             />
           )
         )}

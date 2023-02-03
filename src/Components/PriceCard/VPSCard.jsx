@@ -16,67 +16,63 @@ function VPSCard() {
               <img src={vpi.cardVpsImg} alt={vpi.cardVpsAltName} />
             </div>
             <div className="game-title">
-              <h3 className="mb-6">{vpi.cardVpsTitle}</h3>
-              <p class="fromText">{vpi.cardVpsSubTitle}</p>
+              <h3 className="mb-6"><a href={vpi.cardAnchorLink}>{vpi.cardVpsTitle}</a></h3>
+              <p class="fromText vpiText">{vpi.cardVpsSubTitle}</p>
               <h2 className="text-blackish-blue">
-                $12<span className="payment-type-m">monthly</span>
+                {vpi.cardVpsOgPrice}<span className="payment-type-m">monthly</span>
               </h2>
             </div>
           </div>
           <ul class="ddos-first-features">
             <li>
-              <span class="capTitle">Web Space</span>
-              <span class="capAmt">5GB</span>
+              <span class="capTitle">Processor</span>
+              <span class="capAmt">{vpi.cardVpsWebSpace} vCPU Cores</span>
             </li>
             <li>
-              <span class="capTitle">Unmetered Traffic </span>
-              <span class="capAmt">Unlimited</span>
+              <span class="capTitle">Memory</span>
+              <span class="capAmt">{vpi.cardVpsCapacity} GB RAM</span>
             </li>
             <li>
-              <span class="capTitle">Account Domain</span>
-              <span class="capAmt">1</span>
+              <span class="capTitle">Storage</span>
+              <span class="capAmt">{vpi.cardVpsCapacity2}  NVMe or {vpi.cardVpsCapacity3}  SSD</span>
             </li>
+            <li>
+            <span class="capTitle">Snapshot</span>
+            <span class="capAmt">{vpi.cardVpsSnap}</span>
+          </li>
           </ul>
           <ul class="ddos-second-features border-top">
             <li>
-              <i class="feather icon-check-circle mr-3"></i> Free Domain 1st
-              Year*
+              <i class="feather icon-check-circle mr-3"></i> 32 TB Traffic*
             </li>
             <li>
-              <i class="feather icon-check-circle mr-3"></i> 10 Email Accounts
+              <i class="feather icon-check-circle mr-3"></i> Unlimited Incoming
             </li>
             <li>
-              <i class="feather icon-check-circle mr-3"></i> Free WP
-              Installation
+              <i class="feather icon-check-circle mr-3"></i> 1 IPv4 Address
             </li>
             <li>
-              <i class="feather icon-check-circle mr-3"></i> Free Speed
-              Enhancing CDN
+              <i class="feather icon-check-circle mr-3"></i> Multiple DC Location
             </li>
             <li>
-              <i class="feather icon-check-circle mr-3"></i> WordPress
-              Autoupdates
+              <i class="feather icon-check-circle mr-3"></i> Power Reboot
             </li>
             <li>
-              <i class="feather icon-check-circle mr-3"></i> Free SSL
+              <i class="feather icon-check-circle mr-3"></i> Unmanaged Server
             </li>
             <li>
-              <i class="feather icon-check-circle mr-3"></i>cdcdcd
+              <i class="feather icon-check-circle mr-3"></i>Default Linux OS
             </li>
             <li>
-              <i class="feather icon-check-circle mr-3"></i>Ecommerce Enabled
+              <i class="feather icon-check-circle mr-3"></i>Free Control Panel
             </li>
             <li>
-              <i class="feather icon-check-circle mr-3"></i>Managed WordPress
+              <i class="feather icon-check-circle mr-3"></i>99,90% Uptime Guarantee
             </li>
             <li>
-              <i class="feather icon-check-circle mr-3"></i>Out-of-the-box
-              Caching
+              <i class="feather icon-check-circle mr-3"></i>Advanced 24/7 Expert Support
             </li>
-            <li>
-              <i class="feather icon-check-circle mr-3"></i>100% renewable
-              energy match
-            </li>
+            
           </ul>
           <Link to="#" className="btn-order">
             <span>Order Now</span>

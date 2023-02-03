@@ -6,6 +6,7 @@ function SecondTabContent() {
     <div className="main-homepage-item">
       <div className="row justify-content-center px-md-2 linuxHostingCardWrap">
         {LinuxData.map((lid) => {
+          console.log(lid.Linkss);
           return (
             <div
               className="col-lg-4 col-md-4 col-sm-8 mb-9 px-8
@@ -18,8 +19,8 @@ function SecondTabContent() {
                 rounded-10 text-center pt-6 pr-6 pl-6 pb-20
                 position-relative"
               >
-                <span className="linuxCardTitle">{lid.cardlinuxTitle}</span>
-                <span className="fromText d-block mb-8 mt-2">{lid.cardlinuxSubTitle}</span>
+                <span className="linuxCardTitle d-block position-relative"><Link to={lid.Linkss}>{lid.cardlinuxTitle}</Link></span>
+                <span className="fromText d-block mb-8 mt-1">{lid.cardlinuxSubTitle}</span>
                 <h2
                   className="price-of-plan coodiv-text-3
                     font-weight-bold text-blackish-blue

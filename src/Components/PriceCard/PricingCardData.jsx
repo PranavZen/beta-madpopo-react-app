@@ -3,6 +3,7 @@ const pricingSEctionData = {
     {
       id: 1,
       cardTitle: "StarterBoost",
+      cardAnchorLink:`/beta-madpopo-react-app/WordpressHosting`,
       cardSubTitle: "Optimal solution for Beginners",
       cardOgPrice: `$32`,
       cardOffer: "offer - 30%",
@@ -17,6 +18,7 @@ const pricingSEctionData = {
       id: 2,
       cardTitle: "GeekPro",
       cardSubTitle: "Ideal for personal websites",
+      cardAnchorLink:`/beta-madpopo-react-app/WordpressHosting`,
       cardOgPrice: `$33`,
       cardOffer: "offer - 40%",
       cardCapacity: "20GB",
@@ -30,6 +32,7 @@ const pricingSEctionData = {
       id: 3,
       cardTitle: "GrowBusiness",
       cardSubTitle: "Suitable for small business",
+      cardAnchorLink:`/beta-madpopo-react-app/WordpressHosting`,
       cardOgPrice: `$34`,
       cardOffer: "offer - 30%",
       cardCapacity: "30GB",

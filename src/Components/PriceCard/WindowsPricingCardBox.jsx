@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function WindowsPricingCardBox(props) {
 
@@ -6,10 +7,10 @@ function WindowsPricingCardBox(props) {
     <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
     <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
       <div className="toggleWrap d-flex">
-        <h2 className="priceCardTitle mb-0">{props.winHostTitle}</h2>
+        <h2 className="priceCardTitle mb-2"><Link to={props.winHostAnchor}>{props.winHostTitle}</Link></h2>
       </div>
       <span className="fromText">{props.winHostSubTitle}</span>
-      
+       
 
       <div className="ddos-attack-price d-flex justify-content-between align-items-center mt-7 py-4">
        
