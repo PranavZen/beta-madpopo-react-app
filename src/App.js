@@ -18,6 +18,7 @@ import Home2 from "./Pages/Home2";
 import ScrollToTop from './Components/ScrollToTop';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import TermsCondition from "./Pages/TermsCondition";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -36,6 +37,7 @@ function App() {
         <Route path="beta-madpopo-react-app/CloudHosting" element={<CloudHosting />}/>
         <Route path="beta-madpopo-react-app/ResellerHosting" element={<ResellerHosting />}/>
         <Route path="beta-madpopo-react-app/Home2" element={<Home2 />}/>
+        <Route path="/Terms-Condition" element={<TermsCondition />}/>
       </Routes>
     </Router>
   );

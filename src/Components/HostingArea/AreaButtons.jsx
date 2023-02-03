@@ -9,7 +9,7 @@ function AreaButtons() {
                             aria-orientation="vertical">
  
                             <a className="network-country
-                                nav-link active"
+                                nav-link "
                                 id="global-network-country-01-tab"
                                 data-toggle="pill"
                                 href="#global-network-country-01" role="tab"
@@ -54,7 +54,7 @@ function AreaButtons() {
                             </a>
 
                             <a 
-                                className="network-country nav-link"
+                                className="network-country nav-link active"
                                 id="global-network-country-05-tab"
                                 data-toggle="pill"
                                 href="#global-network-country-05" role="tab"

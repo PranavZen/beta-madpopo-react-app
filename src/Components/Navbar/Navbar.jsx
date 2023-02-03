@@ -10,7 +10,7 @@ function Navbar() {
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY > 50);
     });
-  }, []);
+  }, []); 
   return (
     <header
       className={
@@ -991,12 +991,12 @@ function Navbar() {
                         <Link to="#">Global infrastructure</Link>
                       </li>
                       <li className="drop-menu-item">
-                        <Link to="all-topics.html">Company Blog</Link>
+                        <Link to="#">Company Blog</Link>
                       </li>
                     </div>
                     <div className="col-md-4 abtMenuList">
                       <li className="drop-menu-item">
-                        <Link to="#">Terms & Conditions</Link>
+                        <Link to="beta-madpopo-react-app/Terms-Condition">Terms & Conditions</Link>
                       </li>
                       <li className="drop-menu-item">
                         <Link to="#">Careers</Link>

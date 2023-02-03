@@ -5,7 +5,7 @@ import AreaInfo from './AreaInfo';
 
 function Hostareawrap() {
   return (
-    <div className="our-servers-place-section position-relative bg-dark-blue
+    <div className="our-servers-place-section position-relative bg-dark-blue_black
                 bg-pattern pattern-3 pt-14 pt-lg-22 pb-0 overflow-hidden">
                 <span className="section-side-shadow-black-white"></span>
                 <div className="container">
@@ -31,7 +31,7 @@ function Hostareawrap() {
 
                         <AreaButtons/>
 
-                        <img className="w-100"
+                        <img className="w-100 mapOpacity"
                             src={woldMap} alt="" />
                     </div>
                 </div>

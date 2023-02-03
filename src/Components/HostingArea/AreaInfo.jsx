@@ -5,7 +5,7 @@ function AreaInfo() {
     <div className="tab-content white-bg shadow-2 white-mode-texts
     rounded-10 px-10 py-11 mb-n20 position-relative
     coodiv-z-index-1" id="global-network-tabsContent">
-    <div className="tab-pane fade show active"
+    <div className="tab-pane fade "
         id="global-network-country-01" role="tabpanel"
         aria-labelledby="global-network-country-01-tab">
         <div className="row justify-content-start">
@@ -102,7 +102,7 @@ function AreaInfo() {
             some of those fields below.
         </div>
     </div>
-    <div className="tab-pane fade"
+    <div className="tab-pane fade show active"
         id="global-network-country-05" role="tabpanel"
         aria-labelledby="global-network-country-05-tab">
         <div className="alert alert-warning alert-dismissible

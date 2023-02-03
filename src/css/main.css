@@ -2673,6 +2673,32 @@ a.headerphone-number {
   left: -106px;
   top: -265px;
 }
+.tc_wrapper{
+  padding-top: 800px;
+}
+.tc_wrapper .tc_boxex{
+  margin-bottom: 30px;
+}
+.tc_wrapper .tc_boxex:last-child{
+  margin-bottom: 0;
+}
+.tc_wrapper .tc_boxex h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+.tc_wrapper .tc_boxex p{
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+.tc_wrapper .mainTc{
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #ff8726;
+}
 .wp_features .wp_featuersWrapper{
   padding: 85px 0;
 }
@@ -9199,6 +9225,9 @@ color: #ff6a00;
   left: 5%;
   pointer-events: none;
 } 
+.pose_1.tcFooPose{
+  bottom: 0%;
+}
 .pose_1 img{
   width: 20%;
   height: auto;
@@ -9339,6 +9368,12 @@ top: 0;
 }
 .bg-dark-blue {
   background-color: #0056ed;
+}
+.bg-dark-blue_black{
+  background-color: #000;
+}
+.mapOpacity{
+  opacity: .5;
 }
 .white-text {
   color: #fff;
@@ -11554,10 +11589,12 @@ ul#lang-box-ul {
 }
 .network-map-container .network-country span > small {
   display: block;
-  font-weight: 100;
+  font-size: 12px;
+  font-weight: 400;
   text-transform: capitalize;
-  margin-top: -7px;
+  margin-top: -5px;
 }
+
 .network-map-container .network-country:after {
   content: "";
   position: absolute;
@@ -11625,13 +11662,13 @@ ul#lang-box-ul {
 }
 .network-map-container .network-country:hover,
 .network-map-container .network-country.active {
-  background: #ecd02b;
+  background: #ff8726;
 }
 .network-map-container .network-country.active::after{
 background-color: transparent;
   animation: pulsate .9s ease-out;
   animation-iteration-count:infinite;
-  border: 10px solid #ecd02b;
+  border: 10px solid #ff8726;
   border-radius: 50px;
   width: 22px;
   height: 17px;
@@ -11672,7 +11709,7 @@ background-color: transparent;
 }
 .network-map-container .network-country:hover .network-country-bottom-border,
 .network-map-container .network-country.active .network-country-bottom-border {
-  background-color: #ecd02b;
+  background-color: #ff8726;
 }
 .network-map-container .network-country:before,
 .network-map-container .network-country:hover::before {
@@ -11680,7 +11717,7 @@ background-color: transparent;
 }
 .network-map-container .network-country:hover::before,
 .network-map-container .network-country.active:before {
-  background: #e6d990;
+  background: #ff8726;
 }
 
 /*---------------- template login and register pages -----------------*/

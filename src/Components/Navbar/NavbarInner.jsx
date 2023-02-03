@@ -987,12 +987,12 @@ function NavbarInner() {
                         <Link to="#">Global infrastructure</Link>
                       </li>
                       <li className="drop-menu-item">
-                        <Link to="all-topics.html">Company Blog</Link>
+                        <Link to="#">Company Blog</Link>
                       </li>
                     </div>
                     <div className="col-md-4 abtMenuList">
                       <li className="drop-menu-item">
-                        <Link to="#">Terms & Conditions</Link>
+                        <Link to="/Terms-Condition">Terms & Conditions</Link>
                       </li>
                       <li className="drop-menu-item">
                         <Link to="#">Careers</Link>
