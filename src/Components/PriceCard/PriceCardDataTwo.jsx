@@ -4,7 +4,6 @@ const pricingSEctionData2 = {
         id: 1,
         cardTitle: "StarterBoost",
         cardSubTitle: "Optimal solution for Beginners",
-        cardAnchorLink:`/beta-madpopo-react-app/WordpressHosting`,
         cardOgPrice: `$32`,
         cardOffer: "offer - 30%",
         cardCapacity: "10GB",
