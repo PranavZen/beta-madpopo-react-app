@@ -36,12 +36,12 @@ function VPSCard() {
               <span class="capTitle">Storage</span>
               <span class="capAmt">{vpi.cardVpsCapacity2}  NVMe or {vpi.cardVpsCapacity3}  SSD</span>
             </li>
-            <li>
-            <span class="capTitle">Snapshot</span>
-            <span class="capAmt">{vpi.cardVpsSnap}</span>
-          </li>
+            
           </ul>
           <ul class="ddos-second-features border-top">
+          <li>
+          <i class="feather icon-check-circle mr-3"></i> Snapshot {vpi.cardVpsSnap}
+        </li>
             <li>
               <i class="feather icon-check-circle mr-3"></i> 32 TB Traffic*
             </li>

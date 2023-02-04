@@ -2551,6 +2551,9 @@ a.headerphone-number {
   height: auto;
   position: relative;
 }
+.wp_hostingBgImg.termsConditionBg{
+  background-image: url(.././image/pages/mad\ popo_home\ page-slider-13.png);
+}
 .wp_img_overlayContent{
   position: absolute;
     top: 3.8%;
@@ -2680,7 +2683,24 @@ a.headerphone-number {
   top: -265px;
 }
 .tc_wrapper{
-  padding-top: 800px;
+  padding-top: 500px;
+}
+.tc_TitleOverlay{
+  left: 50%;
+  margin-bottom: 30px;
+  position: absolute;
+  text-align: center;
+  top: 2%;
+  transform: translate(-50%,-50%);
+}
+.tc_TitleOverlay h1{
+  color: #fff;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin: 0 auto;
+  text-align: center;
+  
 }
 .tc_wrapper .tc_boxex{
   margin-bottom: 30px;
@@ -2860,6 +2880,7 @@ background-repeat: no-repeat;
     bottom: 0;
     position: absolute;
 }
+
 .ddosPriceCardRow .priceCardWrap:nth-child(2) .priceCardDdos{
   border: 5px solid #ff6a00;
   border-top-left-radius: 0;
@@ -11707,7 +11728,7 @@ ul#lang-box-ul {
 background-color: transparent;
   animation: pulsate .9s ease-out;
   animation-iteration-count:infinite;
-  border: 10px solid #ff8726;
+  border: 10px solid #ffffff;
   border-radius: 50px;
   width: 22px;
   height: 17px;
@@ -11736,13 +11757,13 @@ background-color: transparent;
   padding-top: 80px !important;
 }
 .gb_infraWrap  .gb_top_para .gb_pageTitle h1{
-  font-size: 38px;
-  color: #343434;
+ 
   text-align: center;
   width: 100%;
-  line-height: 1.4;
   margin: 0 auto 30px;
-  font-weight: 800;
+  font-size: 2.25rem;
+  line-height: 1.3;
+  font-weight: 600;
 }
 @keyframes pulsate {
   0% {
@@ -11770,9 +11791,82 @@ background-color: transparent;
 }
 .network-map-container .network-country:hover::before,
 .network-map-container .network-country.active:before {
-  background: #ff8726;
+  background: #ffb67c;
 }
-
+.gb_infraBoxSection{
+  padding: 90px 0;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper{
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .col-md-4:nth-child(1) .gb_infraBoxInner{
+  background: #e8efff;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .col-md-4:nth-child(2) .gb_infraBoxInner{
+  background: #f1f5fc;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .col-md-4:nth-child(3) .gb_infraBoxInner{
+  background: #eaf9e8;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .col-md-4:nth-child(4) .gb_infraBoxInner{
+  background: #eaf9e8;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .col-md-4:nth-child(5) .gb_infraBoxInner{
+  background: #f1f5fc;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .col-md-4:nth-child(6) .gb_infraBoxInner{
+  background: #e8efff;
+}
+.gb_infraBoxTitle{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.gb_infraBoxTitle .gb_infraTitle{
+  font-size: 2.25rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+.gb_infraBoxTitle p{
+  font-size: 16px;
+  font-weight: 500;
+  width: 75%;
+  margin: 0 auto;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .gb_infraBoxInner{
+ 
+  border-radius: 20px;
+  padding: 40px 30px;
+  margin-bottom: 30px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .gb_infraBoxInner h5{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .gb_infraBoxInner p{
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .gb_infraBoxInner .wp_fetureImageWrap{
+  width: auto;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.gb_infraBoxSection .gb_infraBoxWrapper .gb_infraBoxInner .wp_fetureImageWrap img{
+  width: auto;
+  height: 50px;
+}
 /*---------------- template login and register pages -----------------*/
 body.sign-up-page .site-wrapper,
 body.sign-up-page .container-fluid,
@@ -15802,7 +15896,7 @@ body.aws-html-theme .header-alert-notification {
   
 }
 .domain-checker-emyui-aws-homepage {
-  background-color: #242424;
+  background-color: #161414;
   padding: 20px;
 }
 .domain-checker-emyui-aws-homepage .input-group-btn {
@@ -15811,11 +15905,12 @@ body.aws-html-theme .header-alert-notification {
   top: 0;
 }
 .domain-checker-emyui-aws-homepage .input-group-btn button {
-  background: #f7dfd9;
+  background: #ff8726;
   border-radius: 0;
-  color: #161718;
+  color: #fff;
   display: flex;
   align-items: center;
+  height: 60px;
 }
 .domain-checker-emyui-aws-homepage .input-group-btn button i {
   font-size: 23px;
@@ -16020,7 +16115,7 @@ body.aws-html-theme .playfair-display-font {
 }
 .aws-domains-ltds-prices .aws-domains-ltds-prices-item {
   border: 1px solid #d4dbe0;
-  padding: 60px 30px 35px;
+  padding: 60px 30px;
   position: relative;
   border-right: 0;
 }

@@ -5,9 +5,12 @@ import Navbar from "../Components/Navbar/Navbar";
 
 function TermsCondition() {
   return (
-    <div className="site-wrapper overflow-hidden wp_hostingBgImg">
+    <div className="site-wrapper overflow-hidden wp_hostingBgImg termsConditionBg">
       <Navbar />
       <div className="container">
+      <div className="tc_TitleOverlay">
+        <h1>Terms & Conditions</h1>
+      </div>
       <div className="tc_wrapper">
         <div className="tc_boxex">
           <h3>Terms of Service</h3>

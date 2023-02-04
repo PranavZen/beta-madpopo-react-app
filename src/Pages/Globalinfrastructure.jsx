@@ -1,5 +1,5 @@
 import React from "react";
-import { footerPose1 } from "../Components";
+import { footerPose1, wpFeatureImg1 } from "../Components";
 import Footer from "../Components/Footer/Footer";
 import Hostareawrap from "../Components/HostingArea/Hostareawrap";
 import Navbar from "../Components/Navbar/Navbar";
@@ -31,43 +31,108 @@ function Globalinfrastructure() {
         <Hostareawrap />
         <div className="gb_infraBoxSection">
           <div className="container">
+            <div className="gb_infraBoxTitle">
+              <h5 className="gb_infraTitle">MadPopo Global Infrastructure</h5>
+              <p>
+                The most secure, extensive, and reliable Global Cloud
+                Infrastructure, for all your applications
+              </p>
+            </div>
             <div className="gb_infraBoxWrapper">
               <div className="col-md-4">
                 <div className="gb_infraBoxInner">
+                  <div className="wp_fetureImageWrap">
+                    <img src={wpFeatureImg1} alt="Optimized Technology" />
+                  </div>
                   <h5>31 Launched Regions</h5>
-                  <p>each with multiple Availability Zones (AZs)</p>
+                  <p>
+                    Whether you want speed, simplicity, space, or super-power,
+                    we’ve got you covered.
+                  </p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="gb_infraBoxInner">
+                  <div className="wp_fetureImageWrap">
+                    <img src={wpFeatureImg1} alt="Optimized Technology" />
+                  </div>
                   <h5>31 Launched Regions</h5>
-                  <p>each with multiple Availability Zones (AZs)</p>
+                  <p>
+                    Whether you want speed, simplicity, space, or super-power,
+                    we’ve got you covered.
+                  </p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="gb_infraBoxInner">
+                  <div className="wp_fetureImageWrap">
+                    <img src={wpFeatureImg1} alt="Optimized Technology" />
+                  </div>
                   <h5>31 Launched Regions</h5>
-                  <p>each with multiple Availability Zones (AZs)</p>
+                  <p>
+                    Whether you want speed, simplicity, space, or super-power,
+                    we’ve got you covered.
+                  </p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="gb_infraBoxInner">
+                  <div className="wp_fetureImageWrap">
+                    <img src={wpFeatureImg1} alt="Optimized Technology" />
+                  </div>
                   <h5>31 Launched Regions</h5>
-                  <p>each with multiple Availability Zones (AZs)</p>
+                  <p>
+                    Whether you want speed, simplicity, space, or super-power,
+                    we’ve got you covered.
+                  </p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="gb_infraBoxInner">
+                  <div className="wp_fetureImageWrap">
+                    <img src={wpFeatureImg1} alt="Optimized Technology" />
+                  </div>
                   <h5>31 Launched Regions</h5>
-                  <p>each with multiple Availability Zones (AZs)</p>
+                  <p>
+                    Whether you want speed, simplicity, space, or super-power,
+                    we’ve got you covered.
+                  </p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="gb_infraBoxInner">
+                  <div className="wp_fetureImageWrap">
+                    <img src={wpFeatureImg1} alt="Optimized Technology" />
+                  </div>
                   <h5>31 Launched Regions</h5>
-                  <p>each with multiple Availability Zones (AZs)</p>
+                  <p>
+                    Whether you want speed, simplicity, space, or super-power,
+                    we’ve got you covered.
+                  </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="gb_infraDataSection">
+          <div className="container">
+            <div className="gb_infraDataWrapper">
+              <h6 className="gb_infraDataTitle">Data Center Environment</h6>
+              <p>
+                An optimized IT infrastructure goes hand-in-hand with
+                environmental sustainability for Infinite Technologies' data
+                centers. A significant reduction in CO2 emissions and the use of
+                sustainable energy can support the reduction of the greenhouse
+                effect. The green reveloution for Infinite Technologies means
+                that we are continually striving to maintain or reduce our
+                carbon footprint. The sustainable solutions we have implemented
+                to do so are certified, assuring customers that our
+                environmental results are proven and officially verified.
+                Infinite Technologies' data center has received global
+                recognition for the superior environmental features of its
+                datacenter.
+              </p>
+              <div className=""></div>
             </div>
           </div>
         </div>
