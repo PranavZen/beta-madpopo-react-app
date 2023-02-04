@@ -49,7 +49,7 @@ function Footer() {
 
                 <div className="col-4 col-lg-2"> 
                   <div className="footer-block mb-13 mb-lg-4">
-                    <h4 className="block-title coodiv-text-7 mb-4 position-relative">
+                    <h4 className="block-title coodiv-text-9 mb-4 position-relative">
                       Our services
                     </h4>
                     <ul className="footer-list list-unstyled">
@@ -74,7 +74,7 @@ function Footer() {
                     </ul>
                   </div>
                   <div className="footer-block mb-13 mb-lg-9">
-                    <h4 className="block-title coodiv-text-7 mb-4 position-relative">
+                    <h4 className="block-title coodiv-text-9 mb-4 position-relative">
                       Resources
                     </h4>
                     <ul className="footer-list list-unstyled">
@@ -107,7 +107,7 @@ function Footer() {
 
                 <div className="col-4 col-lg-2">
                   <div className="footer-block mb-13 mb-lg-4">
-                    <h4 className="block-title coodiv-text-7 mb-4 position-relative">
+                    <h4 className="block-title coodiv-text-9 mb-4 position-relative">
                       Domains
                     </h4>
                     <ul className="footer-list list-unstyled">
@@ -140,7 +140,7 @@ function Footer() {
                     </ul>
                   </div>
                   <div className="footer-block mb-13 mb-lg-4">
-                    <h4 className="block-title coodiv-text-7 mb-4 position-relative">
+                    <h4 className="block-title coodiv-text-9 mb-4 position-relative">
                       Solutions
                     </h4>
                     <ul className="footer-list list-unstyled">
@@ -170,7 +170,7 @@ function Footer() {
 
                 <div className="col-4 col-lg-2">
                   <div className="footer-block mb-13 mb-lg-4">
-                    <h4 className="block-title coodiv-text-7 mb-4 position-relative">
+                    <h4 className="block-title coodiv-text-9 mb-4 position-relative">
                       Company
                     </h4>
                     <ul className="footer-list list-unstyled">
@@ -202,7 +202,7 @@ function Footer() {
                     </ul>
                   </div>
                   <div className="footer-block mb-13 mb-lg-4">
-                    <h4 className="block-title coodiv-text-7 mb-4 position-relative">
+                    <h4 className="block-title coodiv-text-9 mb-4 position-relative">
                       Developers
                     </h4>
                     <ul className="footer-list list-unstyled">
@@ -222,7 +222,7 @@ function Footer() {
 
                 <div className="col-12 col-lg-3 pl-lg-8">
                   <div className="footer-block mb-13 mb-lg-4 d-none d-lg-block">
-                    <h4 className="block-title coodiv-text-7 mb-4 position-relative">
+                    <h4 className="block-title coodiv-text-9 mb-4 position-relative">
                       Do you need support?
                     </h4>
                     <ul className="footer-list list-unstyled">
@@ -254,7 +254,7 @@ function Footer() {
                     </ul>
                   </div>
                   <div className="footer-block mb-13 mb-lg-4 text-center text-lg-left">
-                    <h4 className="block-title coodiv-text-7 mb-4 position-relative">
+                    <h4 className="block-title coodiv-text-9 mb-4 position-relative">
                       Big traffic? Talk to Sales
                     </h4>
                     <p className="coodiv-text-11">

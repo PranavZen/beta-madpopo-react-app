@@ -6,8 +6,8 @@ import AreaInfo from './AreaInfo';
 function Hostareawrap() {
   return (
     <div className="our-servers-place-section position-relative bg-dark-blue_black
-                bg-pattern pattern-3 pt-14 pt-lg-22 pb-0 overflow-hidden">
-                <span className="section-side-shadow-black-white"></span>
+                bg-pattern pattern-3 pt-0 overflow-hidden">
+                
                 <div className="container">
 
                     <div className="row justify-content-center dark-mode-texts">
@@ -15,7 +15,7 @@ function Hostareawrap() {
                             <div className="px-md-12 text-center mb-9 mb-lg-20">
                                 <h2 className="title coodiv-text-4 mb-4">Think
                                     Global, Host Local</h2>
-                                <p className="coodiv-text-10 mb-0">Global Network
+                                <p className="coodiv-text-11 mb-0">Global Network
                                     powered by 11 enterprise-className datacenters
                                     and 200 Global CDN Anycast Network access
                                     points.</p>

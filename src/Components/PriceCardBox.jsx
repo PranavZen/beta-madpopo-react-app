@@ -38,7 +38,7 @@ function PriceCardBox(props) {
     <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
       <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
         <div className="toggleWrap d-flex">
-          <h2 className="priceCardTitle mb-1"><a href={props.cardAnchorLink}>{props.cardTitle}</a></h2>
+          <h2 className="priceCardTitle mb-2"><a href={props.cardAnchorLink}>{props.cardTitle}</a></h2>
         </div>
         <span className="fromText">{props.cardSubTitle}</span>
         <div className="selectDaysWrap">
@@ -64,11 +64,11 @@ function PriceCardBox(props) {
             // <h2 className="priceCardPriceAmt">{value ? value : pricingValues[props.id][0]["cardPrice1"]}<span className="monthSpan">/Month</span></h2>
           }
           <h2 className="priceCardPriceAmt">
-            {value ? value : pricingValues[3][0]["cardPrice" + props.id]}
-            <span className="monthSpan">/ mo</span>
+            <span className="mainAmtPrice">{value ? value : pricingValues[3][0]["cardPrice" + props.id]}</span>
+            <span className="monthSpan">per month <br/> billed annually</span>
           </h2>
 
-          <span>{props.cardOffer}</span>
+          
         </div>
         <div className="orginalPriceWrap">
           <p className="desPriceText">

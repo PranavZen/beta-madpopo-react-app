@@ -9,6 +9,7 @@ import NavbarInner from "../Components/Navbar/NavbarInner";
 import SyncMain from "../Components/SyncSlider/SyncMain";
 
 import MaximizeSection from "../Components/MaximizeSection";
+import DomainSection from "../Components/DomainSection";
 function Home() {
   return (
     <div className="site-wrapper overflow-hidden">
@@ -17,6 +18,7 @@ function Home() {
       <Banner />
       <Migration />
       <SyncMain />
+      <DomainSection/>
       <MaximizeSection/>
       <Hostareawrap/>
       <FAQ/>

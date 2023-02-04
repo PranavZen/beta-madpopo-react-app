@@ -88,7 +88,7 @@ function NavbarInner() {
                                                         text-lg-left text-center
                                                         w-100 d-block mb-14 dropdownMenuTitle"
                         >
-                          <span className="mainTitleDrop">
+                          <span className="mainTitleDrop d-block mb-2">
                             Web hosting that scales from easy to expert.
                           </span>
                           <span
@@ -984,7 +984,7 @@ function NavbarInner() {
                     </h1>
                     <div className="col-md-4 abtMenuList">
                       <li className="drop-menu-item">
-                        <Link to="#">Global infrastructure</Link>
+                        <Link to="/Global-Infrastructure">Global infrastructure</Link>
                       </li>
                       <li className="drop-menu-item">
                         <Link to="#">Company Blog</Link>
@@ -1091,7 +1091,7 @@ function NavbarInner() {
           </div>
 
           <div
-            className="header-btn ml-auto ml-lg-10 d-none
+            className="header-btn ml-auto ml-lg-5 d-none
                             d-xs-block position-relative"
           >
             <Link

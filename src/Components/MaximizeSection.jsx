@@ -3,7 +3,7 @@ import { webSpeedImg } from "../Components/index";
 
 function MaximizeSection() {
   return (
-    <section className="web_speed_section">
+    <section className="web_speed_section globalWave">
       <div className="container">
         <div className="webSpeedWrap">
           <div className="col-md-6 leftCstmWidth">

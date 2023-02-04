@@ -18,7 +18,7 @@ function FaqAccorionItems({ faqVal, onToggle, active }) {
          
       >
         <button
-          className={`btn-reset coodiv-text-9 font-weight-bold text-left text-blackish-blue p-0 accordion-trigger arrow-icon w-100 ${active ? "active" : ""}`}
+          className={`btn-reset coodiv-text-10 text-left p-0 accordion-trigger arrow-icon w-100 ${active ? "active" : ""}`}
           type="button"
           onClick={onToggle}
         >

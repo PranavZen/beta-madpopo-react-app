@@ -30,3 +30,13 @@ export { default as wpFeatureImg6 } from "../../src/image/wordpress/wordpress_pr
 export { default as wp_logo } from "../../src/image/wordpress_innerlogo.png";
 export { default as tableImg } from "../../src/image/24_shadow.png";
 export { default as webSpeedImg } from "../../src/image/webspeeddata.png";
+export { default as domainimg1 } from "../../src/image/domain/tech-domain.png";
+export { default as domainimg2 } from "../../src/image/domain/biz-domain.png";
+export { default as domainimg3 } from "../../src/image/domain/com-domain.png";
+export { default as domainimg4 } from "../../src/image/domain/in-domain.png";
+export { default as domainimg5 } from "../../src/image/domain/info-domain.png";
+export { default as domainimg6 } from "../../src/image/domain/name.webp";
+export { default as domainimg7 } from "../../src/image/domain/net-domain.png";
+export { default as domainimg8 } from "../../src/image/domain/online.webp";
+export { default as domainimg9 } from "../../src/image/domain/org-domain.png";
+export { default as domainimg10 } from "../../src/image/domain/shop.webp";

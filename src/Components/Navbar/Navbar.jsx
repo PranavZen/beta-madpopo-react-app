@@ -88,7 +88,7 @@ function Navbar() {
                                                         text-lg-left text-center
                                                         w-100 d-block mb-14 dropdownMenuTitle"
                         >
-                          <span className="mainTitleDrop">
+                          <span className="mainTitleDrop mb-2 d-block">
                             Web hosting that scales from easy to expert.
                           </span>
                           <span className="d-block mt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop">
@@ -988,7 +988,7 @@ function Navbar() {
                     </h1>
                     <div className="col-md-4 abtMenuList">
                       <li className="drop-menu-item">
-                        <Link to="#">Global infrastructure</Link>
+                        <Link to="beta-madpopo-react-app/Global-Infrastructure">Global infrastructure</Link>
                       </li>
                       <li className="drop-menu-item">
                         <Link to="#">Company Blog</Link>
@@ -1095,7 +1095,7 @@ function Navbar() {
           </div>
 
           <div
-            className="header-btn ml-auto ml-lg-10 d-none
+            className="header-btn ml-auto ml-lg-5 d-none
                             d-xs-block position-relative"
           >
             <Link
