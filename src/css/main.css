@@ -2517,8 +2517,24 @@ a.headerphone-number {
   z-index: 0;
 }
 .header-google-map-height {
-  height: 700px;
+  height: 775px;
 }
+.is-affixed{
+  height: 509px;
+  position: relative;
+  
+}
+.is-affixed .search-box-topics-sidebar{
+ 
+  position: fixed;
+  top: auto;
+  left: auto;
+  bottom: 20px;
+  width: 448px;
+  z-index: 99;
+
+}
+
 .map-height-lose-header {
   height: 250px;
 }
@@ -2541,7 +2557,56 @@ a.headerphone-number {
 }
 
 /*---------------- Page hero styles -----------------*/
-
+.gb_mainParaText{
+  padding-bottom: 35px;
+}
+.gb_infraDataSection{
+  padding: 90px 0 0;
+}
+.gb_infraDataSection .gb_infraDataWrapper{
+  margin-bottom: 50px;
+}
+.gb_infraDataSection .gb_infraDataWrapper:last-child{
+  margin-bottom: 0;
+}
+.gb_infraDataSection .gb_infraDataWrapper .gb_infraDataTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.gb_infraDataSection .gb_infraDataWrapper .gb_para{
+  font-size: 15px;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 8px;
+  line-height: 1.6;
+} 
+.gb_infraDataSection .gb_infraDataWrapper .gb_sidesBoxWrap{
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.gb_infraDataSection .gb_infraDataWrapper .gb_sidesBoxWrap .gb_leftList .gb_listing{
+  padding-left: 0;
+}
+.gb_infraDataSection .gb_infraDataWrapper .gb_sidesBoxWrap .gb_leftList .gb_listing li{
+  list-style: decimal;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.6;
+}
+.gb_infraDataSection .gb_infraDataWrapper .gb_sidesBoxWrap .gb_rightImgWrap{
+  width: 100%;
+  height: auto;
+}
+.gb_infraDataSection .gb_infraDataWrapper .gb_sidesBoxWrap .gb_rightImgWrap .gb_rightImg{
+  width: 100%;
+  height: auto;
+}
 .wp_hostingBgImg{
   background-image: url(.././image/header/HostingPages/wordpress_hostingnew.png);
   background-position: 100% 0%;
@@ -2552,8 +2617,14 @@ a.headerphone-number {
   position: relative;
 }
 .wp_hostingBgImg.termsConditionBg{
-  background-image: url(.././image/pages/mad\ popo_home\ page-slider-13.png);
+  background-image: url(.././image/pages/innner-page-1.png);
 }
+.wp_hostingBgImg.gbInfraBg{
+  background-image: url(.././image/pages/innner-page-2.png);
+}
+/* .wp_hostingBgImg.contactBgImg{
+  background-image: url(.././image/pages/contact-madpopo.png);
+} */
 .wp_img_overlayContent{
   position: absolute;
     top: 3.8%;
@@ -2683,14 +2754,14 @@ a.headerphone-number {
   top: -265px;
 }
 .tc_wrapper{
-  padding-top: 500px;
+  padding-top: 475px;
 }
 .tc_TitleOverlay{
   left: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   position: absolute;
   text-align: center;
-  top: 2%;
+  top: 215px;
   transform: translate(-50%,-50%);
 }
 .tc_TitleOverlay h1{
@@ -2709,12 +2780,13 @@ a.headerphone-number {
   margin-bottom: 0;
 }
 .tc_wrapper .tc_boxex h3{
+  margin-bottom: 15px;
   font-size: 20px;
   font-weight: 700;
 }
 .tc_wrapper .tc_boxex p{
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 400;
   text-align: justify;
   margin-bottom: 8px;
   line-height: 1.6;
@@ -5457,7 +5529,7 @@ overflow: hidden;
   text-decoration: none;
 }
 #dinamic-filter-list li a i {
-  font-size: 22px;
+  font-size: 14px;
 }
 .cp-co-container {
   line-height: 85px;
@@ -6371,6 +6443,12 @@ ul.footer-list li:hover a.footer-list-link {
 }
 .brand-logo.newBrandLogo{
   margin-top: -45px;
+ 
+}
+
+.brand-logo.newBrandLogo a img{
+  width: 160px;
+  height: auto;
 }
 .footer-section.light-mode-texts ul.footer-list li a.footer-list-link {
   color: #414f7b;
@@ -9284,6 +9362,12 @@ color: #ff6a00;
 .pose_1.tcFooPose{
   bottom: 0%;
 }
+.pose_1.gb_fooPose{
+  bottom: 0%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  left: -10%;
+}
 .pose_1 img{
   width: 20%;
   height: auto;
@@ -11751,19 +11835,27 @@ background-color: transparent;
     z-index: -2;
   } */
 .gb_infraWrap{
-  padding-top: 150px;
+  padding-top: 250px;
 }
+
 .gb_infraWrap .our-servers-place-section {
   padding-top: 80px !important;
 }
 .gb_infraWrap  .gb_top_para .gb_pageTitle h1{
- 
+  color: #fff;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin: 0 auto;
   text-align: center;
-  width: 100%;
-  margin: 0 auto 30px;
-  font-size: 2.25rem;
-  line-height: 1.3;
-  font-weight: 600;
+}
+.gb_infraWrap  .gb_top_para{
+  left: 50%;
+  margin-bottom: 15px;
+  position: absolute;
+  text-align: center;
+  top: 215px;
+  transform: translate(-50%,-50%);
 }
 @keyframes pulsate {
   0% {
@@ -11794,7 +11886,7 @@ background-color: transparent;
   background: #ffb67c;
 }
 .gb_infraBoxSection{
-  padding: 90px 0;
+  padding: 250px 0 60px;
 }
 .gb_infraBoxSection .gb_infraBoxWrapper{
   align-items: flex-start;

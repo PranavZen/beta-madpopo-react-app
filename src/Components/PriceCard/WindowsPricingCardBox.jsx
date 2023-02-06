@@ -16,10 +16,12 @@ function WindowsPricingCardBox(props) {
        
         <h2 className="priceCardPriceAmt">
           {props.winHostDiscPrice}
-          <span className="monthSpan">/ mo</span>
+          <span className="monthSpan">per month <br/> billed annually</span>
         </h2>
 
-        <span>{props.winHostOffer}</span>
+        {
+          // <span>{props.winHostOffer}</span>
+      }
       </div>
       <div className="orginalPriceWrap">
         <p className="desPriceText">

@@ -988,7 +988,7 @@ function Navbar() {
                     </h1>
                     <div className="col-md-4 abtMenuList">
                       <li className="drop-menu-item">
-                        <Link to="beta-madpopo-react-app/Global-Infrastructure">Global infrastructure</Link>
+                        <Link to="/beta-madpopo-react-app/Global-Infrastructure">Global infrastructure</Link>
                       </li>
                       <li className="drop-menu-item">
                         <Link to="#">Company Blog</Link>
@@ -996,7 +996,7 @@ function Navbar() {
                     </div>
                     <div className="col-md-4 abtMenuList">
                       <li className="drop-menu-item">
-                        <Link to="beta-madpopo-react-app/Terms-Condition">Terms & Conditions</Link>
+                        <Link to="/beta-madpopo-react-app/Terms-Condition">Terms & Conditions</Link>
                       </li>
                       <li className="drop-menu-item">
                         <Link to="#">Careers</Link>
@@ -1007,7 +1007,7 @@ function Navbar() {
                         <Link to="#">Happy Customers</Link>
                       </li>
                       <li className="drop-menu-item">
-                        <Link to="#">Contact</Link>
+                        <Link to="/beta-madpopo-react-app/Contact-Us">Contact</Link>
                       </li>
                     </div>
                     {

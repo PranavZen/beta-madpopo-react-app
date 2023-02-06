@@ -1,20 +1,18 @@
 import React from "react";
 import {
-  domainimg1,
+ 
   domainimg10,
-  domainimg2,
+
   domainimg3,
   domainimg4,
-  domainimg5,
-  domainimg6,
+  
   domainimg7,
-  domainimg8,
-  domainimg9,
+ 
 } from ".";
 
 function DomainSection() {
   return (
-    <>
+    <div>
     <section className="more-services-group-container pt-20 px-lg-15 px-4 position-relative bg-default-2">
       <div className="container-fluid">
         <div className="row justify-content-lg-start justify-content-center px-lg-0 px-10">
@@ -116,7 +114,7 @@ function DomainSection() {
               <span className="input-group-input w-100">
                 <input
                   name="domain"
-                  required="true"
+                  
                   autocomplete="off"
                   autocorrect="off"
                   autocapitalize="off"
@@ -170,7 +168,7 @@ function DomainSection() {
       </div>
     </div>
   </section>
-  </>
+  </div>
   );
 }
 

@@ -20,6 +20,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import TermsCondition from "./Pages/TermsCondition";
 import Globalinfrastructure from "./Pages/Globalinfrastructure";
+import ContactUs from "./Pages/ContactUs";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -38,8 +39,9 @@ function App() {
         <Route path="beta-madpopo-react-app/CloudHosting" element={<CloudHosting />}/>
         <Route path="beta-madpopo-react-app/ResellerHosting" element={<ResellerHosting />}/>
         <Route path="beta-madpopo-react-app/Home2" element={<Home2 />}/>
-        <Route path="/Terms-Condition" element={<TermsCondition />}/>
-        <Route path="/Global-Infrastructure" element={<Globalinfrastructure />}/>
+        <Route path="beta-madpopo-react-app/Terms-Condition" element={<TermsCondition />}/>
+        <Route path="beta-madpopo-react-app/Global-Infrastructure" element={<Globalinfrastructure />}/>
+        <Route path="beta-madpopo-react-app/Contact-Us" element={<ContactUs />}/>
       </Routes>
     </Router>
   );

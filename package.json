@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-google-maps/api": "^2.18.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -13,6 +14,7 @@
     "currency-codes": "^2.1.0",
     "feather-icons": "^4.29.0",
     "gh-pages": "^4.0.0",
+    "google-map-react": "^2.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-flags-select": "^2.2.3",
@@ -24,6 +26,7 @@
     "react-slick": "^0.29.0",
     "react-slick-adaptive-height-fixed": "^0.23.2",
     "slick-carousel": "^1.8.1",
+    "sticky-sidebar": "^3.3.1",
     "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"
   },

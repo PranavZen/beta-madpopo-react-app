@@ -1,5 +1,5 @@
-export { default as logo1 } from "../../src/image/header/madpopo_final_logo.png";
-export { default as logo2 } from "../../src/image/header/madpopo_final_logo_nav_white.png";
+export { default as logo1 } from "../../src/image/header/madpopo-dark-logo.svg";
+export { default as logo2 } from "../../src/image/header/madpopo-white-logo.svg";
 export { default as bannerBg1 } from "../../src/image/header/sunset-version/moon.png";
 export { default as bannerBg2 } from "../../src/image/header/helf-circle-01.png";
 export { default as bannerBg3 } from "../../src/image/header/helf-circle-02.png";
@@ -9,7 +9,7 @@ export { default as bannerBg6 } from "../../src/image/payment/icon-maestro.png";
 export { default as bannerBg7 } from "../../src/image/payment/icon-bitcoin.png";
 
 export { default as woldMap } from "../../src/image/world-map/global_network.png";
-export { default as fooLogo } from "../../src/image/header/madpopo_final_logo_nav_white.png";
+export { default as fooLogo } from "../../src/image/header/madpopo-white-logo.svg";
 export { default as bgleftMid } from "../../src/image/left-mid-elm.png";
 export { default as bgRightMid } from "../../src/image/right-elm.png";
 export { default as pcImage } from "../../src/image/header-pc.png";
@@ -40,3 +40,9 @@ export { default as domainimg7 } from "../../src/image/domain/net-domain.png";
 export { default as domainimg8 } from "../../src/image/domain/online.webp";
 export { default as domainimg9 } from "../../src/image/domain/org-domain.png";
 export { default as domainimg10 } from "../../src/image/domain/shop.webp";
+export { default as securitymadpopo } from "../../src/image/pages/globalInfra/security-madpopo.jpg";
+export { default as conditionpower } from "../../src/image/pages/globalInfra/condition-power.jpg";
+export { default as precisionenvironment } from "../../src/image/pages/globalInfra/madpopo-precision-environment.jpg";
+export { default as networkmadpopo } from "../../src/image/pages/globalInfra/network-madpopo.jpg";
+export { default as networkswitchequipment } from "../../src/image/pages/globalInfra/network-switch-equipment.jpg";
+export { default as physicalsecurity } from "../../src/image/pages/globalInfra/physical-security.jpg";

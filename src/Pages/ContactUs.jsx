@@ -1,15 +1,480 @@
-import React from 'react'
+import React, {useEffect, useState} from "react";
+import { Link } from "react-router-dom";
 import Footer from "../Components/Footer/Footer";
+import GBFaqList from "../Components/GlobalInfra/GBFaqList";
+import GBFaqRes from "../Components/GlobalInfra/GBFaqRes";
 import Navbar from "../Components/Navbar/Navbar";
-
+import MapContainer from "../Components/MapContainer";
 function ContactUs() {
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      
+      setScroll(window.scrollY >= 1580)
+      
+    })
+  }, []);
   return (
-    <div className="site-wrapper overflow-hidden">
-    <Navbar />
-    
-    <Footer />
-  </div>
-  )
+    <div className="site-wrapper overflow-hidden wp_hostingBgImg contactBgImg">
+      <Navbar />
+      <div className="hero-area-coodiv header-google-map-height position-relative white-bg light-mode-texts">
+        <div className="header-hero-backgrounds">
+          <svg
+            className="bg-wave-box-end-z1 coodiv-z-index-1"
+            viewBox="0 0 1440 320"
+          >
+            <path
+              fill="#fff"
+              fillOpacity="1"
+              d="M0,0L34.3,16C68.6,32,137,64,206,80C274.3,96,343,96,411,96C480,96,549,96,617,117.3C685.7,139,754,181,823,186.7C891.4,192,960,160,1029,170.7C1097.1,181,1166,235,1234,234.7C1302.9,235,1371,181,1406,154.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+        <div class="google-map header-google-map fluid-map-height" id="googleMap">
+          <MapContainer />
+        </div>
+        <div className="map-height-lose-header"></div>
+      </div>
+      <div className="contact-form-container mt-n35">
+        <div className="container">
+          <div className="row justify-content-center pb-10 position-relative coodiv-z-index-2">
+            <div className="col-md-12 col-lg-8">
+              <div className="contact-form-container bg-white border-opacity px-8 pt-8 pb-9 px-sm-11 py-sm-11 shadow-2 rounded-20 position-relative overflow-hidden">
+                <form className="contact-form" method="post" action="#">
+                  <div className="output_message">
+                    <span className="output_message_text coodiv-text-6 font-weight-bold color-blackish-blue"></span>
+                    <Link className="btn btn-danger">cancel</Link>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-12">
+                      <div className="form-group mb-7">
+                        <label
+                          htmlFor="name"
+                          className="coodiv-text-11 font-weight-bold text-blackish-blue"
+                        >
+                          Your name
+                        </label>
+                        <input
+                          className="form-control coodiv-text-11 border"
+                          type="text"
+                          id="name"
+                          placeholder="i.e. John Doe"
+                          fdprocessedid="u5fe9"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-group mb-7">
+                        <label
+                          htmlFor="email"
+                          className="coodiv-text-11 font-weight-bold text-blackish-blue"
+                        >
+                          Email
+                        </label>
+                        <input
+                          className="form-control coodiv-text-11 border"
+                          type="text"
+                          id="email"
+                          placeholder="i.e. john@mail.com"
+                          fdprocessedid="12vuy"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-group mb-7">
+                        <label
+                          htmlFor="subject"
+                          className="coodiv-text-11 font-weight-bold text-blackish-blue"
+                        >
+                          Subject
+                        </label>
+                        <input
+                          className="form-control coodiv-text-11 border"
+                          type="text"
+                          id="subject"
+                          placeholder="i.e. I need a help"
+                          fdprocessedid="qy51j5"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-group mb-7">
+                        <label
+                          htmlFor="message"
+                          className="coodiv-text-11 font-weight-bold text-blackish-blue"
+                        >
+                          Message
+                        </label>
+                        <textarea
+                          name="textblock"
+                          id="message"
+                          className="form-control coodiv-text-11 border-gray-3 coodiv-textarea-height"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-group button-block mt-3">
+                        <button
+                          className="form-btn btn btn-warning d-block w-100"
+                          fdprocessedid="fvvd0o"
+                        >
+                          Send
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div className="col-md-12 col-lg-4 px-lg-0 mt-lg-0 mt-10">
+              <Link
+                to="#"
+                data-toggle="modal"
+                data-target="#errormodal"
+                className="live-chat-btn-contact-page btn btn-success d-block mb-8 rounded-20 shadow-2"
+              >
+                Live chat
+              </Link>
+              <div className="features-box-3 px-5 py-5 border-opacity position-relative white-bg rounded-20 bg-white shadow-2 coodiv-z-index-2">
+                <div className="col-md-12 text-left px-8 pb-8 pt-5 d-flex justify-content-start align-items-center border-bottom-separate">
+                  <div className="widget-icon circle-sm-2 bg-white coodiv-text-6 text-primary mr-7">
+                    <i className="feather icon-phone-call"></i>
+                  </div>
+                  <div>
+                    <h5 className="coodiv-text-8 mb-0">Call us for free</h5>
+                    <p className="coodiv-text-11 mb-0">
+                      +1-940-394-2948 <br />
+                      +1-389-385-3807
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-12 text-left px-8 pb-8 pt-5 d-flex justify-content-start align-items-center border-bottom-separate">
+                  <div className="widget-icon circle-sm-2 bg-white coodiv-text-6 text-primary mr-7">
+                    <i className="feather icon-mail"></i>
+                  </div>
+                  <div>
+                    <h5 className="coodiv-text-8 mb-0">Email us</h5>
+                    <p className="coodiv-text-11 mb-0">
+                      support@coodiv.net <br />
+                      items@coodiv.net
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-12 text-left px-8 pb-8 pt-5 d-flex justify-content-start align-items-center border-bottom-separate">
+                  <div className="widget-icon circle-sm-2 bg-white coodiv-text-6 text-primary mr-7">
+                    <i className="feather icon-map"></i>
+                  </div>
+                  <div>
+                    <h5 className="coodiv-text-8 mb-0">Visit our office</h5>
+                    <p className="coodiv-text-11 mb-0">
+                      Rue amir khaled nbr 4, 19001
+                      <Link
+                        target="_blank"
+                        className="btn btn-warning coodiv-text-12 py-1 px-1 rounded-20 mt-2"
+                        to="https://www.google.dz/maps/place/Coodiv/@36.1913308,5.4142593,15z/data=!4m2!3m1!1s0x0:0x704be71cc80998dd?sa=X&amp;ved=2ahUKEwjnnpbe8ZbxAhXR4IUKHV4CCEUQ_BIwEnoECD0QBQ"
+                      >
+                        <i className="feather icon-map-pin mr-3"></i> open
+                        google maps
+                      </Link>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-12 text-left px-8 pb-8 pt-5 d-flex justify-content-start align-items-center border-bottom-separate">
+                  <div className="widget-icon circle-sm-2 bg-white coodiv-text-6 text-primary mr-7">
+                    <i className="feather icon-life-buoy"></i>
+                  </div>
+                  <div>
+                    <h5 className="coodiv-text-8 mb-0">
+                      open a support ticket
+                    </h5>
+                    <p className="coodiv-text-11 mb-0">
+                      chose a departement and{" "}
+                      <Link
+                        target="_blank"
+                        className="btn btn-warning coodiv-text-12 py-1 px-1 rounded-20 mt-2"
+                        to="#"
+                      >
+                        open new support ticket
+                      </Link>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-12 text-left px-8 pb-8 pt-7 d-flex justify-content-start align-items-center">
+                  <div className="widget-icon circle-sm-2 bg-white coodiv-text-6 text-primary mr-7">
+                    <i className="feather icon-share-2"></i>
+                  </div>
+                  <div>
+                    <h5 className="coodiv-text-8 mb-0">
+                      Follow us in Social Media
+                    </h5>
+                    <div className="social-numbers contact-page d-flex mt-3">
+                      <Link className="mr-1 fb" to="#">
+                        <i className="fab fa-facebook-f"></i>
+                      </Link>
+                      <Link className="mr-1 tw" to="#">
+                        <i className="fab fa-twitter"></i>
+                      </Link>
+                      <Link className="mr-1 you" to="#">
+                        <i className="fab fa-youtube"></i>
+                      </Link>
+                      <Link className="insta" to="#">
+                        <i className="fab fa-instagram"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="popular-topics-search feature-section bg-default pb-20 pt-lg-30 position-relative">
+        <svg
+          width="0"
+          height="0"
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+        >
+          <defs>
+            <filter id="roundedsvg">
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="5"
+                result="blur"
+              ></feGaussianBlur>
+              <feColorMatrix
+                in="blur"
+                mode="matrix"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                result="goo"
+              ></feColorMatrix>
+              <feComposite
+                in="SourceGraphic"
+                in2="goo"
+                operator="atop"
+              ></feComposite>
+            </filter>
+          </defs>
+        </svg>
+        <svg
+          className="bg-wave-box-end-z1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#ffffff"
+            fillOpacity="1"
+            d="M0,160L26.7,170.7C53.3,181,107,203,160,229.3C213.3,256,267,288,320,293.3C373.3,299,427,277,480,229.3C533.3,181,587,107,640,106.7C693.3,107,747,181,800,208C853.3,235,907,213,960,186.7C1013.3,160,1067,128,1120,106.7C1173.3,85,1227,75,1280,64C1333.3,53,1387,43,1413,37.3L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+          ></path>
+        </svg>
+        <div className="container">
+          <div className="row justify-content-center align-items-center position-relative coodiv-z-index-2">
+            <div
+              className="col-11 col-md-9 col-lg-9 order-lg-1 aos-init aos-animate"
+              data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-once="true"
+            >
+              <div className="hero-content mt-11 mt-lg-0">
+                <h1 className="title coodiv-text-5 mb-5 text-center">
+                  You can also search at popular topics.
+                </h1>
+                <p className="coodiv-text-9 mb-11 text-center">
+                  Our extraordinary Technical Support and Customer Service is
+                  one of the main reasons why our clients rate FastCloud as the
+                  number.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center mt-10 container-sidebar mx-0">
+            <div
+              id="sidebar"
+              className={scroll ? "col-md-10 col-lg-5 sidebar-question pl-lg-0 is-affixed" : "col-md-10 col-lg-5 sidebar-question pl-lg-0"}
+            >
+              <div className="sidebar__inner search-box-topics-sidebar">
+                <Link className="searchtoggle d-block d-lg-none">
+                  <i className="feather icon-search"></i>
+                </Link>
+
+                <div className="dinamic-filter-container">
+                  <i className="fa fa-search"></i>
+                  <input
+                    type="text"
+                    id="dinamic-filter-input"
+                    onKeyUp=""
+                    placeholder="Search for quastions here.."
+                  />
+                </div>
+                <div className="dinamic-filter-list-container">
+                  <GBFaqList />
+                </div>
+              </div>
+            </div>
+            <div className="col-md-10 col-lg-7">
+              <div className="video-support-coodiv rounded-8 coodiv-hover-shadow-2 position-relative w-100">
+                <div id="particles-bg">
+                  <canvas
+                    className="particles-js-canvas-el"
+                    width="771"
+                    height="250"
+                  ></canvas>
+                </div>
+                <Link
+                  className="video-trigger circle-xl bg-white coodiv-abs-center coodiv-abs-hover-y focus-reset coodiv-z-index-2"
+                  data-fancybox=""
+                  to="https://www.youtube.com/watch?v=HQRxks2lqTY"
+                  tabIndex="-1"
+                >
+                  <i className="feather icon-play coodiv-text-6 text-green"></i>
+                </Link>
+              </div>
+              <div className="questions-reponses white-bg shadow-2 rounded-10 mt-9 pl-5 pr-10 pt-10 pb-8">
+                <GBFaqRes />
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center position-relative mt-20 px-lg-0 px-10">
+            <Link
+              className="btn btn-warning coodiv-text-9 col-lg-4"
+              to="all-topics.html"
+            >
+              View all Topics
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="popular-topics-section pt-15 pb-md-20 pb-15 pt-lg-20 pb-lg-32 bg-default-1 position-relative border-top">
+        <svg
+          className="bg-wave-box-end-z1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <defs>
+            <linearGradient id="footer-gradient">
+              <stop offset="0%" stop-color="#212433"></stop>
+              <stop offset="39%" stop-color="#242837"></stop>
+              <stop offset="100%" stop-color="#0e1019"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            fill="url(#footer-gradient)"
+            fill-opacity="1"
+            d="M0,128L80,138.7C160,149,320,171,480,192C640,213,800,235,960,234.7C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+          ></path>
+        </svg>
+        <div className="container">
+          <div className="row justify-content-center align-items-center position-relative coodiv-z-index-2">
+            <div
+              className="col-11 col-md-9 col-lg-9 order-lg-1 aos-init aos-animate"
+              data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-once="true"
+            >
+              <div className="hero-content mt-11 mt-lg-0 mb-20">
+                <h1 className="title coodiv-text-5 mb-5 text-center">
+                  Or you can see Popular Topics
+                </h1>
+                <p className="coodiv-text-9 mb-11 text-center">
+                  Our extraordinary Technical Support and Customer Service is
+                  one of the main reasons why our clients rate us as the number.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="popular-topics row align-items-center justify-content-center mt-n5">
+            <div className="col-lg-3 col-md-6">
+              <div className="popular-topics-box bg-default-2 rounded-20 px-8 py-8 mb-4">
+                <i className="feather icon-server color-blackish-blue coodiv-text-5 d-block mb-2"></i>
+                <h5 className="coodiv-text-9 mb-3">
+                  Shared Hosting departement
+                </h5>
+                <Link
+                  className="coodiv-text-11 font-weight-bold mt-8 d-flex justify-content-between"
+                  to="#"
+                >
+                  Open a ticket{" "}
+                  <i className="ml-2 fa fa-chevron-circle-right coodiv-text-7"></i>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="popular-topics-box bg-default-2 rounded-20 px-8 py-8 mb-4">
+                <i className="feather icon-anchor color-blackish-blue coodiv-text-5 d-block mb-2"></i>
+                <h5 className="coodiv-text-9 mb-3">
+                  Advanced Topics &amp; Customization
+                </h5>
+                <Link
+                  className="coodiv-text-11 font-weight-bold mt-8 d-flex justify-content-between"
+                  to="#"
+                >
+                  Open a ticket{" "}
+                  <i className="ml-2 fa fa-chevron-circle-right coodiv-text-7"></i>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="popular-topics-box bg-default-2 rounded-20 px-8 py-8 mb-4">
+                <i className="feather icon-credit-card color-blackish-blue coodiv-text-5 d-block mb-2"></i>
+                <h5 className="coodiv-text-9 mb-3">
+                  Account Management &amp; Billing
+                </h5>
+                <Link
+                  className="coodiv-text-11 font-weight-bold mt-8 d-flex justify-content-between"
+                  to="#"
+                >
+                  Open a ticket{" "}
+                  <i className="ml-2 fa fa-chevron-circle-right coodiv-text-7"></i>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="popular-topics-box bg-default-2 rounded-20 px-8 py-8 mb-4">
+                <i className="feather icon-package color-blackish-blue coodiv-text-5 d-block mb-2"></i>
+                <h5 className="coodiv-text-9 mb-3">
+                  One-Click Installs &amp; 3rd-Party Apps
+                </h5>
+                <Link
+                  className="coodiv-text-11 font-weight-bold mt-8 d-flex justify-content-between"
+                  to="#"
+                >
+                  Open a ticket{" "}
+                  <i className="ml-2 fa fa-chevron-circle-right coodiv-text-7"></i>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center social-numbers mt-lg-20 mt-15 light-bg">
+            <Link className="d-flex mr-lg-15 fb" to="#">
+              <i className="fa fa-facebook-f"></i>
+              <h3>
+                1,435,533<span>followers</span>
+              </h3>
+            </Link>
+            <Link className="d-flex mr-lg-15 tw" to="#">
+              <i className="fa fa-twitter"></i>
+              <h3>
+                143,32<span>followers</span>
+              </h3>
+            </Link>
+            <Link className="d-flex mr-lg-15 you" to="#">
+              <i className="fa fa-youtube"></i>
+              <h3>
+                32,345<span>followers</span>
+              </h3>
+            </Link>
+            <Link className="d-flex mr-lg-15 insta" to="#">
+              <i className="fa fa-instagram"></i>
+              <h3>
+                32,345<span>followers</span>
+              </h3>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
 }
 
-export default ContactUs
+export default ContactUs;
