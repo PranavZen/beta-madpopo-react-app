@@ -12,6 +12,7 @@ import WordpressPlansListing from "../../Components/WordpressHostingPageComponen
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
 import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";
 import SecondTabContent from "../../Components/Tabs/TabContentBox/SecondTabContent";
+import LinuxHostingFeatures from "../../Components/LinuxHostingPageComponent/LinuxHostingFeatures";
 function LinuxWebHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg">
@@ -19,7 +20,7 @@ function LinuxWebHosting() {
 
       <div className="wp_img_overlayContent">
         <p>Linux Web Hosting</p>
-        <h1>Choose flexible pricing plan for you and more...</h1>
+        <h1>Utilize the Online Space to Enhance Your Physical Business</h1>
         <span>Unlimited boards and workflows. no credit card needed</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
@@ -42,7 +43,7 @@ function LinuxWebHosting() {
         <WpBestChoice />
       </div>
       <div className="wp_features">
-        <WordpressHostingFeatures />
+        <LinuxHostingFeatures/>
       </div>
       <div className="wp_plansListing">
         <WordpressPlansListing />
