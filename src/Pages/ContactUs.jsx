@@ -127,14 +127,7 @@ function ContactUs() {
               </div>
             </div>
             <div className="col-md-12 col-lg-4 px-lg-0 mt-lg-0 mt-10">
-              <Link
-                to="#"
-                data-toggle="modal"
-                data-target="#errormodal"
-                className="live-chat-btn-contact-page btn btn-success d-block mb-8 rounded-20 shadow-2"
-              >
-                Live chat
-              </Link>
+              
               <div className="features-box-3 px-5 py-5 border-opacity position-relative white-bg rounded-20 bg-white shadow-2 coodiv-z-index-2">
                 <div className="col-md-12 text-left px-8 pb-8 pt-5 d-flex justify-content-start align-items-center border-bottom-separate">
                   <div className="widget-icon circle-sm-2 bg-white coodiv-text-6 text-primary mr-7">
@@ -228,122 +221,7 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      <div className="popular-topics-search feature-section bg-default pb-20 pt-lg-30 position-relative">
-        <svg
-          width="0"
-          height="0"
-          xmlns="http://www.w3.org/2000/svg"
-          version="1.1"
-        >
-          <defs>
-            <filter id="roundedsvg">
-              <feGaussianBlur
-                in="SourceGraphic"
-                stdDeviation="5"
-                result="blur"
-              ></feGaussianBlur>
-              <feColorMatrix
-                in="blur"
-                mode="matrix"
-                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-                result="goo"
-              ></feColorMatrix>
-              <feComposite
-                in="SourceGraphic"
-                in2="goo"
-                operator="atop"
-              ></feComposite>
-            </filter>
-          </defs>
-        </svg>
-        <svg
-          className="bg-wave-box-end-z1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-        >
-          <path
-            fill="#ffffff"
-            fillOpacity="1"
-            d="M0,160L26.7,170.7C53.3,181,107,203,160,229.3C213.3,256,267,288,320,293.3C373.3,299,427,277,480,229.3C533.3,181,587,107,640,106.7C693.3,107,747,181,800,208C853.3,235,907,213,960,186.7C1013.3,160,1067,128,1120,106.7C1173.3,85,1227,75,1280,64C1333.3,53,1387,43,1413,37.3L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
-          ></path>
-        </svg>
-        <div className="container">
-          <div className="row justify-content-center align-items-center position-relative coodiv-z-index-2">
-            <div
-              className="col-11 col-md-9 col-lg-9 order-lg-1 aos-init aos-animate"
-              data-aos="fade-right"
-              data-aos-duration="500"
-              data-aos-once="true"
-            >
-              <div className="hero-content mt-11 mt-lg-0">
-                <h1 className="title coodiv-text-5 mb-5 text-center">
-                  You can also search at popular topics.
-                </h1>
-                <p className="coodiv-text-9 mb-11 text-center">
-                  Our extraordinary Technical Support and Customer Service is
-                  one of the main reasons why our clients rate FastCloud as the
-                  number.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center mt-10 container-sidebar mx-0">
-            <div
-              id="sidebar"
-              className={scroll ? "col-md-10 col-lg-5 sidebar-question pl-lg-0 is-affixed" : "col-md-10 col-lg-5 sidebar-question pl-lg-0"}
-            >
-              <div className="sidebar__inner search-box-topics-sidebar">
-                <Link className="searchtoggle d-block d-lg-none">
-                  <i className="feather icon-search"></i>
-                </Link>
-
-                <div className="dinamic-filter-container">
-                  <i className="fa fa-search"></i>
-                  <input
-                    type="text"
-                    id="dinamic-filter-input"
-                    onKeyUp=""
-                    placeholder="Search for quastions here.."
-                  />
-                </div>
-                <div className="dinamic-filter-list-container">
-                  <GBFaqList />
-                </div>
-              </div>
-            </div>
-            <div className="col-md-10 col-lg-7">
-              <div className="video-support-coodiv rounded-8 coodiv-hover-shadow-2 position-relative w-100">
-                <div id="particles-bg">
-                  <canvas
-                    className="particles-js-canvas-el"
-                    width="771"
-                    height="250"
-                  ></canvas>
-                </div>
-                <Link
-                  className="video-trigger circle-xl bg-white coodiv-abs-center coodiv-abs-hover-y focus-reset coodiv-z-index-2"
-                  data-fancybox=""
-                  to="https://www.youtube.com/watch?v=HQRxks2lqTY"
-                  tabIndex="-1"
-                >
-                  <i className="feather icon-play coodiv-text-6 text-green"></i>
-                </Link>
-              </div>
-              <div className="questions-reponses white-bg shadow-2 rounded-10 mt-9 pl-5 pr-10 pt-10 pb-8">
-                <GBFaqRes />
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center position-relative mt-20 px-lg-0 px-10">
-            <Link
-              className="btn btn-warning coodiv-text-9 col-lg-4"
-              to="all-topics.html"
-            >
-              View all Topics
-            </Link>
-          </div>
-        </div>
-      </div>
+     
       <div className="popular-topics-section pt-15 pb-md-20 pb-15 pt-lg-20 pb-lg-32 bg-default-1 position-relative border-top">
         <svg
           className="bg-wave-box-end-z1"

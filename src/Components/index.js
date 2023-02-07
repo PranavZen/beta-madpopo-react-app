@@ -29,7 +29,7 @@ export { default as wpFeatureImg5 } from "../../src/image/wordpress/automated_ba
 export { default as wpFeatureImg6 } from "../../src/image/wordpress/wordpress_pro_feature.svg";
 export { default as wp_logo } from "../../src/image/wordpress_innerlogo.png";
 export { default as tableImg } from "../../src/image/24_shadow.png";
-export { default as webSpeedImg } from "../../src/image/webspeeddata.png";
+export { default as webSpeedImg } from "../../src/image/popo-site-load-test_1-80.jpg";
 export { default as domainimg1 } from "../../src/image/domain/tech-domain.png";
 export { default as domainimg2 } from "../../src/image/domain/biz-domain.png";
 export { default as domainimg3 } from "../../src/image/domain/com-domain.png";

@@ -91,9 +91,7 @@ function NavbarInner() {
                           <span className="mainTitleDrop d-block mb-2">
                             Web hosting that scales from easy to expert.
                           </span>
-                          <span
-                            className="d-block mt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop"
-                          >
+                          <span className="d-block mt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop">
                             A ton of website hosting options, 99.9% uptime
                             guarantee, free SSL certificate, easy WordPress
                             installs, and a free domain for a year.
@@ -108,7 +106,8 @@ function NavbarInner() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/beta-madpopo-react-app/WordpressHosting"
+                            <Link
+                              to="/beta-madpopo-react-app/WordpressHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -122,22 +121,22 @@ function NavbarInner() {
                                 <i className="fa fa-wordpress"></i>
                               </div>
                               <div className="content">
-                                <h3
-                                  className="title coodiv-text-9 mb-2 color-blackish-blue wblink">
+                                <h3 className="title coodiv-text-9 mb-2 color-blackish-blue wblink">
                                   WordPress Hosting
                                 </h3>
                                 <p className="coodiv-text-11 color-blackish-blue-opacity mb-0 wbsubLink">
-                                  Show your visitors you take security seriously.
+                                  Show your visitors you take security
+                                  seriously.
                                 </p>
                               </div>
                             </Link>
                           </div>
-                          <div
-                            className="col-md-6 col-lg-3 mb-10 menusHover">
-                            <Link to="/beta-madpopo-react-app/WoocommerceHosting"
-                              className="feature-widget d-sm-flex">
-                              <div
-                                className="widget-icon text-blue mr-0 mr-lg-6 mb-7 mb-md-0">
+                          <div className="col-md-6 col-lg-3 mb-10 menusHover">
+                            <Link
+                              to="/beta-madpopo-react-app/WoocommerceHosting"
+                              className="feature-widget d-sm-flex"
+                            >
+                              <div className="widget-icon text-blue mr-0 mr-lg-6 mb-7 mb-md-0">
                                 <i className="fa fa-shopping-cart"></i>
                               </div>
                               <div className="content">
@@ -163,7 +162,8 @@ function NavbarInner() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/beta-madpopo-react-app/LinuxWebHosting"
+                            <Link
+                              to="/beta-madpopo-react-app/LinuxWebHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -199,7 +199,8 @@ function NavbarInner() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/beta-madpopo-react-app/WindowsWebHosting"
+                            <Link
+                              to="/beta-madpopo-react-app/WindowsWebHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -235,7 +236,8 @@ function NavbarInner() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/beta-madpopo-react-app/VirtualDedicatedServer"
+                            <Link
+                              to="/beta-madpopo-react-app/VirtualDedicatedServer"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -271,7 +273,8 @@ function NavbarInner() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/beta-madpopo-react-app/DedicatedServer"
+                            <Link
+                              to="/beta-madpopo-react-app/DedicatedServer"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -307,7 +310,8 @@ function NavbarInner() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/beta-madpopo-react-app/CloudHosting"
+                            <Link
+                              to="/beta-madpopo-react-app/CloudHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -343,7 +347,8 @@ function NavbarInner() {
                             className="col-md-6
                                                             col-lg-3 mb-10 menusHover"
                           >
-                            <Link to="/beta-madpopo-react-app/ResellerHosting"
+                            <Link
+                              to="/beta-madpopo-react-app/ResellerHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -392,145 +397,147 @@ function NavbarInner() {
                 </li>
 
                 <li className="nav-item dropdown dropdown-mega">
-                <Link
-                  className="nav-link dropdown-toggle coodiv-toggle-arrow"
-                  id="domaindropdown"
-                  to="#"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Domains
-                  <i className="material-symbols-outlined">
-                    keyboard_arrow_down
-                  </i>
-                </Link>
-                <div
-                  className="coodiv-megamenu-dropdown
+                  <Link
+                    className="nav-link dropdown-toggle coodiv-toggle-arrow"
+                    id="domaindropdown"
+                    to="#"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Domains
+                    <i className="material-symbols-outlined">
+                      keyboard_arrow_down
+                    </i>
+                  </Link>
+                  <div
+                    className="coodiv-megamenu-dropdown
                                           mini-version center white-bg
                                           dropdown-menu d-lg-block pt-0"
-                  aria-labelledby="domaindropdown"
-                >
-                  <div
-                    className="row
+                    aria-labelledby="domaindropdown"
+                  >
+                    <div
+                      className="row
                                               justify-content-start
                                               mega-menu-header nav"
-                    role="tablist"
-                    aria-orientation="vertical"
-                    id="global-network-tabs"
-                  >
-                    <a
-                      className="toggle-domain-s-t
+                      role="tablist"
+                      aria-orientation="vertical"
+                      id="global-network-tabs"
+                    >
+                      <a
+                        className="toggle-domain-s-t
                                                   d-inline-block col-md-6
                                                   active-link-border pl-lg-10
                                                   pt-lg-8 pb-lg-5 pl-6 pt-4
                                                   pb-4 rounded-top-left-8 nav-link active"
-                                                  id="global-network-country-001-tab"
-                                                  data-toggle="pill"
-                                                  href="#global-network-country-001" role="tab"
-                                                  aria-controls="global-network-country-001"
-                                                  aria-selected="true"
-                                                  
-                    >
-                      <h1
-                        className="coodiv-text-8
+                        id="global-network-country-001-tab"
+                        data-toggle="pill"
+                        href="#global-network-country-001"
+                        role="tab"
+                        aria-controls="global-network-country-001"
+                        aria-selected="true"
+                      >
+                        <h1
+                          className="coodiv-text-8
                                                       title
                                                       color-blackish-blue
                                                       text-left w-100
                                                       d-block mainTitleDrop"
-                      >
-                        <span>Snag your fav domain.1</span>
-                        <span
-                          className="d-block
+                        >
+                          <span>Domain Registration</span>
+                          <span
+                            className="d-block
                                                           coodiv-text-11
                                                           color-blackish-blue-opacity
                                                           subTitleDrop"
-                        >
-                          Grab a .com starting at{" "}
-                          <span className="textPBold">$12.95/yr*</span>.
-                        </span>
-                      </h1>
-                    </a>
-                    <a
-                      className="toggle-domain-s-t
+                          >
+                            Grab a .com starting at{" "}
+                            <span className="textPBold">$12.95/yr*</span>.
+                          </span>
+                        </h1>
+                      </a>
+                      <a
+                        className="toggle-domain-s-t
                                                   d-md-inline-block d-none
                                                   col-md-6
                                                   active-link-border
                                                   pl-lg-10 pt-lg-8 pb-lg-5
                                                   pl-6 pt-4 pb-4
                                                   rounded-top-right-8 nav-link"
-                                                  id="global-network-country-002-tab"
-                              data-toggle="pill"
-                              href="#global-network-country-002" role="tab"
-                              aria-controls="global-network-country-002"
-                              aria-selected="false"
-                              
-                    >
-                      <h1
-                        className="coodiv-text-8
+                        id="global-network-country-002-tab"
+                        data-toggle="pill"
+                        href="#global-network-country-002"
+                        role="tab"
+                        aria-controls="global-network-country-002"
+                        aria-selected="false"
+                      >
+                        <h1
+                          className="coodiv-text-8
                                                       title
                                                       color-blackish-blue
                                                       text-left w-100
                                                       d-block mainTitleDrop"
-                      >
-                        <span>Transfer your domain to us.</span>
-                        <span
-                          className="d-block
+                        >
+                          <span>Domain Transfer</span>
+                          <span
+                            className="d-block
                                                           coodiv-text-11
                                                           color-blackish-blue-opacity
                                                           subTitleDrop"
-                        >
-                          starting at
-                          <b className="textPBold"> $5.88/yr*</b>.
-                        </span>
-                      </h1>
-                    </a>
-                  </div>
-                  <div
-                    className="pt-10
-                                              mega-menu-body tab-content " id="global-network-tabsContent"
-                  >
+                          >
+                            starting at
+                            <b className="textPBold"> $5.88/yr*</b>.
+                          </span>
+                        </h1>
+                      </a>
+                    </div>
                     <div
-                      className="row
+                      className="pt-10
+                                              mega-menu-body tab-content "
+                      id="global-network-tabsContent"
+                    >
+                      <div
+                        className="row
                                                   justify-content-center tab-pane fade show active"
-                                                  id="global-network-country-001" role="tabpanel"
-                                                  aria-labelledby="global-network-country-001-tab"
-                    >
-                      <div
-                        className="col-xl-12
-                                                      col-lg-7 col-md-8
-                                                      col-sm-11"
+                        id="global-network-country-001"
+                        role="tabpanel"
+                        aria-labelledby="global-network-country-001-tab"
                       >
                         <div
-                          className="domain-search-form
-                                                          mb-8"
+                          className="col-xl-12
+                                                      col-lg-7 col-md-8
+                                                      col-sm-11"
                         >
-                          <form action="domains-registration.html">
-                            <div
-                              className="form-group
+                          <div
+                            className="domain-search-form
+                                                          mb-8"
+                          >
+                            <form action="domains-registration.html">
+                              <div
+                                className="form-group
                                                                   position-relative
                                                                   text-lg-left
                                                                   text-center"
-                            >
-                              <input
-                                className="form-control
+                              >
+                                <input
+                                  className="form-control
                                                                       coodiv-text-9
                                                                       border-separate
                                                                       mb-lg-6
                                                                       mb-2
                                                                       min-height-px-64"
-                                type="text"
-                                id="domain"
-                                name="domaine"
-                                placeholder="Enter
+                                  type="text"
+                                  id="domain"
+                                  name="domaine"
+                                  placeholder="Enter
                                                                       your
                                                                       domain
                                                                       name"
-                                fdprocessedid="ie3xhm"
-                              />
-                              <button
-                                className="form-btn
+                                  fdprocessedid="ie3xhm"
+                                />
+                                <button
+                                  className="form-btn
                                                                       btn
                                                                       btn-primary
                                                                       mr-2
@@ -538,105 +545,110 @@ function NavbarInner() {
                                                                       min-height-px-50
                                                                       w-100
                                                                       w-md-auto"
-                                fdprocessedid="6zse4p"
-                              >
-                                check
-                              </button>
+                                  fdprocessedid="6zse4p"
+                                >
+                                  check
+                                </button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div className="col-xl-12 col-lg-12 col-md-12">
+                          <div className="domaulListing d-flex flex-wrap pb-5">
+                            <div className="col-md-6 listTitle">
+                              <Link to="/beta-madpopo-react-app/Domain-Registration">
+                                <p>Free with Domain Registration</p>
+                                <ul className="listFeatureDomain">
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i> 2
+                                      Free Email Accounts
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i>{" "}
+                                      Privacy Protection
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i>{" "}
+                                      Domain Theft Protection
+                                    </span>
+                                  </li>
+                                </ul>
+                              </Link>
                             </div>
-                          </form>
-                        </div>
-                      </div>
-                      <div className="col-xl-12 col-lg-12 col-md-12">
-                        <div className="domaulListing d-flex flex-wrap pb-5">
-                          <div className="col-md-6 listTitle">
-                            <p>Free with domain</p>
-                            <ul className="listFeatureDomain">
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i> 2
-                                  Free Email Accounts
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i>{" "}
-                                  Privacy Protection
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i>{" "}
-                                  Domain Theft Protection
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="col-md-6 listTitle">
-                            <p>Free DNS services</p>
-                            <ul className="listFeatureDomain">
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i> DNS
-                                  Management
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i>{" "}
-                                  Domain Forwarding
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i>{" "}
-                                  Multiple Mail Forwards
-                                </span>
-                              </li>
-                            </ul>
+                            <div className="col-md-6 listTitle">
+                              <Link to="/beta-madpopo-react-app/Domain-Registration">
+                                <p>Free DNS Services</p>
+                                <ul className="listFeatureDomain">
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i> DNS
+                                      Management
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i>{" "}
+                                      Domain Forwarding
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i>{" "}
+                                      Multiple Mail Forwards
+                                    </span>
+                                  </li>
+                                </ul>
+                              </Link>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div
-                      className="row
+                      <div
+                        className="row
                                                   justify-content-center tab-pane fade"
-                                                  id="global-network-country-002" role="tabpanel"
-                                                  aria-labelledby="global-network-country-002-tab"
-                    >
-                      <div
-                        className="col-xl-12
-                                                      col-lg-7 col-md-8
-                                                      col-sm-11"
+                        id="global-network-country-002"
+                        role="tabpanel"
+                        aria-labelledby="global-network-country-002-tab"
                       >
                         <div
-                          className="domain-search-form
-                                                          mb-8"
+                          className="col-xl-12
+                                                      col-lg-7 col-md-8
+                                                      col-sm-11"
                         >
-                          <form action="">
-                            <div
-                              className="form-group
+                          <div
+                            className="domain-search-form
+                                                          mb-8"
+                          >
+                            <form action="domains-registration.html">
+                              <div
+                                className="form-group
                                                                   position-relative
                                                                   text-lg-left
                                                                   text-center"
-                            >
-                              <input
-                                className="form-control
+                              >
+                                <input
+                                  className="form-control
                                                                       coodiv-text-9
                                                                       border-separate
                                                                       mb-lg-6
                                                                       mb-2
                                                                       min-height-px-64"
-                                type="text"
-                                id="domain"
-                                name="domaine"
-                                placeholder="Enter
+                                  type="text"
+                                  id="domain"
+                                  name="domaine"
+                                  placeholder="Enter
                                                                       your
                                                                       domain
                                                                       name"
-                                fdprocessedid="ie3xhm"
-                              />
-                              <button
-                                className="form-btn
+                                  fdprocessedid="ie3xhm"
+                                />
+                                <button
+                                  className="form-btn
                                                                       btn
                                                                       btn-primary
                                                                       mr-2
@@ -644,68 +656,72 @@ function NavbarInner() {
                                                                       min-height-px-50
                                                                       w-100
                                                                       w-md-auto"
-                                fdprocessedid="6zse4p"
-                              >
-                                check
-                              </button>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                      <div className="col-xl-12 col-lg-12 col-md-12">
-                        <div className="domaulListing d-flex flex-wrap pb-5">
-                          <div className="col-md-6 listTitle">
-                            <p>Free with domain2</p>
-                            <ul className="listFeatureDomain">
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i> 2
-                                  Free Email Accounts2
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i>{" "}
-                                  Privacy Protection2
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i>{" "}
-                                  Domain Theft Protection2
-                                </span>
-                              </li>
-                            </ul>
+                                  fdprocessedid="6zse4p"
+                                >
+                                  check
+                                </button>
+                              </div>
+                            </form>
                           </div>
-                          <div className="col-md-6 listTitle">
-                            <p>Free DNS services</p>
-                            <ul className="listFeatureDomain">
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i> DNS
-                                  Management
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i>{" "}
-                                  Domain Forwarding
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="feather icon-check"></i>{" "}
-                                  Multiple Mail Forwards
-                                </span>
-                              </li>
-                            </ul>
+                        </div>
+                        <div className="col-xl-12 col-lg-12 col-md-12">
+                          <div className="domaulListing d-flex flex-wrap pb-5">
+                            <div className="col-md-6 listTitle">
+                              <Link to="/beta-madpopo-react-app/Domain-Transfer">
+                                <p>Free with Domain Transfer</p>
+                                <ul className="listFeatureDomain">
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i> 2
+                                      Free Email Accounts2
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i>{" "}
+                                      Privacy Protection2
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i>{" "}
+                                      Domain Theft Protection2
+                                    </span>
+                                  </li>
+                                </ul>
+                              </Link>
+                            </div>
+                            <div className="col-md-6 listTitle">
+                              <Link to="/beta-madpopo-react-app/Domain-Transfer">
+                                <p>Free DNS Services</p>
+                                <ul className="listFeatureDomain">
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i> DNS
+                                      Management
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i>{" "}
+                                      Domain Forwarding
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i>{" "}
+                                      Multiple Mail Forwards
+                                    </span>
+                                  </li>
+                                </ul>
+                              </Link>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </li>
+                </li>
 
                 <li className="nav-item dropdown">
                   <Link to="/beta-madpopo-react-app/Home2" className="nav-link">
@@ -975,8 +991,7 @@ function NavbarInner() {
                   >
                     <h1 className="coodiv-text-6 title color-blackish-blue text-lg-left text-center w-100 d-block mb-12 dropdownMenuTitle">
                       <span className="mainTitleDrop">About us</span>
-                      <span
-                        className="d-block about-our-storymt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop">
+                      <span className="d-block about-our-storymt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop">
                         A ton of website hosting options, 99.9% uptime
                         guarantee, free SSL certificate, easy WordPress
                         installs, and a free domain for a year.
@@ -984,7 +999,9 @@ function NavbarInner() {
                     </h1>
                     <div className="col-md-4 abtMenuList">
                       <li className="drop-menu-item">
-                        <Link to="/beta-madpopo-react-app/Global-Infrastructure">Global infrastructure</Link>
+                        <Link to="/beta-madpopo-react-app/Global-Infrastructure">
+                          Global infrastructure
+                        </Link>
                       </li>
                       <li className="drop-menu-item">
                         <Link to="#">Company Blog</Link>
@@ -992,7 +1009,9 @@ function NavbarInner() {
                     </div>
                     <div className="col-md-4 abtMenuList">
                       <li className="drop-menu-item">
-                        <Link to="/beta-madpopo-react-app/Terms-Condition">Terms & Conditions</Link>
+                        <Link to="/beta-madpopo-react-app/Terms-Condition">
+                          Terms & Conditions
+                        </Link>
                       </li>
                       <li className="drop-menu-item">
                         <Link to="#">Careers</Link>
@@ -1003,7 +1022,9 @@ function NavbarInner() {
                         <Link to="#">Happy Customers</Link>
                       </li>
                       <li className="drop-menu-item">
-                        <Link to="/beta-madpopo-react-app/Contact-Us">Contact</Link>
+                        <Link to="/beta-madpopo-react-app/Contact-Us">
+                          Contact
+                        </Link>
                       </li>
                     </div>
                     {

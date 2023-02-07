@@ -10,7 +10,7 @@ function Navbar() {
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY > 50);
     });
-  }, []); 
+  }, []);
   return (
     <header
       className={
@@ -431,12 +431,12 @@ function Navbar() {
                                                     active-link-border pl-lg-10
                                                     pt-lg-8 pb-lg-5 pl-6 pt-4
                                                     pb-4 rounded-top-left-8 nav-link active"
-                                                    id="global-network-country-001-tab"
-                                                    data-toggle="pill"
-                                                    href="#global-network-country-001" role="tab"
-                                                    aria-controls="global-network-country-001"
-                                                    aria-selected="true"
-                                                    
+                        id="global-network-country-001-tab"
+                        data-toggle="pill"
+                        href="#global-network-country-001"
+                        role="tab"
+                        aria-controls="global-network-country-001"
+                        aria-selected="true"
                       >
                         <h1
                           className="coodiv-text-8
@@ -445,7 +445,7 @@ function Navbar() {
                                                         text-left w-100
                                                         d-block mainTitleDrop"
                         >
-                          <span>Snag your fav domain.1</span>
+                          <span>Domain Registration</span>
                           <span
                             className="d-block
                                                             coodiv-text-11
@@ -465,12 +465,12 @@ function Navbar() {
                                                     pl-lg-10 pt-lg-8 pb-lg-5
                                                     pl-6 pt-4 pb-4
                                                     rounded-top-right-8 nav-link"
-                                                    id="global-network-country-002-tab"
-                                data-toggle="pill"
-                                href="#global-network-country-002" role="tab"
-                                aria-controls="global-network-country-002"
-                                aria-selected="false"
-                                
+                        id="global-network-country-002-tab"
+                        data-toggle="pill"
+                        href="#global-network-country-002"
+                        role="tab"
+                        aria-controls="global-network-country-002"
+                        aria-selected="false"
                       >
                         <h1
                           className="coodiv-text-8
@@ -479,7 +479,7 @@ function Navbar() {
                                                         text-left w-100
                                                         d-block mainTitleDrop"
                         >
-                          <span>Transfer your domain to us.</span>
+                          <span>Domain Transfer</span>
                           <span
                             className="d-block
                                                             coodiv-text-11
@@ -494,13 +494,15 @@ function Navbar() {
                     </div>
                     <div
                       className="pt-10
-                                                mega-menu-body tab-content " id="global-network-tabsContent"
+                                                mega-menu-body tab-content "
+                      id="global-network-tabsContent"
                     >
                       <div
                         className="row
                                                     justify-content-center tab-pane fade show active"
-                                                    id="global-network-country-001" role="tabpanel"
-                                                    aria-labelledby="global-network-country-001-tab"
+                        id="global-network-country-001"
+                        role="tabpanel"
+                        aria-labelledby="global-network-country-001-tab"
                       >
                         <div
                           className="col-xl-12
@@ -554,30 +556,33 @@ function Navbar() {
                         <div className="col-xl-12 col-lg-12 col-md-12">
                           <div className="domaulListing d-flex flex-wrap pb-5">
                             <div className="col-md-6 listTitle">
-                              <p>Free with domain</p>
-                              <ul className="listFeatureDomain">
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i> 2
-                                    Free Email Accounts
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i>{" "}
-                                    Privacy Protection
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i>{" "}
-                                    Domain Theft Protection
-                                  </span>
-                                </li>
-                              </ul>
+                              <Link to="/beta-madpopo-react-app/Domain-Registration">
+                                <p>Free with Domain Registration</p>
+                                <ul className="listFeatureDomain">
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i> 2
+                                      Free Email Accounts
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i>{" "}
+                                      Privacy Protection
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      <i className="feather icon-check"></i>{" "}
+                                      Domain Theft Protection
+                                    </span>
+                                  </li>
+                                </ul>
+                              </Link>
                             </div>
                             <div className="col-md-6 listTitle">
-                              <p>Free DNS services</p>
+                            <Link to="/beta-madpopo-react-app/Domain-Registration">
+                              <p>Free DNS Services</p>
                               <ul className="listFeatureDomain">
                                 <li>
                                   <span>
@@ -598,6 +603,7 @@ function Navbar() {
                                   </span>
                                 </li>
                               </ul>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -605,8 +611,9 @@ function Navbar() {
                       <div
                         className="row
                                                     justify-content-center tab-pane fade"
-                                                    id="global-network-country-002" role="tabpanel"
-                                                    aria-labelledby="global-network-country-002-tab"
+                        id="global-network-country-002"
+                        role="tabpanel"
+                        aria-labelledby="global-network-country-002-tab"
                       >
                         <div
                           className="col-xl-12
@@ -660,7 +667,8 @@ function Navbar() {
                         <div className="col-xl-12 col-lg-12 col-md-12">
                           <div className="domaulListing d-flex flex-wrap pb-5">
                             <div className="col-md-6 listTitle">
-                              <p>Free with domain2</p>
+                            <Link to="/beta-madpopo-react-app/Domain-Transfer">
+                              <p>Free with Domain Transfer</p>
                               <ul className="listFeatureDomain">
                                 <li>
                                   <span>
@@ -681,29 +689,32 @@ function Navbar() {
                                   </span>
                                 </li>
                               </ul>
+                              </Link>
                             </div>
                             <div className="col-md-6 listTitle">
-                              <p>Free DNS services</p>
-                              <ul className="listFeatureDomain">
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i> DNS
-                                    Management
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i>{" "}
-                                    Domain Forwarding
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <i className="feather icon-check"></i>{" "}
-                                    Multiple Mail Forwards
-                                  </span>
-                                </li>
-                              </ul>
+                            <Link to="/beta-madpopo-react-app/Domain-Transfer">
+                            <p>Free DNS Services</p>
+                            <ul className="listFeatureDomain">
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i> DNS
+                                  Management
+                                </span>
+                              </li>
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i>{" "}
+                                  Domain Forwarding
+                                </span>
+                              </li>
+                              <li>
+                                <span>
+                                  <i className="feather icon-check"></i>{" "}
+                                  Multiple Mail Forwards
+                                </span>
+                              </li>
+                            </ul>
+                            </Link>
                             </div>
                           </div>
                         </div>
@@ -988,7 +999,9 @@ function Navbar() {
                     </h1>
                     <div className="col-md-4 abtMenuList">
                       <li className="drop-menu-item">
-                        <Link to="/beta-madpopo-react-app/Global-Infrastructure">Global infrastructure</Link>
+                        <Link to="/beta-madpopo-react-app/Global-Infrastructure">
+                          Global infrastructure
+                        </Link>
                       </li>
                       <li className="drop-menu-item">
                         <Link to="#">Company Blog</Link>
@@ -996,7 +1009,9 @@ function Navbar() {
                     </div>
                     <div className="col-md-4 abtMenuList">
                       <li className="drop-menu-item">
-                        <Link to="/beta-madpopo-react-app/Terms-Condition">Terms & Conditions</Link>
+                        <Link to="/beta-madpopo-react-app/Terms-Condition">
+                          Terms & Conditions
+                        </Link>
                       </li>
                       <li className="drop-menu-item">
                         <Link to="#">Careers</Link>
@@ -1007,7 +1022,9 @@ function Navbar() {
                         <Link to="#">Happy Customers</Link>
                       </li>
                       <li className="drop-menu-item">
-                        <Link to="/beta-madpopo-react-app/Contact-Us">Contact</Link>
+                        <Link to="/beta-madpopo-react-app/Contact-Us">
+                          Contact
+                        </Link>
                       </li>
                     </div>
                     {

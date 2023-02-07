@@ -2524,6 +2524,15 @@ a.headerphone-number {
   position: relative;
   
 }
+.btn-warning{
+  color: #fff;
+  background-color: #ff8726;
+  border-color: #ff8726;
+
+}
+.dom_pt{
+  padding-top: 500px;
+}
 .is-affixed .search-box-topics-sidebar{
  
   position: fixed;
@@ -2621,6 +2630,12 @@ a.headerphone-number {
 }
 .wp_hostingBgImg.gbInfraBg{
   background-image: url(.././image/pages/innner-page-2.png);
+}
+.wp_hostingBgImg.domBG{
+  background-image: url(.././image/pages/innner-page-5.png);
+}
+.wp_hostingBgImg.domTransBG{
+  background-image: url(.././image/pages/domain-trasnfer.jpg);
 }
 /* .wp_hostingBgImg.contactBgImg{
   background-image: url(.././image/pages/contact-madpopo.png);
@@ -2799,6 +2814,12 @@ a.headerphone-number {
 }
 .wp_features .wp_featuersWrapper{
   padding: 85px 0;
+}
+.wp_features.dom_reg_features{
+  padding: 85px 0 0;
+}
+.wp_features.dom_reg_features .wp_featuersWrapper{
+padding: 0;
 }
 .wp_features .wp_featuersWrapper .wpSectionTitle h2{
   color: #252526;
@@ -9376,6 +9397,9 @@ color: #ff6a00;
   transform: scaleX(-1);
   left: -10%;
 }
+.pose_1.domReg{
+  bottom: 0%;
+}
 .pose_1 img{
   width: 20%;
   height: auto;
@@ -9386,6 +9410,12 @@ color: #ff6a00;
 }
 .pose_1.homeFooImg{
   bottom: -72%;
+}
+.domTextLeft h4{
+  text-align: left;
+}
+.domTextLeft p{
+  text-align: left !important;
 }
 /* .madPopoEl::before{
 content: "";
@@ -11864,6 +11894,26 @@ background-color: transparent;
   text-align: center;
   top: 215px;
   transform: translate(-50%,-50%);
+}
+
+ .doms_top_para .doms_pageTitle h1{
+  color: #fff;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin: 0 auto;
+  text-align: center;
+}
+ .doms_top_para{
+  left: 50%;
+  margin-bottom: 15px;
+  position: absolute;
+  text-align: center;
+  top: 215px;
+  transform: translate(-50%,-50%);
+}
+.imgAnch img{
+  cursor: pointer;
 }
 @keyframes pulsate {
   0% {
@@ -16010,7 +16060,7 @@ body.aws-html-theme .header-alert-notification {
   color: #fff;
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 59px;
 }
 .domain-checker-emyui-aws-homepage .input-group-btn button i {
   font-size: 23px;
@@ -16052,10 +16102,11 @@ body.aws-html-theme .header-alert-notification {
 }
 .aws-homepage-ltds-box .tld-domain {
   color: #fff;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
+  text-transform: lowercase;
 }
 .aws-homepage-ltds-box .tld-price {
-  margin-top: 5px;
+  
   display: block;
 }
 body.aws-html-theme .playfair-display-font {
