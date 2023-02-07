@@ -331,7 +331,7 @@ function Navbar() {
                                                                         mb-2
                                                                         color-blackish-blue wblink"
                                 >
-                                  Cloud Hosting
+                                  Business Email Hosting
                                 </h3>
                                 <p
                                   className="coodiv-text-11

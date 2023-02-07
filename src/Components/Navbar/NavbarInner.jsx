@@ -331,7 +331,7 @@ function NavbarInner() {
                                                                         mb-2
                                                                         color-blackish-blue wblink"
                                 >
-                                  Cloud Hosting
+                                Business Email Hosting
                                 </h3>
                                 <p
                                   className="coodiv-text-11
@@ -673,19 +673,19 @@ function NavbarInner() {
                                   <li>
                                     <span>
                                       <i className="feather icon-check"></i> 2
-                                      Free Email Accounts2
+                                      Free Email Accounts
                                     </span>
                                   </li>
                                   <li>
                                     <span>
                                       <i className="feather icon-check"></i>{" "}
-                                      Privacy Protection2
+                                      Privacy Protection
                                     </span>
                                   </li>
                                   <li>
                                     <span>
                                       <i className="feather icon-check"></i>{" "}
-                                      Domain Theft Protection2
+                                      Domain Theft Protection
                                     </span>
                                   </li>
                                 </ul>
