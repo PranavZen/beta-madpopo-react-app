@@ -6,7 +6,7 @@ function DomainSection() {
     <div>
       <section className="more-services-group-container pt-20 px-lg-15 px-4 position-relative bg-default-2">
         <div className="container-fluid">
-          <div className="row justify-content-lg-start justify-content-center px-lg-0 px-10">
+          <div className="row justify-content-lg-start justify-content-center px-lg-0 px-10 domSecRow">
             <div className="col-lg-8 col-11 text-lg-left text-center">
               <h2 className="coodiv-text-7 font-weight-bold mb-4">
                 All what you need is a featured domain name to start.

@@ -18,9 +18,9 @@ function Migration() {
             alt=""
           />
           <div className="ddos-attack-mockup">
-            <div className="ddos-attack-main-text text-center pt-lg-20 pt-10 px-5 dark-mode-texts position-relative coodiv-z-index-1">
+            <div className="ddos-attack-main-text text-center pt-lg-12 pt-10 px-5 dark-mode-texts position-relative coodiv-z-index-1">
               <h5 className="coodiv-text-4 windowTitle">Free WordPress Migration</h5>
-              <p className="coodiv-text-11 wondowDecs px-lg-25 px-10">
+              <p className="coodiv-text-11 wondowDecs px-lg-25 px-10 mb-9">
               We understand that changing hosting providers can be a hassle, which is why we're thrilled to offer unlimited migrations of your WordPress site from any hosting provider without any downtime or data loss.
               </p>
               <Link

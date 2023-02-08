@@ -55,7 +55,7 @@ function FAQ(props) {
                 <h2
                   className="title
                                     coodiv-text-4
-                                    mb-8"
+                                    mb-8 faqPgTitle"
                 >
                   FREQUENTLY ASKED QUESTIONS
                 </h2>

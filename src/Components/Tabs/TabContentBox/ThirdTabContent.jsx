@@ -4,8 +4,8 @@ import VPSCard from "../../PriceCard/VPSCard";
 
 function ThirdTabContent() {
   return (
-    <div className="main-homepage-item">
-      <div className="row justify-content-center">
+    <div className="main-homepage-item vpsSevtionWrap">
+      <div className="row justify-content-center vpsRow">
         <VPSCard/>
       </div>
     </div>

@@ -202,16 +202,16 @@ function ContactUs() {
                     </h5>
                     <div className="social-numbers contact-page d-flex mt-3">
                       <Link className="mr-1 fb" to="#">
-                        <i className="fab fa-facebook-f"></i>
+                        <i className="fa fa-facebook-f"></i>
                       </Link>
                       <Link className="mr-1 tw" to="#">
-                        <i className="fab fa-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </Link>
                       <Link className="mr-1 you" to="#">
-                        <i className="fab fa-youtube"></i>
+                        <i className="fa fa-youtube"></i>
                       </Link>
                       <Link className="insta" to="#">
-                        <i className="fab fa-instagram"></i>
+                        <i className="fa fa-instagram"></i>
                       </Link>
                     </div>
                   </div>

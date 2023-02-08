@@ -23,8 +23,7 @@ function Hostareawrap() {
                         </div>
                     </div> 
 
-                    <AreaInfo/>
-                    
+                   
                     
                     <div className="network-map-container position-relative mt-20
                         mt-lg-0">
