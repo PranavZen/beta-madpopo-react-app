@@ -13,6 +13,16 @@ function TrustedClientsSlide() {
     slidesToScroll: 3,
     adaptiveHeight: true,
     arrows: true,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          
+        }
+      },
+    ]
   };
   return (
     <div className="containe-fluid">

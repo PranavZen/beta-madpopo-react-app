@@ -46,3 +46,7 @@ export { default as precisionenvironment } from "../../src/image/pages/globalInf
 export { default as networkmadpopo } from "../../src/image/pages/globalInfra/network-madpopo.jpg";
 export { default as networkswitchequipment } from "../../src/image/pages/globalInfra/network-switch-equipment.jpg";
 export { default as physicalsecurity } from "../../src/image/pages/globalInfra/physical-security.jpg";
+export { default as migrationWp } from "../../src/image/wordpress/wp-3d-logo.png";
+export { default as bus_rightImg } from "../../src/image/pages/businessemail/besrightimg.png";
+export { default as vdsImgOne } from "../../src/image/secure-server-one.png";
+export { default as vdsImgTwo } from "../../src/image/quick-provision.png";

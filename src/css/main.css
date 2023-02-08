@@ -2637,9 +2637,13 @@ a.headerphone-number {
 .wp_hostingBgImg.domTransBG{
   background-image: url(.././image/pages/domain-trasnfer.jpg);
 }
+.wp_hostingBgImg.businessBG{
+  background-image: url(.././image/header/HostingPages/buisness_bg.png);
+}
 /* .wp_hostingBgImg.contactBgImg{
   background-image: url(.././image/pages/contact-madpopo.png);
 } */
+
 .wp_img_overlayContent{
   position: absolute;
     top: 3.8%;
@@ -2708,6 +2712,12 @@ a.headerphone-number {
   width: 45%;
   margin-right: -5%;
 }
+.wp_innerBox.buis_innerBox img{
+  width: 37%;
+  margin-right: 6%;
+  margin-top: 10%;
+
+}
 .wpBestChoiceWrap .wpBest_choiceRow{
   display: flex;
   justify-content: space-between;
@@ -2741,27 +2751,27 @@ a.headerphone-number {
   height: auto;
 }
 .linux_pricingBox{
-  margin-top: -215px;
-  padding-bottom: 90px;
+  margin-top: -185px;
+  padding-bottom: 95px;
 }
 .windows_pricingBox{
-  margin-top: -225px;
-  padding-bottom: 160px;
+  margin-top: -185px;
+  padding-bottom: 95px;
 }
 .vds_pricingBox{
-  margin-top: -225px;
+  margin-top: -185px;
   padding-bottom: 95px;
 }
 .ds_pricingBox{
-  margin-top: -225px;
+  margin-top: -185px;
   padding-bottom: 95px;
 }
 .cloudHost_pricingBox{
-  margin-top: -225px;
+  margin-top: -85px;
   padding-bottom: 95px;
 }
 .resellerHosting_pricingBox{
-  margin-top: -225px;
+  margin-top: -185px;
   padding-bottom: 95px;
 }
 .windows_pricingBox .ddosPriceCardRow.blueCard .priceCardWrap:nth-child(2)::after{
@@ -2834,13 +2844,14 @@ padding: 0;
   font-weight: 400;
   font-size: 16px;
   padding-bottom: 60px;
-  margin-top: -45px;
+  width: 85%;
+  margin: -45px auto 0 auto;
 }
 .wp_features .wp_featuersWrapper .wp_FeatureRow{
   display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox{
    text-align: center;
@@ -4354,7 +4365,7 @@ div.slick-active.slick-current .main-features-box {
   color: #fff !important;
   font-size: 16px;
   font-weight: 700 !important;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .pricing-box-one .small-title-header-span .plan-badge {
   background-color: #ecebfd;
@@ -4366,10 +4377,14 @@ div.slick-active.slick-current .main-features-box {
   justify-content: center;
   align-items: center;
   border-radius: 50rem !important;
+  position: absolute;
+  right: 25px;
+  top: 22.3%;
 }
 .currencyData .changeCurrencyColor{
   color: #fff !important;
   font-weight: 500;
+  line-height: 1.8;
 }
 .currencyData .mainCurrencyPrice{
   color: #fff !important;
@@ -7076,11 +7091,11 @@ color: #ff6a00;
     overflow-y: auto;
   }
 }
-@media (min-width: 320px) and (max-width: 992px) and (min-width: 380px) {
+/* @media (min-width: 320px) and (max-width: 992px) and (min-width: 380px) {
   .offcanvas-active.navbar-expand-lg .navbar-collapse {
-    width: 300px;
+    width: 355px;
   }
-}
+} */
 @media (min-width: 320px) and (max-width: 992px) and (min-width: 576px) {
   .offcanvas-active.navbar-expand-lg .navbar-collapse {
     width: 350px;
@@ -16781,6 +16796,8 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   }
   .vpsSevtionWrap .vpsRow{
     padding-bottom: 35px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .faq-section{
     padding: 50px 0 80px;
@@ -16800,5 +16817,272 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
 .bg-wave-box-end-z1{
   bottom: -2px;
   z-index: 2;
+}
+.mainTitleDrop{
+  font-size: 16px;
+}
+.subTitleDrop{
+  font-size: 13px !important;
+}
+.wblink{
+  text-align: left;
+}
+.wbsubLink{
+  text-align: left;
+}
+.offcanvas-active.navbar-expand-lg .main-menu li i{
+  margin-left: 0;
+  position: relative;
+  top: -3px;
+  margin-right: 15px;
+}
+#global-network-country-001{
+  padding: 0 15px;
+}
+.domaulListing{
+  gap: 20px;
+}
+.domaulListing .listTitle a{
+  flex-direction: column;
+}
+#global-network-country-001 .domain-search-form .form-group .form-control
+{
+  padding: 10px;
+  font-size: 14px;
+}
+#global-network-country-001 .domain-search-form .form-group .form-btn{
+  width: 100% !important;
+}
+.domaulListing .listTitle p{
+  font-size: 14px;
+}
+.main-homepage-item{
+  padding-top: 25px;
+}
+.abtMenu{
+  padding: 15px 0 15px !important;
+}
+.abtMenu .abtMenuList .drop-menu-item a{
+  font-size: 13px;
+}
+.dropdownMenuTitle{
+  text-align: left !important;
+  margin-bottom: 30px !important;
+}
+.dom_mobForm{
+  margin-bottom: 30px;
+}
+.wp_hostingBgImg{
+  background-size: 205%;
+  background-position: 40% 0%;
+}
+.wp_img_overlayContent{
+  top: 260px;
+  width: 100%;
+}
+.wp_img_overlayContent p{
+  font-size: 14px;
+}
+.wp_img_overlayContent h1{
+  font-size: 22px;
+}
+.wp_img_overlayContent span{
+  font-size: 14px;
+}
+.wp_innerBox img {
+  width: 55%;
+  margin-right: -11%;
+  margin-top: 12%;
+}
+.wp_pricingBox{
+  padding-top: 245px;
+  padding-bottom: 20px;
+}
+.dark-mode-texts .hamburger-box.outer i{
+  color: #fff !important;
+}
+.light-mode-texts .hamburger-box.outer i{
+  color: #000 !important;
+}
+.wp_hostingBgImg .ddosPriceCardRow .priceCardWrap:nth-child(2) {
+  transform: scale(1);
+}
+.wpBestChoiceWrap .wpChoiceSecTitle {
+  padding-top: 30px;
+}
+.wpBestChoiceWrap .wpChoiceSecTitle h2{
+  font-size: 26px;
+  margin-bottom: 45px;
+}
+.wpBest_choiceRow.padBtm_50{
+  flex-direction: column-reverse;
+}
+.wpBest_choiceRow{
+  flex-direction: column;
+}
+.wp_features .wp_featuersWrapper {
+  padding: 70px 0;
+}
+.wp_features .wp_featuersWrapper .wpSectionTitle h2{
+  font-size: 26px;
+}
+.wp_plansListing .wp_plans_listSection .wp_plansSectionTitle h2{
+  font-size: 26px;
+  padding-bottom: 30px;
+}
+.wp_plansListing .wp_plans_listSection .wp_plansRow .palnsWrapbox{
+  margin-bottom: 20px;
+}
+.wp_plansListing .wp_plans_listSection .wp_plansRow .palnsWrapbox .plans_listName h5{
+  font-size: 18px;
+}
+.trusedPlanSection .clientSlideRow .clientSlickSlider .slick-prev{
+  left: 34%;
+}
+.trusedPlanSection .clientSlideRow .clientSlickSlider .slick-next{
+  right: 34%;
+}
+.wp_hostingFaqSection{
+  padding: 50px 0 80px;
+}
+.trusedPlanSection .clientTestSecTitle h5{
+  font-size: 26px;
+  padding-bottom: 35px;
+}
+.trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap{
+  height: 100%;
+  padding: 30px 15px;
+}
+.wp_hostingFaqSection .wp_faqSectionTitle h5{
+  font-size: 26px;
+  padding-bottom: 35px;
+}
+.wp_hostingFaqSection .wp_faqRow {
+  padding: 0 5px;
+}
+.wp_hostingFaqSection .wp_faqRow .wp_faq_Box h6{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.wp_hostingFaqSection .wp_faqRow .wp_faq_Box p{
+  font-size: 15px;
+}
+.offcanvas-active.navbar-expand-lg .navbar-collapse {
+  width: 300px;
+}
+.site-header > .container-fluid .nav-item.dropdown > .coodiv-megamenu-dropdown .feature-widget{
+  padding: 0 10px 15px;
+}
+.menusHover{
+  margin-bottom: 20px !important;
+}
+.buyBtnW100{
+  width: 100% !important;
+}
+.listFeatureDomain li span{
+  font-size: 13px !important;
+}
+.main-features-box .title{
+  font-size: 15px;
+}
+.btnDescTetx{
+  font-size: 12px !important;
+}
+.main-features-box .main-features-box-number{
+  right: 10px;
+}
+.wpBestChoiceWrap{
+  padding: 40px 0 40px;
+}
+.wp_choice_leftBox .wp_choice_ContentBox h6{
+  font-size: 18px;
+}
+.wp_choice_leftBox .wp_choice_ContentBox p{
+  font-size: 14px;
+}
+.wp_choice_leftBox .wp_choice_ContentBox:nth-child(1) {
+  margin-bottom: 35px;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox h4{
+  font-size: 20px;
+}
+.wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox p{
+  font-size: 14px;
+}
+.linux_pricingBox{
+  padding-top: 295px;
+  padding-bottom: 20px;
+}
+.windows_pricingBox{
+  padding-top: 295px;
+  padding-bottom: 20px;
+}
+.windows_pricingBox .main-homepage-item .header-hero-pricing-plans{
+  padding: 0 15px;
+}
+.vds_pricingBox{
+  padding-top: 295px;
+  padding-bottom: 20px;
+}
+.ds_pricingBox{
+  padding-top: 295px;
+  padding-bottom: 20px;
+}
+.cloudHost_pricingBox{
+  padding-top: 295px;
+  padding-bottom: 20px;
+}
+.resellerHosting_pricingBox{
+  padding-top: 295px;
+  padding-bottom: 20px;
+}
+.gb_infraWrap .gb_top_para{
+  top: 130px;
+  width: 100%;
+}
+.gb_infraWrap .gb_top_para .gb_pageTitle h1{
+  font-size: 22px;
+}
+.gb_infraBoxSection {
+  padding: 20px 0 30px;
+}
+.gb_infraBoxTitle .gb_infraTitle{
+  font-size: 26px;
+}
+.gb_infraBoxTitle p{
+  font-size: 14px;
+  width: 95%;
+}
+.btnDescTetx{
+  margin-bottom: 20px !important;
+}
+.gb_infraDataSection {
+  padding: 65px 0 0;
+}
+.gb_infraDataSection .gb_infraDataWrapper .gb_sidesBoxWrap .gb_rightImgWrap{
+  margin: 30px 0;
+}
+.tc_TitleOverlay{
+  top: 130px;
+  width: 100%;
+}
+.tc_TitleOverlay h1{
+  font-size: 22px;
+}
+.tc_wrapper {
+  padding-top: 260px;
+}
+.tc_wrapper .tc_boxex h3{
+  font-size: 18px;
+}
+.tc_wrapper .tc_boxex p{
+  font-size: 14px;
+}
+.tc_wrapper .mainTc{
+  font-size: 22px;
+}
+/* Pricing Card Image */
+.ddosPriceCardRow .priceCardWrap:nth-child(2)::after{
+  display: none;
 }
 }

@@ -12,6 +12,8 @@ import WordpressHostingFeatures from '../../Components/WordpressHostingPageCompo
 import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
 import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
 import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/WordpressHostingFAQ';
+import VdsFeatures from '../../Components/VirtualDedicatedServerPageComponent/VdsFeatures';
+import VdsListing from '../../Components/VirtualDedicatedServerPageComponent/VdsListing';
 function VirtualDedicatedServer() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg">
@@ -42,10 +44,10 @@ function VirtualDedicatedServer() {
         <WpBestChoice />
       </div>
       <div className="wp_features">
-        <WordpressHostingFeatures />
+        <VdsFeatures />
       </div>
       <div className="wp_plansListing">
-        <WordpressPlansListing />
+        <VdsListing />
       </div>
       <div
         className="trusedPlanSection"

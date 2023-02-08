@@ -1,7 +1,7 @@
 const RightData = [
     {   
         id : 21,
-        planTitle : ' Starter plan',
+        planTitle : 'WooCommerce Hosting', 
         planPiceF : '19',
         planPicePaisa : '.99',
         planCurrency : '₹',
@@ -21,7 +21,7 @@ const RightData = [
      {  
 
          id : 22,
-         planTitle : ' Starter plan',
+         planTitle : ' Professional Business Email',
         planPiceF : '20',
         planPicePaisa : '.99',
         planCurrency : '₹',
@@ -36,7 +36,7 @@ const RightData = [
      },
      {  
          id : 23,
-         planTitle : ' Starter plan',
+         planTitle : 'Premium SSL Certificate',
          planPiceF : '21',
          planPicePaisa : '.99',
          planCurrency : '₹',
@@ -51,7 +51,7 @@ const RightData = [
      },
      {  
          id : 24,
-         planTitle : ' Starter plan',
+         planTitle : 'Object Storage',
          planPiceF : '22',
          planPicePaisa : '.99',
          planCurrency : '₹',

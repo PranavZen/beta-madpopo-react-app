@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { migration } from "../Components/index";
+import { migration, migrationWp } from "../Components/index";
 
 function Migration() {
   return (
@@ -39,7 +39,7 @@ function Migration() {
             <img
               decoding="async"
               className="wp-floting-img"
-              src="https://emyui.pdthemes.de/wp-content/uploads/2022/01/wordpress.png"
+              src={migrationWp}
               alt="wordpress"
             />
           </div>

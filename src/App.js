@@ -9,7 +9,6 @@ import Home from './Pages/Home';
 import WordpressHosting from "./Pages/HostingPages/WordpressHosting";
 import WoocommerceHosting from "./Pages/HostingPages/WoocommerceHosting";
 import ResellerHosting from "./Pages/HostingPages/ResellerHosting";
-import CloudHosting from "./Pages/HostingPages/CloudHosting";
 import DedicatedServer from "./Pages/HostingPages/DedicatedServer";
 import VirtualDedicatedServer from "./Pages/HostingPages/VirtualDedicatedServer";
 import WindowsWebHosting from "./Pages/HostingPages/WindowsWebHosting";
@@ -23,6 +22,7 @@ import Globalinfrastructure from "./Pages/Globalinfrastructure";
 import ContactUs from "./Pages/ContactUs";
 import DomainRegistration from "./Pages/DomainRegistration";
 import DomainTransfer from "./Pages/DomainTransfer";
+import BusinessHosting from "./Pages/HostingPages/BusinessHosting";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -38,7 +38,7 @@ function App() {
         <Route path="beta-madpopo-react-app/WindowsWebHosting" element={<WindowsWebHosting />}/>
         <Route path="beta-madpopo-react-app/VirtualDedicatedServer" element={<VirtualDedicatedServer />}/>
         <Route path="beta-madpopo-react-app/DedicatedServer" element={<DedicatedServer />}/>
-        <Route path="beta-madpopo-react-app/CloudHosting" element={<CloudHosting />}/>
+        <Route path="beta-madpopo-react-app/BusinessHosting" element={<BusinessHosting />}/>
         <Route path="beta-madpopo-react-app/ResellerHosting" element={<ResellerHosting />}/>
         <Route path="beta-madpopo-react-app/Home2" element={<Home2 />}/>
         <Route path="beta-madpopo-react-app/Terms-Condition" element={<TermsCondition />}/>

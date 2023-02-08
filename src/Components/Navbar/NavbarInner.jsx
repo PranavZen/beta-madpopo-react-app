@@ -311,7 +311,7 @@ function NavbarInner() {
                                                             col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/beta-madpopo-react-app/CloudHosting"
+                              to="/beta-madpopo-react-app/BusinessHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -385,7 +385,7 @@ function NavbarInner() {
                             className="btn
                             btn-primary
                                                             coodiv-text-9
-                                                            d-block w-50 "
+                                                            d-block w-50 buyBtnW100"
                             to="#"
                           >
                             Buy Now
@@ -513,12 +513,12 @@ function NavbarInner() {
                             className="domain-search-form
                                                           mb-8"
                           >
-                            <form action="domains-registration.html">
+                            <form action="">
                               <div
                                 className="form-group
                                                                   position-relative
                                                                   text-lg-left
-                                                                  text-center"
+                                                                  text-center dom_mobForm"
                               >
                                 <input
                                   className="form-control
@@ -624,7 +624,7 @@ function NavbarInner() {
                             className="domain-search-form
                                                           mb-8"
                           >
-                            <form action="domains-registration.html">
+                            <form action="">
                               <div
                                 className="form-group
                                                                   position-relative
@@ -856,7 +856,7 @@ function NavbarInner() {
                   //                     <li
                   //                         className="drop-menu-item"><Link
                   //                             data-i18n="[html]menu.domainsregisteration"
-                  //                             to="domains-registration.html">Domains
+                  //                             to="">Domains
                   //                             Registration</Link></li>
                   //                     <li
                   //                         className="drop-menu-item"><Link
@@ -984,119 +984,122 @@ function NavbarInner() {
                     </i>
                   </Link>
                   <ul
-                    className="coodiv-megamenu-dropdown
-                    mini-version center white-bg
-                    dropdown-menu d-flex flex-wrap abtMenu"
-                    aria-labelledby="navbarDropdownHelp"
-                  >
-                    <h1 className="coodiv-text-6 title color-blackish-blue text-lg-left text-center w-100 d-block mb-12 dropdownMenuTitle">
-                      <span className="mainTitleDrop">About us</span>
-                      <span className="d-block about-our-storymt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop">
-                        A ton of website hosting options, 99.9% uptime
-                        guarantee, free SSL certificate, easy WordPress
-                        installs, and a free domain for a year.
-                      </span>
-                    </h1>
-                    <div className="col-md-4 abtMenuList">
-                      <li className="drop-menu-item">
-                        <Link to="/beta-madpopo-react-app/Global-Infrastructure">
-                          Global infrastructure
-                        </Link>
-                      </li>
-                      <li className="drop-menu-item">
-                        <Link to="#">Company Blog</Link>
-                      </li>
-                    </div>
-                    <div className="col-md-4 abtMenuList">
-                      <li className="drop-menu-item">
-                        <Link to="/beta-madpopo-react-app/Terms-Condition">
-                          Terms & Conditions
-                        </Link>
-                      </li>
-                      <li className="drop-menu-item">
-                        <Link to="#">Careers</Link>
-                      </li>
-                    </div>
-                    <div className="col-md-4 abtMenuList">
-                      <li className="drop-menu-item">
-                        <Link to="#">Happy Customers</Link>
-                      </li>
-                      <li className="drop-menu-item">
-                        <Link to="/beta-madpopo-react-app/Contact-Us">
-                          Contact
-                        </Link>
-                      </li>
-                    </div>
-                    {
-                      // <li className="drop-menu-item">
-                      //   <Link to="#">Submit a ticket</Link>
-                      // </li>
-                    }
-                    {
-                      //     <li className="drop-menu-item dropdown">
-                      //     <Link className="dropdown-toggle
-                      //         gr-toggle-arrow"
-                      //         id="navbarDropdownSub"
-                      //         to="#" role="button"
-                      //         data-toggle="dropdown"
-                      //         aria-haspopup="true"
-                      //         aria-expanded="false">Servers
-                      //         status</Link>
-                      //     <ul className="coodiv-menu-dropdown
-                      //         dropdown-menu"
-                      //         aria-labelledby="navbarDropdownSub">
-                      //         <li className="drop-menu-item"><Link
-                      //                 data-i18n="[html]menu.statuspage"
-                      //                 to="status-page.html">Status
-                      //                 Page</Link></li>
-                      //         <li className="drop-menu-item"><Link
-                      //                 data-i18n="[html]menu.inchistory"
-                      //                 to="incident-history.html">Incident
-                      //                 History</Link></li>
-                      //         <li className="drop-menu-item"><Link
-                      //                 data-i18n="[html]menu.incpost"
-                      //                 to="incident-post.html">Incident
-                      //                 Post</Link></li>
-                      //     </ul>
-                      // </li>
-                    }
-                    {
-                      // <li className="drop-menu-item dropdown">
-                      //     <Link data-i18n="[html]menu.blog"
-                      //         className="dropdown-toggle
-                      //         gr-toggle-arrow"
-                      //         id="navbarDropdownSubBlog"
-                      //         to="#" role="button"
-                      //         data-toggle="dropdown"
-                      //         aria-haspopup="true"
-                      //         aria-expanded="false">Blog</Link>
-                      //     <ul className="coodiv-menu-dropdown
-                      //         dropdown-menu"
-                      //         aria-labelledby="navbarDropdownSubBlog">
-                      //         <li className="drop-menu-item"><Link
-                      //                 data-i18n="[html]menu.standardblog"
-                      //                 to="blog.html">Standard
-                      //                 Blog</Link></li>
-                      //         <li className="drop-menu-item"><Link
-                      //                 data-i18n="[html]menu.blogstyletwo"
-                      //                 to="blog-2.html">Blog
-                      //                 style 2</Link></li>
-                      //         <li className="drop-menu-item"><Link
-                      //                 data-i18n="[html]menu.blogstyletree"
-                      //                 to="blog-3.html">Blog
-                      //                 style 3</Link></li>
-                      //         <li className="drop-menu-item"><Link
-                      //                 data-i18n="[html]menu.blogsingle"
-                      //                 to="blog-single.html">Blog
-                      //                 Single Standard</Link></li>
-                      //         <li className="drop-menu-item"><Link
-                      //                 data-i18n="[html]menu.blogsingletwo"
-                      //                 to="blog-single-2.html">Blog
-                      //                 Single style 2</Link></li>
-                      //     </ul>
-                      // </li>
-                    }
-                  </ul>
+                  className="coodiv-megamenu-dropdown
+                  mini-version center white-bg
+                  dropdown-menu d-lg-block pt-0"
+                  aria-labelledby="navbarDropdownHelp"
+                >
+                 <div className="d-flex flex-wrap abtMenu">
+                 <h1 className="coodiv-text-6 title color-blackish-blue text-lg-left text-center w-100 d-block mb-12 dropdownMenuTitle">
+                 <span className="mainTitleDrop">About us</span>
+                 <span className="d-block about-our-storymt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop">
+                   A ton of website hosting options, 99.9% uptime
+                   guarantee, free SSL certificate, easy WordPress
+                   installs, and a free domain for a year.
+                 </span>
+               </h1>
+               <div className="col-md-4 abtMenuList">
+                 <li className="drop-menu-item">
+                   <Link to="/beta-madpopo-react-app/Global-Infrastructure">
+                     Global infrastructure
+                   </Link>
+                 </li>
+                 <li className="drop-menu-item">
+                   <Link to="#">Company Blog</Link>
+                 </li>
+               </div>
+               <div className="col-md-4 abtMenuList">
+                 <li className="drop-menu-item">
+                   <Link to="/beta-madpopo-react-app/Terms-Condition">
+                     Terms & Conditions
+                   </Link>
+                 </li>
+                 <li className="drop-menu-item">
+                   <Link to="#">Careers</Link>
+                 </li>
+               </div>
+               <div className="col-md-4 abtMenuList">
+                 <li className="drop-menu-item">
+                   <Link to="#">Happy Customers</Link>
+                 </li>
+                 <li className="drop-menu-item">
+                   <Link to="/beta-madpopo-react-app/Contact-Us">
+                     Contact
+                   </Link>
+                 </li>
+               </div>
+                 
+                 </div>
+                  {
+                    // <li className="drop-menu-item">
+                    //   <Link to="#">Submit a ticket</Link>
+                    // </li>
+                  }
+                  {
+                    //     <li className="drop-menu-item dropdown">
+                    //     <Link className="dropdown-toggle
+                    //         gr-toggle-arrow"
+                    //         id="navbarDropdownSub"
+                    //         to="#" role="button"
+                    //         data-toggle="dropdown"
+                    //         aria-haspopup="true"
+                    //         aria-expanded="false">Servers
+                    //         status</Link>
+                    //     <ul className="coodiv-menu-dropdown
+                    //         dropdown-menu"
+                    //         aria-labelledby="navbarDropdownSub">
+                    //         <li className="drop-menu-item"><Link
+                    //                 data-i18n="[html]menu.statuspage"
+                    //                 to="status-page.html">Status
+                    //                 Page</Link></li>
+                    //         <li className="drop-menu-item"><Link
+                    //                 data-i18n="[html]menu.inchistory"
+                    //                 to="incident-history.html">Incident
+                    //                 History</Link></li>
+                    //         <li className="drop-menu-item"><Link
+                    //                 data-i18n="[html]menu.incpost"
+                    //                 to="incident-post.html">Incident
+                    //                 Post</Link></li>
+                    //     </ul>
+                    // </li>
+                  }
+                  {
+                    // <li className="drop-menu-item dropdown">
+                    //     <Link data-i18n="[html]menu.blog"
+                    //         className="dropdown-toggle
+                    //         gr-toggle-arrow"
+                    //         id="navbarDropdownSubBlog"
+                    //         to="#" role="button"
+                    //         data-toggle="dropdown"
+                    //         aria-haspopup="true"
+                    //         aria-expanded="false">Blog</Link>
+                    //     <ul className="coodiv-menu-dropdown
+                    //         dropdown-menu"
+                    //         aria-labelledby="navbarDropdownSubBlog">
+                    //         <li className="drop-menu-item"><Link
+                    //                 data-i18n="[html]menu.standardblog"
+                    //                 to="blog.html">Standard
+                    //                 Blog</Link></li>
+                    //         <li className="drop-menu-item"><Link
+                    //                 data-i18n="[html]menu.blogstyletwo"
+                    //                 to="blog-2.html">Blog
+                    //                 style 2</Link></li>
+                    //         <li className="drop-menu-item"><Link
+                    //                 data-i18n="[html]menu.blogstyletree"
+                    //                 to="blog-3.html">Blog
+                    //                 style 3</Link></li>
+                    //         <li className="drop-menu-item"><Link
+                    //                 data-i18n="[html]menu.blogsingle"
+                    //                 to="blog-single.html">Blog
+                    //                 Single Standard</Link></li>
+                    //         <li className="drop-menu-item"><Link
+                    //                 data-i18n="[html]menu.blogsingletwo"
+                    //                 to="blog-single-2.html">Blog
+                    //                 Single style 2</Link></li>
+                    //     </ul>
+                    // </li>
+                  }
+                </ul>
                 </li>
 
                 {
@@ -1138,7 +1141,7 @@ function NavbarInner() {
               className="hamburger hamburger--squeeze
                                 js-hamburger"
             >
-              <span className="hamburger-box">
+              <span className="hamburger-box inner">
                 <i className="feather icon-menu"></i>
                 <i className="feather icon-x"></i>
               </span>

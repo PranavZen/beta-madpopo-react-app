@@ -5,20 +5,20 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { footerPose1, wp_logo } from '../../Components';
+import { bus_rightImg, footerPose1, wp_logo } from '../../Components';
 import ThirdTabContent from '../../Components/Tabs/TabContentBox/ThirdTabContent';
 import WpBestChoice from '../../Components/WordpressHostingPageComponent/WpBestChoice';
 import WordpressHostingFeatures from '../../Components/WordpressHostingPageComponent/WordpressHostingFeatures';
 import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
 import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
 import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/WordpressHostingFAQ';
-function CloudHosting() {
+function BusinessHosting() {
   return (
-    <div className="site-wrapper overflow-hidden wp_hostingBgImg">
+    <div className="site-wrapper overflow-hidden wp_hostingBgImg businessBG">
       <Navbar />
 
       <div className="wp_img_overlayContent">
-        <p>Cloud Hosting</p>
+        <p>Business Email Hosting</p>
         <h1>Choose flexible pricing plan for you and more...</h1>
         <span>Unlimited boards and workflows. no credit card needed</span>
       </div>
@@ -26,9 +26,9 @@ function CloudHosting() {
         <MouseParallaxChild
           factorX={0.04}
           factorY={0.04}
-          className={"wp_innerBox"}
+          className={"wp_innerBox buis_innerBox"}
         >
-          <img src={wp_logo} alt="Cloud Hosting" />
+          <img src={bus_rightImg} alt="Cloud Hosting" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
       <div
@@ -78,4 +78,4 @@ function CloudHosting() {
   )
 }
 
-export default CloudHosting
+export default BusinessHosting
