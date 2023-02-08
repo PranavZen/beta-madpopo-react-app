@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beta-madpopo-react-app/static/css/main.c4d26c28.css",
-    "main.js": "/beta-madpopo-react-app/static/js/main.8b264de0.js",
+    "main.css": "/beta-madpopo-react-app/static/css/main.1bdcd67d.css",
+    "main.js": "/beta-madpopo-react-app/static/js/main.32664298.js",
     "static/js/787.3e488476.chunk.js": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js",
     "static/media/computer_table.png": "/beta-madpopo-react-app/static/media/computer_table.2d6728eb0e65ec6daf9c.png",
     "static/media/24_shadow.png": "/beta-madpopo-react-app/static/media/24_shadow.c27eb95238c83b415aca.png",
@@ -16,6 +16,8 @@
     "static/media/build.png": "/beta-madpopo-react-app/static/media/build.9ed76e34fdadf7a4cfa6.png",
     "static/media/right-elm.png": "/beta-madpopo-react-app/static/media/right-elm.bcea0ab5db2513510ade.png",
     "static/media/left-mid-elm.png": "/beta-madpopo-react-app/static/media/left-mid-elm.7404b0b5d81fd75168ac.png",
+    "static/media/buisness_bg.png": "/beta-madpopo-react-app/static/media/buisness_bg.c8019926792edc6a6bbb.png",
+    "static/media/besrightimg.png": "/beta-madpopo-react-app/static/media/besrightimg.424681ef0f5b270867ac.png",
     "static/media/left-top-elm.png": "/beta-madpopo-react-app/static/media/left-top-elm.903f33ea42d797bcebe2.png",
     "static/media/24x7.png": "/beta-madpopo-react-app/static/media/24x7.9b73538d95c4f8f0b7d8.png",
     "static/media/header-pc2.png": "/beta-madpopo-react-app/static/media/header-pc2.6d9b787253cf499c0f4e.png",
@@ -63,6 +65,7 @@
     "static/media/network-madpopo.jpg": "/beta-madpopo-react-app/static/media/network-madpopo.848997013c91a523df95.jpg",
     "static/media/carst.svg": "/beta-madpopo-react-app/static/media/carst.57d07769034ed5c925a2.svg",
     "static/media/illustration.png": "/beta-madpopo-react-app/static/media/illustration.6c1726cc7d5c492bbead.png",
+    "static/media/wp-3d-logo.png": "/beta-madpopo-react-app/static/media/wp-3d-logo.a354f12b07874bc4892d.png",
     "static/media/card_pose_1.png": "/beta-madpopo-react-app/static/media/card_pose_1.4399246c22125658a409.png",
     "static/media/migrationwindow-right-btm.png": "/beta-madpopo-react-app/static/media/migrationwindow-right-btm.6b603d995956e7fe98ae.png",
     "static/media/men-with-lighter.svg": "/beta-madpopo-react-app/static/media/men-with-lighter.33257d71c3c6529f260b.svg",
@@ -70,10 +73,12 @@
     "static/media/moon-full.png": "/beta-madpopo-react-app/static/media/moon-full.c49b6d46b8e1b2ac37ef.png",
     "static/media/slidercartoon.png": "/beta-madpopo-react-app/static/media/slidercartoon.0b9c6f8c1fb9180a4735.png",
     "static/media/pattern-2.png": "/beta-madpopo-react-app/static/media/pattern-2.ff51c5111b24ff4fc4be.png",
+    "static/media/quick-provision.png": "/beta-madpopo-react-app/static/media/quick-provision.fe16e2f3be57fbb74ea7.png",
     "static/media/points-2.svg": "/beta-madpopo-react-app/static/media/points-2.e1a9707357a1133a8144.svg",
     "static/media/points-3.svg": "/beta-madpopo-react-app/static/media/points-3.af5ca09c973bf859ca65.svg",
     "static/media/feather6cfa.woff?t=1501841394106": "/beta-madpopo-react-app/static/media/feather6cfa.a2603f60a852565b5d5b.woff",
     "static/media/pattern-landing-2.png": "/beta-madpopo-react-app/static/media/pattern-landing-2.18dfebc8e917c8a1f3fb.png",
+    "static/media/secure-server-one.png": "/beta-madpopo-react-app/static/media/secure-server-one.0a66a719e581bfd121c9.png",
     "static/media/sliderbtmimg.png": "/beta-madpopo-react-app/static/media/sliderbtmimg.36b1e1d9c535e370bff4.png",
     "static/media/migrationwindow-right-top.png": "/beta-madpopo-react-app/static/media/migrationwindow-right-top.44f9102860dc28b44a5d.png",
     "static/media/earth.png": "/beta-madpopo-react-app/static/media/earth.435b5d5fa67b1a2adab1.png",
@@ -106,12 +111,12 @@
     "static/media/arrow-right-desktop-1.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-1.27df23a9d073fe62d89c.svg",
     "static/media/arrow-right-desktop-2.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-2.d3663980710bd470b402.svg",
     "static/media/wave-plan.svg": "/beta-madpopo-react-app/static/media/wave-plan.5fabe6835b36775f657c.svg",
-    "main.c4d26c28.css.map": "/beta-madpopo-react-app/static/css/main.c4d26c28.css.map",
-    "main.8b264de0.js.map": "/beta-madpopo-react-app/static/js/main.8b264de0.js.map",
+    "main.1bdcd67d.css.map": "/beta-madpopo-react-app/static/css/main.1bdcd67d.css.map",
+    "main.32664298.js.map": "/beta-madpopo-react-app/static/js/main.32664298.js.map",
     "787.3e488476.chunk.js.map": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4d26c28.css",
-    "static/js/main.8b264de0.js"
+    "static/css/main.1bdcd67d.css",
+    "static/js/main.32664298.js"
   ]
 }
