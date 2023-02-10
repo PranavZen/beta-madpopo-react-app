@@ -22,7 +22,7 @@ function PriceCardBox(props) {
 
   console.log(pricingValues[1][0]["cardPrice" + props.id]);
   const [selectedFrequency, setSelectedFrequency] = useState("priceThreeYearlyIn");
-  const [selectedCountry, setSelectedCountry] = useState("₹");
+  const [selectedCountry, setSelectedCountry] = useState("INR");
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
   useEffect(() => {

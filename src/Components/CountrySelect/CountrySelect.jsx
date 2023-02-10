@@ -8,7 +8,7 @@ export default function CountrySelect() {
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
   // console.log(products);
-  useEffect(() => {
+  useEffect(() => { 
     const storedCountry = localStorage.getItem("selectedCountry");
     if (storedCountry) {
       setSelectedCountry(storedCountry);
