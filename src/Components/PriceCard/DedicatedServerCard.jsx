@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import VpsData from "../Tabs/TabContentBox/HostingPlanData/VPSData";
-function VPSCard(props) {
+import DedicateedServerData from "../Tabs/TabContentBox/HostingPlanData/DedicateedServerData";
+function DedicatedServerCard(props) {
   // const wordpressData = products.wordpressData;
   // console.log(products.linuxData);
   // console.log(props.linuxCard);
@@ -25,7 +25,7 @@ function VPSCard(props) {
   const handleFrequencyChange = (e) => {
     setSelectedFrequency(e.target.value);
   };
-  return VpsData.map((vpi) => {
+  return DedicateedServerData.map((vpi) => {
     // console.log(vpi);
     return (
       <div className="col-lg-4 col-md-6 col-sm-8 mb-9" key={vpi.id}>
@@ -115,4 +115,4 @@ function VPSCard(props) {
   });
 }
 
-export default VPSCard;
+export default DedicatedServerCard;

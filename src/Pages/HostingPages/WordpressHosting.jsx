@@ -1,5 +1,5 @@
 import React from "react";
-import { footerPose1,wp_logo } from "../../Components";
+import { footerPose1, wp_logo } from "../../Components";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
@@ -11,31 +11,32 @@ import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestC
 
 import {
   MouseParallaxChild,
-  MouseParallaxContainer
+  MouseParallaxContainer,
 } from "react-parallax-mouse";
 function WordpressHosting() {
- 
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg">
       <Navbar />
-      
+
       <div className="wp_img_overlayContent">
         <p>Wordpress Hosting</p>
         <h1>Choose flexible pricing plan for you and more...</h1>
         <span>Unlimited boards and workflows. no credit card needed</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
-      
-      <MouseParallaxChild
-        factorX={0.04}
-        factorY={0.04}
-        className={"wp_innerBox"}
+        <MouseParallaxChild
+          factorX={0.04}
+          factorY={0.04}
+          className={"wp_innerBox"}
+        >
+          <img src={wp_logo} alt="Wordpress Logo" />
+        </MouseParallaxChild>
+      </MouseParallaxContainer>
+      <div
+        className="wp_pricingBox"
+        data-aos="zoom-in"
+        data-aos-duration="2200"
       >
-        <img src={wp_logo} alt="Wordpress Logo" />
-      </MouseParallaxChild>
-     
-    </MouseParallaxContainer>
-      <div className="wp_pricingBox" data-aos="zoom-in" data-aos-duration='2200'>
         <WordpressHostingPriceCard />
       </div>
       <div className="wpChoiceSection">
@@ -44,18 +45,22 @@ function WordpressHosting() {
       <div className="wp_features">
         <WordpressHostingFeatures />
       </div>
-      <div className="wp_plansListing" >
+      <div className="wp_plansListing">
         <WordpressPlansListing />
       </div>
-      <div className="trusedPlanSection" data-aos="fade-right" data-aos-duration='1200'>
-      <TrustedClientsSlide/>
+      <div
+        className="trusedPlanSection"
+        data-aos="fade-right"
+        data-aos-duration="1200"
+      >
+        <TrustedClientsSlide />
       </div>
-      <div className="wp_hostingFaqSection" >
-      <div className="pose_1">
-      <img src={footerPose1} alt="Footer Imgage"/>
-      </div>
-      <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
-          <defs> 
+      <div className="wp_hostingFaqSection">
+        <div className="pose_1">
+          <img src={footerPose1} alt="Footer Imgage" />
+        </div>
+        <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
+          <defs>
             <linearGradient id="footer-gradient">
               <stop offset="0%" stopColor="#212433" />
               <stop offset="39%" stopColor="#242837" />

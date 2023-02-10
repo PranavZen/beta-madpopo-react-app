@@ -7,7 +7,6 @@ import {
 } from "react-parallax-mouse";
 import { footerPose1, wp_logo } from "../../Components";
 import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
-import WordpressHostingFeatures from "../../Components/WordpressHostingPageComponent/WordpressHostingFeatures";
 import WordpressPlansListing from "../../Components/WordpressHostingPageComponent/WordpressPlansListing";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
 import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";

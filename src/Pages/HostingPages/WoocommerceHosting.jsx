@@ -2,7 +2,7 @@ import React from "react";
 import { footerPose1, wp_logo } from "../../Components";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
-import WordpressHostingPriceCard from "../../Components/WordpressHostingPageComponent/WordpressHostingPriceCard";
+// import WordpressHostingPriceCard from "../../Components/WordpressHostingPageComponent/WordpressHostingPriceCard";
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
@@ -12,6 +12,7 @@ import WordpressHostingFeatures from "../../Components/WordpressHostingPageCompo
 import WordpressPlansListing from "../../Components/WordpressHostingPageComponent/WordpressPlansListing";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
 import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";
+import WooComPriceCard from "../../Components/PriceCard/WooComPriceCard";
 function WoocommerceHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg">
@@ -36,7 +37,7 @@ function WoocommerceHosting() {
         data-aos="zoom-in"
         data-aos-duration="2200"
       >
-        <WordpressHostingPriceCard />
+        <WooComPriceCard />
       </div>
       <div className="wpChoiceSection">
         <WpBestChoice />

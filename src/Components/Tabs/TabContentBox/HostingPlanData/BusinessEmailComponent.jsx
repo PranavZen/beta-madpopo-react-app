@@ -1,12 +1,13 @@
 import React from "react";
-import VPSCard from "../../PriceCard/VPSCard";
+import BusinessEmailCard from "../../../PriceCard/BusinessEmailCard";
 
 
-function ThirdTabContent() {
+
+function BusinessEmailComponent() {
   return (
     <div className="main-homepage-item vpsSevtionWrap">
       <div className="row justify-content-center vpsRow">
-        <VPSCard />
+        <BusinessEmailCard />
       </div>
     </div>
   );
@@ -14,4 +15,4 @@ function ThirdTabContent() {
 
 
 
-export default ThirdTabContent;
+export default BusinessEmailComponent;

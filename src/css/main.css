@@ -1195,8 +1195,21 @@ color: #fff;
 .dark-mode-texts .light-mode-texts .light-version-logo {
   display: block;
 }
-.selectCountry #rfs-btn{
+#rfs-btn{
+  background: transparent;
+  font-size: 14px;
+  padding: 5px 7px;
+  height: 30px;
+  width: 65px;
   border: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+
+#rfs-btn:focus{
+  outline: none;
+  box-shadow: none;
 }
 .white-bg.light-mode-texts .navbar #mobile-menu .navbar-nav-wrapper #header-navbar-links .nav-item .nav-link{
   color: #252526 !important;
@@ -2767,8 +2780,11 @@ a.headerphone-number {
   padding-bottom: 95px;
 }
 .cloudHost_pricingBox{
-  margin-top: -85px;
+  margin-top: 0px;
   padding-bottom: 95px;
+}
+.main-homepage-item.vpsSevtionWrap{
+  padding-top: 0;
 }
 .resellerHosting_pricingBox{
   margin-top: -185px;
@@ -3073,7 +3089,7 @@ background-repeat: no-repeat;
   height: 380px;
   position: absolute;
   right: -95px;
-  top: -85px;
+  top: -30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3095,7 +3111,8 @@ background-repeat: no-repeat;
 .pcImageWrap img{
   width: 100%;
   height: 100%;
-  transform: rotate(3deg);
+  transform: rotate(0deg);
+  animation: float 6s ease-in-out infinite;
 } 
 .icon-block {
   width: 64px;
@@ -3114,10 +3131,10 @@ background-repeat: no-repeat;
   -webkit-box-shadow: 0 -1px 4px 0 #cfb2aa;
 }
 .small_circletext{
-  color: #ff6a00;
+  color: #ff8726;
   font-weight: 800;
-  font-size: 22px;
-  text-shadow: 1px 1px #8d8d8d;
+  font-size: 16px;
+  text-shadow: 0px 1px 0px #adadad;
   display: block;
 }
 /* .icon-block .small_circletext {
@@ -3155,13 +3172,13 @@ background-repeat: no-repeat;
   animation: circle-rotate 20s linear infinite;
   -webkit-animation: circle-rotate 20s linear infinite;
   position: absolute;
-  top: 50%;
+  top: 22%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
-  width: 370px;
-  height: 370px;
-  border: 5px dotted #ff6a00;
+  width: 320px;
+  height: 320px;
+  border: 3px dotted #ff6a00;
   border-radius: 50%;
 }
 .circle .icon-block .small_circletext {
@@ -12530,14 +12547,14 @@ rder-radius: 20px;
   border: 0;
   color: #fff;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;  
   appearance: none;
   position: relative;
   appearance: none;
     background-image: url(../image/download.png);
     background-repeat: no-repeat;
-    background-position: 60px 12px;
+    background-position: 65px 10px;
     background-size: 1em;
  
 }
@@ -17028,10 +17045,7 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   padding-top: 295px;
   padding-bottom: 20px;
 }
-.cloudHost_pricingBox{
-  padding-top: 295px;
-  padding-bottom: 20px;
-}
+
 .resellerHosting_pricingBox{
   padding-top: 295px;
   padding-bottom: 20px;

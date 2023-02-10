@@ -1,12 +1,13 @@
 import React from "react";
-import VPSCard from "../../PriceCard/VPSCard";
+import ResellerHostingCard from "../../../PriceCard/ResellerHostingCard";
 
 
-function ThirdTabContent() {
+
+function ResellerHostingComponent() {
   return (
     <div className="main-homepage-item vpsSevtionWrap">
       <div className="row justify-content-center vpsRow">
-        <VPSCard />
+        <ResellerHostingCard />
       </div>
     </div>
   );
@@ -14,4 +15,4 @@ function ThirdTabContent() {
 
 
 
-export default ThirdTabContent;
+export default ResellerHostingComponent;

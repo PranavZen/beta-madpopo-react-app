@@ -16,6 +16,7 @@ export { default as pcImage } from "../../src/image/header-pc.png";
 export { default as pcImage2 } from "../../src/image/header-pc2.png";
 export { default as pcImage3 } from "../../src/image/computer_table.png";
 export { default as faceImage } from "../../src/image/face_1.png";
+export { default as yogaImg } from "../../src/image/popo-yoga.png";
 export { default as footerPose1 } from "../../src/image/footer_pose-1.png";
 
 export { default as migration } from "../../src/image/migrationmeeting.png";
@@ -50,3 +51,4 @@ export { default as migrationWp } from "../../src/image/wordpress/wp-3d-logo.png
 export { default as bus_rightImg } from "../../src/image/pages/businessemail/besrightimg.png";
 export { default as vdsImgOne } from "../../src/image/secure-server-one.png";
 export { default as vdsImgTwo } from "../../src/image/quick-provision.png";
+export { default as INRFlag} from "../../src/image/quick-provision.png";

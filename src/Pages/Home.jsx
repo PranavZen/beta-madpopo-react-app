@@ -13,15 +13,14 @@ import DomainSection from "../Components/DomainSection";
 function Home() {
   return (
     <div className="site-wrapper overflow-hidden">
-    
       <NavbarInner />
       <Banner />
       <Migration />
       <SyncMain />
-      <DomainSection/>
-      <MaximizeSection/>
-      <Hostareawrap/>
-      <FAQ/>
+      <DomainSection />
+      <MaximizeSection />
+      <Hostareawrap />
+      <FAQ />
       <Footer />
     </div>
   );

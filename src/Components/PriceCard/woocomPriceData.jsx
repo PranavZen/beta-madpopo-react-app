@@ -1,8 +1,8 @@
-const pricingSEctionData2 = {
+const woocomPriceData = {
     mainDataPricing: [
       {
         id: 1,
-        cardTitle: "StarterBoost",
+        cardTitle: "Woowcommerce 1",
         cardSubTitle: "Optimal solution for Beginners",
         cardOgPrice: `$32`,
         cardOffer: "offer - 30%",
@@ -15,7 +15,7 @@ const pricingSEctionData2 = {
       },
       {
         id: 2,
-        cardTitle: "GeekPro",
+        cardTitle: "Woowcommerce 2",
         cardSubTitle: "Ideal for personal websites",
         cardOgPrice: `$33`,
         cardOffer: "offer - 40%",
@@ -28,7 +28,7 @@ const pricingSEctionData2 = {
       },
       {
         id: 3,
-        cardTitle: "GrowBusiness",
+        cardTitle: "Woowcommerce 3",
         cardSubTitle: "Suitable for small business",
         cardOgPrice: `$34`,
         cardOffer: "offer - 30%",
@@ -106,5 +106,5 @@ const pricingSEctionData2 = {
       ],
     },
   };
-  export default pricingSEctionData2;
+  export default woocomPriceData;
   

@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-import { faceImage, pcImage, pcImage3, pcSVG } from "../Components/index";
+import { faceImage, pcImage, pcImage3, pcSVG, yogaImg } from "../Components/index";
 
 function TypedComponent() {
   const el = useRef(null); 
@@ -82,7 +82,7 @@ function TypedComponent() {
               </div>
             </div>
               <div className="center-logo">
-                 <img src={faceImage} alt="" />
+                 <img src={yogaImg} alt="" />
               </div>
               </div>
                 

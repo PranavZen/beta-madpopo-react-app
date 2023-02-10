@@ -1,6 +1,6 @@
 const pricingSEctionData = {
   mainDataPricing: [
-    {
+    { 
       id: 1,
       cardTitle: "StarterBoost",
       cardAnchorLink:`/beta-madpopo-react-app/WordpressHosting`,

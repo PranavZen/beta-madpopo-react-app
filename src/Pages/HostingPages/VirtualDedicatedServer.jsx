@@ -1,19 +1,17 @@
-import React from 'react'
-import Footer from '../../Components/Footer/Footer'
-import Navbar from '../../Components/Navbar/Navbar'
+import React from "react";
+import Footer from "../../Components/Footer/Footer";
+import Navbar from "../../Components/Navbar/Navbar";
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { footerPose1, wp_logo } from '../../Components';
-import ThirdTabContent from '../../Components/Tabs/TabContentBox/ThirdTabContent';
-import WpBestChoice from '../../Components/WordpressHostingPageComponent/WpBestChoice';
-import WordpressHostingFeatures from '../../Components/WordpressHostingPageComponent/WordpressHostingFeatures';
-import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
-import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
-import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/WordpressHostingFAQ';
-import VdsFeatures from '../../Components/VirtualDedicatedServerPageComponent/VdsFeatures';
-import VdsListing from '../../Components/VirtualDedicatedServerPageComponent/VdsListing';
+import { footerPose1, wp_logo } from "../../Components";
+import ThirdTabContent from "../../Components/Tabs/TabContentBox/ThirdTabContent";
+import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
+import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
+import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";
+import VdsFeatures from "../../Components/VirtualDedicatedServerPageComponent/VdsFeatures";
+import VdsListing from "../../Components/VirtualDedicatedServerPageComponent/VdsListing";
 function VirtualDedicatedServer() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg">
@@ -38,7 +36,7 @@ function VirtualDedicatedServer() {
         data-aos="zoom-in"
         data-aos-duration="2200"
       >
-      <ThirdTabContent />
+        <ThirdTabContent />
       </div>
       <div className="wpChoiceSection">
         <WpBestChoice />
@@ -77,7 +75,7 @@ function VirtualDedicatedServer() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default VirtualDedicatedServer
+export default VirtualDedicatedServer;

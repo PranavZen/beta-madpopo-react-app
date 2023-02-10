@@ -1,38 +1,41 @@
-import React, { useState } from "react";
-import ReactFlagsSelect from "react-flags-select";
-
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 export default function CountrySelect() {
-  const [selected, setSelected] = useState("IN");
-  const onSelect = (code) => setSelected(code);
+  let location = useLocation();
+  // console.log(location);
+  const [selectedFrequency, setSelectedFrequency] = useState("priceYearlyIn");
+  const [selectedCountry, setSelectedCountry] = useState("INR");
+  const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
-  const showSelectedLabel = useState("Show Selected Label", false);
-  const showSecondarySelectedLabel = useState(
-    "Show Secondary Selected Label",
-    true
-  );
-  const showOptionLabel = useState("Show Option Label", false);
-  const showSecondaryOptionLabel = useState("Show Secondary Option Label", true);
-  
-  const customLabels = ("Custom Labels", {
-    IN: { secondary: "INR" },
-    US: { secondary: "USD" },
-    FR: { secondary: "EUR" },
-  });
+  // console.log(products);
+  useEffect(() => {
+    const storedCountry = localStorage.getItem("selectedCountry");
+    if (storedCountry) {
+      setSelectedCountry(storedCountry);
+    }
+  }, [location]);
+
+  const handleCountryChange = (e) => {
+    setSelectedCountry(e.target.value);
+    localStorage.setItem("selectedCountry", e.target.value);
+    window.location.reload();
+    // alert(e.target.value);
+  };
+  const handleFrequencyChange = (e) => {
+    setSelectedFrequency(e.target.value);
+  };
+
   return (
-    <div className="selectCountry">
-     
-    <ReactFlagsSelect
-    selected={selected}
-    onSelect={onSelect}
-    showSelectedLabel={showSelectedLabel}
-    showSecondarySelectedLabel={showSecondarySelectedLabel}
-    showOptionLabel={showOptionLabel}
-    showSecondaryOptionLabel={showSecondaryOptionLabel}
-    customLabels={customLabels}
-    countries={["IN", "US", "FR"]}
-    
-  />
-     
-    </div>
+    <select onChange={handleCountryChange} value={selectedCountry}>
+      <option value="INR">
+        INR
+      </option>
+      <option value="USD">
+       USD
+      </option>
+      <option value="EUR">
+         EUR
+      </option>
+    </select>
   );
 }

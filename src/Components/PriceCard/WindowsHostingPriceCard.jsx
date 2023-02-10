@@ -30,7 +30,16 @@ function WindowsHostingPriceCard(props) {
               winHOPt4,
               winHOPt5,
               winHOPt6,
-              winHostAnchor
+              winHostAnchor,
+              priceYearlyInINR,
+              priceTwoYearlyInINR,
+              priceThreeYearlyInINR,
+              priceYearlyInUSD,
+              priceTwoYearlyInUSD,
+              priceThreeYearlyInUSD,
+              priceYearlyInEUR,
+              priceTwoYearlyInEUR,
+              priceThreeYearlyInEUR
               
             }) => (
               <WindowsPricingCardBox
@@ -57,6 +66,15 @@ function WindowsHostingPriceCard(props) {
                 winHOPt5={ winHOPt5}
                 winHOPt6={ winHOPt6}
                 winHostAnchor={winHostAnchor}
+                priceYearlyInINR={priceYearlyInINR}
+                priceTwoYearlyInINR={priceTwoYearlyInINR}
+                priceThreeYearlyInINR={priceThreeYearlyInINR}
+                priceYearlyInUSD={priceYearlyInUSD}
+                priceTwoYearlyInUSD={priceTwoYearlyInUSD}
+                priceThreeYearlyInUSD={priceThreeYearlyInUSD}
+                priceYearlyInEUR={priceYearlyInEUR}
+                priceTwoYearlyInEUR={priceTwoYearlyInEUR}
+                priceThreeYearlyInEUR={priceThreeYearlyInEUR}
               />
             )
           )}

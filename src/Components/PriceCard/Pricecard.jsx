@@ -1,7 +1,7 @@
 import React from "react";
 import PriceCardBox from "../PriceCardBox";
 import pricingSEctionData from "./PricingCardData";
-function Pricecard(props) {
+function Pricecard(props) { 
   const mainDataPricing = pricingSEctionData.mainDataPricing;
   return (
     <div className="container coodiv-z-index-1 position-relative firstSliderPadding">
@@ -22,7 +22,8 @@ function Pricecard(props) {
             cardOgPrice,
             wpNode,
             wpWeeklyBckp,
-            cardAnchorLink
+            cardAnchorLink,
+            
           }) => (
             <PriceCardBox
               key={id}
@@ -41,6 +42,7 @@ function Pricecard(props) {
               wpNode={wpNode}
               wpWeeklyBckp={wpWeeklyBckp}
               cardAnchorLink={cardAnchorLink}
+              
             />
           )
         )}

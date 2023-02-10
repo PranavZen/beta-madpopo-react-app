@@ -23,6 +23,7 @@ import ContactUs from "./Pages/ContactUs";
 import DomainRegistration from "./Pages/DomainRegistration";
 import DomainTransfer from "./Pages/DomainTransfer";
 import BusinessHosting from "./Pages/HostingPages/BusinessHosting";
+import DemoPage from "./Pages/HostingPages/DemoPage";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -46,6 +47,7 @@ function App() {
         <Route path="beta-madpopo-react-app/Contact-Us" element={<ContactUs />}/>
         <Route path="beta-madpopo-react-app/Domain-Registration" element={<DomainRegistration />}/>
         <Route path="beta-madpopo-react-app/Domain-Transfer" element={<DomainTransfer />}/>
+        <Route path="beta-madpopo-react-app/Test" element={<DemoPage />}/>
       </Routes>
     </Router>
   );

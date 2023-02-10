@@ -6,12 +6,12 @@ import {
   MouseParallaxContainer,
 } from "react-parallax-mouse";
 import { bus_rightImg, footerPose1, wp_logo } from '../../Components';
-import ThirdTabContent from '../../Components/Tabs/TabContentBox/ThirdTabContent';
 import WpBestChoice from '../../Components/WordpressHostingPageComponent/WpBestChoice';
 import WordpressHostingFeatures from '../../Components/WordpressHostingPageComponent/WordpressHostingFeatures';
 import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
 import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
 import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/WordpressHostingFAQ';
+import BusinessEmailComponent from '../../Components/Tabs/TabContentBox/HostingPlanData/BusinessEmailComponent';
 function BusinessHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg businessBG">
@@ -36,7 +36,7 @@ function BusinessHosting() {
         data-aos="zoom-in"
         data-aos-duration="2200"
       >
-      <ThirdTabContent />
+      <BusinessEmailComponent />
       </div>
       <div className="wpChoiceSection">
         <WpBestChoice />
