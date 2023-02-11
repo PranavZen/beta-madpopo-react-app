@@ -5,7 +5,7 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { footerPose1, wp_logo } from '../../Components';
+import { dsImg, footerPose1, wp_logo } from '../../Components';
 import WpBestChoice from '../../Components/WordpressHostingPageComponent/WpBestChoice';
 import WordpressHostingFeatures from '../../Components/WordpressHostingPageComponent/WordpressHostingFeatures';
 import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
@@ -14,7 +14,7 @@ import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/
 import DediecatedServerComponent from '../../Components/Tabs/TabContentBox/DediecatedServerComponent';
 function DedicatedServer() {
   return (
-    <div className="site-wrapper overflow-hidden wp_hostingBgImg">
+    <div className="site-wrapper overflow-hidden wp_hostingBgImg dedicatedServerBG">
       <Navbar />
 
       <div className="wp_img_overlayContent">
@@ -26,9 +26,9 @@ function DedicatedServer() {
         <MouseParallaxChild
           factorX={0.04}
           factorY={0.04}
-          className={"wp_innerBox"}
+          className={"wp_innerBox dsImg"}
         >
-          <img src={wp_logo} alt="Dedicated Server" />
+          <img src={dsImg} alt="Dedicated Server" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
       <div

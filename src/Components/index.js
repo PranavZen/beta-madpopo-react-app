@@ -49,6 +49,11 @@ export { default as networkswitchequipment } from "../../src/image/pages/globalI
 export { default as physicalsecurity } from "../../src/image/pages/globalInfra/physical-security.jpg";
 export { default as migrationWp } from "../../src/image/wordpress/wp-3d-logo.png";
 export { default as bus_rightImg } from "../../src/image/pages/businessemail/besrightimg.png";
+export { default as linusRightImg } from "../../src/image/pages/linuxwebhosting/linux-hosting.png";
+export { default as windowsImg } from "../../src/image/pages/windows/windows-object.png";
+export { default as vdsImg } from "../../src/image/pages/virtualserver/cloud-server.png";
+export { default as dsImg } from "../../src/image/pages/dedicatedserver/dedicatedserverimg.png";
+export { default as woocommimg } from "../../src/image/pages/woocomeerce/woocomimg.png";
 export { default as vdsImgOne } from "../../src/image/secure-server-one.png";
 export { default as vdsImgTwo } from "../../src/image/quick-provision.png";
 export { default as INRFlag} from "../../src/image/quick-provision.png";

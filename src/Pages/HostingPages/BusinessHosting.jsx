@@ -28,7 +28,7 @@ function BusinessHosting() {
           factorY={0.04}
           className={"wp_innerBox buis_innerBox"}
         >
-          <img src={bus_rightImg} alt="Cloud Hosting" />
+          <img src={bus_rightImg} alt="Business Email Hosting" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
       <div

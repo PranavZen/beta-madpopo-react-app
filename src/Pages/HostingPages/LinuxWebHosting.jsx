@@ -5,7 +5,7 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { footerPose1, wp_logo } from "../../Components";
+import { footerPose1, linusRightImg, wp_logo } from "../../Components";
 import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
 import WordpressPlansListing from "../../Components/WordpressHostingPageComponent/WordpressPlansListing";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
@@ -14,7 +14,7 @@ import SecondTabContent from "../../Components/Tabs/TabContentBox/SecondTabConte
 import LinuxHostingFeatures from "../../Components/LinuxHostingPageComponent/LinuxHostingFeatures";
 function LinuxWebHosting() {
   return (
-    <div className="site-wrapper overflow-hidden wp_hostingBgImg">
+    <div className="site-wrapper overflow-hidden wp_hostingBgImg linuxBG">
       <Navbar />
 
       <div className="wp_img_overlayContent">
@@ -26,9 +26,9 @@ function LinuxWebHosting() {
         <MouseParallaxChild
           factorX={0.04}
           factorY={0.04}
-          className={"wp_innerBox"}
+          className={"wp_innerBox linuxrightimgBox"}
         >
-          <img src={wp_logo} alt="Linux Logo" />
+          <img src={linusRightImg} alt="Linux Web Hosting" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
       <div

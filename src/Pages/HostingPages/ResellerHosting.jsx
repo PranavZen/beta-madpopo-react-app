@@ -14,7 +14,7 @@ import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/
 import ResellerHostingComponent from '../../Components/Tabs/TabContentBox/HostingPlanData/ResellerHostingComponent';
 function ResellerHosting() {
   return (
-    <div className="site-wrapper overflow-hidden wp_hostingBgImg">
+    <div className="site-wrapper overflow-hidden wp_hostingBgImg resellerBG">
     <Navbar />
 
     <div className="wp_img_overlayContent">

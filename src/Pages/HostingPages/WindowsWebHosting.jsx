@@ -5,16 +5,18 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { footerPose1, wp_logo } from '../../Components';
+import {  footerPose1, windowsImg } from '../../Components';
 import WindowsTabContent from '../../Components/Tabs/TabContentBox/WindowsTabContent';
 import WpBestChoice from '../../Components/WordpressHostingPageComponent/WpBestChoice';
 import WordpressHostingFeatures from '../../Components/WordpressHostingPageComponent/WordpressHostingFeatures';
 import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
 import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
 import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/WordpressHostingFAQ';
+import WindowsHostingFeatures from '../../Components/WindowsHostingPageComponent/WindowsHostingFeatures';
+import WindowsHostingFaq from '../../Components/WindowsHostingPageComponent/WindowsHostingFaq';
 function WindowsWebHosting() {
   return (
-    <div className="site-wrapper overflow-hidden wp_hostingBgImg">
+    <div className="site-wrapper overflow-hidden wp_hostingBgImg windowsBG">
       <Navbar />
 
       <div className="wp_img_overlayContent">
@@ -26,9 +28,9 @@ function WindowsWebHosting() {
         <MouseParallaxChild
           factorX={0.04}
           factorY={0.04}
-          className={"wp_innerBox"}
+          className={"wp_innerBox windowsImg"}
         >
-          <img src={wp_logo} alt="Windows Logo" />
+          <img src={windowsImg} alt="Windows Web Hosting" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
       <div
@@ -42,7 +44,7 @@ function WindowsWebHosting() {
         <WpBestChoice />
       </div>
       <div className="wp_features">
-        <WordpressHostingFeatures />
+        <WindowsHostingFeatures />
       </div>
       <div className="wp_plansListing">
         <WordpressPlansListing />
@@ -55,7 +57,7 @@ function WindowsWebHosting() {
         <TrustedClientsSlide />
       </div>
       <div className="wp_hostingFaqSection">
-        <div className="pose_1">
+        <div className="pose_1 winPose">
           <img src={footerPose1} alt="Footer Imgage" />
         </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
@@ -71,7 +73,7 @@ function WindowsWebHosting() {
             d="M0,128L80,138.7C160,149,320,171,480,192C640,213,800,235,960,234.7C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
         </svg>
-        <WordpressHostingFAQ />
+        <WindowsHostingFaq />
       </div>
       <Footer />
     </div>

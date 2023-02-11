@@ -1,5 +1,5 @@
 import React from "react";
-import { footerPose1, wp_logo } from "../../Components";
+import { footerPose1, woocommimg, wp_logo } from "../../Components";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 // import WordpressHostingPriceCard from "../../Components/WordpressHostingPageComponent/WordpressHostingPriceCard";
@@ -15,7 +15,7 @@ import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/
 import WooComPriceCard from "../../Components/PriceCard/WooComPriceCard";
 function WoocommerceHosting() {
   return (
-    <div className="site-wrapper overflow-hidden wp_hostingBgImg">
+    <div className="site-wrapper overflow-hidden wp_hostingBgImg wooComBg">
       <Navbar />
 
       <div className="wp_img_overlayContent">
@@ -27,13 +27,13 @@ function WoocommerceHosting() {
         <MouseParallaxChild
           factorX={0.04}
           factorY={0.04}
-          className={"wp_innerBox"}
+          className={"wp_innerBox woocomimg"}
         >
-          <img src={wp_logo} alt="Woocommerce Logo" />
+          <img src={woocommimg} alt="Woocommerce Hosting" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
       <div
-        className="wp_pricingBox"
+        className="woo_commSection"
         data-aos="zoom-in"
         data-aos-duration="2200"
       >

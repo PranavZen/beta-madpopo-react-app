@@ -5,16 +5,17 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { footerPose1, wp_logo } from "../../Components";
+import { footerPose1, vdsImg, wp_logo } from "../../Components";
 import ThirdTabContent from "../../Components/Tabs/TabContentBox/ThirdTabContent";
 import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
 import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";
 import VdsFeatures from "../../Components/VirtualDedicatedServerPageComponent/VdsFeatures";
 import VdsListing from "../../Components/VirtualDedicatedServerPageComponent/VdsListing";
+import VdsFaq from "../../Components/VirtualDedicatedServerPageComponent/VdsFaq";
 function VirtualDedicatedServer() {
   return (
-    <div className="site-wrapper overflow-hidden wp_hostingBgImg">
+    <div className="site-wrapper overflow-hidden wp_hostingBgImg vdsBG">
       <Navbar />
 
       <div className="wp_img_overlayContent">
@@ -26,9 +27,9 @@ function VirtualDedicatedServer() {
         <MouseParallaxChild
           factorX={0.04}
           factorY={0.04}
-          className={"wp_innerBox"}
+          className={"wp_innerBox vdsImg"}
         >
-          <img src={wp_logo} alt="Virtual Dedicated Server" />
+          <img src={vdsImg} alt="Virtual Dedicated Server" />
         </MouseParallaxChild>
       </MouseParallaxContainer>
       <div
@@ -55,7 +56,7 @@ function VirtualDedicatedServer() {
         <TrustedClientsSlide />
       </div>
       <div className="wp_hostingFaqSection">
-        <div className="pose_1">
+        <div className="pose_1 vdsPose">
           <img src={footerPose1} alt="Footer Imgage" />
         </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
@@ -71,7 +72,7 @@ function VirtualDedicatedServer() {
             d="M0,128L80,138.7C160,149,320,171,480,192C640,213,800,235,960,234.7C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
         </svg>
-        <WordpressHostingFAQ />
+        <VdsFaq />
       </div>
       <Footer />
     </div>
