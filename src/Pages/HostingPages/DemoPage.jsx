@@ -1,13 +1,29 @@
 import React from 'react'
-import Frequency from '../../Components/Frequency'
-import SelectPricenew from '../../Components/SelectPricenew'
+// import CurrencySelection from '../../Components/NewSelction/CurrencySelection'
+// import Frequency from '../../Components/Frequency'
+import FlagSelection from '../../Components/NewSelction/FlagSelection'
+import ProductArray from '../../Components/NewSelction/ProductArray'
+// import SelectPricenew from '../../Components/SelectPricenew'
 
 function DemoPage() {
   return (
     <div>
-        <SelectPricenew/>
+        {
+        //   <SelectPricenew/>
+        // <br/>
+        // <Frequency/>
+      }
         <br/>
-        <Frequency/>
+        <br/>
+        <br/>
+       
+        <br/>
+        <h1>Demoe </h1>
+        <FlagSelection/>
+        <br/>
+        <br/>
+        <br/>
+        <ProductArray/>
     </div>
   )
 }

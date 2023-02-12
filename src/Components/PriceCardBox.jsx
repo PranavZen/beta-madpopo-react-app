@@ -1,10 +1,12 @@
-import React, { useState , useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import pricingSEctionData from "./PriceCard/PricingCardData";
 import pricingSEctionData2 from "./PriceCard/PriceCardDataTwo";
 import products from "../Components/SelectPricingData";
 function PriceCardBox(props) {
-
+  console.log("Start");
+  console.log(props.id-1);
+  console.log("End");
   const locationN = useLocation();
   console.log(locationN.pathname);
   let pricingValues = pricingSEctionData2.pricingValues;
@@ -18,13 +20,22 @@ function PriceCardBox(props) {
 
   console.log(pricingValues);
 
-
-
   console.log(pricingValues[1][0]["cardPrice" + props.id]);
-  const [selectedFrequency, setSelectedFrequency] = useState("priceThreeYearlyIn");
+  const [selectedFrequency, setSelectedFrequency] = useState( "3");
   const [selectedCountry, setSelectedCountry] = useState("INR");
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
-
+  const d = props.id-1;
+  console.log("ffff"+ d)
+  let dd=0;
+  if (d !== 'undefined' && d < 3) {
+    dd = products.wordpressData[props.id-1].priceThreeYearlyInINR;
+  }
+  // console.log("ssss")
+  // console.log(products.wordpressData[props.id].priceThreeYearlyInINR);
+  // console.log("eddss")
+ 
+  const [slectPrice, setSelectPrice ] = useState(dd);
+  
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
     if (storedCountry) {
@@ -33,15 +44,19 @@ function PriceCardBox(props) {
   }, []);
 
   const handleCountryChange = (e) => {
+    console.log(selectedFrequency)
     setSelectedCountry(e.target.value);
     localStorage.setItem("selectedCountry", e.target.value);
   };
 
   const handleFrequencyChange = (e) => {
+    console.log("dd"+e.target.value)
+    console.log(products.wordpressData[0])
+    console.log("fktl"+products.wordpressData[e.target.value]);
     setSelectedFrequency(e.target.value);
+    setSelectPrice(products.wordpressData[e.target.value].priceThreeYearlyInINR);
   };
 
- 
   return (
     <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
       <div className="ddos-attack-package not-feaures-package shadow-2 priceCardDdos">
@@ -53,10 +68,14 @@ function PriceCardBox(props) {
         <span className="fromText">{props.cardSubTitle}</span>
         <div className="selectDaysWrap">
           <form>
-            <select onChange={handleFrequencyChange} value={selectedFrequency} className="selectDay">
-            <option value="priceThreeYearlyIn">3 Years</option>
-            <option value="priceTwoYearlyIn">2 Years</option>
-            <option value="priceYearlyIn">1 Year</option>
+            <select
+              onChange={handleFrequencyChange}
+              
+              className="selectDay"
+            >
+              <option value="2">3 Years</option>
+              <option value="1">2 Years</option>
+              <option value="0">1 Year</option>
             </select>
           </form>
         </div>
@@ -67,14 +86,10 @@ function PriceCardBox(props) {
           }
           <h2 className="priceCardPriceAmt">
             <span className="mainAmtPrice">
-            {selectedCountry} 
-            {
-              products.wordpressData[props.id - 1][`${selectedFrequency}${selectedCountry}`] 
-            }
-       
-            
-       
-            
+              {selectedCountry}
+              {
+                slectPrice
+              }
             </span>
             <span className="monthSpan">
               per month <br /> billed annually
@@ -83,7 +98,12 @@ function PriceCardBox(props) {
         </div>
         <div className="orginalPriceWrap">
           <p className="desPriceText">
-            <span>Discounted from</span> <del>{  products.wordpressData[props.id - 1][`${selectedFrequency}${selectedCountry}`] + 10} / mo</del>
+            <span>Discounted from</span>{" "}
+            <del>
+            {selectedCountry}
+              {slectPrice + 10}{" "}
+              / mo
+            </del>
           </p>
         </div>
         <ul className="ddos-first-features border-top">

@@ -2,7 +2,7 @@ const products = {
   wordpressData: [
     {
       id: 0,
-      name: "POPO L",
+      name: "POPO L", 
       priceYearlyInINR: 120,
       priceTwoYearlyInINR: 140,
       priceThreeYearlyInINR: 160,

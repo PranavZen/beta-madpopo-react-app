@@ -56,4 +56,6 @@ export { default as dsImg } from "../../src/image/pages/dedicatedserver/dedicate
 export { default as woocommimg } from "../../src/image/pages/woocomeerce/woocomimg.png";
 export { default as vdsImgOne } from "../../src/image/secure-server-one.png";
 export { default as vdsImgTwo } from "../../src/image/quick-provision.png";
-export { default as INRFlag} from "../../src/image/quick-provision.png";
+export { default as INRFlag} from "../../src/image/inr.png";
+export { default as EURFlag} from "../../src/image/euro.png";
+export { default as USDFlag} from "../../src/image/usa.png";

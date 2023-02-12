@@ -10,7 +10,7 @@ function Pricecard(props) {
           ({
             id,
             label,
-            cardTitle,
+            cardTitle, 
             cardSubTitle,
             cardPrice1,
             cardOffer,

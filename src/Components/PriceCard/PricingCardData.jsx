@@ -7,7 +7,7 @@ const pricingSEctionData = {
       cardSubTitle: "Optimal solution for Beginners",
       cardOgPrice: `$32`,
       cardOffer: "offer - 30%",
-      cardCapacity: "10GB",
+      cardCapacity: "10GB", 
       cardSSHAccess: "Unlimited",
       cardDDOS: "Save $399",
       wpNode:`1`,
