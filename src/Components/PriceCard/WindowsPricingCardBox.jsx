@@ -1,29 +1,89 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import WindowsHostingDatas from "../Tabs/TabContentBox/HostingPlanData/WindowsHostingData"
 function WindowsPricingCardBox(props) {
-  // const wordpressData = products.wordpressData;
-  // console.log(products.linuxData);
-  // console.log(props.linuxCard);
-  const [selectedCountry, setSelectedCountry] = useState("INR");
+// console.log(WindowsHostingDatas);
+  var show_price = "";
+  var show_currency = "";
+   var show_price_1 =""
+
   const [selectedFrequency, setSelectedFrequency] = useState(
     "priceThreeYearlyIn"
   );
 
+  const [selectedCountry, setSelectedCountry] = useState("INR");
+
+  const [selectedProductIndex, setSelectedProductIndex] = useState(0);
+
+  const [slectPrice, setSelectPrice ] = useState(show_price);
+ 
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
     if (storedCountry) {
       setSelectedCountry(storedCountry);
     }
-  }, []);
+  }, [selectedCountry]);
 
-  // const handleCountryChange = (e) => {
-  //   setSelectedCountry(e.target.value);
-  //   localStorage.setItem("selectedCountry", e.target.value);
-  // };
+  if (selectedCountry == "$") {
+    show_currency = "priceThreeYearlyInUSD";
+    show_price = WindowsHostingDatas[props.id -1][show_currency];
+  } else if (selectedCountry == "€") {
+    show_currency = "priceThreeYearlyInEUR";
+    show_price = WindowsHostingDatas[props.id -1][show_currency];
+  } else if (selectedCountry == "₹") {
+    show_currency = "priceThreeYearlyInINR";
+    show_price = WindowsHostingDatas[props.id -1][show_currency];
+  }
 
+  // console.log(show_price);
+
+  const handleCountryChange = (e) => {
+    //alert(selectedCountry);
+
+    setSelectedCountry(e.target.value);
+    localStorage.setItem("selectedCountry", e.target.value);
+  };
   const handleFrequencyChange = (e) => {
+    var yr = e.target.value;
     setSelectedFrequency(e.target.value);
+    
+    if (yr == "priceThreeYearlyIn") {
+      if (selectedCountry == "$") {
+        show_currency = "priceThreeYearlyInUSD";
+      } else if (selectedCountry == "€") {
+        show_currency = "priceThreeYearlyInEUR";
+      } else if (selectedCountry == "₹") {
+        show_currency = "priceThreeYearlyInINR";
+      }
+
+      
+    } else if (yr == "priceTwoYearlyIn") {
+      if (selectedCountry == "$") {
+        show_currency = "priceTwoYearlyInUSD";
+      } else if (selectedCountry == "€") {
+        show_currency = "priceTwoYearlyInEUR";
+      } else if (selectedCountry == "₹") {
+        show_currency = "priceTwoYearlyInINR";
+      }
+
+      //show_price = products.wordpressData[props.id - 1][show_currency];
+    } else if (yr == "priceYearlyIn") {
+      if (selectedCountry == "$") {
+        show_currency = "priceYearlyInUSD";
+      } else if (selectedCountry == "€") {
+        show_currency = "priceYearlyInEUR";
+      } else if (selectedCountry == "₹") {
+        show_currency = "priceYearlyInINR";
+      }
+
+      //show_price = products.wordpressData[props.id - 1][show_currency];
+    }
+    show_price_1 = WindowsHostingDatas[props.id - 1][show_currency];
+    setSelectPrice(show_price_1);
+    // console.log(show_price_1);
+    
+   // console.log(selectedCountry);
+    //console.log(products.wordpressData[props.id - 1]);
   };
   return (
     <div className="col-lg-4 mb-15 mb-lg-0 priceCardWrap">
@@ -50,7 +110,7 @@ function WindowsPricingCardBox(props) {
         <div className="ddos-attack-price d-flex justify-content-between align-items-center mt-7 py-4">
           <h2 className="priceCardPriceAmt">
           {selectedCountry}
-          {props[`${selectedFrequency}${selectedCountry}`]}
+          {slectPrice ? slectPrice : show_price}
             <span className="monthSpan">
               per month <br /> billed annually
             </span>

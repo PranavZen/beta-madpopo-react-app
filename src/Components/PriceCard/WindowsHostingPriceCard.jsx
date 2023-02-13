@@ -11,7 +11,7 @@ function WindowsHostingPriceCard(props) {
             ({
               id,
               label,  
-              winHostTitle,
+              winHostTitle, 
               winHostSubTitle,
               winHostOgPrice,
               cardPrice1,

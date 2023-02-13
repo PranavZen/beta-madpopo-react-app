@@ -1,36 +1,93 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import LinuxData from "../../TabContentBox/HostingPlanData/LinuxHostingData";
 function LinuxCardBox(props) {
-  // const wordpressData = products.wordpressData;
-  // console.log(products.linuxData);
-  // console.log(props.linuxCard);
-  const [selectedCountry, setSelectedCountry] = useState("INR");
+  console.log(props.id);
+  var show_price = "";
+  var show_currency = "";
+  var show_price_1 = "";
+
   const [selectedFrequency, setSelectedFrequency] = useState(
     "priceThreeYearlyIn"
   );
+
+  const [selectedCountry, setSelectedCountry] = useState("INR");
+
+  const [selectedProductIndex, setSelectedProductIndex] = useState(0);
+
+  const [slectPrice, setSelectPrice] = useState(show_price);
 
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
     if (storedCountry) {
       setSelectedCountry(storedCountry);
     }
-  }, []);
+  }, [selectedCountry]);
 
-//   const handleCountryChange = (e) => {
-//     setSelectedCountry(e.target.value);
-//     localStorage.setItem("selectedCountry", e.target.value);
-//   };
+  if (selectedCountry == "$") {
+    show_currency = "priceThreeYearlyInUSD";
+    show_price = LinuxData[props.id - 1][show_currency];
+  } else if (selectedCountry == "€") {
+    show_currency = "priceThreeYearlyInEUR";
+    show_price = LinuxData[props.id - 1][show_currency];
+  } else if (selectedCountry == "₹") {
+    show_currency = "priceThreeYearlyInINR";
+    show_price = LinuxData[props.id - 1][show_currency];
+  }
 
-  const handleFrequencyChange = (e) => {
-    setSelectedFrequency(e.target.value);
+  console.log(show_price);
+
+  const handleCountryChange = (e) => {
+    //alert(selectedCountry);
+
+    setSelectedCountry(e.target.value);
+    localStorage.setItem("selectedCountry", e.target.value);
   };
+  const handleFrequencyChange = (e) => {
+    var yr = e.target.value;
+    setSelectedFrequency(e.target.value);
 
+    if (yr == "priceThreeYearlyIn") {
+      if (selectedCountry == "$") {
+        show_currency = "priceThreeYearlyInUSD";
+      } else if (selectedCountry == "€") {
+        show_currency = "priceThreeYearlyInEUR";
+      } else if (selectedCountry == "₹") {
+        show_currency = "priceThreeYearlyInINR";
+      }
+    } else if (yr == "priceTwoYearlyIn") {
+      if (selectedCountry == "$") {
+        show_currency = "priceTwoYearlyInUSD";
+      } else if (selectedCountry == "€") {
+        show_currency = "priceTwoYearlyInEUR";
+      } else if (selectedCountry == "₹") {
+        show_currency = "priceTwoYearlyInINR";
+      }
+
+      //show_price = products.wordpressData[props.id - 1][show_currency];
+    } else if (yr == "priceYearlyIn") {
+      if (selectedCountry == "$") {
+        show_currency = "priceYearlyInUSD";
+      } else if (selectedCountry == "€") {
+        show_currency = "priceYearlyInEUR";
+      } else if (selectedCountry == "₹") {
+        show_currency = "priceYearlyInINR";
+      }
+
+      //show_price = products.wordpressData[props.id - 1][show_currency];
+    }
+    show_price_1 = LinuxData[props.id - 1][show_currency];
+    setSelectPrice(show_price_1);
+    console.log(show_price_1);
+
+    // console.log(selectedCountry);
+    //console.log(products.wordpressData[props.id - 1]);
+  };
   return (
     <div
       className="col-lg-4 col-md-4 col-sm-8 mb-9 px-8
             px-md-4 px-lg-4 linuxOuterPrice"
-      key={props.id}
+      
     >
       <div
         className="ddos-attack-package pricing-plan-tree
@@ -63,7 +120,7 @@ function LinuxCardBox(props) {
                     line-spacing-none mb-2 mt-5"
         >
           {selectedCountry}
-          {props[`${selectedFrequency}${selectedCountry}`]}
+          {slectPrice ? slectPrice : show_price}
           <span
             className="coodiv-text-11
                     coodiv-color-blackish-blue-opacity-7 pl-5"
@@ -71,6 +128,11 @@ function LinuxCardBox(props) {
             / month
           </span>
         </h2>
+        <div className="orginalPriceWrap">
+          <p className="desPriceText">
+            <span>Discounted from</span> {selectedCountry} <del>{((slectPrice ? slectPrice : show_price ) * 3).toFixed(2)} / mo</del>
+          </p>
+        </div>
         <ul className="ddos-first-features border-top">
           <li>
             <span className="capTitle">Web Space</span>
@@ -87,7 +149,8 @@ function LinuxCardBox(props) {
         </ul>
         <ul className="ddos-second-features border-top">
           <li>
-            <i className="feather icon-check-circle mr-3"></i> {props.cardlinuxOPt1}
+            <i className="feather icon-check-circle mr-3"></i>{" "}
+            {props.cardlinuxOPt1}
           </li>
           <li>
             <i className="feather icon-check-circle mr-3"></i>
@@ -109,7 +172,8 @@ function LinuxCardBox(props) {
             <i className="feather icon-check-circle mr-3"></i> Free SSL
           </li>
           <li>
-            <i className="feather icon-check-circle mr-3"></i> {props.cardlinuxOPT6}
+            <i className="feather icon-check-circle mr-3"></i>{" "}
+            {props.cardlinuxOPT6}
           </li>
           <li>
             <i className="feather icon-check-circle mr-3"></i> Managed WordPress

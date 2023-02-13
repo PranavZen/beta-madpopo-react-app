@@ -5,11 +5,10 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { footerPose1, vdsImg, wp_logo } from "../../Components";
+import { footerPose1, vdsImg} from "../../Components";
 import ThirdTabContent from "../../Components/Tabs/TabContentBox/ThirdTabContent";
 import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
-import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";
 import VdsFeatures from "../../Components/VirtualDedicatedServerPageComponent/VdsFeatures";
 import VdsListing from "../../Components/VirtualDedicatedServerPageComponent/VdsListing";
 import VdsFaq from "../../Components/VirtualDedicatedServerPageComponent/VdsFaq";

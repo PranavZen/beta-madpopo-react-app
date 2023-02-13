@@ -23,13 +23,13 @@ function LinuxWebHosting() {
         <span>Unlimited boards and workflows. no credit card needed</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
-        <MouseParallaxChild
+        <MouseParallaxChild 
           factorX={0.04}
           factorY={0.04}
           className={"wp_innerBox linuxrightimgBox"}
         >
           <img src={linusRightImg} alt="Linux Web Hosting" />
-        </MouseParallaxChild>
+        </MouseParallaxChild> 
       </MouseParallaxContainer>
       <div
         className="linux_pricingBox container"

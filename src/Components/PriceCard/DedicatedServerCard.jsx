@@ -2,117 +2,187 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import DedicateedServerData from "../Tabs/TabContentBox/HostingPlanData/DedicateedServerData";
 function DedicatedServerCard(props) {
-  // const wordpressData = products.wordpressData;
-  // console.log(products.linuxData);
-  // console.log(props.linuxCard);
-  const [selectedCountry, setSelectedCountry] = useState("INR");
-  const [selectedFrequency, setSelectedFrequency] = useState(
-    "priceThreeYearlyIn"
-  );
+ //  console.log(VpsData);
+ var show_price = "";
+ var show_currency = "";
+  var show_price_1 =""
 
-  useEffect(() => {
-    const storedCountry = localStorage.getItem("selectedCountry");
-    if (storedCountry) {
-      setSelectedCountry(storedCountry);
-    }
-  }, []);
+ const [selectedFrequency, setSelectedFrequency] = useState(
+   "priceThreeYearlyIn"
+ );
 
-  // const handleCountryChange = (e) => {
-  //   setSelectedCountry(e.target.value);
-  //   localStorage.setItem("selectedCountry", e.target.value);
-  // };
+ const [selectedCountry, setSelectedCountry] = useState("INR");
 
-  const handleFrequencyChange = (e) => {
-    setSelectedFrequency(e.target.value);
-  };
-  return DedicateedServerData.map((vpi) => {
-    // console.log(vpi);
-    return (
-      <div className="col-lg-4 col-md-6 col-sm-8 mb-9" key={vpi.id}>
-        <div
-          className="ddos-attack-package games-plan plan-1 box-shadow-1
-                      bg-white rounded-20 text-center pb-20 pt-9
-                      pr-6 pl-6 position-relative
-                      overflow-hidden"
-        >
-          <div className="d-flex mb-lg-7 plan-header">
-            <div className="game-logo">
-              <img src={vpi.cardVpsImg} alt={vpi.cardVpsAltName} />
-            </div>
-            <div className="game-title">
-              <h3 className="mb-6">
-                <a href={vpi.cardAnchorLink}>{vpi.cardVpsTitle}</a>
-              </h3>
-              <p className="fromText vpiText">{vpi.cardVpsSubTitle}</p>
-              <h2 className="text-blackish-blue">
-                {selectedCountry}
-                {vpi[`${selectedFrequency}${selectedCountry}`]}
-                <span className="payment-type-m">monthly</span>
-              </h2>
-            </div>
+ const [selectedProductIndex, setSelectedProductIndex] = useState(0);
+
+ const [slectPrice, setSelectPrice ] = useState(show_price);
+
+ useEffect(() => {
+   const storedCountry = localStorage.getItem("selectedCountry");
+   if (storedCountry) {
+     setSelectedCountry(storedCountry);
+   }
+ }, [selectedCountry]);
+
+ if (selectedCountry == "$") {
+   show_currency = "priceThreeYearlyInUSD";
+   show_price = DedicateedServerData[props.id -1][show_currency];
+ } else if (selectedCountry == "€") {
+   show_currency = "priceThreeYearlyInEUR";
+   show_price = DedicateedServerData[props.id -1][show_currency];
+ } else if (selectedCountry == "₹") {
+   show_currency = "priceThreeYearlyInINR";
+   show_price = DedicateedServerData[props.id -1][show_currency];
+ }
+
+ console.log(show_price);
+
+ const handleCountryChange = (e) => {
+   //alert(selectedCountry);
+
+   setSelectedCountry(e.target.value);
+   localStorage.setItem("selectedCountry", e.target.value);
+ };
+ const handleFrequencyChange = (e) => {
+   var yr = e.target.value;
+   setSelectedFrequency(e.target.value);
+   
+   if (yr == "priceThreeYearlyIn") {
+     if (selectedCountry == "$") {
+       show_currency = "priceThreeYearlyInUSD";
+     } else if (selectedCountry == "€") {
+       show_currency = "priceThreeYearlyInEUR";
+     } else if (selectedCountry == "₹") {
+       show_currency = "priceThreeYearlyInINR";
+     }
+
+     
+   } else if (yr == "priceTwoYearlyIn") {
+     if (selectedCountry == "$") {
+       show_currency = "priceTwoYearlyInUSD";
+     } else if (selectedCountry == "€") {
+       show_currency = "priceTwoYearlyInEUR";
+     } else if (selectedCountry == "₹") {
+       show_currency = "priceTwoYearlyInINR";
+     }
+
+     //show_price = products.wordpressData[props.id - 1][show_currency];
+   } else if (yr == "priceYearlyIn") {
+     if (selectedCountry == "$") {
+       show_currency = "priceYearlyInUSD";
+     } else if (selectedCountry == "€") {
+       show_currency = "priceYearlyInEUR";
+     } else if (selectedCountry == "₹") {
+       show_currency = "priceYearlyInINR";
+     }
+
+     //show_price = products.wordpressData[props.id - 1][show_currency];
+   }
+   show_price_1 = DedicateedServerData[props.id - 1][show_currency];
+   setSelectPrice(show_price_1);
+   console.log(show_price_1);
+   
+  // console.log(selectedCountry);
+   //console.log(products.wordpressData[props.id - 1]);
+ };
+  return (
+    <div className="col-lg-4 col-md-6 col-sm-8 mb-9">
+      <div
+        className="ddos-attack-package games-plan plan-1 box-shadow-1
+                    bg-white rounded-20 text-center pb-20 pt-9
+                    pr-6 pl-6 position-relative
+                    overflow-hidden"
+      >
+        <div className="d-flex mb-lg-7 plan-header">
+          <div className="game-logo">
+            <img src={props.dsCardImg} alt={props.dsCardAltName} />
           </div>
-          <ul className="ddos-first-features">
-            <li>
-              <span className="capTitle">Processor</span>
-              <span className="capAmt">{vpi.cardVpsWebSpace} vCPU Cores</span>
-            </li>
-            <li>
-              <span className="capTitle">Memory</span>
-              <span className="capAmt">{vpi.cardVpsCapacity} GB RAM</span>
-            </li>
-            <li>
-              <span className="capTitle">Storage</span>
-              <span className="capAmt">
-                {vpi.cardVpsCapacity2} NVMe or {vpi.cardVpsCapacity3} SSD
-              </span>
-            </li>
-          </ul>
-          <ul className="ddos-second-features border-top">
-            <li>
-              <i className="feather icon-check-circle mr-3"></i> Snapshot{" "}
-              {vpi.cardVpsSnap}
-            </li>
-            <li>
-              <i className="feather icon-check-circle mr-3"></i> 32 TB Traffic*
-            </li>
-            <li>
-              <i className="feather icon-check-circle mr-3"></i> Unlimited Incoming
-            </li>
-            <li>
-              <i className="feather icon-check-circle mr-3"></i> 1 IPv4 Address
-            </li>
-            <li>
-              <i className="feather icon-check-circle mr-3"></i> Multiple DC
-              Location
-            </li>
-            <li>
-              <i className="feather icon-check-circle mr-3"></i> Power Reboot
-            </li>
-            <li>
-              <i className="feather icon-check-circle mr-3"></i> Unmanaged Server
-            </li>
-            <li>
-              <i className="feather icon-check-circle mr-3"></i>Default Linux OS
-            </li>
-            <li>
-              <i className="feather icon-check-circle mr-3"></i>Free Control Panel
-            </li>
-            <li>
-              <i className="feather icon-check-circle mr-3"></i>99,90% Uptime
-              Guarantee
-            </li>
-            <li>
-              <i className="feather icon-check-circle mr-3"></i>Advanced 24/7 Expert
-              Support
-            </li>
-          </ul>
-          <Link to="#" className="btn-order">
-            <span>Order Now</span>
-          </Link>
+          <div className="game-title">
+            <h3 className="mb-6">
+              <a href={props.cardAnchorLink}>{props.dsCardTitle}</a>
+            </h3>
+            <p className="fromText propsText">{props.dsCardSubTitle}</p>
+            <div className="selectDaysWrap">
+          <form>
+            <select
+              onChange={handleFrequencyChange}
+              value={selectedFrequency}
+              className="selectDay"
+            >
+              <option value="priceThreeYearlyIn">3 Years</option>
+              <option value="priceTwoYearlyIn">2 Years</option>
+              <option value="priceYearlyIn">1 Year</option>
+            </select>
+          </form>
         </div>
+            <h2 className="text-blackish-blue">
+              {selectedCountry}
+              {slectPrice ? slectPrice : show_price}
+              <span className="payment-type-m">monthly</span>
+            </h2>
+          </div>
+        </div>
+        <ul className="ddos-first-features">
+          <li>
+            <span className="capTitle">Processor</span>
+            <span className="capAmt">{props.dsCardWebSpace} vCPU Cores</span>
+          </li>
+          <li>
+            <span className="capTitle">Memory</span>
+            <span className="capAmt">{props.dsCardCapacity} GB RAM</span>
+          </li>
+          <li>
+            <span className="capTitle">Storage</span>
+            <span className="capAmt">
+              {props.dsCardCapacity2} NVMe or {props.dsCardCapacity3} SSD
+            </span>
+          </li>
+        </ul>
+        <ul className="ddos-second-features border-top">
+          <li>
+            <i className="feather icon-check-circle mr-3"></i> Snapshot{" "}
+            {props.dsCardSnap}
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i> 32 TB Traffic*
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i> Unlimited Incoming
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i> 1 IPv4 Address
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i> Multiple DC
+            Location
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i> Power Reboot
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i> Unmanaged Server
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i>Default Linux OS
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i>Free Control Panel
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i>99,90% Uptime
+            Guarantee
+          </li>
+          <li>
+            <i className="feather icon-check-circle mr-3"></i>Advanced 24/7 Expert
+            Support
+          </li>
+        </ul>
+        <Link to="#" className="btn-order">
+          <span>Order Now</span>
+        </Link>
       </div>
-    );
-  });
+    </div>
+  );
 }
 
 export default DedicatedServerCard;

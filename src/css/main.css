@@ -986,6 +986,23 @@ body {
 border-bottom: 5px solid #fff !important;
 border-top: 0 !important; 
 }
+.wp_hostingBgImg .dark-mode-texts .flagSelect{
+  color: #fff !important;
+}
+.wp_hostingBgImg .dark-mode-texts .flagSelect option{
+  color: #232323 !important;
+}
+.flagSelect{ 
+border: 0;
+background: transparent;
+font-size: 14px;
+width: 80px;
+cursor: pointer;
+}
+.flagSelect:focus{
+  outline: none;
+  box-shadow: none;
+}
 .trusedPlanSection .clientTestSecTitle h5{
   color: #252526;
   text-align: center;
@@ -1183,11 +1200,7 @@ color: #fff;
 .ReactFlagsSelect-module_selectBtn__19wW7:after, .ReactFlagsSelect-module_selectBtn__19wW7[aria-expanded="true"]:after{
   margin-left: 0px !important;
 }
-.light-mode-texts .topBarStrip{
-  
-  padding-top: 5px;
 
-}
 .dark-bg .dark-version-logo,
 .dark-mode-texts .dark-version-logo {
   display: block;
@@ -2859,7 +2872,7 @@ a.headerphone-number {
   padding-bottom: 95px;
 }
 .windows_pricingBox .ddosPriceCardRow.blueCard .priceCardWrap:nth-child(2)::after{
-  left: -106px;
+  left: -98px;
   top: -265px;
 }
 .tc_wrapper{

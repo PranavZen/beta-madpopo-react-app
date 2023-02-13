@@ -142,7 +142,7 @@ function PriceCardBox(props) {
         </div>
         <div className="orginalPriceWrap">
           <p className="desPriceText">
-            <span>Discounted from</span>{selectedCountry} <del>{show_price + 10} / mo</del>
+            <span>Discounted from</span> {selectedCountry} <del>{((slectPrice ? slectPrice : show_price ) * 3).toFixed(2)} / mo</del>
           </p>
         </div>
         <ul className="ddos-first-features border-top">

@@ -6,7 +6,7 @@ function SecondTabContent() {
   return (
     <div className="main-homepage-item">
       <div className="row justify-content-center px-md-2 linuxHostingCardWrap">
-        {LinuxData.linuxCard.map(
+        {LinuxData.map(
           ({
             id,
             cardlinuxTitle,
@@ -34,6 +34,7 @@ function SecondTabContent() {
           }) => (
             <LinuxCardBox
               key={id}
+              id={id}
               cardlinuxTitle={cardlinuxTitle}
               Linkss={Linkss}
               cardlinuxSubTitle={cardlinuxSubTitle}

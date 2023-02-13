@@ -48,10 +48,10 @@ export default function CountrySelect() {
 
   return (
 
-      <select onChange={handleCountryChange} value={selectedCountry}>
+      <select onChange={handleCountryChange} value={selectedCountry} className="flagSelect">
         {slectOpt.map((opt, index) => (
           <option value={opt.currencyTag} key={opt.currencyTag}>
-         { opt.flag} {opt.value}
+         { opt.flag} &nbsp; {opt.value}
           </option>
         ))}
       </select>
