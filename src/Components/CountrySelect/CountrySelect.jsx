@@ -32,7 +32,7 @@ export default function CountrySelect() {
   let location = useLocation();
   // console.log(location);
   const slectOpt = [
-    {
+    { 
       value: "INR",
       currencyTag: "₹",
       flag: '🇮🇳'
@@ -109,7 +109,7 @@ export default function CountrySelect() {
             </div>
           ))}
         </div>
-        :smile
+        
       </div>
     </>
   );
