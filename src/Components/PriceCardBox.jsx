@@ -30,7 +30,7 @@ function PriceCardBox(props) {
 
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
-  const [slectPrice, setSelectPrice ] = useState(show_price_1);
+  const [slectPrice, setSelectPrice ] = useState(show_price);
 
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
