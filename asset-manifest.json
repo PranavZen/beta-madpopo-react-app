@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beta-madpopo-react-app/static/css/main.a71d1695.css",
-    "main.js": "/beta-madpopo-react-app/static/js/main.3e4085d0.js",
+    "main.css": "/beta-madpopo-react-app/static/css/main.fa6085ba.css",
+    "main.js": "/beta-madpopo-react-app/static/js/main.b79aaa91.js",
     "static/js/787.3e488476.chunk.js": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js",
     "static/media/computer_table.png": "/beta-madpopo-react-app/static/media/computer_table.2d6728eb0e65ec6daf9c.png",
     "static/media/24_shadow.png": "/beta-madpopo-react-app/static/media/24_shadow.c27eb95238c83b415aca.png",
@@ -40,6 +40,7 @@
     "static/media/global_network.png": "/beta-madpopo-react-app/static/media/global_network.e10f41be7201d47301b6.png",
     "static/media/footer_pose-1.png": "/beta-madpopo-react-app/static/media/footer_pose-1.1e1443c6336ec29f164d.png",
     "static/media/buttom-part.png": "/beta-madpopo-react-app/static/media/buttom-part.0adbcb9f4f456e98dcd1.png",
+    "static/media/usa.png": "/beta-madpopo-react-app/static/media/usa.82f4afd39107d026aa2c.png",
     "static/media/daventi.svg": "/beta-madpopo-react-app/static/media/daventi.468303e403df42a188f1.svg",
     "static/media/gift-2.png": "/beta-madpopo-react-app/static/media/gift-2.4d38cf50fc92a76d6db8.png",
     "static/media/popo-site-load-test_1-80.jpg": "/beta-madpopo-react-app/static/media/popo-site-load-test_1-80.133dddd1eb073c8660c4.jpg",
@@ -79,6 +80,7 @@
     "static/media/card_pose_1.png": "/beta-madpopo-react-app/static/media/card_pose_1.4399246c22125658a409.png",
     "static/media/migrationwindow-right-btm.png": "/beta-madpopo-react-app/static/media/migrationwindow-right-btm.6b603d995956e7fe98ae.png",
     "static/media/men-with-lighter.svg": "/beta-madpopo-react-app/static/media/men-with-lighter.33257d71c3c6529f260b.svg",
+    "static/media/inr.png": "/beta-madpopo-react-app/static/media/inr.c334b0be3f3a7d615690.png",
     "static/media/pattern-4.png": "/beta-madpopo-react-app/static/media/pattern-4.a4e091c8d77b0c432bb4.png",
     "static/media/moon-full.png": "/beta-madpopo-react-app/static/media/moon-full.c49b6d46b8e1b2ac37ef.png",
     "static/media/slidercartoon.png": "/beta-madpopo-react-app/static/media/slidercartoon.0b9c6f8c1fb9180a4735.png",
@@ -95,6 +97,7 @@
     "static/media/earth.png": "/beta-madpopo-react-app/static/media/earth.435b5d5fa67b1a2adab1.png",
     "static/media/madpopo-dark-logo.svg": "/beta-madpopo-react-app/static/media/madpopo-dark-logo.66ac7d1be865b2f95596e26cea7ac2f4.svg",
     "static/media/madpopo-white-logo.svg": "/beta-madpopo-react-app/static/media/madpopo-white-logo.01ef39157c6b001220b1f0b46f9d547b.svg",
+    "static/media/euro.png": "/beta-madpopo-react-app/static/media/euro.e0569dcb9795e0bfdfcf.png",
     "static/media/download.png": "/beta-madpopo-react-app/static/media/download.520d38435d1320afb611.png",
     "static/media/pattern-1.png": "/beta-madpopo-react-app/static/media/pattern-1.9d59dbb291f5505f55b3.png",
     "static/media/pattern-6.png": "/beta-madpopo-react-app/static/media/pattern-6.0a0813aa796bc899661a.png",
@@ -122,12 +125,12 @@
     "static/media/arrow-right-desktop-1.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-1.27df23a9d073fe62d89c.svg",
     "static/media/arrow-right-desktop-2.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-2.d3663980710bd470b402.svg",
     "static/media/wave-plan.svg": "/beta-madpopo-react-app/static/media/wave-plan.5fabe6835b36775f657c.svg",
-    "main.a71d1695.css.map": "/beta-madpopo-react-app/static/css/main.a71d1695.css.map",
-    "main.3e4085d0.js.map": "/beta-madpopo-react-app/static/js/main.3e4085d0.js.map",
+    "main.fa6085ba.css.map": "/beta-madpopo-react-app/static/css/main.fa6085ba.css.map",
+    "main.b79aaa91.js.map": "/beta-madpopo-react-app/static/js/main.b79aaa91.js.map",
     "787.3e488476.chunk.js.map": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a71d1695.css",
-    "static/js/main.3e4085d0.js"
+    "static/css/main.fa6085ba.css",
+    "static/js/main.b79aaa91.js"
   ]
 }
