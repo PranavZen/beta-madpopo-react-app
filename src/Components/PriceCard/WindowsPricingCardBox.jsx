@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function WindowsPricingCardBox(props) {
   // const wordpressData = products.wordpressData;
   // console.log(products.linuxData);
-  console.log(props.linuxCard);
+  // console.log(props.linuxCard);
   const [selectedCountry, setSelectedCountry] = useState("INR");
   const [selectedFrequency, setSelectedFrequency] = useState(
     "priceThreeYearlyIn"

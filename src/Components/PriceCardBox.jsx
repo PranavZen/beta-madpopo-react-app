@@ -3,58 +3,103 @@ import { useLocation } from "react-router-dom";
 import pricingSEctionData from "./PriceCard/PricingCardData";
 import pricingSEctionData2 from "./PriceCard/PriceCardDataTwo";
 import products from "../Components/SelectPricingData";
+
 function PriceCardBox(props) {
-  console.log("Start");
-  console.log(props.id-1);
-  console.log("End");
   const locationN = useLocation();
-  console.log(locationN.pathname);
+  // console.log(locationN.pathname);
   let pricingValues = pricingSEctionData2.pricingValues;
   if (locationN.pathname === "/beta-madpopo-react-app/WordpressHosting") {
-    console.log("if - WP Hosting Page");
+    // console.log("if - WP Hosting Page");
     pricingValues = pricingSEctionData2.pricingValues;
   } else {
     pricingValues = pricingSEctionData.pricingValues;
-    console.log("else - Home Page");
+    // console.log("else - Home Page");
   }
+  var show_price = "";
+  var show_currency = "";
+   var show_price_1 =""
+  // var show_price_2 =""
+  // console.log(pricingValues);
 
-  console.log(pricingValues);
+  // console.log(pricingValues[1][0]["cardPrice" + props.id]);
+  const [selectedFrequency, setSelectedFrequency] = useState(
+    "priceThreeYearlyIn"
+  );
 
-  console.log(pricingValues[1][0]["cardPrice" + props.id]);
-  const [selectedFrequency, setSelectedFrequency] = useState( "3");
   const [selectedCountry, setSelectedCountry] = useState("INR");
+
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
-  const d = props.id-1;
-  console.log("ffff"+ d)
-  let dd=0;
-  if (d !== 'undefined' && d < 3) {
-    dd = products.wordpressData[props.id-1].priceThreeYearlyInINR;
-  }
-  // console.log("ssss")
-  // console.log(products.wordpressData[props.id].priceThreeYearlyInINR);
-  // console.log("eddss")
- 
-  const [slectPrice, setSelectPrice ] = useState(dd);
-  
+
+  const [slectPrice, setSelectPrice ] = useState(show_price_1);
+
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
     if (storedCountry) {
       setSelectedCountry(storedCountry);
     }
-  }, []);
+  }, [selectedCountry]);
+
+  if (selectedCountry == "$") {
+    show_currency = "priceThreeYearlyInUSD";
+    show_price = products.wordpressData[props.id - 1][show_currency];
+  } else if (selectedCountry == "€") {
+    show_currency = "priceThreeYearlyInEUR";
+    show_price = products.wordpressData[props.id - 1][show_currency];
+  } else if (selectedCountry == "₹") {
+    show_currency = "priceThreeYearlyInINR";
+    show_price = products.wordpressData[props.id - 1][show_currency];
+  }
+
+  // console.log(show_price);
 
   const handleCountryChange = (e) => {
-    console.log(selectedFrequency)
+    //alert(selectedCountry);
+
     setSelectedCountry(e.target.value);
     localStorage.setItem("selectedCountry", e.target.value);
   };
 
   const handleFrequencyChange = (e) => {
-    console.log("dd"+e.target.value)
-    console.log(products.wordpressData[0])
-    console.log("fktl"+products.wordpressData[e.target.value]);
+    var yr = e.target.value;
     setSelectedFrequency(e.target.value);
-    setSelectPrice(products.wordpressData[e.target.value].priceThreeYearlyInINR);
+    
+    if (yr == "priceThreeYearlyIn") {
+      if (selectedCountry == "$") {
+        show_currency = "priceThreeYearlyInUSD";
+      } else if (selectedCountry == "€") {
+        show_currency = "priceThreeYearlyInEUR";
+      } else if (selectedCountry == "₹") {
+        show_currency = "priceThreeYearlyInINR";
+      }
+
+      
+    } else if (yr == "priceTwoYearlyIn") {
+      if (selectedCountry == "$") {
+        show_currency = "priceTwoYearlyInUSD";
+      } else if (selectedCountry == "€") {
+        show_currency = "priceTwoYearlyInEUR";
+      } else if (selectedCountry == "₹") {
+        show_currency = "priceTwoYearlyInINR";
+      }
+
+      //show_price = products.wordpressData[props.id - 1][show_currency];
+    } else if (yr == "priceYearlyIn") {
+      if (selectedCountry == "$") {
+        show_currency = "priceYearlyInUSD";
+      } else if (selectedCountry == "€") {
+        show_currency = "priceYearlyInEUR";
+      } else if (selectedCountry == "₹") {
+        show_currency = "priceYearlyInINR";
+      }
+
+      //show_price = products.wordpressData[props.id - 1][show_currency];
+    }
+    show_price_1 = products.wordpressData[props.id - 1][show_currency];
+    setSelectPrice(show_price_1);
+    // console.log(show_price_1);
+    
+   // console.log(selectedCountry);
+    //console.log(products.wordpressData[props.id - 1]);
   };
 
   return (
@@ -70,12 +115,12 @@ function PriceCardBox(props) {
           <form>
             <select
               onChange={handleFrequencyChange}
-              
+              value={selectedFrequency}
               className="selectDay"
             >
-              <option value="2">3 Years</option>
-              <option value="1">2 Years</option>
-              <option value="0">1 Year</option>
+              <option value="priceThreeYearlyIn">3 Years</option>
+              <option value="priceTwoYearlyIn">2 Years</option>
+              <option value="priceYearlyIn">1 Year</option>
             </select>
           </form>
         </div>
@@ -87,9 +132,8 @@ function PriceCardBox(props) {
           <h2 className="priceCardPriceAmt">
             <span className="mainAmtPrice">
               {selectedCountry}
-              {
-                slectPrice
-              }
+              {slectPrice ? slectPrice : show_price}
+
             </span>
             <span className="monthSpan">
               per month <br /> billed annually
@@ -98,12 +142,7 @@ function PriceCardBox(props) {
         </div>
         <div className="orginalPriceWrap">
           <p className="desPriceText">
-            <span>Discounted from</span>{" "}
-            <del>
-            {selectedCountry}
-              {slectPrice + 10}{" "}
-              / mo
-            </del>
+            <span>Discounted from</span>{selectedCountry} <del>{show_price + 10} / mo</del>
           </p>
         </div>
         <ul className="ddos-first-features border-top">

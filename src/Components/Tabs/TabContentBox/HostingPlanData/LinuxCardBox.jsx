@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function LinuxCardBox(props) {
   // const wordpressData = products.wordpressData;
   // console.log(products.linuxData);
-  console.log(props.linuxCard);
+  // console.log(props.linuxCard);
   const [selectedCountry, setSelectedCountry] = useState("INR");
   const [selectedFrequency, setSelectedFrequency] = useState(
     "priceThreeYearlyIn"
@@ -71,67 +71,67 @@ function LinuxCardBox(props) {
             / month
           </span>
         </h2>
-        <ul class="ddos-first-features border-top">
+        <ul className="ddos-first-features border-top">
           <li>
-            <span class="capTitle">Web Space</span>
-            <span class="capAmt">{props.cardlinuxCapacity}</span>
+            <span className="capTitle">Web Space</span>
+            <span className="capAmt">{props.cardlinuxCapacity}</span>
           </li>
           <li>
-            <span class="capTitle">Unmetered Traffic</span>
-            <span class="capAmt">Unlimited</span>
+            <span className="capTitle">Unmetered Traffic</span>
+            <span className="capAmt">Unlimited</span>
           </li>
           <li>
-            <span class="capTitle">Anti DDOS protection</span>
-            <span class="capAmt">Unlimited</span>
+            <span className="capTitle">Anti DDOS protection</span>
+            <span className="capAmt">Unlimited</span>
           </li>
         </ul>
-        <ul class="ddos-second-features border-top">
+        <ul className="ddos-second-features border-top">
           <li>
-            <i class="feather icon-check-circle mr-3"></i> {props.cardlinuxOPt1}
+            <i className="feather icon-check-circle mr-3"></i> {props.cardlinuxOPt1}
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i>
+            <i className="feather icon-check-circle mr-3"></i>
             {props.cardlinuxOPT2} Account Domain
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i>
+            <i className="feather icon-check-circle mr-3"></i>
             {props.cardlinuxOPT3} Email Accounts
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i>
+            <i className="feather icon-check-circle mr-3"></i>
             {props.cardlinuxOPT4} Sub Domains
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i>
+            <i className="feather icon-check-circle mr-3"></i>
             {props.cardlinuxOPT5} MySQL Database
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i> Free SSL
+            <i className="feather icon-check-circle mr-3"></i> Free SSL
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i> {props.cardlinuxOPT6}
+            <i className="feather icon-check-circle mr-3"></i> {props.cardlinuxOPT6}
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i> Managed WordPress
+            <i className="feather icon-check-circle mr-3"></i> Managed WordPress
             Toolkit
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i> Out-of-the-box
+            <i className="feather icon-check-circle mr-3"></i> Out-of-the-box
             Caching
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i> Hosting CPanel
+            <i className="feather icon-check-circle mr-3"></i> Hosting CPanel
           </li>
 
           <li>
-            <i class="feather icon-check-circle mr-3"></i> Free 1-click
+            <i className="feather icon-check-circle mr-3"></i> Free 1-click
             WordPress install
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i> 24/7 Support
+            <i className="feather icon-check-circle mr-3"></i> 24/7 Support
           </li>
           <li>
-            <i class="feather icon-check-circle mr-3"></i> 99,90% Uptime
+            <i className="feather icon-check-circle mr-3"></i> 99,90% Uptime
             Guarantee
           </li>
         </ul>

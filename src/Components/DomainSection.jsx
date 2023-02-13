@@ -108,15 +108,12 @@ function DomainSection() {
                   <span className="input-group-input w-100">
                     <input
                       name="domain"
-                      autocomplete="off"
-                      autocorrect="off"
-                      autocapitalize="off"
-                      spellcheck="false"
+                     
                       className="searchInput form-control rounded-0"
                       aria-label="eg. example.com"
                       type="text"
                       placeholder="eg. example.com"
-                      fdprocessedid="2cl1a9"
+                     
                     />
                   </span>
                   <span className="input-group-btn">

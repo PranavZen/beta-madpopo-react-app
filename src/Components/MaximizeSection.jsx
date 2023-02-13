@@ -17,9 +17,9 @@ function MaximizeSection() {
                     <h3>Maximize Website Speed</h3>
                 </div>
                 <ul className="webSpeedList">
-                    <li><span><i class="feather icon-check"></i></span> <p>Maximize performance with LiteSpeed Web Server technology.</p></li>
-                    <li><span><i class="feather icon-check"></i></span> <p>Enjoy optimized performance with advanced cache solutions.</p></li>
-                    <li><span><i class="feather icon-check"></i></span> <p>Host your website in any of our server locations: USA, United Kingdom, Brazil, Singapore, Lithuania, India, and the Netherlands.</p></li>
+                    <li><span><i className="feather icon-check"></i></span> <p>Maximize performance with LiteSpeed Web Server technology.</p></li>
+                    <li><span><i className="feather icon-check"></i></span> <p>Enjoy optimized performance with advanced cache solutions.</p></li>
+                    <li><span><i className="feather icon-check"></i></span> <p>Host your website in any of our server locations: USA, United Kingdom, Brazil, Singapore, Lithuania, India, and the Netherlands.</p></li>
                 </ul>
             </div>
           </div>

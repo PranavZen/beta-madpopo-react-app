@@ -8,10 +8,8 @@ import {
 import {  footerPose1, windowsImg } from '../../Components';
 import WindowsTabContent from '../../Components/Tabs/TabContentBox/WindowsTabContent';
 import WpBestChoice from '../../Components/WordpressHostingPageComponent/WpBestChoice';
-import WordpressHostingFeatures from '../../Components/WordpressHostingPageComponent/WordpressHostingFeatures';
 import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
 import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
-import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/WordpressHostingFAQ';
 import WindowsHostingFeatures from '../../Components/WindowsHostingPageComponent/WindowsHostingFeatures';
 import WindowsHostingFaq from '../../Components/WindowsHostingPageComponent/WindowsHostingFaq';
 function WindowsWebHosting() {
