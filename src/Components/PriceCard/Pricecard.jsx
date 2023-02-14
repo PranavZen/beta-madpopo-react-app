@@ -23,6 +23,7 @@ function Pricecard(props) {
             wpNode,
             wpWeeklyBckp,
             cardAnchorLink,
+            buyBtnLink
             
           }) => (
             <PriceCardBox
@@ -42,6 +43,7 @@ function Pricecard(props) {
               wpNode={wpNode}
               wpWeeklyBckp={wpWeeklyBckp}
               cardAnchorLink={cardAnchorLink}
+              buyBtnLink={buyBtnLink}
               
             />
           )

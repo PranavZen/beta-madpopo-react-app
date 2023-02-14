@@ -6,6 +6,24 @@ import products from "../Components/SelectPricingData";
 
 function PriceCardBox(props) {
   const locationN = useLocation();
+  const slectOpt = [
+    { 
+      value: "INR",
+      currencyTag: "₹",
+      flag: '🇮🇳' 
+      
+    },
+    {
+      value: "USD",
+      currencyTag: "$",
+      flag: '🇺🇸'
+    },
+    {
+      value: "EUR",
+      currencyTag: "€",
+      flag: '🇪🇺'
+    },
+  ];
   // console.log(locationN.pathname);
   let pricingValues = pricingSEctionData2.pricingValues;
   if (locationN.pathname === "/beta-madpopo-react-app/WordpressHosting") {
@@ -26,7 +44,7 @@ function PriceCardBox(props) {
     "priceThreeYearlyIn"
   );
 
-  const [selectedCountry, setSelectedCountry] = useState("INR");
+  const [selectedCountry, setSelectedCountry] = useState(slectOpt[0].value);
 
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
@@ -144,7 +162,7 @@ function PriceCardBox(props) {
           <p className="desPriceText">
             <span>Discounted from</span> {selectedCountry} <del>{((slectPrice ? slectPrice : show_price ) * 3).toFixed(2)} / mo</del>
           </p>
-        </div>
+        </div> 
         <ul className="ddos-first-features border-top">
           <li>
             <span className="capTitle">SSD Storage</span>
@@ -204,9 +222,9 @@ function PriceCardBox(props) {
           </li>
         </ul>
 
-        <button className="btn btn-primary coodiv-hover-y w-100 mt-9 coodiv-text-9">
+        <a href={props.buyBtnLink} className="btn btn-primary coodiv-hover-y w-100 mt-9 coodiv-text-9">
           Buy Now
-        </button>
+        </a>
       </div>
     </div>
   );

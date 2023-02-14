@@ -10,7 +10,7 @@ export default function CountrySelect() {
     { 
       value: "INR",
       currencyTag: "₹",
-      flag: '🇮🇳'
+      flag: '🇮🇳' 
       
     },
     {

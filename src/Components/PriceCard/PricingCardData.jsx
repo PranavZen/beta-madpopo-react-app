@@ -13,6 +13,7 @@ const pricingSEctionData = {
       wpNode:`1`,
       wpWeeklyBckp:`Weekly Backup`,
       wordpressHostingTitle: "POPO - L",
+      buyBtnLink: 'http://www.madpopo.com/cart.php?a=add&pid=1'
     },
     {
       id: 2,
