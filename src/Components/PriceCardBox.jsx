@@ -3,27 +3,24 @@ import { useLocation } from "react-router-dom";
 import pricingSEctionData from "./PriceCard/PricingCardData";
 import pricingSEctionData2 from "./PriceCard/PriceCardDataTwo";
 import products from "../Components/SelectPricingData";
+// alert("ksksk");
+// console.log(products);
+
+// var show_price = "";
+// var show_currency = "";
+// var show_price_1 = "";
+// var show_price_2 = "";
+// if (products.wordpressData[0]["name"] == "POPO L") {
+//   show_price = products.wordpressData[0]["priceThreeYearlyInINR"];
+// } else if (products.wordpressData[1]["name"] == "POPO XL") {
+//   show_price_1 = products.wordpressData[1]["priceThreeYearlyInINR"];
+// } else if (products.wordpressData[2]["name"] == "POPO XXL") {
+//   show_price_2 = products.wordpressData[2]["priceThreeYearlyInINR"];
+// }
+// console.log(show_price);
 
 function PriceCardBox(props) {
   const locationN = useLocation();
-  const slectOpt = [
-    { 
-      value: "INR",
-      currencyTag: "₹",
-      flag: '🇮🇳' 
-      
-    },
-    {
-      value: "USD",
-      currencyTag: "$",
-      flag: '🇺🇸'
-    },
-    {
-      value: "EUR",
-      currencyTag: "€",
-      flag: '🇪🇺'
-    },
-  ];
   // console.log(locationN.pathname);
   let pricingValues = pricingSEctionData2.pricingValues;
   if (locationN.pathname === "/beta-madpopo-react-app/WordpressHosting") {
@@ -33,9 +30,10 @@ function PriceCardBox(props) {
     pricingValues = pricingSEctionData.pricingValues;
     // console.log("else - Home Page");
   }
+  var defaultPrice =  products.wordpressData[props.id - 1].priceThreeYearlyInINR;
   var show_price = "";
   var show_currency = "";
-   var show_price_1 =""
+  var show_price_1 = "";
   // var show_price_2 =""
   // console.log(pricingValues);
 
@@ -44,11 +42,11 @@ function PriceCardBox(props) {
     "priceThreeYearlyIn"
   );
 
-  const [selectedCountry, setSelectedCountry] = useState(slectOpt[0].value);
+  const [selectedCountry, setSelectedCountry] = useState("INR");
 
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
-  const [slectPrice, setSelectPrice ] = useState(show_price);
+  const [slectPrice, setSelectPrice] = useState(show_price);
 
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
@@ -80,7 +78,7 @@ function PriceCardBox(props) {
   const handleFrequencyChange = (e) => {
     var yr = e.target.value;
     setSelectedFrequency(e.target.value);
-    
+
     if (yr == "priceThreeYearlyIn") {
       if (selectedCountry == "$") {
         show_currency = "priceThreeYearlyInUSD";
@@ -89,8 +87,6 @@ function PriceCardBox(props) {
       } else if (selectedCountry == "₹") {
         show_currency = "priceThreeYearlyInINR";
       }
-
-      
     } else if (yr == "priceTwoYearlyIn") {
       if (selectedCountry == "$") {
         show_currency = "priceTwoYearlyInUSD";
@@ -115,8 +111,8 @@ function PriceCardBox(props) {
     show_price_1 = products.wordpressData[props.id - 1][show_currency];
     setSelectPrice(show_price_1);
     // console.log(show_price_1);
-    
-   // console.log(selectedCountry);
+
+    // console.log(selectedCountry);
     //console.log(products.wordpressData[props.id - 1]);
   };
 
@@ -150,8 +146,7 @@ function PriceCardBox(props) {
           <h2 className="priceCardPriceAmt">
             <span className="mainAmtPrice">
               {selectedCountry}
-              {slectPrice ? slectPrice : show_price}
-
+              { slectPrice ? slectPrice : show_price || defaultPrice }
             </span>
             <span className="monthSpan">
               per month <br /> billed annually
@@ -160,9 +155,12 @@ function PriceCardBox(props) {
         </div>
         <div className="orginalPriceWrap">
           <p className="desPriceText">
-            <span>Discounted from</span> {selectedCountry} <del>{((slectPrice ? slectPrice : show_price ) * 3).toFixed(2)} / mo</del>
+            <span>Discounted from</span> {selectedCountry}{" "}
+            <del>
+              {((slectPrice ? slectPrice : show_price) * 3).toFixed(2)} / mo
+            </del>
           </p>
-        </div> 
+        </div>
         <ul className="ddos-first-features border-top">
           <li>
             <span className="capTitle">SSD Storage</span>
@@ -222,7 +220,10 @@ function PriceCardBox(props) {
           </li>
         </ul>
 
-        <a href={props.buyBtnLink} className="btn btn-primary coodiv-hover-y w-100 mt-9 coodiv-text-9">
+        <a
+          href={props.buyBtnLink}
+          className="btn btn-primary coodiv-hover-y w-100 mt-9 coodiv-text-9"
+        >
           Buy Now
         </a>
       </div>
