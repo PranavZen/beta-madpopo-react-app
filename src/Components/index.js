@@ -16,7 +16,7 @@ export { default as pcImage } from "../../src/image/header-pc.png";
 export { default as pcImage2 } from "../../src/image/header-pc2.png";
 export { default as pcImage3 } from "../../src/image/computer_table.png";
 export { default as faceImage } from "../../src/image/face_1.png";
-export { default as yogaImg } from "../../src/image/popo-yoga.png";
+export { default as yogaImg } from "../../src/image/popo-yoga2.png";
 export { default as footerPose1 } from "../../src/image/footer_pose-1.png";
 
 export { default as migration } from "../../src/image/migrationmeeting.png";
