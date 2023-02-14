@@ -31,6 +31,7 @@ function PriceCardBox(props) {
     // console.log("else - Home Page");
   }
   var defaultPrice =  products.wordpressData[props.id - 1].priceThreeYearlyInINR;
+  var bydefaultCurrency = "₹";
   var show_price = "";
   var show_currency = "";
   var show_price_1 = "";
@@ -42,7 +43,7 @@ function PriceCardBox(props) {
     "priceThreeYearlyIn"
   );
 
-  const [selectedCountry, setSelectedCountry] = useState("INR");
+  const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
 
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
@@ -145,7 +146,7 @@ function PriceCardBox(props) {
           }
           <h2 className="priceCardPriceAmt">
             <span className="mainAmtPrice">
-              {selectedCountry}
+              {selectedCountry ? selectedCountry : bydefaultCurrency}
               { slectPrice ? slectPrice : show_price || defaultPrice }
             </span>
             <span className="monthSpan">
