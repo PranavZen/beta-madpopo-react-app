@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beta-madpopo-react-app/static/css/main.69f51661.css",
-    "main.js": "/beta-madpopo-react-app/static/js/main.65807051.js",
+    "main.js": "/beta-madpopo-react-app/static/js/main.49060a4c.js",
     "static/js/787.3e488476.chunk.js": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js",
     "static/media/computer_table.png": "/beta-madpopo-react-app/static/media/computer_table.2d6728eb0e65ec6daf9c.png",
     "static/media/24_shadow.png": "/beta-madpopo-react-app/static/media/24_shadow.c27eb95238c83b415aca.png",
@@ -22,7 +22,6 @@
     "static/media/besrightimg.png": "/beta-madpopo-react-app/static/media/besrightimg.424681ef0f5b270867ac.png",
     "static/media/left-top-elm.png": "/beta-madpopo-react-app/static/media/left-top-elm.903f33ea42d797bcebe2.png",
     "static/media/24x7.png": "/beta-madpopo-react-app/static/media/24x7.9b73538d95c4f8f0b7d8.png",
-    "static/media/popo-yoga.png": "/beta-madpopo-react-app/static/media/popo-yoga.7ced45f727bed55fee87.png",
     "static/media/header-pc2.png": "/beta-madpopo-react-app/static/media/header-pc2.6d9b787253cf499c0f4e.png",
     "static/media/wordpress_innerlogo.png": "/beta-madpopo-react-app/static/media/wordpress_innerlogo.0102920f28344ab393ab.png",
     "static/media/feather6cfa.svg?t=1501841394106": "/beta-madpopo-react-app/static/media/feather6cfa.29ae650770ffb8a6a3ba.svg",
@@ -57,6 +56,7 @@
     "static/media/main-trees-right.png": "/beta-madpopo-react-app/static/media/main-trees-right.a2f6d0a697919fbce1d9.png",
     "static/media/points-1.svg": "/beta-madpopo-react-app/static/media/points-1.e188f579ac06f4e72e4c.svg",
     "static/media/network-switch-equipment.jpg": "/beta-madpopo-react-app/static/media/network-switch-equipment.daf43b00c4614a1cfca3.jpg",
+    "static/media/popo-yoga2.png": "/beta-madpopo-react-app/static/media/popo-yoga2.3717a3bf73ee1e85000a.png",
     "static/media/left-part.png": "/beta-madpopo-react-app/static/media/left-part.51bed4eff29612731ce3.png",
     "static/media/woo-commercebg.jpg": "/beta-madpopo-react-app/static/media/woo-commercebg.7108643ec1bb9269a4b6.jpg",
     "static/media/launch.png": "/beta-madpopo-react-app/static/media/launch.95f0d7da8d58e2aa36a6.png",
@@ -126,11 +126,11 @@
     "static/media/arrow-right-desktop-2.svg": "/beta-madpopo-react-app/static/media/arrow-right-desktop-2.d3663980710bd470b402.svg",
     "static/media/wave-plan.svg": "/beta-madpopo-react-app/static/media/wave-plan.5fabe6835b36775f657c.svg",
     "main.69f51661.css.map": "/beta-madpopo-react-app/static/css/main.69f51661.css.map",
-    "main.65807051.js.map": "/beta-madpopo-react-app/static/js/main.65807051.js.map",
+    "main.49060a4c.js.map": "/beta-madpopo-react-app/static/js/main.49060a4c.js.map",
     "787.3e488476.chunk.js.map": "/beta-madpopo-react-app/static/js/787.3e488476.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69f51661.css",
-    "static/js/main.65807051.js"
+    "static/js/main.49060a4c.js"
   ]
 }
