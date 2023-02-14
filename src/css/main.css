@@ -853,6 +853,15 @@ body {
 }
 
 /*---- variable backrounds color -----*/
+a.btn{
+  color: #fff;
+}
+.aws-domains-ltds-prices-item a.btn{
+  color: #232323;
+}
+.aws-domains-ltds-prices-item a.btn:hover{
+  color: #fff  !important;
+}
 .bg-default {
   background: var(--background);
 }
@@ -1151,7 +1160,7 @@ cursor: pointer;
 .btn-primary:hover{
   background-color: #0015ff;
   border-color: #0015ff;
-  color: #fff;
+  color: #fff !important;
 }
 .dark-mode-texts .topBarStrip .topInner .numSpan{
 color: #fff;
@@ -3991,6 +4000,10 @@ background-repeat: no-repeat;
   line-height: 51px;
   font-size: 16px;
 }
+.form_section{
+  padding: 480px 0 80px;
+}
+
 .our-domains-features-box .our-domains-features-head {
   background: #e8efff;
   border-radius: 20px;
@@ -5244,7 +5257,7 @@ a.popover-host-features:hover {
   display: block;
   margin: 0 auto 15px;
   line-height: 62px;
-  background-color: #8d94fe;
+  background-color: #75a1ed;
   color: #fff;
   font-size: 22px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -12007,7 +12020,12 @@ background-color: transparent;
 .gb_infraWrap{
   padding-top: 250px;
 }
-
+.gb_infraWrap.wcasiaPT{
+  padding-top: 490px;
+}
+.wcasia_formWrap{
+  gap: 50px;
+}
 .gb_infraWrap .our-servers-place-section {
   padding-top: 80px !important;
 }
@@ -12638,7 +12656,7 @@ rder-radius: 20px;
   margin-top: 15px;
 }
 .selectDaysWrap .selectDay{
-  width: 32%;
+  width: 95px;
   height: 35px;
   border-radius: 6px;
   padding: 0 10px;
@@ -16689,9 +16707,59 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
 }
 
 /* Media Queries By Paranv */
+@media screen and (max-width: 834px){
+  .brand-logo.newBrandLogo a img{
+    width: 110px;
+  }
+  header.site-header.fixed-header-layout.top-header-fixed{
+    height: 100px;
+    padding-top: 0;
+  }
+  .topBarStrip .topInner{
+    margin-bottom: 10px;
+  }
+  .hamburger-icon .hamburger .hamburger-box i:first-child {
+    color: #332333;
+}
+.hamburger-icon{
+  margin-left: 15px;
+}
+.pcImageWrap{
+  width: 305px;
+  height: 100%;
+  right: -15px;
+}
+.typedTextMain{
+  font-size: 24px;
+}
+.typedText{
+  font-size: 24px;
+}
+#myTabslide{
+  margin-top: -560px;
+}
+}
 @media screen and (max-width:767px) {
+  .hamburger-icon{
+    margin-left: 0;
+  }
+  .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap p{
+    font-size: 14px;
+  }
+  .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap h3{
+    font-size: 20px;
+  }
+  .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-prev::before{
+    font-size: 18px;
+  }
+  .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-next::before{
+    font-size: 18px;
+  }
   .site-header--absolute{
-    padding: 0px 0 15px;
+    padding: 15px 0 15px;
+  }
+  header.site-header.fixed-header-layout.top-header-fixed{
+    padding-top: 0;
   }
   .topBarStrip .topInner span{
     font-size: 12px;
@@ -16774,11 +16842,15 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
     font-size: 14px;
   }
   .selectDaysWrap .selectDay{
-    width: 25%;
+    width: 95px;
     height: 30px;
     font-size: 12px;
-    background-position: 55px 10px;
+    background-position: 58px 9px;
   }
+  .domain-checker-emyui-aws-homepage{
+    padding: 20px 0;
+  }
+ 
   .linuxHostingCardWrap .linuxOuterPrice:nth-child(2)::before{
     left: 70px;
   }
@@ -16877,6 +16949,10 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   .btnRightIco{
     right: -55%;
     top: 27%;
+  }
+  .woo_commSection{
+    margin-top: 235px;
+    padding-bottom: 40px;
   }
   .web_speed_section .webSpeedWrap{
     flex-direction: column-reverse;
@@ -16997,7 +17073,7 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   background-position: 40% 0%;
 }
 .wp_img_overlayContent{
-  top: 260px;
+  top: 205px;
   width: 100%;
 }
 .wp_img_overlayContent p{
@@ -17015,7 +17091,7 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   margin-top: 12%;
 }
 .wp_pricingBox{
- 
+  margin-top: 115px;
   padding-bottom: 20px;
 }
 .dark-mode-texts .hamburger-box.outer i{
@@ -17131,27 +17207,30 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   font-size: 14px;
 }
 .linux_pricingBox{
-  
   padding-bottom: 20px;
+  margin-top: 210px;
 }
 .windows_pricingBox{
- 
   padding-bottom: 20px;
+  margin-top: 210px;
 }
 .windows_pricingBox .main-homepage-item .header-hero-pricing-plans{
   padding: 0 15px;
 }
 .vds_pricingBox{
-  padding-top: 295px;
+  padding-top: 210px;
   padding-bottom: 20px;
 }
 .ds_pricingBox{
-  padding-top: 295px;
+  padding-top: 210px;
   padding-bottom: 20px;
 }
-
+.cloudHost_pricingBox {
+  margin-top: 210px;
+  padding-bottom: 40px;
+}
 .resellerHosting_pricingBox{
-  padding-top: 295px;
+  padding-top: 260px;
   padding-bottom: 20px;
 }
 .gb_infraWrap .gb_top_para{

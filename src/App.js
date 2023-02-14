@@ -23,7 +23,7 @@ import ContactUs from "./Pages/ContactUs";
 import DomainRegistration from "./Pages/DomainRegistration";
 import DomainTransfer from "./Pages/DomainTransfer";
 import BusinessHosting from "./Pages/HostingPages/BusinessHosting";
-import DemoPage from "./Pages/HostingPages/DemoPage";
+import WcAsia from "./Pages/WcAsia";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -33,21 +33,22 @@ function App() {
     <ScrollToTop/>
       <Routes> 
         <Route path={process.env.PUBLIC_URL + '/'} element={<Home />}/>
-        <Route path="beta-madpopo-react-app/WordpressHosting" element={<WordpressHosting />}/>
-        <Route path="beta-madpopo-react-app/WoocommerceHosting" element={<WoocommerceHosting />}/>
-        <Route path="beta-madpopo-react-app/LinuxWebHosting" element={<LinuxWebHosting />}/>
-        <Route path="beta-madpopo-react-app/WindowsWebHosting" element={<WindowsWebHosting />}/>
-        <Route path="beta-madpopo-react-app/VirtualDedicatedServer" element={<VirtualDedicatedServer />}/>
-        <Route path="beta-madpopo-react-app/DedicatedServer" element={<DedicatedServer />}/>
-        <Route path="beta-madpopo-react-app/BusinessHosting" element={<BusinessHosting />}/>
-        <Route path="beta-madpopo-react-app/ResellerHosting" element={<ResellerHosting />}/>
-        <Route path="beta-madpopo-react-app/Home2" element={<Home2 />}/>
-        <Route path="beta-madpopo-react-app/Terms-Condition" element={<TermsCondition />}/>
-        <Route path="beta-madpopo-react-app/Global-Infrastructure" element={<Globalinfrastructure />}/>
-        <Route path="beta-madpopo-react-app/Contact-Us" element={<ContactUs />}/>
-        <Route path="beta-madpopo-react-app/Domain-Registration" element={<DomainRegistration />}/>
-        <Route path="beta-madpopo-react-app/Domain-Transfer" element={<DomainTransfer />}/>
-        <Route path="beta-madpopo-react-app/Test" element={<DemoPage />}/>
+        <Route path="/WordpressHosting" element={<WordpressHosting />}/>
+        <Route path="/WoocommerceHosting" element={<WoocommerceHosting />}/>
+        <Route path="/LinuxWebHosting" element={<LinuxWebHosting />}/>
+        <Route path="/WindowsWebHosting" element={<WindowsWebHosting />}/>
+        <Route path="/VirtualDedicatedServer" element={<VirtualDedicatedServer />}/>
+        <Route path="/DedicatedServer" element={<DedicatedServer />}/>
+        <Route path="/BusinessHosting" element={<BusinessHosting />}/>
+        <Route path="/ResellerHosting" element={<ResellerHosting />}/>
+        <Route path="/Home2" element={<Home2 />}/>
+        <Route path="/Terms-Condition" element={<TermsCondition />}/>
+        <Route path="/Global-Infrastructure" element={<Globalinfrastructure />}/>
+        <Route path="/Contact-Us" element={<ContactUs />}/>
+        <Route path="/Domain-Registration" element={<DomainRegistration />}/>
+        <Route path="/Domain-Transfer" element={<DomainTransfer />}/>
+        <Route path="/wcasia" element={<WcAsia />}/>
+        
       </Routes>
     </Router>
   );

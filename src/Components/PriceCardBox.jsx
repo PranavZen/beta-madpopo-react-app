@@ -23,7 +23,7 @@ function PriceCardBox(props) {
   const locationN = useLocation();
   // console.log(locationN.pathname);
   let pricingValues = pricingSEctionData2.pricingValues;
-  if (locationN.pathname === "/beta-madpopo-react-app/WordpressHosting") {
+  if (locationN.pathname === "/WordpressHosting") {
     // console.log("if - WP Hosting Page");
     pricingValues = pricingSEctionData2.pricingValues;
   } else {

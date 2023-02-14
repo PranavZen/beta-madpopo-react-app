@@ -2,7 +2,7 @@ const LinuxData = [
   {
     id: 1,
     cardlinuxTitle: "RockeyBoost",
-    Linkss: `/beta-madpopo-react-app/LinuxWebHosting`,
+    Linkss: `/LinuxWebHosting`,
     cardlinuxSubTitle: "Optimal solution for Beginners",
     cardlinuxOgPrice: `$32`,
     cardlinuxOffer: "offer - 30%",
@@ -27,7 +27,7 @@ const LinuxData = [
   {
     id: 2,
     cardlinuxTitle: "RockyPro",
-    Linkss: `/beta-madpopo-react-app/LinuxWebHosting`,
+    Linkss: `/LinuxWebHosting`,
     cardlinuxSubTitle: "Ideal for personal websites",
     cardlinuxOgPrice: `$33`,
     cardlinuxOffer: "offer - 30%",
@@ -52,7 +52,7 @@ const LinuxData = [
   {
     id: 3,
     cardlinuxTitle: "RockyBusiness",
-    Linkss: `/beta-madpopo-react-app/LinuxWebHosting`,
+    Linkss: `/LinuxWebHosting`,
     cardlinuxSubTitle: "Suitable for small business.",
     cardlinuxOgPrice: `$34`,
     cardlinuxOffer: "offer - 30%",

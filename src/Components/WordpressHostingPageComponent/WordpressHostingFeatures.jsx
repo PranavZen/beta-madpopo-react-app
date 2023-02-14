@@ -9,7 +9,7 @@ import {
 } from "../index";
 
 function WordpressHostingFeatures() {
-  return (
+  return ( 
     <div className="wp_featuersWrapper">
       <div className="wpSectionTitle">
         <h2>We Provide the Best Hosting for WordPress</h2>
@@ -33,7 +33,7 @@ function WordpressHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg2} alt="WordPress Staging Tool" className="width100"/>
+                <img src={wpFeatureImg2} alt="WordPress Staging Tool" />
               </div>
               <h4>WordPress Staging Tool</h4>
               <p>
@@ -61,7 +61,7 @@ function WordpressHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg4} alt="1-Click WordPress Installer" className="width100"/>
+                <img src={wpFeatureImg4} alt="1-Click WordPress Installer" />
               </div>
               <h4>1-Click WordPress Installer</h4>
               <p>

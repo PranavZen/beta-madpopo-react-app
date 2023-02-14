@@ -107,7 +107,7 @@ function Navbar() {
                                                             col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/beta-madpopo-react-app/WordpressHosting"
+                              to="/WordpressHosting"
                               className="feature-widget
                                                                 d-sm-flex "
                             >
@@ -133,7 +133,7 @@ function Navbar() {
                           </div>
                           <div className="col-md-6 col-lg-3 mb-10 menusHover">
                             <Link
-                              to="/beta-madpopo-react-app/WoocommerceHosting"
+                              to="/WoocommerceHosting"
                               className="feature-widget d-sm-flex"
                             >
                               <div className="widget-icon text-blue mr-0 mr-lg-6 mb-7 mb-md-0">
@@ -163,7 +163,7 @@ function Navbar() {
                                                             col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/beta-madpopo-react-app/LinuxWebHosting"
+                              to="/LinuxWebHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -200,7 +200,7 @@ function Navbar() {
                                                             col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/beta-madpopo-react-app/WindowsWebHosting"
+                              to="/WindowsWebHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -237,7 +237,7 @@ function Navbar() {
                                                             col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/beta-madpopo-react-app/VirtualDedicatedServer"
+                              to="/VirtualDedicatedServer"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -274,7 +274,7 @@ function Navbar() {
                                                             col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/beta-madpopo-react-app/DedicatedServer"
+                              to="/DedicatedServer"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -295,7 +295,7 @@ function Navbar() {
                                                                         color-blackish-blue wblink"
                                 >
                                   Dedicated Server
-                                </h3>
+                                </h3> 
                                 <p
                                   className="coodiv-text-11
                                                                         color-blackish-blue-opacity
@@ -311,7 +311,7 @@ function Navbar() {
                                                             col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/beta-madpopo-react-app/BusinessHosting"
+                              to="/BusinessHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -348,7 +348,7 @@ function Navbar() {
                                                             col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/beta-madpopo-react-app/ResellerHosting"
+                              to="/ResellerHosting"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -556,7 +556,7 @@ function Navbar() {
                         <div className="col-xl-12 col-lg-12 col-md-12">
                           <div className="domaulListing d-flex flex-wrap pb-5">
                             <div className="col-md-6 listTitle">
-                              <Link to="/beta-madpopo-react-app/Domain-Registration">
+                              <Link to="/Domain-Registration">
                                 <p>Free with Domain Registration</p>
                                 <ul className="listFeatureDomain">
                                   <li>
@@ -581,7 +581,7 @@ function Navbar() {
                               </Link>
                             </div>
                             <div className="col-md-6 listTitle">
-                            <Link to="/beta-madpopo-react-app/Domain-Registration">
+                            <Link to="/Domain-Registration">
                               <p>Free DNS Services</p>
                               <ul className="listFeatureDomain">
                                 <li>
@@ -667,7 +667,7 @@ function Navbar() {
                         <div className="col-xl-12 col-lg-12 col-md-12">
                           <div className="domaulListing d-flex flex-wrap pb-5">
                             <div className="col-md-6 listTitle">
-                            <Link to="/beta-madpopo-react-app/Domain-Transfer">
+                            <Link to="/Domain-Transfer">
                               <p>Free with Domain Transfer</p>
                               <ul className="listFeatureDomain">
                                 <li>
@@ -692,7 +692,7 @@ function Navbar() {
                               </Link>
                             </div>
                             <div className="col-md-6 listTitle">
-                            <Link to="/beta-madpopo-react-app/Domain-Transfer">
+                            <Link to="/Domain-Transfer">
                             <p>Free DNS Services</p>
                             <ul className="listFeatureDomain">
                               <li>
@@ -724,7 +724,7 @@ function Navbar() {
                 </li>
 
                 <li className="nav-item dropdown">
-                  <Link to="/beta-madpopo-react-app/Home2" className="nav-link">
+                  <Link to="/Home2" className="nav-link">
                     Help Center
                   </Link>
                 </li>
@@ -1000,7 +1000,7 @@ function Navbar() {
                  </h1>
                  <div className="col-md-4 abtMenuList">
                    <li className="drop-menu-item">
-                     <Link to="/beta-madpopo-react-app/Global-Infrastructure">
+                     <Link to="/Global-Infrastructure">
                        Global infrastructure
                      </Link>
                    </li>
@@ -1010,7 +1010,7 @@ function Navbar() {
                  </div>
                  <div className="col-md-4 abtMenuList">
                    <li className="drop-menu-item">
-                     <Link to="/beta-madpopo-react-app/Terms-Condition">
+                     <Link to="/Terms-Condition">
                        Terms & Conditions
                      </Link>
                    </li>
@@ -1023,7 +1023,7 @@ function Navbar() {
                      <Link to="#">Happy Customers</Link>
                    </li>
                    <li className="drop-menu-item">
-                     <Link to="/beta-madpopo-react-app/Contact-Us">
+                     <Link to="/Contact-Us">
                        Contact
                      </Link>
                    </li>

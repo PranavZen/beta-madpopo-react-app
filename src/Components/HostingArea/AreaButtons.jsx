@@ -13,7 +13,7 @@ function AreaButtons() {
                                 nav-link "
                                 id="global-network-country-01-tab"
                                 data-toggle="pill"
-                                to="/beta-madpopo-react-app/Global-Infrastructure" role="tab"
+                                to="/Global-Infrastructure" role="tab"
                                 aria-controls="global-network-country-01"
                                 aria-selected="true">
                                 <span className="coodiv-text-12">USA  <small>Central</small></span>
@@ -24,7 +24,7 @@ function AreaButtons() {
                                 className="network-country nav-link"
                                 id="global-network-country-02-tab"
                                 data-toggle="pill"
-                                to="/beta-madpopo-react-app/Global-Infrastructure" role="tab"
+                                to="/Global-Infrastructure" role="tab"
                                 aria-controls="global-network-country-02"
                                 aria-selected="false">
                                 <span className="coodiv-text-12">USA <small>East</small></span>
@@ -35,7 +35,7 @@ function AreaButtons() {
                                 className="network-country nav-link"
                                 id="global-network-country-03-tab"
                                 data-toggle="pill"
-                                to="/beta-madpopo-react-app/Global-Infrastructure" role="tab"
+                                to="/Global-Infrastructure" role="tab"
                                 aria-controls="global-network-country-03"
                                 aria-selected="false">
                                 <span className="coodiv-text-12">USA <small>West</small></span>
@@ -46,7 +46,7 @@ function AreaButtons() {
                                 className="network-country nav-link"
                                 id="global-network-country-04-tab"
                                 data-toggle="pill"
-                                to="/beta-madpopo-react-app/Global-Infrastructure" role="tab"
+                                to="/Global-Infrastructure" role="tab"
                                 aria-controls="global-network-country-04"
                                 aria-selected="true">
                                 <span className="coodiv-text-12">Asia
@@ -58,7 +58,7 @@ function AreaButtons() {
                                 className="network-country nav-link active"
                                 id="global-network-country-05-tab"
                                 data-toggle="pill"
-                                to="/beta-madpopo-react-app/Global-Infrastructure" role="tab"
+                                to="/Global-Infrastructure" role="tab"
                                 aria-controls="global-network-country-05"
                                 aria-selected="false">
                                 <span className="coodiv-text-12">India <small>Mumbai</small></span>
@@ -69,7 +69,7 @@ function AreaButtons() {
                                 className="network-country nav-link"
                                 id="global-network-country-06-tab"
                                 data-toggle="pill"
-                                to="/beta-madpopo-react-app/Global-Infrastructure" role="tab"
+                                to="/Global-Infrastructure" role="tab"
                                 aria-controls="global-network-country-06"
                                 aria-selected="false">
                                 <span className="coodiv-text-12">European Union  <small>Germany</small></span>
@@ -79,7 +79,7 @@ function AreaButtons() {
                             className="network-country nav-link"
                             id="global-network-country-07-tab"
                             data-toggle="pill"
-                            to="/beta-madpopo-react-app/Global-Infrastructure" role="tab"
+                            to="/Global-Infrastructure" role="tab"
                             aria-controls="global-network-country-07"
                             aria-selected="false">
                             <span className="coodiv-text-12">UK  <small>London</small></span>
