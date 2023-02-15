@@ -4,7 +4,7 @@ import pricingSEctionData from "./PriceCard/PricingCardData";
 import pricingSEctionData2 from "./PriceCard/PriceCardDataTwo";
 import products from "../Components/SelectPricingData";
 // alert("ksksk");
-// console.log(products);
+console.log(pricingSEctionData2);
 
 // var show_price = "";
 // var show_currency = "";

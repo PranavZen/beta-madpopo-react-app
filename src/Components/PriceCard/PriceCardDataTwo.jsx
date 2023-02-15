@@ -1,7 +1,7 @@
 const pricingSEctionData2 = {
     mainDataPricing: [
       {
-        id: 1,
+        id: 1, 
         cardTitle: "StarterBoost",
         cardSubTitle: "Optimal solution for Beginners",
         cardOgPrice: `$32`,
@@ -12,6 +12,7 @@ const pricingSEctionData2 = {
         wpNode:`1`,
         wpWeeklyBckp:`Weekly Backup`,
         wordpressHostingTitle: "POPO - L",
+        buyBtnLink: 'https://my.madpopo.com/cart.php?a=add&pid=1'
       },
       {
         id: 2,
@@ -25,6 +26,7 @@ const pricingSEctionData2 = {
         wpNode:`5`,
         wpWeeklyBckp:`Weekly Backup`,
         wordpressHostingTitle: "POPO - XL",
+        buyBtnLink: 'https://my.madpopo.com/cart.php?a=add&pid=2'
       },
       {
         id: 3,
@@ -38,6 +40,7 @@ const pricingSEctionData2 = {
         cardDDOS: "Save $399",
         wpWeeklyBckp:`Daily Backup`,
         wordpressHostingTitle: "POPO - XXL",
+        buyBtnLink: 'https://my.madpopo.com/cart.php?a=add&pid=3'
       },
     ],
     pricingValues: {

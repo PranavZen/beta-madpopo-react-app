@@ -22,7 +22,8 @@ function WordpressHostingPriceCard() {
               cardPrice2,
               cardPrice3,
               wpWeeklyBckp,
-              cardSubTitle
+              cardSubTitle,
+              buyBtnLink
             }) => (
               <PriceCardBox
                 key={id}
@@ -38,6 +39,7 @@ function WordpressHostingPriceCard() {
                 cardDDOS={cardDDOS}
                 wpWeeklyBckp={wpWeeklyBckp}
                 cardSubTitle={cardSubTitle}
+                buyBtnLink={buyBtnLink}
               />
             )
           )}
