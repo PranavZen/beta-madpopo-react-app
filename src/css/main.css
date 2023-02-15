@@ -1005,7 +1005,7 @@ border-top: 0 !important;
 border: 0;
 background: transparent;
 font-size: 14px;
-width: 80px;
+width: 95px;
 cursor: pointer;
 }
 .flagSelect:focus{
@@ -1062,7 +1062,7 @@ cursor: pointer;
   padding: 20px 30px 0px;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap{
-  height: 520px;
+  height: 780px;
     border-radius: 16px;
     box-shadow: 0 1rem 2rem rgb(0 0 0 / 10%);
     padding: 40px;
@@ -1072,13 +1072,17 @@ cursor: pointer;
     gap: 10px;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap .clintProfile{
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  overflow: hidden;
+  width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap .clintProfile img{
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap h3{
@@ -2666,7 +2670,7 @@ a.headerphone-number {
   height: auto;
 }
 .wp_hostingBgImg{
-  background-image: url(.././image/header/HostingPages/wordpress_hostingnew.png);
+  background-image: url(.././image/header/HostingPages/wordpress_hostingnew.webp);
   background-position: 100% 0%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -2675,37 +2679,37 @@ a.headerphone-number {
   position: relative;
 }
 .wp_hostingBgImg.termsConditionBg{
-  background-image: url(.././image/pages/innner-page-1.png);
+  background-image: url(.././image/pages/innner-page-1.webp);
 }
 .wp_hostingBgImg.gbInfraBg{
-  background-image: url(.././image/pages/innner-page-2.png);
+  background-image: url(.././image/pages/innner-page-2.webp);
 }
 .wp_hostingBgImg.domBG{
-  background-image: url(.././image/pages/innner-page-5.png);
+  background-image: url(.././image/pages/innner-page-5.webp);
 }
 .wp_hostingBgImg.domTransBG{
-  background-image: url(.././image/pages/domain-trasnfer.jpg);
+  background-image: url(.././image/pages/domain-trasnfer.webp);
 }
 .wp_hostingBgImg.businessBG{
-  background-image: url(.././image/header/HostingPages/buisness_bg.png);
+  background-image: url(.././image/header/HostingPages/buisness_bg.webp);
 }
 .wp_hostingBgImg.wooComBg{
-  background-image: url(.././image/header/HostingPages/woo-commercebg.jpg);
+  background-image: url(.././image/header/HostingPages/woo-commercebg.webp);
 }
 .wp_hostingBgImg.linuxBG{
-  background-image: url(.././image/header/HostingPages/hosting1.jpg);
+  background-image: url(.././image/header/HostingPages/hosting1.webp);
 }
 .wp_hostingBgImg.windowsBG{
-  background-image: url(.././image/header/HostingPages/windows-bg.jpg);
+  background-image: url(.././image/header/HostingPages/windows-bg.webp);
 }
 .wp_hostingBgImg.vdsBG{
-  background-image: url(.././image/header/HostingPages/hosting5.jpg);
+  background-image: url(.././image/header/HostingPages/hosting5.webp);
 }
 .wp_hostingBgImg.dedicatedServerBG{
-  background-image: url(.././image/header/HostingPages/woo-commercebg.jpg);
+  background-image: url(.././image/header/HostingPages/woo-commercebg.webp);
 }
 .wp_hostingBgImg.resellerBG{
-  background-image: url(.././image/header/HostingPages/hosting1.jpg);
+  background-image: url(.././image/header/HostingPages/hosting1.webp);
 }
 /* .wp_hostingBgImg.contactBgImg{
   background-image: url(.././image/pages/contact-madpopo.png);
@@ -2719,6 +2723,18 @@ a.headerphone-number {
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1;
+}
+.wp_img_overlayContent.linux_img_overlay{
+  top: 5.8%;
+}
+.wp_img_overlayContent.dedicatedIgOverlay{
+  top: 5.8%;
+}
+.wp_img_overlayContent.vdsImgOverlay{
+  top: 5.8%;
+}
+.wp_img_overlayContent.businessImgOverlay{
+  top: 5.8%;
 }
 .wp_img_overlayContent p{
   text-align: center;
@@ -2750,7 +2766,7 @@ a.headerphone-number {
   margin-top: -115px;
 }
 .woo_commSection{
-  margin-top: 25px;
+  margin-top: 95px;
   padding-bottom: 155px;
 }
 /* .wp_pricingBox .Word_host_price_Sec{
@@ -2862,15 +2878,15 @@ a.headerphone-number {
   padding-bottom: 95px;
 }
 .vds_pricingBox{
-  margin-top: 0;
+  margin-top: 15px;
   padding-bottom: 95px;
 }
 .ds_pricingBox{
-  margin-top: -10px;
+  margin-top: 30px;
   padding-bottom: 95px;
 }
 .cloudHost_pricingBox{
-  margin-top: 0px;
+  margin-top: 50px;
   padding-bottom: 95px;
 }
 .main-homepage-item.vpsSevtionWrap{
@@ -2930,6 +2946,18 @@ a.headerphone-number {
 }
 .wp_features .wp_featuersWrapper{
   padding: 85px 0;
+}
+.wp_features.linuxFeature .wp_featuersWrapper{
+  padding: 0 0 85px;
+}
+.wp_features.dedecatedFeatures .wp_featuersWrapper{
+  padding: 0 0 85px;
+}
+.wp_features.vdsFeatures .wp_featuersWrapper{
+  padding: 0 0 85px;
+}
+.wp_features.businessFeatures .wp_featuersWrapper{
+  padding: 0 0 85px;
 }
 .wp_features.dom_reg_features{
   padding: 85px 0 0;
@@ -2991,9 +3019,9 @@ padding: 0;
   width: 75px;
   height: auto;
 }
-.wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox .wp_fetureImageWrap img.width100{
+/* .wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox .wp_fetureImageWrap img.width100{
   width: 95px;
-}
+} */
 .wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox h4{
   font-size: 22px;
   font-weight: 700;
@@ -3088,7 +3116,7 @@ border-color: #00e100;
 }
 .ddosPriceCardRow .priceCardWrap:nth-child(2)::after {
   content: "";
-  background-image: url(../image/card_pose_1.png);
+  background-image: url(../image/card_pose_1.webp);
   background-repeat: no-repeat;
     background-size: cover;
     background-position: 60% 0%;
@@ -3101,7 +3129,7 @@ border-color: #00e100;
 }
 .globalWave::after{
 content: "";
-background-image: url(../image/global-infra.png);
+background-image: url(../image/global-infra.webp);
 background-repeat: no-repeat;
     background-size: 100%;
     background-position: 100% 100%;
@@ -4136,7 +4164,7 @@ background-repeat: no-repeat;
   width: 100%;
 }
 .bgPositions .topElm_left{
-  background: url(../image/left-top-elm.png);
+  background: url(../image/left-top-elm.webp);
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: -120% -38%;
@@ -4149,7 +4177,7 @@ background-repeat: no-repeat;
   pointer-events: none;
 }
 .bgPositions .leftElm_mid{
-  background: url(../image/left-mid-elm-1.png);
+  background: url(../image/left-mid-elm-1.webp);
   background-size: 90%;
     background-repeat: no-repeat;
     background-position: -247% 40%;
@@ -4162,7 +4190,7 @@ background-repeat: no-repeat;
     pointer-events: none;
 }
 .bgPositions .rightElm_mid{
-  background: url(../image/right-elm.png);
+  background: url(../image/right-elm.webp);
   background-size: 90%;
     background-repeat: no-repeat;
     background-position: 305% 25%;
@@ -4178,7 +4206,7 @@ background-repeat: no-repeat;
   overflow: hidden;
 }
 .topLeftIco{
-  background: url(../image/migrationwindow-left.png);
+  background: url(../image/migrationwindow-left.webp);
   background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
@@ -4191,7 +4219,7 @@ background-repeat: no-repeat;
     pointer-events: none;
 }
 .topRightIco{
-  background: url(../image/migrationwindow-right-top.png);
+  background: url(../image/migrationwindow-right-top.webp);
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
@@ -4204,7 +4232,7 @@ background-repeat: no-repeat;
   pointer-events: none;
 }
 .btnRightIco{
-  background: url(../image/migrationwindow-right-btm.png);
+  background: url(../image/migrationwindow-right-btm.webp);
   background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
@@ -4419,7 +4447,7 @@ div.slick-active.slick-current .main-features-box {
 }
 .slidePriceCardPosition:after{
   content: "";
-  background: url(../image/slidercartoon.png);
+  background: url(../image/slidercartoon.webp);
   background-size: 25%;
     background-repeat: no-repeat;
     background-position: center;
@@ -4434,7 +4462,7 @@ div.slick-active.slick-current .main-features-box {
 }
 .slidePriceCardPosition:before{
   content: "";
-  background: url(../image/sliderbtmimg.png);
+  background: url(../image/sliderbtmimg.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;

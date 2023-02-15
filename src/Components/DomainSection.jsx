@@ -9,14 +9,10 @@ function DomainSection() {
           <div className="row justify-content-lg-start justify-content-center px-lg-0 px-10 domSecRow">
             <div className="col-lg-8 col-11 text-lg-left text-center">
               <h2 className="coodiv-text-7 font-weight-bold mb-4">
-                All what you need is a featured domain name to start.
+              Your Domain, Your Identity: Why Choosing a Featured Domain Name Matters
               </h2>
               <p className="coodiv-text-10 font-weight-light mb-13">
-                The perfect domain lets people know at a glance why you're
-                online{" "}
-                <b className="font-weight-bold">and why you're awesome</b>. Find
-                the right domain extension now to grab more attention and
-                visitors.
+              Choosing a featured domain name is essential for establishing your online identity and creating a successful web presence and why you're awesome. Find the <b className="font-weight-bold">right domain extension</b> now to grab more attention and visitors.
               </p>
             </div>
           </div>
@@ -34,7 +30,7 @@ function DomainSection() {
                 href=""
                 className="btn btn-outline-black coodiv-text-11 px-10 font-weight-bold rounded-0 d-block w-100 d-flex align-items-center justify-content-center btn-with-hide-icon"
               >
-                Check Availabilityfff
+                Check Availability
                 <i className="feather icon-arrow-right font-weight-bold"></i>
               </a>
             </div>

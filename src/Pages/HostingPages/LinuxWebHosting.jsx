@@ -12,12 +12,19 @@ import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/
 import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";
 import SecondTabContent from "../../Components/Tabs/TabContentBox/SecondTabContent";
 import LinuxHostingFeatures from "../../Components/LinuxHostingPageComponent/LinuxHostingFeatures";
+import Seo from "../../Components/SEO/Seo";
 function LinuxWebHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg linuxBG">
+    <Seo
+    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
+    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
+    keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
+    
+  />
       <Navbar />
 
-      <div className="wp_img_overlayContent">
+      <div className="wp_img_overlayContent linux_img_overlay">
         <p>Linux Web Hosting</p>
         <h1>Utilize the Online Space to Enhance Your Physical Business</h1>
         <span>Unlimited boards and workflows. no credit card needed</span>
@@ -38,12 +45,17 @@ function LinuxWebHosting() {
       >
       <SecondTabContent />
       </div>
-      <div className="wpChoiceSection">
-        <WpBestChoice />
-      </div>
-      <div className="wp_features">
+      
+      {
+      // <div className="wpChoiceSection">
+      //   <WpBestChoice />
+      // </div>
+    }
+
+      <div className="wp_features linuxFeature">
         <LinuxHostingFeatures/>
       </div>
+
       <div className="wp_plansListing">
         <WordpressPlansListing />
       </div>

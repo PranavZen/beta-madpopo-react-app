@@ -724,7 +724,7 @@ function Navbar() {
                 </li>
 
                 <li className="nav-item dropdown">
-                  <Link to="/Home2" className="nav-link">
+                  <Link to="/" className="nav-link">
                     Help Center
                   </Link>
                 </li>

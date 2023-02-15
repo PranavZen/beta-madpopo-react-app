@@ -16,7 +16,7 @@ function WpBestChoice() {
                 <p>
                   Faster load times lead to better user experience, greater
                   conversion rates, and improved search engine optimization. At
-                  Hostinger, we utilize LiteSpeed servers and include the LSCWP
+                  MadPopo, we utilize LiteSpeed servers and include the LSCWP
                   plugin to provide fast WordPress hosting solutions.
                 </p>
               </div>

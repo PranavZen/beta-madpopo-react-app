@@ -1,21 +1,26 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../Components/Footer/Footer";
 import GBFaqList from "../Components/GlobalInfra/GBFaqList";
 import GBFaqRes from "../Components/GlobalInfra/GBFaqRes";
 import Navbar from "../Components/Navbar/Navbar";
 import MapContainer from "../Components/MapContainer";
+import Seo from "../Components/SEO/Seo";
 function ContactUs() {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      
-      setScroll(window.scrollY >= 1580)
-      
-    })
+      setScroll(window.scrollY >= 1580);
+    });
   }, []);
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg contactBgImg">
+    <Seo
+    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
+    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
+    keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
+    
+  />
       <Navbar />
       <div className="hero-area-coodiv header-google-map-height position-relative white-bg light-mode-texts">
         <div className="header-hero-backgrounds">
@@ -30,7 +35,10 @@ function ContactUs() {
             ></path>
           </svg>
         </div>
-        <div class="google-map header-google-map fluid-map-height" id="googleMap">
+        <div
+          class="google-map header-google-map fluid-map-height"
+          id="googleMap"
+        >
           <MapContainer />
         </div>
         <div className="map-height-lose-header"></div>
@@ -127,7 +135,6 @@ function ContactUs() {
               </div>
             </div>
             <div className="col-md-12 col-lg-4 px-lg-0 mt-lg-0 mt-10">
-              
               <div className="features-box-3 px-5 py-5 border-opacity position-relative white-bg rounded-20 bg-white shadow-2 coodiv-z-index-2">
                 <div className="col-md-12 text-left px-8 pb-8 pt-5 d-flex justify-content-start align-items-center border-bottom-separate">
                   <div className="widget-icon circle-sm-2 bg-white coodiv-text-6 text-primary mr-7">
@@ -201,18 +208,32 @@ function ContactUs() {
                       Follow us in Social Media
                     </h5>
                     <div className="social-numbers contact-page d-flex mt-3">
-                      <Link className="mr-1 fb" to="#">
-                        <i className="fa fa-facebook-f"></i>
-                      </Link>
-                      <Link className="mr-1 tw" to="#">
+                      {
+                        //   <Link className="mr-1 fb" to="#">
+                        //   <i className="fa fa-facebook-f"></i>
+                        // </Link>
+                      }
+
+                      <Link
+                        className="mr-1 tw"
+                        to="https://twitter.com/madpopowp"
+                      >
                         <i className="fa fa-twitter"></i>
                       </Link>
-                      <Link className="mr-1 you" to="#">
-                        <i className="fa fa-youtube"></i>
+                      <Link
+                        className="mr-1 tw"
+                        to="https://www.linkedin.com/company/madpopowp"
+                      >
+                        <i className="fa fa-linkedin"></i>
                       </Link>
-                      <Link className="insta" to="#">
-                        <i className="fa fa-instagram"></i>
-                      </Link>
+                      {
+                        // <Link className="insta" to="#">
+                        //   <i className="fa fa-instagram"></i>
+                        // </Link>
+                        // <Link className="mr-1 you" to="#">
+                        //   <i className="fa fa-youtube"></i>
+                        // </Link>
+                      }
                     </div>
                   </div>
                 </div>
@@ -220,8 +241,8 @@ function ContactUs() {
             </div>
           </div>
         </div>
-      </div> 
-     
+      </div>
+
       <div className="popular-topics-section pt-15 pb-md-20 pb-15 pt-lg-20 pb-lg-32 bg-default-1 position-relative border-top">
         <svg
           className="bg-wave-box-end-z1"
