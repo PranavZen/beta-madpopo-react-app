@@ -10,8 +10,9 @@ function WcForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (name && email && mobileNumber) {
+      console.log(name);
       axios
-        .post("save-data.php", { name, email, mobileNumber, comment })
+        .post("https://madpopo.com/save-data.php", { name:name, email:email, mobileNumber:mobileNumber, comment:comment })
         .then((response) => {
           setIsSubmitted(true);
         })

@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../Components/Footer/Footer";
-import GBFaqList from "../Components/GlobalInfra/GBFaqList";
-import GBFaqRes from "../Components/GlobalInfra/GBFaqRes";
 import Navbar from "../Components/Navbar/Navbar";
 import MapContainer from "../Components/MapContainer";
 import Seo from "../Components/SEO/Seo";
@@ -187,18 +185,18 @@ function ContactUs() {
                         // </Link>
                       }
 
-                      <Link
+                      <a
                         className="mr-1 tw"
-                        to="https://twitter.com/madpopowp"
+                        href="https://twitter.com/madpopowp"
                       >
                         <i className="fa fa-twitter"></i>
-                      </Link>
-                      <Link
+                      </a>
+                      <a
                         className="mr-1 tw"
-                        to="https://www.linkedin.com/company/madpopowp"
+                        href="https://www.linkedin.com/company/madpopowp"
                       >
                         <i className="fa fa-linkedin"></i>
-                      </Link>
+                      </a>
                       {
                         // <Link className="insta" to="#">
                         //   <i className="fa fa-instagram"></i>
