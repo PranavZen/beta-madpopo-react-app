@@ -8,11 +8,11 @@ import {
   wpFeatureImg6,
 } from "../index";
 
-function WordpressHostingFeatures() {
+function WooCommerceFeatures() {
   return ( 
     <div className="wp_featuersWrapper">
       <div className="wpSectionTitle">
-        <h2>We Provide the Best Hosting for WordPress</h2>
+        <h2>We Provide the Best Hosting for WooCommerce</h2>
       </div>
       <div className="container">
         <div className="wp_FeatureRow">
@@ -25,7 +25,7 @@ function WordpressHostingFeatures() {
               <p>
                 Our web hosting is powered by LiteSpeed - the fastest web server
                 in the industry. Combined with the LiteSpeed Cache plugin, your
-                WordPress websites will perform up to 4x faster than regular
+                WooCommerce websites will perform up to 4x faster than regular
                 hosting.
               </p>
             </div>
@@ -35,7 +35,7 @@ function WordpressHostingFeatures() {
               <div className="wp_fetureImageWrap">
                 <img src={wpFeatureImg2} alt="WordPress Staging Tool" />
               </div>
-              <h4>WordPress Staging Tool</h4>
+              <h4>WooCommerce Staging Tool</h4>
               <p>
                 If you wish to test new features on your website, try out
                 MadPopo’s user-friendly staging tool. Generate a duplicate
@@ -53,7 +53,7 @@ function WordpressHostingFeatures() {
               <p>
                 Your software needs to be up-to-date to keep cyber threats at
                 bay. That’s why we offer automatic core and security patches in
-                our WordPress web hosting plans whenever WordPress releases
+                our woocomeerce web hosting plans whenever woocomeerce releases
                 updates.
               </p>
             </div>
@@ -63,7 +63,7 @@ function WordpressHostingFeatures() {
               <div className="wp_fetureImageWrap">
                 <img src={wpFeatureImg4} alt="1-Click WordPress Installer" />
               </div>
-              <h4>1-Click WordPress Installer</h4>
+              <h4>1-Click WooCommerce Installer</h4>
               <p>
                 Once you’ve purchased a hosting plan, you can install this CMS
                 with a single click and proceed to develop your website
@@ -89,7 +89,7 @@ function WordpressHostingFeatures() {
               <div className="wp_fetureImageWrap">
                 <img src={wpFeatureImg6} alt="WordPress Pro Features" />
               </div>
-              <h4>WordPress Pro Features</h4>
+              <h4>Woocommerce Pro Features</h4>
               <p>
                 Boost productivity and enjoy increased freedom on your site
                 using tools such as PHP version control, WP-CLI, Git
@@ -103,4 +103,4 @@ function WordpressHostingFeatures() {
   );
 }
 
-export default WordpressHostingFeatures;
+export default WooCommerceFeatures;

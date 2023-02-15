@@ -1155,7 +1155,9 @@ cursor: pointer;
     text-align: justify;
     line-height: 1.8;
 }
-
+.wp_hostingFaqSection .wp_faqRow .wp_faq_Box.woocomFaqBox p{
+  margin-bottom: 15px;
+}
 .btn-primary{
   background-color: #0056ed;
   border-color: #0056ed;
@@ -2725,10 +2727,10 @@ a.headerphone-number {
     z-index: 1;
 }
 .wp_img_overlayContent.linux_img_overlay{
-  top: 5.8%;
+  top: 4.8%;
 }
 .wp_img_overlayContent.dedicatedIgOverlay{
-  top: 5.8%;
+  top: 4.8%; 
 }
 .wp_img_overlayContent.vdsImgOverlay{
   top: 5.8%;
@@ -2766,7 +2768,7 @@ a.headerphone-number {
   margin-top: -115px;
 }
 .woo_commSection{
-  margin-top: 95px;
+  margin-top: 80px;
   padding-bottom: 155px;
 }
 /* .wp_pricingBox .Word_host_price_Sec{
@@ -2782,11 +2784,19 @@ a.headerphone-number {
 .wpBestChoiceWrap .wpChoiceSecTitle{
   padding-top: 60px;
 }
+
 .wpBestChoiceWrap .wpChoiceSecTitle h2{
   color: #fff;
   text-align: center;
   font-weight: 700;
   font-size: 38px;
+}
+.wpBestChoiceWrap .wpChoiceSecTitle .woopara{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.8;
 }
 .wp_innerBox{
   display: flex;
@@ -2817,7 +2827,7 @@ a.headerphone-number {
   width: 28%;
   margin-right: 6%;
   z-index: -3;
-  margin-top: 8%;
+  margin-top: 13%;
 }
 .wp_innerBox.windowsImg img{
   width: 26%;
@@ -3075,7 +3085,7 @@ padding: 0;
 }
 .wp_plansListing .wp_plans_listSection .wp_plansRow .palnsWrapbox .plans_listName h5{
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 .wp_hostingBgImg .ddosPriceCardRow .priceCardWrap:nth-child(2){
@@ -9572,6 +9582,15 @@ color: #ff6a00;
 }
 .pose_1.vdsPose{
   bottom: -79%;
+}
+.pose_1.wooComPose{
+  bottom: -90%;
+}
+.pose_1.linuxPose{
+  bottom: -88%;
+}
+.pose_1.dsPose{
+  bottom: -86%;
 }
 .pose_1 img{
   width: 20%;

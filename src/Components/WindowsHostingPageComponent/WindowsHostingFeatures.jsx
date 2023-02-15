@@ -20,11 +20,12 @@ function WindowsHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg1} alt="SSD NVMe Drive" />
+                <img src={wpFeatureImg1} alt="Highly Secure and Reliable" />
               </div>
-              <h4>SSD NVMe Drive</h4>
+              <h4>Highly Secure and Reliable</h4>
               <p>
-              Experience accelerated website performance while you host your website at MilesWeb server. Your complete website will be stored at our powerful SSD NVMe based servers that give you blazing fast speed.
+              We offer you unlimited bandwidth so that thousands of users can always access your website worldwide. Not only that, your website will be hosted in our secure data center with daily backup as well as monitoring which enables you to rest at night, knowing your website is always online.
+
               </p>
             </div>
           </div>
@@ -32,55 +33,56 @@ function WindowsHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg3} alt="Plesk Control Panel" />
+                <img src={wpFeatureImg3} alt="Powerful control panel- Plesk" />
               </div>
-              <h4>Plesk Control Panel</h4>
+              <h4>Powerful control panel- Plesk</h4>
               <p>
-              Seamlessly manage your Windows hosting account with Plesk control panel that comes with our hosting account. You can manage your website, domain, emails and databases through this Plesk panel.
+              We use the latest Plesk Onyx 17.5 control panel that has an easy and intuitive interface to manage the websites and emails. We offer a 1-click installation of many applications. With our web hosting, you can experience the ability to perform tasks quickly, easily and reliably
+
               </p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg4} alt="1-Click Installer" className="width100"/>
+                <img src={wpFeatureImg4} alt="Safety and Security" className="width100"/>
               </div>
-              <h4>1-Click Installer</h4>
+              <h4>Safety and Security</h4>
               <p>
-              We make it easy for you to install apps with just one click. You can save a lot of time and efforts in downloading and installing those apps on the server. WordPress, Joomla, Magento and 400+ such apps can be installed with ease.
+              We ensure that your website is safe and secure behind the best of firewall Softwares and Hardware. To top it all we have a highly experienced staff.
               </p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg5} alt="Programming and Database" />
+                <img src={wpFeatureImg5} alt="Free SSL Certificate" />
               </div>
-              <h4>Programming and Database</h4>
+              <h4>Free SSL Certificate</h4>
               <p>
-              The programming languages that you get with our Windows shared hosting plans are: ASP/ASP.NET 3.5 and 4.6, PHP, SSICurl, GD Library, MVC, AJAX, MySQL, and MS SQL 2012 Express.
+              An SSL certificate on your website builds trust for anyone visiting your website. With our web hosting plans, you get Lets Encrypt SSL certificate without any additional cost.
               </p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg6} alt="Instant Account Setup" />
+                <img src={wpFeatureImg6} alt="Malware Scan and Removal" />
               </div>
-              <h4>Instant Account Setup</h4>
+              <h4>Malware Scan and Removal</h4>
               <p>
-              Just after your payment process is done we'll set up your Windows hosting account instantly. You don't have to wait for hours and hours to set up your small business hosting.
+              We know how annoying it can be to be the victim of a hacked website. So, our malware removal tool will protect your website from any threats and malware.
               </p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg2} alt="Secure Email" className="width100"/>
+                <img src={wpFeatureImg2} alt="Scalable Hosting" className="width100"/>
               </div>
-              <h4>Secure Email</h4>
+              <h4>Scalable Hosting</h4>
               <p>
-              You can securely access emails directly from any web browser on Windows, Mac or any mobile devices. We support POP3/ IMAP/ SMTP protocols for sending and receiving emails.
+              We are here to serve you, whether you are a start-up or a Big Portal. We have built a resilient data center which swiftly aligns to the needs of our clients – be it bandwidth, storage, or networking speed, scaling is simple.
               </p>
             </div>
           </div>

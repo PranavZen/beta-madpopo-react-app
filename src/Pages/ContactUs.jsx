@@ -141,10 +141,9 @@ function ContactUs() {
                     <i className="feather icon-phone-call"></i>
                   </div>
                   <div>
-                    <h5 className="coodiv-text-8 mb-0">Call us for free</h5>
+                    <h5 className="coodiv-text-8 mb-0">Sales</h5>
                     <p className="coodiv-text-11 mb-0">
-                      +1-940-394-2948 <br />
-                      +1-389-385-3807
+                      +91 9930809662
                     </p>
                   </div>
                 </div>
@@ -155,8 +154,8 @@ function ContactUs() {
                   <div>
                     <h5 className="coodiv-text-8 mb-0">Email us</h5>
                     <p className="coodiv-text-11 mb-0">
-                      support@coodiv.net <br />
-                      items@coodiv.net
+                    sales@madpopo.com <br />
+                    support@madpopo.com
                     </p>
                   </div>
                 </div>
@@ -167,38 +166,12 @@ function ContactUs() {
                   <div>
                     <h5 className="coodiv-text-8 mb-0">Visit our office</h5>
                     <p className="coodiv-text-11 mb-0">
-                      Rue amir khaled nbr 4, 19001
-                      <Link
-                        target="_blank"
-                        className="btn btn-warning coodiv-text-12 py-1 px-1 rounded-20 mt-2"
-                        to="https://www.google.dz/maps/place/Coodiv/@36.1913308,5.4142593,15z/data=!4m2!3m1!1s0x0:0x704be71cc80998dd?sa=X&amp;ved=2ahUKEwjnnpbe8ZbxAhXR4IUKHV4CCEUQ_BIwEnoECD0QBQ"
-                      >
-                        <i className="feather icon-map-pin mr-3"></i> open
-                        google maps
-                      </Link>
+                    609, Pranik Chamber, Saki Vihar Road, Sakinaka Metro, Andheri East, Mumbai 400072, India
+                      
                     </p>
                   </div>
                 </div>
-                <div className="col-md-12 text-left px-8 pb-8 pt-5 d-flex justify-content-start align-items-center border-bottom-separate">
-                  <div className="widget-icon circle-sm-2 bg-white coodiv-text-6 text-primary mr-7">
-                    <i className="feather icon-life-buoy"></i>
-                  </div>
-                  <div>
-                    <h5 className="coodiv-text-8 mb-0">
-                      open a support ticket
-                    </h5>
-                    <p className="coodiv-text-11 mb-0">
-                      chose a departement and{" "}
-                      <Link
-                        target="_blank"
-                        className="btn btn-warning coodiv-text-12 py-1 px-1 rounded-20 mt-2"
-                        to="#"
-                      >
-                        open new support ticket
-                      </Link>
-                    </p>
-                  </div>
-                </div>
+                
                 <div className="col-md-12 text-left px-8 pb-8 pt-7 d-flex justify-content-start align-items-center">
                   <div className="widget-icon circle-sm-2 bg-white coodiv-text-6 text-primary mr-7">
                     <i className="feather icon-share-2"></i>
