@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd1273a2.css",
-    "main.js": "/static/js/main.6c0534f9.js",
+    "main.css": "/static/css/main.087cdff6.css",
+    "main.js": "/static/js/main.0333f9ad.js",
     "static/js/787.10360b01.chunk.js": "/static/js/787.10360b01.chunk.js",
     "static/media/computer_table.png": "/static/media/computer_table.2d6728eb0e65ec6daf9c.png",
     "static/media/24_shadow.png": "/static/media/24_shadow.c27eb95238c83b415aca.png",
@@ -46,6 +46,7 @@
     "static/media/points-1.svg": "/static/media/points-1.e188f579ac06f4e72e4c.svg",
     "static/media/network-switch-equipment.jpg": "/static/media/network-switch-equipment.daf43b00c4614a1cfca3.jpg",
     "static/media/left-part.png": "/static/media/left-part.51bed4eff29612731ce3.png",
+    "static/media/avtar.webp": "/static/media/avtar.8fce11109f9daf0de09b.webp",
     "static/media/launch.png": "/static/media/launch.95f0d7da8d58e2aa36a6.png",
     "static/media/gift-4.png": "/static/media/gift-4.72e584f34304b6970dce.png",
     "static/media/planet-2.png": "/static/media/planet-2.b94733215aee2e688629.png",
@@ -75,7 +76,6 @@
     "static/media/domain-trasnfer.webp": "/static/media/domain-trasnfer.515953f2e26e0492c834.webp",
     "static/media/pattern-2.png": "/static/media/pattern-2.ff51c5111b24ff4fc4be.png",
     "static/media/woo-commercebg.webp": "/static/media/woo-commercebg.6de3845c9b3979a23043.webp",
-    "static/media/quick-provision.png": "/static/media/quick-provision.fe16e2f3be57fbb74ea7.png",
     "static/media/buisness_bg.webp": "/static/media/buisness_bg.a9dd1cdc6fb7bd6fd4e5.webp",
     "static/media/points-2.svg": "/static/media/points-2.e1a9707357a1133a8144.svg",
     "static/media/windows-bg.webp": "/static/media/windows-bg.4fb48a9981986b318db5.webp",
@@ -110,10 +110,15 @@
     "static/media/WordPress-Pro-Features-new.webp": "/static/media/WordPress-Pro-Features-new.641c0ba2968ff549c39c.webp",
     "static/media/1-Click WordPress-Installer-new.webp": "/static/media/1-Click WordPress-Installer-new.6eb4b75af8c4000884e1.webp",
     "static/media/Optimized-Technology-new.webp": "/static/media/Optimized-Technology-new.0b509267dcae7d226d08.webp",
+    "static/media/Support-Round-The-Clock.webp": "/static/media/Support-Round-The-Clock.402b64d623917dd87231.webp",
     "static/media/WordPress-Staging-Tool-new.webp": "/static/media/WordPress-Staging-Tool-new.d2156df91abf628e01fb.webp",
-    "static/media/avtar.webp": "/static/media/avtar.af0313384ccbec19b314.webp",
+    "static/media/Quickly-Provisioning.webp": "/static/media/Quickly-Provisioning.a0aa124ae33487dfa364.webp",
+    "static/media/Global-Availability.webp": "/static/media/Global-Availability.52e2a7e224247f65037b.webp",
+    "static/media/Best-Price-at-Best-Performance.webp": "/static/media/Best-Price-at-Best-Performance.a9877bbcfc477eec190c.webp",
     "static/media/curved-arrow-with-broken-line.svg": "/static/media/curved-arrow-with-broken-line.6b4dbb05c6c774ae4822.svg",
+    "static/media/Storage-I-O-load-balancing.webp": "/static/media/Storage-I-O-load-balancing.d824a6247b817f2b407f.webp",
     "static/media/wpml-widget-filter.svg": "/static/media/wpml-widget-filter.78f54ff290af05b056d2.svg",
+    "static/media/High-availability.webp": "/static/media/High-availability.b307d9236bd2f795501f.webp",
     "static/media/online.webp": "/static/media/online.15ae989e0c3a65128b40.webp",
     "static/media/shop.webp": "/static/media/shop.92d1e30d660a1058fc74.webp",
     "static/media/name.webp": "/static/media/name.c7056f9e8e2307c01f90.webp",
@@ -128,12 +133,12 @@
     "static/media/arrow-right-desktop-1.svg": "/static/media/arrow-right-desktop-1.27df23a9d073fe62d89c.svg",
     "static/media/arrow-right-desktop-2.svg": "/static/media/arrow-right-desktop-2.d3663980710bd470b402.svg",
     "static/media/wave-plan.svg": "/static/media/wave-plan.5fabe6835b36775f657c.svg",
-    "main.dd1273a2.css.map": "/static/css/main.dd1273a2.css.map",
-    "main.6c0534f9.js.map": "/static/js/main.6c0534f9.js.map",
+    "main.087cdff6.css.map": "/static/css/main.087cdff6.css.map",
+    "main.0333f9ad.js.map": "/static/js/main.0333f9ad.js.map",
     "787.10360b01.chunk.js.map": "/static/js/787.10360b01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd1273a2.css",
-    "static/js/main.6c0534f9.js"
+    "static/css/main.087cdff6.css",
+    "static/js/main.0333f9ad.js"
   ]
 }
