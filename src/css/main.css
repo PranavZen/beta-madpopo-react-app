@@ -1082,7 +1082,7 @@ cursor: pointer;
     align-items: center;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap .clintProfile img{
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 .trusedPlanSection .clientSlideRow .clientSlickSlider .slick-list .slick-slide .sliderBoxWrap h3{
@@ -3027,7 +3027,8 @@ padding: 0;
 }
 .wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox .wp_fetureImageWrap img{
   width: 75px;
-  height: auto;
+  height: 75px;
+  object-fit: contain;
 }
 /* .wp_features .wp_featuersWrapper .wp_FeatureRow .wp_featuresInnerBox .wp_fetureImageWrap img.width100{
   width: 95px;

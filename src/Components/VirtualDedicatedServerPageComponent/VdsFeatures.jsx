@@ -1,7 +1,12 @@
 import React from "react";
 import {
     
+  vdsImgFive,
+  vdsImgFour,
   vdsImgOne,
+  vdsImgSeven,
+  vdsImgSix,
+  vdsImgThree,
   vdsImgTwo,
 } from "../../Components/index";
 
@@ -29,7 +34,7 @@ function VdsFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={vdsImgOne} alt="High availability" className="width100"/>
+                <img src={vdsImgThree} alt="High availability" />
               </div>
               <h4>High availability</h4>
               <p>
@@ -40,7 +45,7 @@ function VdsFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={vdsImgOne} alt="Global Availability                " />
+                <img src={vdsImgFour} alt="Global Availability                " />
               </div>
               <h4>Global Availability
               </h4>
@@ -51,7 +56,7 @@ function VdsFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={vdsImgOne} alt="1-Click WordPress Installer" className="width100"/>
+                <img src={vdsImgFive} alt="1-Click WordPress Installer" />
               </div>
               <h4>Best Price at Best Performance              </h4>
               <p>Our goal is to always offer low prices and discounts to our customers. We are able to provide top-notch servers at an affordable cost to our clients.
@@ -61,7 +66,7 @@ function VdsFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={vdsImgOne} alt="Support Round The Clock 
+                <img src={vdsImgSix} alt="Support Round The Clock 
                 " />
               </div>
               <h4>Support Round The Clock 
@@ -73,7 +78,7 @@ function VdsFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={vdsImgOne} alt="WordPress Pro Features" />
+                <img src={vdsImgSeven} alt="WordPress Pro Features" />
               </div>
               <h4>Storage I/O load balancing</h4>
               <p>Define different rules and preferences for managing the quality of your virtual machine I/O. You are thus guaranteed access hierarchy on a shared storage system.

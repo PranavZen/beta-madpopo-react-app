@@ -56,7 +56,12 @@ export { default as vdsImg } from "../../src/image/pages/virtualserver/cloud-ser
 export { default as dsImg } from "../../src/image/pages/dedicatedserver/dedicatedserverimg.webp";
 export { default as woocommimg } from "../../src/image/pages/woocomeerce/woocomimg.webp";
 export { default as vdsImgOne } from "../../src/image/secure-server-one.png";
-export { default as vdsImgTwo } from "../../src/image/quick-provision.png";
+export { default as vdsImgTwo } from "../../src/image/Quickly-Provisioning.webp";
+export { default as vdsImgThree } from "../../src/image/High-availability.webp";
+export { default as vdsImgFour } from "../../src/image/Global-Availability.webp";
+export { default as vdsImgFive } from "../../src/image/Best-Price-at-Best-Performance.webp";
+export { default as vdsImgSix } from "../../src/image/Support-Round-The-Clock.webp";
+export { default as vdsImgSeven } from "../../src/image/Storage-I-O-load-balancing.webp";
 export { default as INRFlag } from "../../src/image/inr.png";
 export { default as EURFlag } from "../../src/image/euro.png";
 export { default as USDFlag } from "../../src/image/usa.png";
