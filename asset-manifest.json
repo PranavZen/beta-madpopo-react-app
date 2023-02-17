@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.087cdff6.css",
-    "main.js": "/static/js/main.0333f9ad.js",
+    "main.css": "/static/css/main.082f0f58.css",
+    "main.js": "/static/js/main.b007d1fe.js",
     "static/js/787.10360b01.chunk.js": "/static/js/787.10360b01.chunk.js",
     "static/media/computer_table.png": "/static/media/computer_table.2d6728eb0e65ec6daf9c.png",
     "static/media/24_shadow.png": "/static/media/24_shadow.c27eb95238c83b415aca.png",
@@ -21,6 +21,7 @@
     "static/media/global_network.webp": "/static/media/global_network.dc1738e4e332723c9a18.webp",
     "static/media/wavy.svg": "/static/media/wavy.1b5ce095d02f05d88d5f.svg",
     "static/media/main-mountain.png": "/static/media/main-mountain.1ee45ac175b187e1347e.png",
+    "static/media/FREE-E-mail-Forwarding.webp": "/static/media/FREE-E-mail-Forwarding.c86893f39516a4d75b10.webp",
     "static/media/pattern-3.png": "/static/media/pattern-3.4d305cb3a4e0d2a4bf0b.png",
     "static/media/clouds.png": "/static/media/clouds.eaedb6730e7bc2571a23.png",
     "static/media/footer_pose-1.png": "/static/media/footer_pose-1.1e1443c6336ec29f164d.png",
@@ -117,6 +118,7 @@
     "static/media/Best-Price-at-Best-Performance.webp": "/static/media/Best-Price-at-Best-Performance.a9877bbcfc477eec190c.webp",
     "static/media/curved-arrow-with-broken-line.svg": "/static/media/curved-arrow-with-broken-line.6b4dbb05c6c774ae4822.svg",
     "static/media/Storage-I-O-load-balancing.webp": "/static/media/Storage-I-O-load-balancing.d824a6247b817f2b407f.webp",
+    "static/media/plesk-control.webp": "/static/media/plesk-control.6cb74f01749f0444b57b.webp",
     "static/media/wpml-widget-filter.svg": "/static/media/wpml-widget-filter.78f54ff290af05b056d2.svg",
     "static/media/High-availability.webp": "/static/media/High-availability.b307d9236bd2f795501f.webp",
     "static/media/online.webp": "/static/media/online.15ae989e0c3a65128b40.webp",
@@ -133,12 +135,12 @@
     "static/media/arrow-right-desktop-1.svg": "/static/media/arrow-right-desktop-1.27df23a9d073fe62d89c.svg",
     "static/media/arrow-right-desktop-2.svg": "/static/media/arrow-right-desktop-2.d3663980710bd470b402.svg",
     "static/media/wave-plan.svg": "/static/media/wave-plan.5fabe6835b36775f657c.svg",
-    "main.087cdff6.css.map": "/static/css/main.087cdff6.css.map",
-    "main.0333f9ad.js.map": "/static/js/main.0333f9ad.js.map",
+    "main.082f0f58.css.map": "/static/css/main.082f0f58.css.map",
+    "main.b007d1fe.js.map": "/static/js/main.b007d1fe.js.map",
     "787.10360b01.chunk.js.map": "/static/js/787.10360b01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.087cdff6.css",
-    "static/js/main.0333f9ad.js"
+    "static/css/main.082f0f58.css",
+    "static/js/main.b007d1fe.js"
   ]
 }
