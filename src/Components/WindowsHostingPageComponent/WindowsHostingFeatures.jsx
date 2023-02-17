@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  WinIMg2,
   wpFeatureImg1,
   wpFeatureImg2,
   wpFeatureImg3,
@@ -33,7 +34,7 @@ function WindowsHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg3} alt="Powerful control panel- Plesk" />
+                <img src={WinIMg2} alt="Powerful control panel- Plesk" />
               </div>
               <h4>Powerful control panel- Plesk</h4>
               <p>

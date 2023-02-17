@@ -1,7 +1,7 @@
 const BusinessEmailData = [
   {
     id: 1,
-    busEmailTitle: "Business Email Data 1",
+    busEmailTitle: "Plan 1",
     busEmailSubTitle: "Optimal solution for Beginners",
     cardAnchorLink: `/VirtualDedicatedServer`,
     busEmailImg: "https://be.madpopo.com/static/media/PopoStarter.png",
@@ -30,7 +30,7 @@ const BusinessEmailData = [
   },
   {
     id: 2,
-    busEmailTitle: "Business Email Data 2 ",
+    busEmailTitle: "Plan 2 ",
     busEmailSubTitle: "Ideal for personal websites",
     cardAnchorLink: `/VirtualDedicatedServer`,
     busEmailImg: `https://be.madpopo.com/static/media/PopoPro.png`,
@@ -59,7 +59,7 @@ const BusinessEmailData = [
   },
   {
     id: 3,
-    busEmailTitle: "Business Email Data 3",
+    busEmailTitle: "Plan 3",
     busEmailSubTitle: "Suitable for small business.",
     cardAnchorLink: `/VirtualDedicatedServer`,
     busEmailImg: `https://be.madpopo.com/static/media/PopoGrow.png`,

@@ -24,8 +24,9 @@ function WcAsia() {
           </div>
         </div>
         <div className="container">
-           <h2 className="text-center mb-22">Fill the form & get a swag !</h2>
-          <div className="row justify-content-center pb-10 position-relative coodiv-z-index-2 wcasia_formWrap">
+           <h2 className="text-left mb-6">Popo is happy to see you at WCAsia 2023!!</h2>
+           <p className="text-left smallWcasiaPara mb-15">Get Your Popo Swag On: Claim Your Free T-Shirt Today by Filling Out This Form</p>
+          <div className="row justify-content-start pb-10 position-relative coodiv-z-index-2 wcasia_formWrap">
             <div className="col-md-12 col-lg-6">
               <div className="contact-form-container bg-white border-opacity px-8 pt-8 pb-9 px-sm-11 py-sm-11 shadow-2 rounded-20 position-relative overflow-hidden">
                 <WcForm />

@@ -1118,13 +1118,13 @@ function NavbarInner() {
             className="header-btn ml-auto ml-lg-5 d-none
                             d-xs-block position-relative"
           >
-            <Link
-              to=""
+            <a
+              href="https://my.madpopo.com/login"
               className="btn
                                 headLoginBtn coodiv-text-9"
             >
               Login
-            </Link>
+            </a>
           </div>
 
           <button

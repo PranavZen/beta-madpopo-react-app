@@ -28,7 +28,7 @@ const woocomPriceData = {
       },
       {
         id: 3,
-        cardTitle: "Paln 3",
+        cardTitle: "Plan 3",
         cardSubTitle: "Suitable for small business",
         cardOgPrice: `$34`,
         cardOffer: "offer - 30%",

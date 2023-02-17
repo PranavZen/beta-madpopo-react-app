@@ -17,6 +17,7 @@ import DomainTableList from "../Components/DomainTableList/DomainTableList";
 import DomainRegistrationFeatures from "../Components/DomainRegistrationPageComponent/DomainRegistrationFeatures";
 import domainFeatData from "../Components/DomainTableList/DomainFeatData";
 import Seo from "../Components/SEO/Seo";
+import DomainTransferFeatures from "../Components/DomainTransferPageComponent/DomainTransferFeatures";
 function DomainTransfer() {
   const [show, setShow] = React.useState(false);
   return (
@@ -397,7 +398,7 @@ function DomainTransfer() {
               </table>
             </div>
             <div className="col-md-8">
-            <DomainRegistrationFeatures />
+            <DomainTransferFeatures />
             </div>
             
           </div>

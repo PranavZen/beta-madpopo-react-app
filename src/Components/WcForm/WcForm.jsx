@@ -5,6 +5,8 @@ function WcForm() {
   const [email, setEmail] = useState("");
   const [mobileNumber, setMobile] = useState("");
   const [formResponse, setResponse] = useState("");
+  const [formResponse1, setResponse1] = useState("");
+  const [formResponse2, setResponse2] = useState("");
   const [otpResponse, setOtpResponse] = useState("");
   const [comment, setComment] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -33,13 +35,15 @@ function WcForm() {
   };
   const handleOtp = (event) =>{
     event.preventDefault();
-    if(userOTP == newOTP){
+    if(userOTP == newOTP){ 
       axios
-      .post("https://madpopo.com/verify-otp.php", {email:email})
+      .post("https://madpopo.com/verify-otp.php", {email:email,name:name})
       .then((response) => {
         if(response.data.type=='success'){
           setIsSubmitted(true);
-          setResponse("Form submitted succesfully!");
+          setResponse("Congratulations, Get your Popo Swag T-Shirt!!");
+          setResponse1("Thank you for submitting the form. As a token of our appreciation, we've also sent you an additional discount code to use for shopping at MadPopo.");
+          setResponse2("Happy shopping!");
         }
       })
       .catch((error) => {
@@ -52,7 +56,11 @@ function WcForm() {
   return (
     <div className="wcasia_contactForm">
       {isSubmitted ? (
-        <p className="mb-0 font-weight-bold text-center">{formResponse}</p>
+      <div>
+        <p className="mb-8 font-weight-bold text-left">{formResponse}</p>
+        <p className="mb-5  text-left fsz">{formResponse1}</p>
+        <p className="mb-0  text-left fsz">{formResponse2}</p>
+      </div>
       ) : isOtp ? (
         <form onSubmit={handleOtp} className="contact-form">
           <div className="col-md-12">

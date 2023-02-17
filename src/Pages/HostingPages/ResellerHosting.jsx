@@ -29,15 +29,17 @@ function ResellerHosting() {
       <h1>Choose flexible pricing plan for you and more...</h1>
       <span>Unlimited boards and workflows. no credit card needed</span>
     </div>
-    <MouseParallaxContainer className={"wp_outerBox"}>
-      <MouseParallaxChild
-        factorX={0.04}
-        factorY={0.04}
-        className={"wp_innerBox"}
-      >
-        <img src={wp_logo} alt="Reseller Hosting" />
-      </MouseParallaxChild>
-    </MouseParallaxContainer>
+{
+    // <MouseParallaxContainer className={"wp_outerBox"}>
+    //   <MouseParallaxChild
+    //     factorX={0.04}
+    //     factorY={0.04}
+    //     className={"wp_innerBox"}
+    //   >
+    //     <img src={wp_logo} alt="Reseller Hosting" />
+    //   </MouseParallaxChild>
+    // </MouseParallaxContainer>
+  }
     <div
       className="resellerHosting_pricingBox container px-0"
       data-aos="zoom-in"

@@ -20,29 +20,34 @@ function ContactUs() {
     
   />
       <Navbar />
-      <div className="hero-area-coodiv header-google-map-height position-relative white-bg light-mode-texts">
-        <div className="header-hero-backgrounds">
-          <svg
-            className="bg-wave-box-end-z1 coodiv-z-index-1"
-            viewBox="0 0 1440 320"
-          >
-            <path
-              fill="#fff"
-              fillOpacity="1"
-              d="M0,0L34.3,16C68.6,32,137,64,206,80C274.3,96,343,96,411,96C480,96,549,96,617,117.3C685.7,139,754,181,823,186.7C891.4,192,960,160,1029,170.7C1097.1,181,1166,235,1234,234.7C1302.9,235,1371,181,1406,154.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-            ></path>
-          </svg>
-        </div>
-        <div
-          class="google-map header-google-map fluid-map-height"
-          id="googleMap"
-        >
-          <MapContainer />
-        </div>
-        <div className="map-height-lose-header"></div>
-      </div>
-      <div className="contact-form-container mt-n35">
+      {
+      //   <div className="hero-area-coodiv header-google-map-height position-relative white-bg light-mode-texts">
+      //   <div className="header-hero-backgrounds">
+      //     <svg
+      //       className="bg-wave-box-end-z1 coodiv-z-index-1"
+      //       viewBox="0 0 1440 320"
+      //     >
+      //       <path
+      //         fill="#fff"
+      //         fillOpacity="1"
+      //         d="M0,0L34.3,16C68.6,32,137,64,206,80C274.3,96,343,96,411,96C480,96,549,96,617,117.3C685.7,139,754,181,823,186.7C891.4,192,960,160,1029,170.7C1097.1,181,1166,235,1234,234.7C1302.9,235,1371,181,1406,154.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+      //       ></path>
+      //     </svg>
+      //   </div>
+      //   <div
+      //     class="google-map header-google-map fluid-map-height"
+      //     id="googleMap"
+      //   >
+      //     <MapContainer />
+      //   </div>
+      //   <div className="map-height-lose-header"></div>
+      // </div>
+
+      }
+      
+      <div className="contact-form-container contatc_mt">
         <div className="container">
+        <div class="tc_TitleOverlay"><h1>Contact Us</h1></div>
           <div className="row justify-content-center pb-10 position-relative coodiv-z-index-2">
             <div className="col-md-12 col-lg-8">
               <div className="contact-form-container bg-white border-opacity px-8 pt-8 pb-9 px-sm-11 py-sm-11 shadow-2 rounded-20 position-relative overflow-hidden">
@@ -184,7 +189,12 @@ function ContactUs() {
                         //   <i className="fa fa-facebook-f"></i>
                         // </Link>
                       }
-
+                      <a
+                      className="mr-1 tw"
+                      href="https://www.facebook.com/madpopowp?mibextid=ZbWKwL"
+                    >
+                      <i className="fa fa-facebook"></i>
+                    </a>
                       <a
                         className="mr-1 tw"
                         href="https://twitter.com/madpopowp"
@@ -196,6 +206,12 @@ function ContactUs() {
                         href="https://www.linkedin.com/company/madpopowp"
                       >
                         <i className="fa fa-linkedin"></i>
+                      </a>
+                      <a
+                        className="mr-1 tw"
+                        href="https://www.instagram.com/madpopowp/?igshid=MDM4ZDc5MmU="
+                      >
+                        <i className="fa fa-instagram"></i>
                       </a>
                       {
                         // <Link className="insta" to="#">
@@ -315,30 +331,30 @@ function ContactUs() {
             </div>
           </div>
           <div className="row justify-content-center social-numbers mt-lg-20 mt-15 light-bg">
-            <Link className="d-flex mr-lg-15 fb" to="#">
+            <a className="d-flex mr-lg-15 fb" href="https://www.facebook.com/madpopowp?mibextid=ZbWKwL">
               <i className="fa fa-facebook-f"></i>
               <h3>
                 1,435,533<span>followers</span>
               </h3>
-            </Link>
-            <Link className="d-flex mr-lg-15 tw" to="#">
+            </a>
+            <a className="d-flex mr-lg-15 tw" href="https://twitter.com/madpopowp">
               <i className="fa fa-twitter"></i>
               <h3>
                 143,32<span>followers</span>
               </h3>
-            </Link>
-            <Link className="d-flex mr-lg-15 you" to="#">
-              <i className="fa fa-youtube"></i>
+            </a>
+            <a className="d-flex mr-lg-15 you" href="https://www.linkedin.com/company/madpopowp">
+              <i className="fa fa-linkedin"></i>
               <h3>
                 32,345<span>followers</span>
               </h3>
-            </Link>
-            <Link className="d-flex mr-lg-15 insta" to="#">
+            </a>
+            <a className="d-flex mr-lg-15 insta" href="https://www.instagram.com/madpopowp/?igshid=MDM4ZDc5MmU=">
               <i className="fa fa-instagram"></i>
               <h3>
                 32,345<span>followers</span>
               </h3>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

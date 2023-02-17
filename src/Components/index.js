@@ -29,6 +29,8 @@ export { default as wpFeatureImg3 } from "../../src/image/wordpress/Automatic-Up
 export { default as wpFeatureImg4 } from "../../src/image/wordpress/1-Click WordPress-Installer-new.webp";
 export { default as wpFeatureImg5 } from "../../src/image/wordpress/Automated-Backups-new.webp";
 export { default as wpFeatureImg6 } from "../../src/image/wordpress/WordPress-Pro-Features-new.webp";
+export { default as DomainImg3 } from "../../src/image/FREE-E-mail-Forwarding.webp";
+export { default as WinIMg2 } from "../../src/image/plesk-control.webp";
 export { default as wp_logo } from "../../src/image/wordpress_innerlogo.png";
 export { default as tableImg } from "../../src/image/24_shadow.png";
 export { default as webSpeedImg } from "../../src/image/popo-site-load-test_1-80.webp";

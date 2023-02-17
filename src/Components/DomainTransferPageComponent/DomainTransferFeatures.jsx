@@ -6,11 +6,11 @@ import {
   wpFeatureImg3,
 } from "../index";
 
-function DomainRegistrationFeatures() {
+function DomainTransferFeatures() {
   return (
     <div className="wp_featuersWrapper">
       <div className="wpSectionTitle">
-        <h2>Domain Registration Features</h2>
+        <h2>Domain Transfer Features</h2>
         <p className="linuxpara">
           Designed to Support Growth and Deliver High Performance. 
         </p>
@@ -155,4 +155,4 @@ function DomainRegistrationFeatures() {
   );
 }
 
-export default DomainRegistrationFeatures;
+export default DomainTransferFeatures;

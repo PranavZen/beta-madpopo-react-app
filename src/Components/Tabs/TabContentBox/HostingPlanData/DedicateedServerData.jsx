@@ -1,7 +1,7 @@
 const DedicateedServerData = [
     {
       id: 1,
-      dsCardTitle: "Dedicateed Server 1",
+      dsCardTitle: "Server 1",
       dsCardSubTitle: "Optimal solution for Beginners",
       cardAnchorLink: `/VirtualDedicatedServer`,
       dsCardImg: "https://be.madpopo.com/static/media/PopoStarter.png",
@@ -30,7 +30,7 @@ const DedicateedServerData = [
     },
     {
       id: 2,
-      dsCardTitle: "Dedicateed Server 2 ",
+      dsCardTitle: "Server 2 ",
       dsCardSubTitle: "Ideal for personal websites",
       cardAnchorLink: `/VirtualDedicatedServer`,
       dsCardImg: `https://be.madpopo.com/static/media/PopoPro.png`,
@@ -59,7 +59,7 @@ const DedicateedServerData = [
     },
     {
       id: 3,
-      dsCardTitle: "Dedicateed Server 3",
+      dsCardTitle: "Server 3",
       dsCardSubTitle: "Suitable for small business.",
       cardAnchorLink: `/VirtualDedicatedServer`,
       dsCardImg: `https://be.madpopo.com/static/media/PopoGrow.png`,
