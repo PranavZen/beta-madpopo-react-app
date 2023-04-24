@@ -1,8 +1,8 @@
 import React from 'react'
 
-import PriceCardBox from "../PriceCardBox";
  
 import woocomPriceData from "../PriceCard/woocomPriceData";
+import PriceCardBoxWoo from '../PriceCardBoxWoo';
 function WooComPriceCard() {
     
   const mainDataPricing2 = woocomPriceData.mainDataPricing;
@@ -24,7 +24,7 @@ function WooComPriceCard() {
               wpWeeklyBckp,
               cardSubTitle
             }) => (
-              <PriceCardBox
+              <PriceCardBoxWoo
                 key={id}
                 id={id}
                 label={label}

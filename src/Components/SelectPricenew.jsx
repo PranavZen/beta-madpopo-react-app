@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import products from "../Components/SelectPricingData";
 function SelectPricenew() {
   const [selectedCountry, setSelectedCountry] = useState("INR");
-  console.log("selectedCountry :" + selectedCountry);
+  // console.log("selectedCountry :" + selectedCountry);
   const [selectedFrequency, setSelectedFrequency] = useState("priceYearlyIn");
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
   // console.log(products);

@@ -1,6 +1,16 @@
 import { useEffect, useState } from "react";
 import React from "react";
-import { logo1 } from "../../Components/index";
+import {
+  logo1,
+  navicon1,
+  navicon2,
+  navicon3,
+  navicon4,
+  navicon5,
+  navicon6,
+  navicon7,
+  navicon8,
+} from "../../Components/index";
 // import { logo2 } from "../../Components/index";
 import { Link } from "react-router-dom";
 import CountrySelect from "../CountrySelect/CountrySelect";
@@ -26,7 +36,7 @@ function NavbarInner() {
               <span className="textBold">
                 <i className="fa fa-phone"></i> Need Help ?
               </span>{" "}
-              Call Us 24/7 : <a href="tel:+91 7042407676">+91 70 42 40 7676</a>
+              Call Us 24/7 : <a href="tel:+91 99300 19195">+91 99300 19195</a>
             </span>
             <div className="inrSelectWrap">
               <div className="inrSelectBox">
@@ -70,25 +80,25 @@ function NavbarInner() {
                   </Link>
                   <div
                     className="coodiv-megamenu-dropdown
-                                            fullwidth-megamenu center white-bg
-                                            dropdown-menu d-lg-flex px-lg-10
-                                            px-5 py-10"
+                                        fullwidth-megamenu center white-bg
+                                        dropdown-menu d-lg-flex px-lg-10
+                                        px-5 py-10"
                     aria-labelledby="navbarDropdown90"
                   >
                     <div
                       className="row
-                                                justify-content-center mt-lg-6
-                                                mx-0 w-100"
+                                            justify-content-center mt-lg-6
+                                            mx-0 w-100"
                     >
                       <div className="col-md-12">
                         <h1
                           className="coodiv-text-6
-                                                        title
-                                                        color-blackish-blue
-                                                        text-lg-left text-center
-                                                        w-100 d-block mb-14 dropdownMenuTitle"
+                                                    title
+                                                    color-blackish-blue
+                                                    text-lg-left text-center
+                                                    w-100 d-block mb-14 dropdownMenuTitle"
                         >
-                          <span className="mainTitleDrop d-block mb-2">
+                          <span className="mainTitleDrop mb-2 d-block">
                             Web hosting that scales from easy to expert.
                           </span>
                           <span className="d-block mt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop">
@@ -99,283 +109,312 @@ function NavbarInner() {
                         </h1>
                         <div
                           className="row
-                                                        justify-content-center
-                                                        mx-0"
+                                                    justify-content-center
+                                                    mx-0"
                         >
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10 menusHover"
+                                                        col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/WordpressHosting"
+                              to="/wordpress-hosting"
                               className="feature-widget
-                                                                d-sm-flex"
+                                                            d-sm-flex "
                             >
                               <div
                                 className="widget-icon
-                                                                    text-blue
-                                                                    mr-0 mr-lg-6
-                                                                    mb-7
-                                                                    mb-md-0"
+                                                                text-blue
+                                                                mr-5 mr-lg-6
+                                                                mb-7
+                                                                mb-md-0"
                               >
-                                <i className="fa fa-wordpress"></i>
+                                <span>
+                                  <img src={navicon1} alt="WordPress Hosting" />
+                                </span>
                               </div>
                               <div className="content">
                                 <h3 className="title coodiv-text-9 mb-2 color-blackish-blue wblink">
                                   WordPress Hosting
                                 </h3>
                                 <p className="coodiv-text-11 color-blackish-blue-opacity mb-0 wbsubLink">
-                                  Show your visitors you take security
-                                  seriously.
+                                  Streamline your site with WordPress hosting.
                                 </p>
                               </div>
                             </Link>
                           </div>
                           <div className="col-md-6 col-lg-3 mb-10 menusHover">
                             <Link
-                              to="/WoocommerceHosting"
+                              to="/woocommerce-hosting"
                               className="feature-widget d-sm-flex"
                             >
-                              <div className="widget-icon text-blue mr-0 mr-lg-6 mb-7 mb-md-0">
-                                <i className="fa fa-shopping-cart"></i>
+                              <div className="widget-icon text-blue mr-5 mr-lg-6 mb-7 mb-md-0">
+                                <span>
+                                  <img
+                                    src={navicon2}
+                                    alt="WooCommerce Hosting"
+                                  />
+                                </span>
                               </div>
                               <div className="content">
                                 <h3
                                   className="title
-                                                                        coodiv-text-9
-                                                                        mb-2
-                                                                        color-blackish-blue wblink"
+                                                                    coodiv-text-9
+                                                                    mb-2
+                                                                    color-blackish-blue wblink"
                                 >
                                   WooCommerce Hosting
                                 </h3>
                                 <p
                                   className="coodiv-text-11
-                                                                        color-blackish-blue-opacity
-                                                                        mb-0 wbsubLink"
+                                                                    color-blackish-blue-opacity
+                                                                    mb-0 wbsubLink"
                                 >
-                                  Claim your name and get yourself online.
+                                  Power up your online store with WooCommerce
+                                  hosting.
                                 </p>
                               </div>
                             </Link>
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10 menusHover"
+                                                        col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/LinuxWebHosting"
+                              to="/linux-web-hosting"
                               className="feature-widget
-                                                                d-sm-flex"
+                                                            d-sm-flex"
                             >
                               <div
                                 className="widget-icon
-                                                                    text-blue
-                                                                    mr-0 mr-lg-6
-                                                                    mb-7
-                                                                    mb-md-0"
+                                                                text-blue
+                                                                mr-5 mr-lg-6
+                                                                mb-7
+                                                                mb-md-0"
                               >
-                                <i className="fa fa-linux"></i>
+                                <span>
+                                  <img src={navicon3} alt="Linux Web Hosting" />
+                                </span>
                               </div>
                               <div className="content">
                                 <h3
                                   className="title
-                                                                        coodiv-text-9
-                                                                        mb-2
-                                                                        color-blackish-blue wblink"
+                                                                    coodiv-text-9
+                                                                    mb-2
+                                                                    color-blackish-blue wblink"
                                 >
                                   Linux Web Hosting
                                 </h3>
                                 <p
                                   className="coodiv-text-11
-                                                                        color-blackish-blue-opacity
-                                                                        mb-0 wbsubLink"
+                                                                    color-blackish-blue-opacity
+                                                                    mb-0 wbsubLink"
                                 >
-                                  Bring in all the traffic you want, we got ya.
+                                  Optimize your site with Linux hosting.
                                 </p>
                               </div>
                             </Link>
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10 menusHover"
+                                                        col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/WindowsWebHosting"
+                              to="/windows-hosting"
                               className="feature-widget
-                                                                d-sm-flex"
+                                                            d-sm-flex"
                             >
                               <div
                                 className="widget-icon
-                                                                    text-blue
-                                                                    mr-0 mr-lg-6
-                                                                    mb-7
-                                                                    mb-md-0"
+                                                                text-blue
+                                                                mr-5 mr-lg-6
+                                                                mb-7
+                                                                mb-md-0"
                               >
-                                <i className="fa fa-windows"></i>
+                                <span>
+                                  <img
+                                    src={navicon4}
+                                    alt="Windows Web Hosting"
+                                  />
+                                </span>
                               </div>
                               <div className="content">
                                 <h3
                                   className="title
-                                                                        coodiv-text-9
-                                                                        mb-2
-                                                                        color-blackish-blue wblink"
+                                                                    coodiv-text-9
+                                                                    mb-2
+                                                                    color-blackish-blue wblink"
                                 >
                                   Windows Web Hosting
                                 </h3>
                                 <p
                                   className="coodiv-text-11
-                                                                        color-blackish-blue-opacity
-                                                                        mb-0 wbsubLink"
+                                                                    color-blackish-blue-opacity
+                                                                    mb-0 wbsubLink"
                                 >
-                                  Bring in all the traffic you want, we got ya.
+                                  Enhance your site with Windows hosting.
                                 </p>
                               </div>
                             </Link>
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10 menusHover"
+                                                        col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/VirtualDedicatedServer"
+                              to="/virtual-dedicated-server"
                               className="feature-widget
-                                                                d-sm-flex"
+                                                            d-sm-flex"
                             >
                               <div
                                 className="widget-icon
-                                                                    text-blue
-                                                                    mr-0 mr-lg-6
-                                                                    mb-7
-                                                                    mb-md-0"
+                                                                text-blue
+                                                                mr-5 mr-lg-6
+                                                                mb-7
+                                                                mb-md-0"
                               >
-                                <i className="fa fa-cloud"></i>
+                                <span>
+                                  <img
+                                    src={navicon5}
+                                    alt="Virtual Dedicated Server"
+                                  />
+                                </span>
                               </div>
                               <div className="content">
                                 <h3
                                   className="title
-                                                                        coodiv-text-9
-                                                                        mb-2
-                                                                        color-blackish-blue wblink"
+                                                                    coodiv-text-9
+                                                                    mb-2
+                                                                    color-blackish-blue wblink"
                                 >
                                   Virtual Dedicated Server
                                 </h3>
                                 <p
                                   className="coodiv-text-11
-                                                                        color-blackish-blue-opacity
-                                                                        mb-0 wbsubLink"
+                                                                    color-blackish-blue-opacity
+                                                                    mb-0 wbsubLink"
                                 >
-                                  Bring in all the traffic you want, we got ya.
+                                  Upgrade to a virtual dedicated server.
                                 </p>
                               </div>
                             </Link>
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10 menusHover"
+                                                        col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/DedicatedServer"
+                              to="/dedicated-server"
                               className="feature-widget
-                                                                d-sm-flex"
+                                                            d-sm-flex"
                             >
                               <div
                                 className="widget-icon
-                                                                    text-blue
-                                                                    mr-0 mr-lg-6
-                                                                    mb-7
-                                                                    mb-md-0"
+                                                                text-blue
+                                                                mr-5 mr-lg-6
+                                                                mb-7
+                                                                mb-md-0"
                               >
-                                <i className="fa fa-server"></i>
+                                <span>
+                                  <img src={navicon6} alt="Dedicated Server" />
+                                </span>
                               </div>
                               <div className="content">
                                 <h3
                                   className="title
-                                                                        coodiv-text-9
-                                                                        mb-2
-                                                                        color-blackish-blue wblink"
+                                                                    coodiv-text-9
+                                                                    mb-2
+                                                                    color-blackish-blue wblink"
                                 >
                                   Dedicated Server
                                 </h3>
                                 <p
                                   className="coodiv-text-11
-                                                                        color-blackish-blue-opacity
-                                                                        mb-0 wbsubLink"
+                                                                    color-blackish-blue-opacity
+                                                                    mb-0 wbsubLink"
                                 >
-                                  Bring in all the traffic you want, we got ya.
+                                  Maximize performance with dedicated server.
                                 </p>
                               </div>
                             </Link>
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10 menusHover"
+                                                        col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/BusinessHosting"
+                              to="/business-email-hosting"
                               className="feature-widget
-                                                                d-sm-flex"
+                                                            d-sm-flex"
                             >
                               <div
                                 className="widget-icon
-                                                                    text-blue
-                                                                    mr-0 mr-lg-6
-                                                                    mb-7
-                                                                    mb-md-0"
+                                                                text-blue
+                                                                mr-5 mr-lg-6
+                                                                mb-7
+                                                                mb-md-0"
                               >
-                                <i className="fa fa-cloud"></i>
+                                <span>
+                                  <img
+                                    src={navicon7}
+                                    alt="Business Email Hosting"
+                                  />
+                                </span>
                               </div>
                               <div className="content">
                                 <h3
-                                  className="title
-                                                                        coodiv-text-9
-                                                                        mb-2
-                                                                        color-blackish-blue wblink"
+                                  className="title 
+                                                                    coodiv-text-9
+                                                                    mb-2
+                                                                    color-blackish-blue wblink"
                                 >
-                                Business Email Hosting
+                                  Business Email Hosting
                                 </h3>
                                 <p
                                   className="coodiv-text-11
-                                                                        color-blackish-blue-opacity
-                                                                        mb-0 wbsubLink"
+                                                                    color-blackish-blue-opacity
+                                                                    mb-0 wbsubLink"
                                 >
-                                  Bring in all the traffic you want, we got ya.
+                                  Streamline communication with business email
+                                  hosting.
                                 </p>
                               </div>
                             </Link>
                           </div>
                           <div
                             className="col-md-6
-                                                            col-lg-3 mb-10 menusHover"
+                                                        col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/ResellerHosting"
+                              to="/reseller-hosting"
                               className="feature-widget
-                                                                d-sm-flex"
+                                                            d-sm-flex"
                             >
                               <div
                                 className="widget-icon
-                                                                    text-blue
-                                                                    mr-0 mr-lg-6
-                                                                    mb-7
-                                                                    mb-md-0"
+                                                                text-blue
+                                                                mr-5 mr-lg-6
+                                                                mb-7
+                                                                mb-md-0"
                               >
-                                <i className="fa fa-users"></i>
+                                <span>
+                                  <img src={navicon8} alt="Reseller Hosting" />
+                                </span>
                               </div>
                               <div className="content">
                                 <h3
                                   className="title
-                                                                        coodiv-text-9
-                                                                        mb-2
-                                                                        color-blackish-blue wblink"
+                                                                    coodiv-text-9
+                                                                    mb-2
+                                                                    color-blackish-blue wblink"
                                 >
                                   Reseller Hosting
                                 </h3>
                                 <p
                                   className="coodiv-text-11
-                                                                        color-blackish-blue-opacity
-                                                                        mb-0 wbsubLink"
+                                                                    color-blackish-blue-opacity
+                                                                    mb-0 wbsubLink"
                                 >
-                                  Bring in all the traffic you want, we got ya.
+                                  Manage multiple sites with reseller hosting.
                                 </p>
                               </div>
                             </Link>
@@ -383,9 +422,9 @@ function NavbarInner() {
 
                           <Link
                             className="btn
-                            btn-primary
-                                                            coodiv-text-9
-                                                            d-block w-50 buyBtnW100"
+                        btn-primary
+                                                        coodiv-text-9
+                                                        d-block w-50 buyBtnW100"
                             to="#"
                           >
                             Buy Now
@@ -540,7 +579,7 @@ function NavbarInner() {
                                   className="form-btn
                                                                       btn
                                                                       btn-primary
-                                                                      mr-2
+                                                                      mr-5
                                                                       coodiv-abs-md-cr
                                                                       min-height-px-50
                                                                       w-100
@@ -556,7 +595,7 @@ function NavbarInner() {
                         <div className="col-xl-12 col-lg-12 col-md-12">
                           <div className="domaulListing d-flex flex-wrap pb-5">
                             <div className="col-md-6 listTitle">
-                              <Link to="/Domain-Registration">
+                              <Link to="/get-domains">
                                 <p>Free with Domain Registration</p>
                                 <ul className="listFeatureDomain">
                                   <li>
@@ -581,7 +620,7 @@ function NavbarInner() {
                               </Link>
                             </div>
                             <div className="col-md-6 listTitle">
-                              <Link to="/Domain-Registration">
+                              <Link to="/get-domains">
                                 <p>Free DNS Services</p>
                                 <ul className="listFeatureDomain">
                                   <li>
@@ -651,7 +690,7 @@ function NavbarInner() {
                                   className="form-btn
                                                                       btn
                                                                       btn-primary
-                                                                      mr-2
+                                                                      mr-5
                                                                       coodiv-abs-md-cr
                                                                       min-height-px-50
                                                                       w-100
@@ -667,7 +706,7 @@ function NavbarInner() {
                         <div className="col-xl-12 col-lg-12 col-md-12">
                           <div className="domaulListing d-flex flex-wrap pb-5">
                             <div className="col-md-6 listTitle">
-                              <Link to="/Domain-Transfer">
+                              <Link to="/domain-transfer">
                                 <p>Free with Domain Transfer</p>
                                 <ul className="listFeatureDomain">
                                   <li>
@@ -692,7 +731,7 @@ function NavbarInner() {
                               </Link>
                             </div>
                             <div className="col-md-6 listTitle">
-                              <Link to="/Domain-Transfer">
+                              <Link to="/domain-transfer">
                                 <p>Free DNS Services</p>
                                 <ul className="listFeatureDomain">
                                   <li>
@@ -724,7 +763,7 @@ function NavbarInner() {
                 </li>
 
                 <li className="nav-item dropdown">
-                  <Link to="/" className="nav-link">
+                  <Link to="/help-center" className="nav-link">
                     Help Center
                   </Link>
                 </li>
@@ -984,122 +1023,124 @@ function NavbarInner() {
                     </i>
                   </Link>
                   <ul
-                  className="coodiv-megamenu-dropdown
+                    className="coodiv-megamenu-dropdown
                   mini-version center white-bg
                   dropdown-menu d-lg-block pt-0"
-                  aria-labelledby="navbarDropdownHelp"
-                >
-                 <div className="d-flex flex-wrap abtMenu">
-                 <h1 className="coodiv-text-6 title color-blackish-blue text-lg-left text-center w-100 d-block mb-12 dropdownMenuTitle">
-                 <span className="mainTitleDrop">About us</span>
-                 <span className="d-block about-our-storymt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop">
-                   A ton of website hosting options, 99.9% uptime
-                   guarantee, free SSL certificate, easy WordPress
-                   installs, and a free domain for a year.
-                 </span>
-               </h1>
-               <div className="col-md-4 abtMenuList">
-                 <li className="drop-menu-item">
-                   <Link to="/Global-Infrastructure">
-                     Global infrastructure
-                   </Link>
-                 </li>
-                 <li className="drop-menu-item">
-                   <Link to="#">Company Blog</Link>
-                 </li>
-               </div>
-               <div className="col-md-4 abtMenuList">
-                 <li className="drop-menu-item">
-                   <Link to="/Terms-Condition">
-                     Terms & Conditions
-                   </Link>
-                 </li>
-                 <li className="drop-menu-item">
-                   <Link to="#">Careers</Link>
-                 </li>
-               </div>
-               <div className="col-md-4 abtMenuList">
-                 <li className="drop-menu-item">
-                   <Link to="#">Happy Customers</Link>
-                 </li>
-                 <li className="drop-menu-item">
-                   <Link to="/Contact-Us">
-                     Contact
-                   </Link>
-                 </li>
-               </div>
-                 
-                 </div>
-                  {
-                    // <li className="drop-menu-item">
-                    //   <Link to="#">Submit a ticket</Link>
-                    // </li>
-                  }
-                  {
-                    //     <li className="drop-menu-item dropdown">
-                    //     <Link className="dropdown-toggle
-                    //         gr-toggle-arrow"
-                    //         id="navbarDropdownSub"
-                    //         to="#" role="button"
-                    //         data-toggle="dropdown"
-                    //         aria-haspopup="true"
-                    //         aria-expanded="false">Servers
-                    //         status</Link>
-                    //     <ul className="coodiv-menu-dropdown
-                    //         dropdown-menu"
-                    //         aria-labelledby="navbarDropdownSub">
-                    //         <li className="drop-menu-item"><Link
-                    //                 data-i18n="[html]menu.statuspage"
-                    //                 to="status-page.html">Status
-                    //                 Page</Link></li>
-                    //         <li className="drop-menu-item"><Link
-                    //                 data-i18n="[html]menu.inchistory"
-                    //                 to="incident-history.html">Incident
-                    //                 History</Link></li>
-                    //         <li className="drop-menu-item"><Link
-                    //                 data-i18n="[html]menu.incpost"
-                    //                 to="incident-post.html">Incident
-                    //                 Post</Link></li>
-                    //     </ul>
-                    // </li>
-                  }
-                  {
-                    // <li className="drop-menu-item dropdown">
-                    //     <Link data-i18n="[html]menu.blog"
-                    //         className="dropdown-toggle
-                    //         gr-toggle-arrow"
-                    //         id="navbarDropdownSubBlog"
-                    //         to="#" role="button"
-                    //         data-toggle="dropdown"
-                    //         aria-haspopup="true"
-                    //         aria-expanded="false">Blog</Link>
-                    //     <ul className="coodiv-menu-dropdown
-                    //         dropdown-menu"
-                    //         aria-labelledby="navbarDropdownSubBlog">
-                    //         <li className="drop-menu-item"><Link
-                    //                 data-i18n="[html]menu.standardblog"
-                    //                 to="blog.html">Standard
-                    //                 Blog</Link></li>
-                    //         <li className="drop-menu-item"><Link
-                    //                 data-i18n="[html]menu.blogstyletwo"
-                    //                 to="blog-2.html">Blog
-                    //                 style 2</Link></li>
-                    //         <li className="drop-menu-item"><Link
-                    //                 data-i18n="[html]menu.blogstyletree"
-                    //                 to="blog-3.html">Blog
-                    //                 style 3</Link></li>
-                    //         <li className="drop-menu-item"><Link
-                    //                 data-i18n="[html]menu.blogsingle"
-                    //                 to="blog-single.html">Blog
-                    //                 Single Standard</Link></li>
-                    //         <li className="drop-menu-item"><Link
-                    //                 data-i18n="[html]menu.blogsingletwo"
-                    //                 to="blog-single-2.html">Blog
-                    //                 Single style 2</Link></li>
-                    //     </ul>
-                    // </li>
-                  }
-                </ul>
+                    aria-labelledby="navbarDropdownHelp"
+                  >
+                    <div className="d-flex flex-wrap abtMenu">
+                      <h1 className="coodiv-text-6 title color-blackish-blue text-lg-left text-center w-100 d-block mb-12 dropdownMenuTitle">
+                        <span className="mainTitleDrop">About us</span>
+                        <span className="d-block about-our-storymt-lg-0 mt-5 coodiv-text-11 color-blackish-blue-opacity subTitleDrop">
+                          A ton of website hosting options, 99.9% uptime
+                          guarantee, free SSL certificate, easy WordPress
+                          installs, and a free domain for a year.
+                        </span>
+                      </h1>
+                      <div className="col-md-4 abtMenuList">
+                        <li className="drop-menu-item">
+                          <Link to="/global-infrastructure">
+                            Global infrastructure
+                          </Link>
+                        </li>
+                        <li className="drop-menu-item">
+                          <Link
+                            to=""
+                            onClick={() =>
+                              window.open("https://blog.madpopo.com/", "_blank")
+                            }
+                          >
+                            Company Blog
+                          </Link>
+                        </li>
+                      </div>
+                      <div className="col-md-4 abtMenuList">
+                        <li className="drop-menu-item">
+                          <Link to="/terms-conditions">Terms & Conditions</Link>
+                        </li>
+                        <li className="drop-menu-item">
+                          <Link to="/career">Careers</Link>
+                        </li>
+                      </div>
+                      <div className="col-md-4 abtMenuList">
+                        <li className="drop-menu-item">
+                          <Link to="#">Happy Customers</Link>
+                        </li>
+                        <li className="drop-menu-item">
+                          <Link to="/contact-us">Contact</Link>
+                        </li>
+                      </div>
+                    </div>
+                    {
+                      // <li className="drop-menu-item">
+                      //   <Link to="#">Submit a ticket</Link>
+                      // </li>
+                    }
+                    {
+                      //     <li className="drop-menu-item dropdown">
+                      //     <Link className="dropdown-toggle
+                      //         gr-toggle-arrow"
+                      //         id="navbarDropdownSub"
+                      //         to="#" role="button"
+                      //         data-toggle="dropdown"
+                      //         aria-haspopup="true"
+                      //         aria-expanded="false">Servers
+                      //         status</Link>
+                      //     <ul className="coodiv-menu-dropdown
+                      //         dropdown-menu"
+                      //         aria-labelledby="navbarDropdownSub">
+                      //         <li className="drop-menu-item"><Link
+                      //                 data-i18n="[html]menu.statuspage"
+                      //                 to="status-page.html">Status
+                      //                 Page</Link></li>
+                      //         <li className="drop-menu-item"><Link
+                      //                 data-i18n="[html]menu.inchistory"
+                      //                 to="incident-history.html">Incident
+                      //                 History</Link></li>
+                      //         <li className="drop-menu-item"><Link
+                      //                 data-i18n="[html]menu.incpost"
+                      //                 to="incident-post.html">Incident
+                      //                 Post</Link></li>
+                      //     </ul>
+                      // </li>
+                    }
+                    {
+                      // <li className="drop-menu-item dropdown">
+                      //     <Link data-i18n="[html]menu.blog"
+                      //         className="dropdown-toggle
+                      //         gr-toggle-arrow"
+                      //         id="navbarDropdownSubBlog"
+                      //         to="#" role="button"
+                      //         data-toggle="dropdown"
+                      //         aria-haspopup="true"
+                      //         aria-expanded="false">Blog</Link>
+                      //     <ul className="coodiv-menu-dropdown
+                      //         dropdown-menu"
+                      //         aria-labelledby="navbarDropdownSubBlog">
+                      //         <li className="drop-menu-item"><Link
+                      //                 data-i18n="[html]menu.standardblog"
+                      //                 to="blog.html">Standard
+                      //                 Blog</Link></li>
+                      //         <li className="drop-menu-item"><Link
+                      //                 data-i18n="[html]menu.blogstyletwo"
+                      //                 to="blog-2.html">Blog
+                      //                 style 2</Link></li>
+                      //         <li className="drop-menu-item"><Link
+                      //                 data-i18n="[html]menu.blogstyletree"
+                      //                 to="blog-3.html">Blog
+                      //                 style 3</Link></li>
+                      //         <li className="drop-menu-item"><Link
+                      //                 data-i18n="[html]menu.blogsingle"
+                      //                 to="blog-single.html">Blog
+                      //                 Single Standard</Link></li>
+                      //         <li className="drop-menu-item"><Link
+                      //                 data-i18n="[html]menu.blogsingletwo"
+                      //                 to="blog-single-2.html">Blog
+                      //                 Single style 2</Link></li>
+                      //     </ul>
+                      // </li>
+                    }
+                  </ul>
                 </li>
 
                 {

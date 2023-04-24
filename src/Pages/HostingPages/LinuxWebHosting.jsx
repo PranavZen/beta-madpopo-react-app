@@ -5,60 +5,57 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { footerPose1, linusRightImg, wp_logo } from "../../Components";
-import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
-import WordpressPlansListing from "../../Components/WordpressHostingPageComponent/WordpressPlansListing";
+import { footerPose1, linusRightImg } from "../../Components";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
-import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";
 import SecondTabContent from "../../Components/Tabs/TabContentBox/SecondTabContent";
 import LinuxHostingFeatures from "../../Components/LinuxHostingPageComponent/LinuxHostingFeatures";
 import Seo from "../../Components/SEO/Seo";
 import LinuxFaq from "../../Components/LinuxHostingPageComponent/LinuxFaq";
+import LinuxHostingPlans from "../../Components/LinuxHostingPageComponent/LinuxHostingPlans";
 function LinuxWebHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg linuxBG">
-    <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
-    keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
-    
-  />
+      <Seo
+        title="Fast & Reliable Linux Web Hosting Solutions"
+        description="Get fast and reliable Linux web hosting solutions powered by the latest hardware and software technology. Our servers are optimized for any kind of website, providing you with a worry-free experience. Enjoy peace of mind with our secure, reliable hosting solutions. "
+        keywords="linux hosting, linux web hosting, hosting a website on linux, linux hosting server, linux shared hosting, best linux hosting"
+      />
       <Navbar />
 
       <div className="wp_img_overlayContent linux_img_overlay">
         <p>Linux Web Hosting</p>
-        <h1>Utilize the Online Space to Enhance Your Physical Business</h1>
+        <h1>Utilize the Online Space to Enhance Your Physical Business</h1>
         <span>Unlimited boards and workflows. no credit card needed</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
-        <MouseParallaxChild 
+        <MouseParallaxChild
           factorX={0.04}
           factorY={0.04}
           className={"wp_innerBox linuxrightimgBox"}
         >
           <img src={linusRightImg} alt="Linux Web Hosting" />
-        </MouseParallaxChild> 
+        </MouseParallaxChild>
       </MouseParallaxContainer>
       <div
         className="linux_pricingBox container"
         data-aos="zoom-in"
         data-aos-duration="2200"
       >
-      <SecondTabContent />
+        <SecondTabContent />
       </div>
-      
+
       {
-      // <div className="wpChoiceSection">
-      //   <WpBestChoice />
-      // </div>
-    }
+        // <div className="wpChoiceSection">
+        //   <WpBestChoice />
+        // </div>
+      }
 
       <div className="wp_features linuxFeature">
-        <LinuxHostingFeatures/>
+        <LinuxHostingFeatures />
       </div>
 
       <div className="wp_plansListing">
-        <WordpressPlansListing />
+        <LinuxHostingPlans />
       </div>
       <div
         className="trusedPlanSection"

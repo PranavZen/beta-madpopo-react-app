@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import VpsData from "../../Components/Tabs/TabContentBox/HostingPlanData/VPSData";
 function VPSCard(props) {
 //  console.log(VpsData);
+var defaultPrice4 =  VpsData[props.id - 1].priceThreeYearlyInINR;
+// console.log(defaultPrice4);
+var bydefaultCurrency = "₹";
  var show_price = "";
  var show_currency = "";
   var show_price_1 =""
@@ -11,7 +14,7 @@ function VPSCard(props) {
    "priceThreeYearlyIn"
  );
 
- const [selectedCountry, setSelectedCountry] = useState("INR");
+ const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
 
  const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
@@ -35,7 +38,7 @@ function VPSCard(props) {
    show_price = VpsData[props.id -1][show_currency];
  }
 
- console.log(show_price);
+//  console.log(show_price);
 
  const handleCountryChange = (e) => {
    //alert(selectedCountry);
@@ -80,7 +83,7 @@ function VPSCard(props) {
    }
    show_price_1 = VpsData[props.id - 1][show_currency];
    setSelectPrice(show_price_1);
-   console.log(show_price_1);
+  //  console.log(show_price_1);
    
   // console.log(selectedCountry);
    //console.log(products.wordpressData[props.id - 1]);
@@ -116,8 +119,8 @@ function VPSCard(props) {
           </form>
         </div>
             <h2 className="text-blackish-blue">
-              {selectedCountry}
-              {slectPrice ? slectPrice : show_price}
+            {selectedCountry ? selectedCountry : bydefaultCurrency}
+            { slectPrice ? slectPrice : show_price || defaultPrice4 }
               <span className="payment-type-m">monthly</span>
             </h2>
           </div>

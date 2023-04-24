@@ -1,12 +1,11 @@
 import React from "react";
 import {
   WinIMg2,
-  wpFeatureImg1,
-  wpFeatureImg2,
-  wpFeatureImg3,
+  wpFeatureImg11,
+  wpFeatureImg12,
+  wpFeatureImg13,
+  wpFeatureImg14,
   wpFeatureImg4,
-  wpFeatureImg5,
-  wpFeatureImg6,
 } from "../index";
 
 function WindowsHostingFeatures() {
@@ -21,7 +20,7 @@ function WindowsHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg1} alt="Highly Secure and Reliable" />
+                <img src={wpFeatureImg14} alt="Highly Secure and Reliable" />
               </div>
               <h4>Highly Secure and Reliable</h4>
               <p>
@@ -57,7 +56,7 @@ function WindowsHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg5} alt="Free SSL Certificate" />
+                <img src={wpFeatureImg13} alt="Free SSL Certificate" />
               </div>
               <h4>Free SSL Certificate</h4>
               <p>
@@ -68,7 +67,7 @@ function WindowsHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg6} alt="Malware Scan and Removal" />
+                <img src={wpFeatureImg12} alt="Malware Scan and Removal" />
               </div>
               <h4>Malware Scan and Removal</h4>
               <p>
@@ -79,7 +78,7 @@ function WindowsHostingFeatures() {
           <div className="col-md-4">
             <div className="wp_featuresInnerBox" data-aos="fade-up" data-aos-duration='1200'>
               <div className="wp_fetureImageWrap">
-                <img src={wpFeatureImg2} alt="Scalable Hosting" className="width100"/>
+                <img src={wpFeatureImg11} alt="Scalable Hosting" className="width100"/> 
               </div>
               <h4>Scalable Hosting</h4>
               <p>

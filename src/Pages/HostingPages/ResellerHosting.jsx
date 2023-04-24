@@ -1,27 +1,26 @@
 import React from 'react'
 import Footer from '../../Components/Footer/Footer'
 import Navbar from '../../Components/Navbar/Navbar'
-import {
-  MouseParallaxChild,
-  MouseParallaxContainer,
-} from "react-parallax-mouse";
-import { footerPose1, wp_logo } from '../../Components';
+// import {
+//   MouseParallaxChild,
+//   MouseParallaxContainer,
+// } from "react-parallax-mouse";
+import { footerPose1 } from '../../Components';
 import WpBestChoice from '../../Components/WordpressHostingPageComponent/WpBestChoice';
 import WordpressHostingFeatures from '../../Components/WordpressHostingPageComponent/WordpressHostingFeatures';
-import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
 import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
 import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/WordpressHostingFAQ';
 import ResellerHostingComponent from '../../Components/Tabs/TabContentBox/HostingPlanData/ResellerHostingComponent';
+import ResellerHosingPlansListing from '../../Components/ResellerHostingPageComponent/ResellerHosingPlansListing';
 import Seo from '../../Components/SEO/Seo';
 function ResellerHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg resellerBG">
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
+    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
+    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
     keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
-    
-  />
+    />
     <Navbar />
 
     <div className="wp_img_overlayContent">
@@ -47,14 +46,14 @@ function ResellerHosting() {
     >
     <ResellerHostingComponent />
     </div>
-    <div className="wpChoiceSection">
+    <div className="wpChoiceSection"> 
       <WpBestChoice />
     </div>
     <div className="wp_features">
       <WordpressHostingFeatures />
     </div>
     <div className="wp_plansListing">
-      <WordpressPlansListing />
+      <ResellerHosingPlansListing />
     </div>
     <div
       className="trusedPlanSection"

@@ -1,5 +1,10 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import "../src/css/bootstrap.css";
 import "../src/css/custom.css";
 import "../src/css/main.css";
@@ -12,7 +17,6 @@ import DedicatedServer from "./Pages/HostingPages/DedicatedServer";
 import VirtualDedicatedServer from "./Pages/HostingPages/VirtualDedicatedServer";
 import WindowsWebHosting from "./Pages/HostingPages/WindowsWebHosting";
 import LinuxWebHosting from "./Pages/HostingPages/LinuxWebHosting";
-import Home2 from "./Pages/Home2";
 import ScrollToTop from "./Components/ScrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,6 +28,10 @@ import DomainTransfer from "./Pages/DomainTransfer";
 import BusinessHosting from "./Pages/HostingPages/BusinessHosting";
 import WcAsia from "./Pages/WcAsia";
 import { HelmetProvider } from "react-helmet-async";
+import Error404 from "./Components/404Page/Error404";
+import Career from "./Pages/Career";
+import Jd from "./Components/CareerPageComponent/Jd";
+import HelpCenter from "./Pages/HelpCenter";
 function App() {
   const helmetContext = {};
   useEffect(() => {
@@ -35,27 +43,32 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/WordpressHosting" element={<WordpressHosting />} />
-          <Route path="/WoocommerceHosting" element={<WoocommerceHosting />} />
-          <Route path="/LinuxWebHosting" element={<LinuxWebHosting />} />
-          <Route path="/WindowsWebHosting" element={<WindowsWebHosting />} />
+          <Route path="/wordpress-hosting" element={<WordpressHosting />} />
+          <Route path="/woocommerce-hosting" element={<WoocommerceHosting />} />
+          <Route path="/linux-web-hosting" element={<LinuxWebHosting />} />
+          <Route path="/windows-hosting" element={<WindowsWebHosting />} />
           <Route
-            path="/VirtualDedicatedServer"
+            path="/virtual-dedicated-server"
             element={<VirtualDedicatedServer />}
           />
-          <Route path="/DedicatedServer" element={<DedicatedServer />} />
-          <Route path="/BusinessHosting" element={<BusinessHosting />} />
-          <Route path="/ResellerHosting" element={<ResellerHosting />} />
-          <Route path="/Home2" element={<Home2 />} />
-          <Route path="/Terms-Condition" element={<TermsCondition />} />
+          <Route path="/dedicated-server" element={<DedicatedServer />} />
+          <Route path="/business-email-hosting" element={<BusinessHosting />} />
+          <Route path="/reseller-hosting" element={<ResellerHosting />} />
+
+          <Route path="/terms-conditions" element={<TermsCondition />} />
           <Route
-            path="/Global-Infrastructure"
+            path="/global-infrastructure"
             element={<Globalinfrastructure />}
           />
-          <Route path="/Contact-Us" element={<ContactUs />} />
-          <Route path="/Domain-Registration" element={<DomainRegistration />} />
-          <Route path="/Domain-Transfer" element={<DomainTransfer />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/get-domains" element={<DomainRegistration />} />
+          <Route path="/domain-transfer" element={<DomainTransfer />} />
           <Route path="/wcasia" element={<WcAsia />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/help-center" element={<HelpCenter />} />
+          <Route path="/career/:jdUrlName" element={<Jd />} />
+          <Route path="/Error404" element={<Error404 />} />
+          <Route path="*" element={<Navigate to="/Error404" />} />
         </Routes>
       </Router>
     </HelmetProvider>

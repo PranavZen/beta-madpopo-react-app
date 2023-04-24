@@ -13,12 +13,8 @@ function Hostareawrap() {
                     <div className="row justify-content-center dark-mode-texts">
                         <div className="col-xl-8 col-lg-9">
                             <div className="px-md-12 text-center mb-9 mb-lg-20">
-                                <h2 className="title coodiv-text-4 mb-4">Think
-                                    Global, Host Local</h2>
-                                <p className="coodiv-text-11 mb-0">Global Network
-                                    powered by 11 enterprise-className datacenters
-                                    and 200 Global CDN Anycast Network access
-                                    points.</p>
+                                <h2 className="title coodiv-text-4 mb-4">Our Availability: Expanding Worldwide</h2>
+                                <p className="coodiv-text-11 mb-0">Discover Our Worldwide Presence Offering High Performing Servers in Strategic Regions.</p>
                             </div>
                         </div>
                     </div> 

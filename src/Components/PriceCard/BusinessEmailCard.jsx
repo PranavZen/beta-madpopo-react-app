@@ -2,7 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import BusinessEmailData from "../Tabs/TabContentBox/HostingPlanData/BusinessEmailData";
 function BusinessEmailCard(props) {
- //  console.log(VpsData);
+  // console.log(BusinessEmailData);
+ var defaultPrice5 =  BusinessEmailData[props.id - 1].priceThreeYearlyInINR;
+// console.log(defaultPrice5);
+var bydefaultCurrency = "₹";
  var show_price = "";
  var show_currency = "";
   var show_price_1 =""
@@ -11,7 +14,7 @@ function BusinessEmailCard(props) {
    "priceThreeYearlyIn"
  );
 
- const [selectedCountry, setSelectedCountry] = useState("INR");
+ const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
 
  const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
@@ -35,7 +38,7 @@ function BusinessEmailCard(props) {
    show_price = BusinessEmailData[props.id -1][show_currency];
  }
 
- console.log(show_price);
+//  console.log(show_price);
 
  const handleCountryChange = (e) => {
    //alert(selectedCountry);
@@ -80,7 +83,7 @@ function BusinessEmailCard(props) {
    }
    show_price_1 = BusinessEmailData[props.id - 1][show_currency];
    setSelectPrice(show_price_1);
-   console.log(show_price_1);
+  //  console.log(show_price_1);
    
   // console.log(selectedCountry);
    //console.log(products.wordpressData[props.id - 1]);
@@ -116,8 +119,8 @@ function BusinessEmailCard(props) {
           </form>
         </div>
             <h2 className="text-blackish-blue">
-              {selectedCountry}
-              {slectPrice ? slectPrice : show_price}
+            {selectedCountry ? selectedCountry : bydefaultCurrency}
+            { slectPrice ? slectPrice : show_price || defaultPrice5 }
               <span className="payment-type-m">monthly</span>
             </h2>
           </div>

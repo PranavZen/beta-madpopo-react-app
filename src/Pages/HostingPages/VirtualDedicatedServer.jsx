@@ -7,7 +7,6 @@ import {
 } from "react-parallax-mouse";
 import { footerPose1, vdsImg} from "../../Components";
 import ThirdTabContent from "../../Components/Tabs/TabContentBox/ThirdTabContent";
-import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
 import VdsFeatures from "../../Components/VirtualDedicatedServerPageComponent/VdsFeatures";
 import VdsListing from "../../Components/VirtualDedicatedServerPageComponent/VdsListing";
@@ -17,11 +16,10 @@ function VirtualDedicatedServer() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg vdsBG">
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
+    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
+    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
     keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
-    
-  />
+    />
       <Navbar />
 
       <div className="wp_img_overlayContent vdsImgOverlay ">

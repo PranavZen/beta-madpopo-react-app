@@ -1,10 +1,10 @@
 const ResellerHostingData = [
     {
       id: 1,
-      resellerHostTitle: "Reseller Hosting 1", 
+      resellerHostTitle: "Hosting 1", 
       resellerHostSubTitle: "Optimal solution for Beginners",
       cardAnchorLink: `/VirtualDedicatedServer`,
-      resellerHostImg: "https://be.madpopo.com/static/media/PopoStarter.png",
+      resellerHostImg: "https://madpopo.com/static/media/PopoStarter.png",
       resellerHostAltName: `PopoStarter`,
       resellerHostOgPrice: `$23`,
       resellerHostWebSpace: "4",
@@ -30,10 +30,10 @@ const ResellerHostingData = [
     },
     {
       id: 2,
-      resellerHostTitle: "Reseller Hosting 2 ",
+      resellerHostTitle: "Hosting 2 ",
       resellerHostSubTitle: "Ideal for personal websites",
       cardAnchorLink: `/VirtualDedicatedServer`,
-      resellerHostImg: `https://be.madpopo.com/static/media/PopoPro.png`,
+      resellerHostImg: `https://madpopo.com/static/media/PopoPro.png`,
       resellerHostAltName: `PopoPro `,
       resellerHostOgPrice: `$24`,
       resellerHostWebSpace: "6",
@@ -59,10 +59,10 @@ const ResellerHostingData = [
     },
     {
       id: 3,
-      resellerHostTitle: "Reseller Hosting 3",
+      resellerHostTitle: "Hosting 3",
       resellerHostSubTitle: "Suitable for small business.",
       cardAnchorLink: `/VirtualDedicatedServer`,
-      resellerHostImg: `https://be.madpopo.com/static/media/PopoGrow.png`,
+      resellerHostImg: `https://madpopo.com/static/media/PopoGrow.png`,
       resellerHostAltName: `PopoGrow`,
       resellerHostOgPrice: `$25`,
       resellerHostWebSpace: "10",

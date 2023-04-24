@@ -5,21 +5,26 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { bus_rightImg, footerPose1, wp_logo } from '../../Components';
-import WpBestChoice from '../../Components/WordpressHostingPageComponent/WpBestChoice';
+import { bus_rightImg, footerPose1} from '../../Components';
 import WordpressHostingFeatures from '../../Components/WordpressHostingPageComponent/WordpressHostingFeatures';
-import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
 import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
 import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/WordpressHostingFAQ';
 import BusinessEmailComponent from '../../Components/Tabs/TabContentBox/HostingPlanData/BusinessEmailComponent';
 import Seo from '../../Components/SEO/Seo';
+import BuisnessEmailPalnsListing from '../../Components/BuisnessEmailPageComponent/BuisnessEmailPalnsListing';
 function BusinessHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg businessBG">
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
-    keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
+    title="Professional Email Services for Businesses - Get Started Today!"
+    description="Hosting a business email is easy with the right tools. Learn how to set up and manage
+    professional emails for your company quickly and securely. Get started today with our
+    comprehensive guide to hosting a business email."
+    keywords="email marketing software, email campaigns, email services, email marketing
+    automation, email list building, email delivery, business email hosting, bulk emailing
+    software, corporate emails, bulk email sender, online email marketing, bulk email campaigns,
+    business email server, bulk mail software, mass email sender, bulk mail service, professional
+    email service, bulk mail sender"
     
   />
       <Navbar />
@@ -56,7 +61,7 @@ function BusinessHosting() {
         <WordpressHostingFeatures />
       </div>
       <div className="wp_plansListing">
-        <WordpressPlansListing />
+        <BuisnessEmailPalnsListing />
       </div>
       <div
         className="trusedPlanSection"

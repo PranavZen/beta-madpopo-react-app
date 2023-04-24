@@ -3,8 +3,10 @@ const RightData = [
         id : 21,
         planTitle : 'WooCommerce Hosting', 
         planPiceF : '449',
+        planPiceFUSD : '12',
+        planPiceFEUR : '8.8',
         planPicePaisa : '/ month',
-        planCurrency : '₹',
+        
         planOffer : 'Save 40%',
         planIcon : <i className="feather icon-check"></i>,
         planList1 : 'WordPress Hosting        ',
@@ -24,7 +26,7 @@ const RightData = [
          planTitle : ' Professional Business Email',
         planPiceF : '125',
         planPicePaisa : '/ month',
-        planCurrency : '₹',
+       
         planOffer : 'Save 40%',
         planIcon : <i className="feather icon-check"></i>,
         planList1 : 'Commercial License',
@@ -40,7 +42,7 @@ const RightData = [
          planTitle : 'Premium SSL Certificate',
          planPiceF : '02',
          planPicePaisa : '.5 / month',
-         planCurrency : '₹',
+        
          planOffer : 'Save 40%',
          planIcon : <i className="feather icon-check"></i>,
          planList1 : 'Commercial License',
@@ -56,7 +58,7 @@ const RightData = [
          planTitle : '250GB/ Object Storage         ',
          planPiceF : '325',
          planPicePaisa : '/ month',
-         planCurrency : '₹',
+        //  planCurrency : '₹',
          planOffer : 'Save 40%',
          planIcon : <i className="feather icon-check"></i>,
          planList1 : 'Commercial License',

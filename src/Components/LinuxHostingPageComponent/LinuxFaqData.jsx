@@ -7,7 +7,7 @@ const LinuxFaqData = [
     {
       id: 2,
       faqQue: `What is Linux shared hosting?`,
-      faqAns: `Linux shared hosting is a type of web hosting that uses a Linux operating system on the server. Linux hosting allows you to use the Python, CGI, PHP and Perl which are very popular choices of webmasters. You can buy hosting from NextraOne to run your website efficiently & seamlessly.`,
+      faqAns: `Linux shared hosting is a type of web hosting that uses a Linux operating system on the server. Linux hosting allows you to use the Python, CGI, PHP and Perl which are very popular choices of webmasters. You can buy hosting from MadPopo to run your website efficiently & seamlessly.`,
     },
     {
       id: 3,
@@ -21,8 +21,8 @@ const LinuxFaqData = [
     },
     {
       id: 5,
-      faqQue: `Why NextraOne is the best for Linux shared hosting?`,
-      faqAns: `Be it a business or personal, large, medium or small, we have budget-friendly and feature-rich unlimited Linux hosting plans for all of you. NextraOne is high performance best Linux hosting provider that covers from start-ups to well-grown businesses with ease for their customers. Our appealing web hosting plans can support you to manage your sites in such a way that it will save your time and money.`,
+      faqQue: `Why MadPopo is the best for Linux shared hosting?`,
+      faqAns: `Be it a business or personal, large, medium or small, we have budget-friendly and feature-rich unlimited Linux hosting plans for all of you. MadPopo is high performance best Linux hosting provider that covers from start-ups to well-grown businesses with ease for their customers. Our appealing web hosting plans can support you to manage your sites in such a way that it will save your time and money.`,
     },
     {
         id: 6,
@@ -32,7 +32,7 @@ const LinuxFaqData = [
       {
         id: 7,
         faqQue: `Will shared web hosting works smoother for my website too?`,
-        faqAns: `Linux hosting has gained much popularity among businesses as they have found a much cheaper and reliable alternative in the field of cheap Linux hosting India. NextraOne has generated a niche for itself in the market with affordable hosting plans and set a standard to be followed by others.`,
+        faqAns: `Linux hosting has gained much popularity among businesses as they have found a much cheaper and reliable alternative in the field of cheap Linux hosting India. MadPopo has generated a niche for itself in the market with affordable hosting plans and set a standard to be followed by others.`,
       },
       {
         id: 8,
@@ -51,8 +51,8 @@ const LinuxFaqData = [
       },
       {
         id: 11,
-        faqQue: `Do I need a domain name from NextraOne to buy web hosting?`,
-        faqAns: `No, you can make use of your existing domain name or can buy a domain from any provider to use NextraOne’s web hosting Services. it is not mandatory to buy a domain from us to use our hosting services.`,
+        faqQue: `Do I need a domain name from MadPopo to buy web hosting?`,
+        faqAns: `No, you can make use of your existing domain name or can buy a domain from any provider to use MadPopo’s web hosting Services. it is not mandatory to buy a domain from us to use our hosting services.`,
       },
       {
         id: 12,

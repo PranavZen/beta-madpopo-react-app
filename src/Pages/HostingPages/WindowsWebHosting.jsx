@@ -7,21 +7,19 @@ import {
 } from "react-parallax-mouse";
 import {  footerPose1, windowsImg } from '../../Components';
 import WindowsTabContent from '../../Components/Tabs/TabContentBox/WindowsTabContent';
-import WpBestChoice from '../../Components/WordpressHostingPageComponent/WpBestChoice';
-import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
 import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
 import WindowsHostingFeatures from '../../Components/WindowsHostingPageComponent/WindowsHostingFeatures';
 import WindowsHostingFaq from '../../Components/WindowsHostingPageComponent/WindowsHostingFaq';
+import WindowsPlansHosting from '../../Components/WindowsHostingPageComponent/WindowsPlansHosting';
 import Seo from '../../Components/SEO/Seo';
 function WindowsWebHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg windowsBG">
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
+    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
+    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
     keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
-    
-  />
+    />
       <Navbar />
 
       <div className="wp_img_overlayContent">
@@ -52,11 +50,11 @@ function WindowsWebHosting() {
       // </div>
       }
 
-      <div className="wp_features">
+      <div className="wp_features"> 
         <WindowsHostingFeatures />
       </div>
       <div className="wp_plansListing">
-        <WordpressPlansListing />
+        <WindowsPlansHosting />
       </div>
       <div
         className="trusedPlanSection"

@@ -6,28 +6,31 @@ function WpBestChoice() {
     <div className="wpBestChoiceWrap">
       <div className="container">
         <div className="wpChoiceSecTitle">
-            <h2>Why Our WordPress Hosting Is the Best Choice</h2>
+          <h2>Why Our WordPress Hosting Is the Best Choice</h2>
         </div>
-        <div className="wpBest_choiceRow padBtm_50" data-aos="fade-left" data-aos-duration='1200'>
+        <div
+          className="wpBest_choiceRow padBtm_50"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
           <div className="col-md-5">
             <div className="wp_choice_leftBox">
               <div className="wp_choice_ContentBox">
-                <h6>Extremely Fast Performance</h6>
+                <h6>Blazing Speed Performance</h6>
                 <p>
-                  Faster load times lead to better user experience, greater
-                  conversion rates, and improved search engine optimization. At
-                  MadPopo, we utilize LiteSpeed servers and include the LSCWP
-                  plugin to provide fast WordPress hosting solutions.
+                  At MadPopo, we prioritise fast load times to enhance user
+                  experience, conversion rates, and SEO. Powered by Popo servers
+                  and Popo Panel, our WordPress hosting solutions deliver
+                  lightning-fast performance.
                 </p>
               </div>
               <div className="wp_choice_ContentBox">
                 <h6>Managed WordPress Hosting</h6>
                 <p>
-                  Our managed WordPress hosting plans offer web hosting services
-                  tailored for WordPress users. With ready-to-use features such
-                  as user-friendly hPanel, a 1-click installer, and
-                  pre-installed performance plugins, you can build a fast
-                  website and boost your online presence today.
+                  Our managed WordPress hosting plans cater to WordPress users'
+                  needs, providing user-friendly features such as Popo Panel, a
+                  1-click installer, and pre-installed performance plugins.
+                  Build a fast website and boost your online presence with ease.
                 </p>
               </div>
             </div>
@@ -40,7 +43,11 @@ function WpBestChoice() {
             </div>
           </div>
         </div>
-        <div className="wpBest_choiceRow" data-aos="fade-right" data-aos-duration='1200'>
+        <div
+          className="wpBest_choiceRow"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
           <div className="col-md-6">
             <div className="wp_choice_rightBox">
               <div className="wp_choiceImgWrap">

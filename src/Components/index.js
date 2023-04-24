@@ -29,6 +29,27 @@ export { default as wpFeatureImg3 } from "../../src/image/wordpress/Automatic-Up
 export { default as wpFeatureImg4 } from "../../src/image/wordpress/1-Click WordPress-Installer-new.webp";
 export { default as wpFeatureImg5 } from "../../src/image/wordpress/Automated-Backups-new.webp";
 export { default as wpFeatureImg6 } from "../../src/image/wordpress/WordPress-Pro-Features-new.webp";
+export { default as wpFeatureImg7 } from "../../src/image/wordpress/fast-solid-state-storage.png";
+export { default as wpFeatureImg8 } from "../../src/image/wordpress/ssls.png";
+export { default as wpFeatureImg9 } from "../../src/image/wordpress/server-level-caching.png";
+export { default as wpFeatureImg10 } from "../../src/image/wordpress/100-Uptime.png";
+export { default as wpFeatureImg11 } from "../../src/image/wordpress/scalable-hosting.png";
+export { default as wpFeatureImg12 } from "../../src/image/wordpress/malware-scan-removal.png";
+export { default as wpFeatureImg13 } from "../../src/image/wordpress/free-sssl-certificate.png";
+export { default as wpFeatureImg14 } from "../../src/image/wordpress/highly-secure-reliable.png";
+
+export { default as navicon1 } from "../../src/image/header/navbaricon/wordpressicon.png";
+export { default as navicon2 } from "../../src/image/header/navbaricon/woocomicon.png";
+export { default as navicon3 } from "../../src/image/header/navbaricon/linuxicon.png";
+export { default as navicon4 } from "../../src/image/header/navbaricon/windowsicon.png";
+export { default as navicon5 } from "../../src/image/header/navbaricon/virtual-dedicated-server.png";
+export { default as navicon6 } from "../../src/image/header/navbaricon/dedicated-server.png";
+export { default as navicon7 } from "../../src/image/header/navbaricon/Emailicon.png";
+export { default as navicon8 } from "../../src/image/header/navbaricon/Resellericon.png";
+
+export { default as rigions } from "../../src/image/pages/globalInfra/8-regions.png";
+export { default as dc } from "../../src/image/pages/globalInfra/14-data-center.png";
+export { default as nc } from "../../src/image/pages/globalInfra/35-nc.png";
 export { default as DomainImg3 } from "../../src/image/FREE-E-mail-Forwarding.webp";
 export { default as WinIMg2 } from "../../src/image/plesk-control.webp";
 export { default as wp_logo } from "../../src/image/wordpress_innerlogo.png";
@@ -68,3 +89,23 @@ export { default as INRFlag } from "../../src/image/inr.png";
 export { default as EURFlag } from "../../src/image/euro.png";
 export { default as USDFlag } from "../../src/image/usa.png";
 export { default as wcasia } from "../../src/image/Mad_Popo_Form_WCAsia.webp";
+export { default as palnsIcon } from "../../src/image/pointer.png";
+export { default as visa } from "../../src/image/footer/visa.webp";
+export { default as amex } from "../../src/image/footer/amex.webp";
+export { default as discover } from "../../src/image/footer/discover.webp";
+export { default as jcb } from "../../src/image/footer/jcb.webp";
+export { default as maestro } from "../../src/image/footer/maestro.webp";
+export { default as mastercard } from "../../src/image/footer/mastercard.webp";
+
+export { default as homeEl1 } from "../../src/image/header/hero-light-1.png";
+export { default as homeEl2 } from "../../src/image/header/service-3.png";
+export { default as homeEl3 } from "../../src/image/header/service-1.png";
+export { default as homeEl4 } from "../../src/image/header/hero-light-2.png";
+
+export { default as reason1 } from "../../src/image/pages/career/icon_stability.svg";
+export { default as reason2 } from "../../src/image/pages/career/icon_diversity.svg";
+export { default as reason3 } from "../../src/image/pages/career/icon_training.svg";
+export { default as reason4 } from "../../src/image/pages/career/icon_mobile-office.svg";
+export { default as reason5 } from "../../src/image/pages/career/icon_refreshments.svg";
+export { default as reason6 } from "../../src/image/pages/career/icon_growth.svg";
+

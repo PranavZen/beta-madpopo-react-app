@@ -55,11 +55,11 @@ function SyncMain(props) {
     fancy-animation-block-two position-relative "
     >
       <div className="container">
-        <div class="px-md-12 text-center mb-9 mb-lg-20">
-          <h2 class="title coodiv-text-4 mb-4">
+        <div className="px-md-12 text-center mb-9 mb-lg-20">
+          <h2 className="title coodiv-text-4 mb-4">
             Online Made Simple: All You Need to Get Started
           </h2>
-          <p class="coodiv-text-11 mb-0">
+          <p className="coodiv-text-11 mb-0">
             Getting started online doesn't have to be complicated. With the
             right tools and guidance, anyone can make the transition to the
             digital world with ease. "Online Made Simple" is your comprehensive

@@ -1,5 +1,6 @@
 import React from "react";
 import vdsListing from "./VdsLsitingData";
+import { palnsIcon } from "..";
 
 function VdsListing(props) {
   return (
@@ -14,7 +15,7 @@ function VdsListing(props) {
               <div className="col-md-4" key={list.id}>
                 <div className="palnsWrapbox">
                   <div className="icon_box">
-                    <span>{list.palnsIcon}</span>
+                  <span><img src={palnsIcon} alt="common img" /></span>
                   </div>
                   <div className="plans_listName">
                     <h5>{list.plansTitle}</h5>

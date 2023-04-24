@@ -12,7 +12,7 @@ function Seo({ title, description, name, type , keywords}) {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta name="keywords" content={keywords} />
-
+ 
       {/* End Facebook tags */}
       {/* Twitter tags */}
       <meta name="twitter:creator" content={name} />

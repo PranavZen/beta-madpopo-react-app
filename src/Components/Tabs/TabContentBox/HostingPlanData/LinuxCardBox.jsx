@@ -2,7 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import LinuxData from "../../TabContentBox/HostingPlanData/LinuxHostingData";
 function LinuxCardBox(props) {
-  console.log(props.id);
+  // console.log(LinuxData);
+  var defaultPrice =  LinuxData[props.id - 1].priceThreeYearlyInINR;
+  // console.log(defaultPrice);
+  var bydefaultCurrency = "₹";
   var show_price = "";
   var show_currency = "";
   var show_price_1 = "";
@@ -11,7 +14,7 @@ function LinuxCardBox(props) {
     "priceThreeYearlyIn"
   );
 
-  const [selectedCountry, setSelectedCountry] = useState("INR");
+  const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
 
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
@@ -35,7 +38,7 @@ function LinuxCardBox(props) {
     show_price = LinuxData[props.id - 1][show_currency];
   }
 
-  console.log(show_price);
+  // console.log(show_price);
 
   const handleCountryChange = (e) => {
     //alert(selectedCountry);
@@ -78,7 +81,7 @@ function LinuxCardBox(props) {
     }
     show_price_1 = LinuxData[props.id - 1][show_currency];
     setSelectPrice(show_price_1);
-    console.log(show_price_1);
+    // console.log(show_price_1);
 
     // console.log(selectedCountry);
     //console.log(products.wordpressData[props.id - 1]);
@@ -119,8 +122,8 @@ function LinuxCardBox(props) {
                     font-weight-bold text-blackish-blue
                     line-spacing-none mb-2 mt-5"
         >
-          {selectedCountry}
-          {slectPrice ? slectPrice : show_price}
+        {selectedCountry ? selectedCountry : bydefaultCurrency}
+        { slectPrice ? slectPrice : show_price || defaultPrice }
           <span
             className="coodiv-text-11
                     coodiv-color-blackish-blue-opacity-7 pl-5"

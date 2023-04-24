@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import ResellerHostingData from "../Tabs/TabContentBox/HostingPlanData/ResellerHostingData";
 function ResellerHostingCard(props) {
+  //  console.log(ResellerHostingData);
+ var defaultPrice6 =  ResellerHostingData[props.id - 1].priceThreeYearlyInINR;
+//  console.log(defaultPrice6);
+ var bydefaultCurrency = "₹";
   var show_price = "";
   var show_currency = "";
   var show_price_1 = "";
@@ -10,7 +14,7 @@ function ResellerHostingCard(props) {
     "priceThreeYearlyIn"
   );
 
-  const [selectedCountry, setSelectedCountry] = useState("INR");
+  const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
 
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
@@ -34,7 +38,7 @@ function ResellerHostingCard(props) {
     show_price = ResellerHostingData[props.id - 1][show_currency];
   }
 
-  console.log(show_price);
+  // console.log(show_price);
 
   const handleCountryChange = (e) => {
     //alert(selectedCountry);
@@ -77,7 +81,7 @@ function ResellerHostingCard(props) {
     }
     show_price_1 = ResellerHostingData[props.id - 1][show_currency];
     setSelectPrice(show_price_1);
-    console.log(show_price_1);
+    // console.log(show_price_1);
 
     // console.log(selectedCountry);
     //console.log(products.wordpressData[props.id - 1]);
@@ -113,8 +117,8 @@ function ResellerHostingCard(props) {
               </form>
             </div>
             <h2 className="text-blackish-blue">
-              {selectedCountry}
-              {slectPrice ? slectPrice : show_price}
+            {selectedCountry ? selectedCountry : bydefaultCurrency}
+            { slectPrice ? slectPrice : show_price || defaultPrice6 }
               <span className="payment-type-m">monthly</span>
             </h2>
           </div>

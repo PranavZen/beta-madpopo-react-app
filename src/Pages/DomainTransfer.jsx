@@ -14,20 +14,18 @@ import {
 import Navbar from "../Components/Navbar/Navbar";
 import { Link, animateScroll as scroll } from "react-scroll";
 import DomainTableList from "../Components/DomainTableList/DomainTableList";
-import DomainRegistrationFeatures from "../Components/DomainRegistrationPageComponent/DomainRegistrationFeatures";
 import domainFeatData from "../Components/DomainTableList/DomainFeatData";
-import Seo from "../Components/SEO/Seo";
 import DomainTransferFeatures from "../Components/DomainTransferPageComponent/DomainTransferFeatures";
+import Seo from "../Components/SEO/Seo";
 function DomainTransfer() {
   const [show, setShow] = React.useState(false);
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg domTransBG">
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
+    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
+    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
     keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
-    
-  />
+    />
       <Navbar />
       <div className="container">
         <div className="doms_top_para">

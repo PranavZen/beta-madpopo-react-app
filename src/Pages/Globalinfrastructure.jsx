@@ -1,5 +1,10 @@
 import React from "react";
-import { conditionpower, footerPose1, networkmadpopo, networkswitchequipment, physicalsecurity, precisionenvironment, securitymadpopo, wpFeatureImg1 } from "../Components";
+import {
+  dc,
+  footerPose1,
+  nc,
+  rigions,
+} from "../Components";
 import Footer from "../Components/Footer/Footer";
 import Hostareawrap from "../Components/HostingArea/Hostareawrap";
 import Navbar from "../Components/Navbar/Navbar";
@@ -9,11 +14,10 @@ function Globalinfrastructure() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg gbInfraBg">
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
+    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
+    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
     keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
-    
-  />
+    />
       <Navbar />
 
       <div className="gb_infraWrap">
@@ -37,73 +41,25 @@ function Globalinfrastructure() {
               <div className="col-md-4">
                 <div className="gb_infraBoxInner">
                   <div className="wp_fetureImageWrap">
-                    <img src={wpFeatureImg1} alt="Optimized Technology" />
+                    <img src={rigions} alt="8 Regions" />
                   </div>
-                  <h5>31 Launched Regions</h5>
-                  <p>
-                    Whether you want speed, simplicity, space, or super-power,
-                    we’ve got you covered.
-                  </p>
+                  <h5>8 Regions</h5>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="gb_infraBoxInner">
                   <div className="wp_fetureImageWrap">
-                    <img src={wpFeatureImg1} alt="Optimized Technology" />
+                    <img src={dc} alt="14 Data Centers" />
                   </div>
-                  <h5>31 Launched Regions</h5>
-                  <p>
-                    Whether you want speed, simplicity, space, or super-power,
-                    we’ve got you covered.
-                  </p>
+                  <h5>14 Data Centers</h5>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="gb_infraBoxInner">
                   <div className="wp_fetureImageWrap">
-                    <img src={wpFeatureImg1} alt="Optimized Technology" />
+                    <img src={nc} alt="5Tbps+ NETWORK CAPACITY" />
                   </div>
-                  <h5>31 Launched Regions</h5>
-                  <p>
-                    Whether you want speed, simplicity, space, or super-power,
-                    we’ve got you covered.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="gb_infraBoxInner">
-                  <div className="wp_fetureImageWrap">
-                    <img src={wpFeatureImg1} alt="Optimized Technology" />
-                  </div>
-                  <h5>31 Launched Regions</h5>
-                  <p>
-                    Whether you want speed, simplicity, space, or super-power,
-                    we’ve got you covered.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="gb_infraBoxInner">
-                  <div className="wp_fetureImageWrap">
-                    <img src={wpFeatureImg1} alt="Optimized Technology" />
-                  </div>
-                  <h5>31 Launched Regions</h5>
-                  <p>
-                    Whether you want speed, simplicity, space, or super-power,
-                    we’ve got you covered.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="gb_infraBoxInner">
-                  <div className="wp_fetureImageWrap">
-                    <img src={wpFeatureImg1} alt="Optimized Technology" />
-                  </div>
-                  <h5>31 Launched Regions</h5>
-                  <p>
-                    Whether you want speed, simplicity, space, or super-power,
-                    we’ve got you covered.
-                  </p>
+                  <h5>35Tbps+ NETWORK CAPACITY</h5>
                 </div>
               </div>
             </div>
@@ -113,324 +69,90 @@ function Globalinfrastructure() {
           <p className="coodiv-text-9 mb-12 btnDescTetx">
             When it comes to your online presence, speed is king. Our data
             centers provide the physical environment nessessary to keep your
-            servers up and running 24X7X365 guaranteed. That’s why we’ve built
-            our global infrastructure to deliver top speeds. Because we own the
-            network, infrastructure and facility on which your servers run, we
-            can guarantee flexibility, reliability, security and redundancy for
-            your digital assets. We have 6 data centers in 6 regions including
-            India, UAE, Singapore, United States, Luxemburg, Germany, and United
-            Kingdom
+            servers up and running 99.9% uptime guaranteed. That’s why we’ve
+            built our global infrastructure to deliver top speeds. Because we
+            own the network, infrastructure and facility on which your servers
+            run, we can guarantee flexibility, reliability, security and
+            redundancy for your digital assets. We have 14 data centers in 8
+            regions including India, UAE, Singapore, United States, Germany,
+            Australia and United Kingdom.
           </p>
         </div>
         <Hostareawrap />
 
         <div className="gb_infraDataSection">
           <div className="container">
-            <div className="gb_infraDataWrapper">
-              <h6 className="gb_infraDataTitle">Data Center Environment</h6>
-              <p className="gb_para">
-                An optimized IT infrastructure goes hand-in-hand with
-                environmental sustainability for Infinite Technologies' data
-                centers. A significant reduction in CO2 emissions and the use of
-                sustainable energy can support the reduction of the greenhouse
-                effect. The green reveloution for Infinite Technologies means
-                that we are continually striving to maintain or reduce our
-                carbon footprint. The sustainable solutions we have implemented
-                to do so are certified, assuring customers that our
-                environmental results are proven and officially verified.
-                Infinite Technologies' data center has received global
-                recognition for the superior environmental features of its
-                datacenter.
-              </p>
-              <div className="gb_sidesBoxWrap">
-                <div className="col-md-5 col-12">
-                  <div className="gb_leftList">
-                    <ul className="gb_listing">
-                      <li>{`PUE : 2009 > 1.5 - 2010 1.4 > 2011 below 1.2`}</li>
-                      <li>Advanced technology saves 60-80% on energy usage</li>
-                      <li>Cables through ducts, no hot spots</li>
-                      <li>HF-lighting connected to movement sensors</li>
-                      <li>BMS (Building Management System)</li>
-                      <li>Increased awareness of energy cost and savings</li>
-                      <li>Spearheading innovative green developments</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-md-6 col-12">
-                  <div className="gb_rightImgWrap">
-                    <img
-                      className="gb_rightImg"
-                      src={securitymadpopo}
-                      alt="Data Center Environment"
-                    />
-                  </div>
+            <div className="dataCenterTitle">
+              <h5>
+                What is it that ensures the reliability of our data centers?
+              </h5>
+            </div>
+            <div className="dataCentersWrap">
+              <div className="col-md-4">
+                <div className="dataCenterBoxWrap">
+                  <h3>Power Supply Redundancy</h3>
+                  <p>
+                    Ensuring uninterrupted power supply is crucial for
+                    maintaining server uptime. That's why at Contabo, we've made
+                    significant investments in our own transformer stations, N+1
+                    UPS systems, and diesel power generators.{" "}
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className="gb_infraDataWrapper">
-              <h6 className="gb_infraDataTitle">Network</h6>
-              <p className="gb_para">
-                An optimized IT infrastructure goes hand-in-hand with
-                environmental sustainability for Infinite Technologies' data
-                centers. A significant reduction in CO2 emissions and the use of
-                sustainable energy can support the reduction of the greenhouse
-                effect. The green reveloution for Infinite Technologies means
-                that we are continually striving to maintain or reduce our
-                carbon footprint. The sustainable solutions we have implemented
-                to do so are certified, assuring customers that our
-                environmental results are proven and officially verified.
-                Infinite Technologies' data center has received global
-                recognition for the superior environmental features of its
-                datacenter.
-              </p>
-              <div className="gb_sidesBoxWrap">
-                <div className="col-md-6 col-12">
-                  <div className="gb_rightImgWrap">
-                    <img className="gb_rightImg" src={networkmadpopo} alt="Network" />
-                  </div>
-                </div>
-                <div className="col-md-5 col-12">
-                  <div className="gb_leftList">
-                    <ul className="gb_listing">
-                      <li>Dedicated to our customers’ hosting needs only</li>
-                      <li>Always high-performance bandwidth</li>
-                      <li>
-                        Multiple network providers, for multiple redundancies
-                      </li>
-                      <li>
-                        Fiber carriers enter at disparate points to guard
-                        against failure
-                      </li>
-                      <li>
-                        Network topology and configuration automatically
-                        improves in real time
-                      </li>
-                      <li>
-                        Configuration, co-developed with Cisco, guards against
-                        single points of failure at the shared network level
-                        (extendable to your VLAN environment)
-                      </li>
-                      <li>
-                        Cisco and Arbor Networks work with us to continually
-                        improve monitoring and security
-                      </li>
-                    </ul>
-                  </div>
+              <div className="col-md-4">
+                <div className="dataCenterBoxWrap">
+                  <h3>Internet Connection Redundancy</h3>
+                  <p>
+                    A server is only valuable if it can be accessed from the
+                    internet. To guarantee this, we install a minimum of two
+                    distinct fiber connections at every data center and
+                    collaborate with multiple carriers.
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className="gb_infraDataWrapper">
-              <h6 className="gb_infraDataTitle">Precision environment</h6>
-              <p className="gb_para">
-                An optimized IT infrastructure goes hand-in-hand with
-                environmental sustainability for Infinite Technologies' data
-                centers. A significant reduction in CO2 emissions and the use of
-                sustainable energy can support the reduction of the greenhouse
-                effect. The green reveloution for Infinite Technologies means
-                that we are continually striving to maintain or reduce our
-                carbon footprint. The sustainable solutions we have implemented
-                to do so are certified, assuring customers that our
-                environmental results are proven and officially verified.
-                Infinite Technologies' data center has received global
-                recognition for the superior environmental features of its
-                datacenter.
-              </p>
-              <div className="gb_sidesBoxWrap">
-                <div className="col-md-5 col-12">
-                  <div className="gb_leftList">
-                    <ul className="gb_listing">
-                      <li>
-                        N+1 redundant HVAC (Heating Ventilation Air
-                        Conditioning) system, ensuring duplicate system
-                        immediately comes online should there be an HVAC system
-                        failure
-                      </li>
-                      <li>
-                        Every 90 seconds, all air is circulated and filtered to
-                        remove dust and contaminants
-                      </li>
-                      <li>Advanced fire suppression systems</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-md-6 col-12">
-                  <div className="gb_rightImgWrap">
-                    <img
-                      className="gb_rightImg"
-                      src={precisionenvironment}
-                      alt="Precision environment"
-                    />
-                  </div>
+              <div className="col-md-4">
+                <div className="dataCenterBoxWrap">
+                  <h3>Cooling Redundancy</h3>
+                  <p>
+                    Servers produce a significant amount of heat, which can
+                    cause them to overheat rapidly without continuous cooling.
+                    That's why our data centers are furnished with redundant
+                    (N+1) chillers and climate cabinets.
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className="gb_infraDataWrapper">
-              <h6 className="gb_infraDataTitle">Physical security</h6>
-              <p className="gb_para">
-                An optimized IT infrastructure goes hand-in-hand with
-                environmental sustainability for Infinite Technologies' data
-                centers. A significant reduction in CO2 emissions and the use of
-                sustainable energy can support the reduction of the greenhouse
-                effect. The green reveloution for Infinite Technologies means
-                that we are continually striving to maintain or reduce our
-                carbon footprint. The sustainable solutions we have implemented
-                to do so are certified, assuring customers that our
-                environmental results are proven and officially verified.
-                Infinite Technologies' data center has received global
-                recognition for the superior environmental features of its
-                datacenter.
-              </p>
-              <div className="gb_sidesBoxWrap">
-                <div className="col-md-6 col-12">
-                  <div className="gb_rightImgWrap">
-                    <img
-                      className="gb_rightImg"
-                      src={physicalsecurity}
-                      alt="Physical security"
-                    />
-                  </div>
-                </div>
-                <div className="col-md-5 col-12">
-                  <div className="gb_leftList">
-                    <ul className="gb_listing">
-                      <li>
-                        Key card protocols, biometric scanning protocols, and
-                        around-the-clock interior and exterior surveillance
-                      </li>
-                      <li>
-                        Access limited to authorized data center personnel; no
-                        one else can enter the production area without prior
-                        clearance and appropriate escort
-                      </li>
-                      <li>
-                        Every data center employee undergoes multiple and
-                        thorough background security checks before hire
-                      </li>
-                    </ul>
-                  </div>
+              <div className="col-md-4">
+                <div className="dataCenterBoxWrap">
+                  <h3>DC Security</h3>
+                  <p>
+                    The security of servers commences with the physical security
+                    of the data center. Each data center is outfitted with CCTV
+                    and physical access control to prevent unauthorized entry to
+                    any server.
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className="gb_infraDataWrapper">
-              <h6 className="gb_infraDataTitle">Core routing equipment</h6>
-              <p className="gb_para">
-                An optimized IT infrastructure goes hand-in-hand with
-                environmental sustainability for Infinite Technologies' data
-                centers. A significant reduction in CO2 emissions and the use of
-                sustainable energy can support the reduction of the greenhouse
-                effect. The green reveloution for Infinite Technologies means
-                that we are continually striving to maintain or reduce our
-                carbon footprint. The sustainable solutions we have implemented
-                to do so are certified, assuring customers that our
-                environmental results are proven and officially verified.
-                Infinite Technologies' data center has received global
-                recognition for the superior environmental features of its
-                datacenter.
-              </p>
-              <div className="gb_sidesBoxWrap">
-                <div className="col-md-5 col-12">
-                  <div className="gb_leftList">
-                    <ul className="gb_listing">
-                      <li>
-                        Fully redundant, enterprise-class routing equipment only
-                      </li>
-                      <li>
-                        Fiber carriers enter at disparate points to guard
-                        against service failure
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-md-6 col-12">
-                  <div className="gb_rightImgWrap">
-                    <img
-                      className="gb_rightImg"
-                      src={networkswitchequipment}
-                      alt="Core routing equipment"
-                    />
-                  </div>
+              <div className="col-md-4">
+                <div className="dataCenterBoxWrap">
+                  <h3>Efficient Energy</h3>
+                  <p>
+                    As we strive to offer you the best pricing, we also
+                    prioritize environmental considerations. We leverage modern
+                    technologies, such as Free Cooling and Groundwater Cooling,
+                    wherever feasible to enhance energy efficiency. By consuming
+                    less energy, we can offer you lower prices!
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className="gb_infraDataWrapper">
-              <h6 className="gb_infraDataTitle">Conditioned power</h6>
-              <p className="gb_para">
-                An optimized IT infrastructure goes hand-in-hand with
-                environmental sustainability for Infinite Technologies' data
-                centers. A significant reduction in CO2 emissions and the use of
-                sustainable energy can support the reduction of the greenhouse
-                effect. The green reveloution for Infinite Technologies means
-                that we are continually striving to maintain or reduce our
-                carbon footprint. The sustainable solutions we have implemented
-                to do so are certified, assuring customers that our
-                environmental results are proven and officially verified.
-                Infinite Technologies' data center has received global
-                recognition for the superior environmental features of its
-                datacenter.
-              </p>
-              <div className="gb_sidesBoxWrap">
-                <div className="col-md-6 col-12">
-                  <div className="gb_rightImgWrap">
-                    <img
-                      className="gb_rightImg"
-                      src={conditionpower}
-                      alt="Conditioned power"
-                    />
-                  </div>
+              <div className="col-md-4">
+                <div className="dataCenterBoxWrap">
+                  <h3>On-premises profressionals</h3>
+                  <p>
+                    To monitor the servers, we ensure that there are on-site
+                    personnel present in each data center every day of the year,
+                    including weekends and holidays.
+                  </p>
                 </div>
-                <div className="col-md-5 col-12">
-                  <div className="gb_leftList">
-                    <ul className="gb_listing">
-                      <li>
-                        UPS (Uninterruptible Power Supply) for all servers
-                      </li>
-                      <li>
-                        N+1 redundant UPS power subsystem, with instantaneous
-                        fail over if the primary UPS fails
-                      </li>
-                      <li>
-                        If an extended utility power outage occurs, our
-                        routinely tested, on-site diesel generators can run
-                        indefinitely
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="gb_infraDataWrapper">
-              <h6 className="gb_infraDataTitle">Network technicians</h6>
-              <p className="gb_para">
-                An optimized IT infrastructure goes hand-in-hand with
-                environmental sustainability for Infinite Technologies' data
-                centers. A significant reduction in CO2 emissions and the use of
-                sustainable energy can support the reduction of the greenhouse
-                effect. The green reveloution for Infinite Technologies means
-                that we are continually striving to maintain or reduce our
-                carbon footprint. The sustainable solutions we have implemented
-                to do so are certified, assuring customers that our
-                environmental results are proven and officially verified.
-                Infinite Technologies' data center has received global
-                recognition for the superior environmental features of its
-                datacenter.
-              </p>
-              <div className="gb_sidesBoxWrap">
-                <div className="col-md-5 col-12">
-                  <div className="gb_leftList">
-                    <ul className="gb_listing">
-                      <li>
-                        Networking and security teams must be certified and
-                        thoroughly experienced in managing and monitoring
-                        enterprise-level networks
-                      </li>
-                      <li>
-                        Our Certified Network Technicians are trained to the
-                        highest industry standards
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-               
               </div>
             </div>
           </div>

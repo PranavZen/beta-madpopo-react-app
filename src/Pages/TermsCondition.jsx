@@ -8,11 +8,10 @@ function TermsCondition() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg termsConditionBg">
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
+    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
+    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
     keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
-    
-  />
+    />
       <Navbar />
       <div className="container">
       <div className="tc_TitleOverlay">
@@ -532,7 +531,7 @@ function TermsCondition() {
             accept the risk of loss of any and all User Content.
           </p>
         </div>
-        <h2 class="mainTc">Billing and Payment Information</h2>
+        <h2 className="mainTc">Billing and Payment Information</h2>
         <div className="tc_boxex">
           <h3>Prepayment</h3>
           <p>
@@ -674,7 +673,7 @@ function TermsCondition() {
             Services.
           </p>
         </div>
-        <h2 class="mainTc">Cancellations and Refunds</h2>
+        <h2 className="mainTc">Cancellations and Refunds</h2>
         <div className="tc_boxex">
           <h3>Refunds.</h3>
           <p>

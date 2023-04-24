@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import WindowsHostingDatas from "../Tabs/TabContentBox/HostingPlanData/WindowsHostingData"
 function WindowsPricingCardBox(props) {
 // console.log(WindowsHostingDatas);
+var defaultPrice2 =  WindowsHostingDatas[props.id - 1].priceThreeYearlyInINR;
+// console.log(defaultPrice2);
+var bydefaultCurrency = "₹";
   var show_price = "";
   var show_currency = "";
    var show_price_1 =""
@@ -11,7 +14,7 @@ function WindowsPricingCardBox(props) {
     "priceThreeYearlyIn"
   );
 
-  const [selectedCountry, setSelectedCountry] = useState("INR");
+  const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
 
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
 
@@ -109,8 +112,8 @@ function WindowsPricingCardBox(props) {
         </div>
         <div className="ddos-attack-price d-flex justify-content-between align-items-center mt-7 py-4">
           <h2 className="priceCardPriceAmt">
-          {selectedCountry}
-          {slectPrice ? slectPrice : show_price}
+          {selectedCountry ? selectedCountry : bydefaultCurrency}
+        { slectPrice ? slectPrice : show_price || defaultPrice2 }
             <span className="monthSpan">
               per month <br /> billed annually
             </span>

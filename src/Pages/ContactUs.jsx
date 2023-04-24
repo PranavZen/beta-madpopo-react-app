@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
-import MapContainer from "../Components/MapContainer";
 import Seo from "../Components/SEO/Seo";
 function ContactUs() {
   const [scroll, setScroll] = useState(false);
@@ -14,11 +13,10 @@ function ContactUs() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg contactBgImg">
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
+    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
+    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
     keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
-    
-  />
+    />
       <Navbar />
       {
       //   <div className="hero-area-coodiv header-google-map-height position-relative white-bg light-mode-texts">
@@ -35,7 +33,7 @@ function ContactUs() {
       //     </svg>
       //   </div>
       //   <div
-      //     class="google-map header-google-map fluid-map-height"
+      //     className="google-map header-google-map fluid-map-height"
       //     id="googleMap"
       //   >
       //     <MapContainer />
@@ -47,7 +45,7 @@ function ContactUs() {
       
       <div className="contact-form-container contatc_mt">
         <div className="container">
-        <div class="tc_TitleOverlay"><h1>Contact Us</h1></div>
+        <div className="tc_TitleOverlay"><h1>Contact Us</h1></div>
           <div className="row justify-content-center pb-10 position-relative coodiv-z-index-2">
             <div className="col-md-12 col-lg-8">
               <div className="contact-form-container bg-white border-opacity px-8 pt-8 pb-9 px-sm-11 py-sm-11 shadow-2 rounded-20 position-relative overflow-hidden">
@@ -146,7 +144,7 @@ function ContactUs() {
                   <div>
                     <h5 className="coodiv-text-8 mb-0">Sales</h5>
                     <p className="coodiv-text-11 mb-0">
-                      +91 9930809662
+                    +91 99300 19195
                     </p>
                   </div>
                 </div>
@@ -230,25 +228,8 @@ function ContactUs() {
         </div>
       </div>
 
-      <div className="popular-topics-section pt-15 pb-md-20 pb-15 pt-lg-20 pb-lg-32 bg-default-1 position-relative border-top">
-        <svg
-          className="bg-wave-box-end-z1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-        >
-          <defs>
-            <linearGradient id="footer-gradient">
-              <stop offset="0%" stop-color="#212433"></stop>
-              <stop offset="39%" stop-color="#242837"></stop>
-              <stop offset="100%" stop-color="#0e1019"></stop>
-            </linearGradient>
-          </defs>
-          <path
-            fill="url(#footer-gradient)"
-            fill-opacity="1"
-            d="M0,128L80,138.7C160,149,320,171,480,192C640,213,800,235,960,234.7C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-          ></path>
-        </svg>
+      <div className="popular-topics-section pt-15 pb-md-20 pb-15 pt-lg-20 pb-lg-32 bg-default-1 position-relative border-top contactPB">
+       
         <div className="container">
           <div className="row justify-content-center align-items-center position-relative coodiv-z-index-2">
             <div
@@ -358,6 +339,22 @@ function ContactUs() {
           </div>
         </div>
       </div>
+      <div className="wp_hostingFaqSection contPT">
+      
+      <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
+        <defs>
+          <linearGradient id="footer-gradient">
+            <stop offset="0%" stopColor="#212433" />
+            <stop offset="39%" stopColor="#242837" />
+            <stop offset="100%" stopColor="#0e1019" />
+          </linearGradient>
+        </defs>
+        <path
+          fill="rgb(36,40,55)"
+          d="M0,128L80,138.7C160,149,320,171,480,192C640,213,800,235,960,234.7C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
       <Footer />
     </div>
   );

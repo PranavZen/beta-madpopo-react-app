@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { fooLogo } from "../../Components/index";
+import { amex, discover, fooLogo, jcb, maestro, mastercard, visa } from "../../Components/index";
 
 function Footer() {
   return (
@@ -25,7 +25,7 @@ function Footer() {
                 <div className="col-12 col-lg-3">
                   <div className="footer-block mb-13 mb-lg-9">
                     <div className="brand-logo mb-7">
-                      <Link to="#">
+                      <Link to={process.env.PUBLIC_URL + "/"}>
                         <img src={fooLogo} alt="" className="dark-version-logo" />
                       </Link>
                     </div>
@@ -37,8 +37,8 @@ function Footer() {
                       </li>
                       <li>
                         <span className="badge coodiv-badge badge badge-info rounded-pill coodiv-text-12 position-relative">
-                          <i className="fa fa-phone"></i> +91 70 42 40 7676
-                        </span>
+                          <i className="fa fa-phone"></i> +91 99300 19195
+                        </span> 
                       </li>
                     </ul>
                     <p className="coodiv-text-11 pr-lg-10">
@@ -54,19 +54,19 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="web-hosting.html">
+                        <Link className="footer-list-link" to="/windows-hosting">
                           Web Hosting
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="vps-hosting.html">
+                        <Link className="footer-list-link" to="/virtual-dedicated-server">
                           VPS servers
                         </Link>
                       </li>
                       <li className="py-1">
                         <Link
                           className="footer-list-link"
-                          to="google-workspace.html"
+                          to=""
                         >
                           Google Workspace
                         </Link>
@@ -79,24 +79,24 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="minecraft.html">
+                        <Link className="footer-list-link" to="">
                           minecraft hosting
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="website-builder.html">
+                        <Link className="footer-list-link" to="">
                           Website builder
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="cpanel-reseller.html">
+                        <Link className="footer-list-link" to="">
                           Cpanel reseller
                         </Link>
                       </li>
                       <li className="py-1">
                         <Link
                           className="footer-list-link"
-                          to="wordpress-hosting.html"
+                          to="/wordpress-hosting"
                         >
                           WordPress hosting
                         </Link>
@@ -114,7 +114,7 @@ function Footer() {
                       <li className="py-1">
                         <Link
                           className="footer-list-link"
-                          to="domains-registration.html"
+                          to=""
                         >
                           Domain Checker
                         </Link>
@@ -122,18 +122,18 @@ function Footer() {
                       <li className="py-1">
                         <Link
                           className="footer-list-link"
-                          to="domains-registration.html"
+                          to=""
                         >
                           Free Domain
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="shared-hosting.html">
+                        <Link className="footer-list-link" to="">
                           SSL Certificate
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="help-center.html">
+                        <Link className="footer-list-link" to="">
                           WHOIS checker
                         </Link>
                       </li>
@@ -145,22 +145,22 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="index-vpn.html">
+                        <Link className="footer-list-link" to="">
                           Website Acceleration
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="index-cdn.html">
+                        <Link className="footer-list-link" to="">
                           Video Delivery
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="index-4.html">
+                        <Link className="footer-list-link" to="">
                           Software Distribution
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="index-3.html">
+                        <Link className="footer-list-link" to="">
                           Image Processing
                         </Link>
                       </li>
@@ -175,27 +175,25 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="about.html">
+                        <Link className="footer-list-link" to="">
                           About Us
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="contact.html">
+                        <Link className="footer-list-link" to="/contact-us">
                           Contact Us
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="blog.html">
-                          Blog
-                        </Link>
+                      <Link to="" className="footer-list-link" onClick={()=> window.open('https://blog.madpopo.com/', '_blank')}>Blog</Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="blog-single.html">
+                        <Link className="footer-list-link" to="">
                           SLA
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="all-topics.html">
+                        <Link className="footer-list-link" to="/career">
                           Careers
                         </Link>
                       </li>
@@ -207,12 +205,12 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="incident-post.html">
+                        <Link className="footer-list-link" to="">
                           Developer Hub
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="all-topics.html">
+                        <Link className="footer-list-link" to="">
                           API Reference
                         </Link>
                       </li>
@@ -227,27 +225,27 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="about.html">
+                        <Link className="footer-list-link" to="">
                           About Us
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="status-page.html">
+                        <Link className="footer-list-link" to="">
                           Our Technology
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="privacy-policy.html">
+                        <Link className="footer-list-link" to="">
                           Privacy Policy
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="privacy-policy.html">
+                        <Link className="footer-list-link" to="/terms-conditions">
                           Terms &amp; Conditions
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="contact.html">
+                        <Link className="footer-list-link" to="/contact-us">
                           Contact Us
                         </Link>
                       </li>
@@ -261,12 +259,30 @@ function Footer() {
                       Working on a big project? Let our experts help you out.
                     </p>
                     <Link
-                      to="contact.html"
+                      to="/contact-us"
                       className="btn btn-red with-icon coodiv-text-11 white-text-btn rounded-25 py-3 coodiv-hover-y"
                     >
                       Talk to an expert{" "}
                       <i className="feather icon-arrow-right font-weight-bold"></i>
                     </Link>
+                  </div>
+                  <div className="footer-block mb-13 mb-lg-4 text-center text-lg-left">
+                      <div className="socialMediaWrap">
+                          <ul className="socialListIcons">
+                            <li>
+                                <a href="https://www.facebook.com/madpopowp/"><i class="fa fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                            <a href="https://www.instagram.com/madpopowp/"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li>
+                            <a href="https://www.linkedin.com/company/madpopowp/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                            <a href="https://twitter.com/madpopowp"> <i class="fa fa-twitter-square"></i></a>
+                            </li>
+                          </ul>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -283,38 +299,38 @@ function Footer() {
                   <ul className="payment-getway list-unstyled mb-0">
                     <li className="ml-1">
                       <img
-                        src="https://emyui.pdthemes.de/wp-content/uploads/2022/02/visa.webp"
-                        alt=""
+                        src={visa}
+                        alt="visa"
                       />
                     </li>
                     <li className="ml-1">
                       <img
-                        src="https://emyui.pdthemes.de/wp-content/uploads/2022/02/mastercard.webp"
-                        alt=""
+                        src={amex}
+                        alt="amex"
                       />
                     </li>
                     <li className="ml-1">
                       <img
-                        src="https://emyui.pdthemes.de/wp-content/uploads/2022/02/discover.webp"
-                        alt=""
+                        src={discover}
+                        alt="discover"
                       />
                     </li>
                     <li className="ml-1">
                       <img
-                        src="https://emyui.pdthemes.de/wp-content/uploads/2022/02/amex.webp"
-                        alt=""
+                        src={jcb}
+                        alt="jcb"
                       />
                     </li>
                     <li className="ml-1">
                       <img
-                        src="https://emyui.pdthemes.de/wp-content/uploads/2022/02/jcb.webp"
-                        alt=""
+                        src={maestro}
+                        alt="maestro"
                       />
                     </li>
                     <li className="ml-1">
                       <img
-                        src="https://emyui.pdthemes.de/wp-content/uploads/2022/02/maestro.webp"
-                        alt=""
+                        src={mastercard}
+                        alt="mastercard"
                       />
                     </li>
                   </ul>

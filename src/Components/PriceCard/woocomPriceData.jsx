@@ -2,7 +2,7 @@ const woocomPriceData = {
     mainDataPricing: [
       {
         id: 1,
-        cardTitle: "Plan 1",
+        cardTitle: "Popo Store Easy",
         cardSubTitle: "Optimal solution for Beginners",
         cardOgPrice: `$32`,
         cardOffer: "offer - 30%",
@@ -15,7 +15,7 @@ const woocomPriceData = {
       },
       {
         id: 2,
-        cardTitle: "Paln 2",
+        cardTitle: "Popo Store Pro",
         cardSubTitle: "Ideal for personal websites",
         cardOgPrice: `$33`,
         cardOffer: "offer - 40%",
@@ -28,7 +28,7 @@ const woocomPriceData = {
       },
       {
         id: 3,
-        cardTitle: "Plan 3",
+        cardTitle: "Popo Store Master",
         cardSubTitle: "Suitable for small business",
         cardOgPrice: `$34`,
         cardOffer: "offer - 30%",

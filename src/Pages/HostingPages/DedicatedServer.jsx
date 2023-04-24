@@ -5,15 +5,13 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { dsImg, footerPose1, wp_logo } from '../../Components';
-import WpBestChoice from '../../Components/WordpressHostingPageComponent/WpBestChoice';
-import WordpressHostingFeatures from '../../Components/WordpressHostingPageComponent/WordpressHostingFeatures';
-import WordpressPlansListing from '../../Components/WordpressHostingPageComponent/WordpressPlansListing';
+import { dsImg, footerPose1 } from '../../Components';
 import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
-import WordpressHostingFAQ from '../../Components/WordpressHostingPageComponent/WordpressHostingFAQ';
 import DediecatedServerComponent from '../../Components/Tabs/TabContentBox/DediecatedServerComponent';
 import Seo from '../../Components/SEO/Seo';
 import DedecatedServerFaq from '../../Components/DedecatedServerPageComponent/DedecatedServerFaq';
+import DedicatedPlansListing from '../../Components/DedecatedServerPageComponent/DedicatedPlansListing';
+import DedicatedServerFeatures from '../../Components/DedecatedServerPageComponent/DedicatedServerFeatures';
 function DedicatedServer() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg dedicatedServerBG">
@@ -54,10 +52,10 @@ function DedicatedServer() {
       }
 
       <div className="wp_features dedecatedFeatures">
-        <WordpressHostingFeatures />
+        <DedicatedServerFeatures /> 
       </div>
       <div className="wp_plansListing">
-        <WordpressPlansListing />
+        <DedicatedPlansListing />
       </div>
       <div
         className="trusedPlanSection"

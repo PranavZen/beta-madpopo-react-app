@@ -1,5 +1,5 @@
 import React from "react";
-import { footerPose1, woocommimg, wp_logo } from "../../Components";
+import { footerPose1, woocommimg} from "../../Components";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 // import WordpressHostingPriceCard from "../../Components/WordpressHostingPageComponent/WordpressHostingPriceCard";
@@ -7,11 +7,7 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import WpBestChoice from "../../Components/WordpressHostingPageComponent/WpBestChoice";
-import WordpressHostingFeatures from "../../Components/WordpressHostingPageComponent/WordpressHostingFeatures";
-import WordpressPlansListing from "../../Components/WordpressHostingPageComponent/WordpressPlansListing";
 import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
-import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";
 import WooComPriceCard from "../../Components/PriceCard/WooComPriceCard";
 import Seo from "../../Components/SEO/Seo";
 import WooCommerceChoice from "../../Components/WoocommerceHostingPageComponent/WooCommerceChoice";
@@ -22,16 +18,15 @@ function WoocommerceHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg wooComBg">
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business        "
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands.        "
-    keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
-    
-  />
+    title="Get Reliable Woocommerce Hosting Solutions Now!"
+    description="Get reliable and secure WooCommerce hosting solutions tailored to your business needs. Enjoy faster load times, enhanced security, and improved performance with our cutting-edge hosting solution. Our team of experts will help you get up and running quickly and easily."
+    keywords="woocommerce, woocommerce plugin, woocommerce wordpress, woocommerce website, managed woocommerce hosting, wordpress woocommerce hosting. woocommerce website hosting, best woocommerce hosting."
+    />
       <Navbar />
 
       <div className="wp_img_overlayContent">
         <p>Woocommerce Hosting</p>
-        <h1>Choose flexible pricing plan for you and more...</h1>
+        <h1>Create an e-commerce platform using WooCommerce</h1>
         <span>Unlimited boards and workflows. no credit card needed</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
