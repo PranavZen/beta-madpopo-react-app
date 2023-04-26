@@ -106,10 +106,13 @@ function SyncMain(props) {
                 return (
                   <SyncRightBox
                     key={val.id}
+                    id={val.id}
                     planTitle={val.planTitle}
                     planOffer={val.planOffer}
                     planCurrency={val.planCurrency}
                     planPiceF={val.planPiceF}
+                    planPiceF2={val.planPiceF2}
+                    planPiceF3={val.planPiceF3}
                     planPicePaisa={val.planPicePaisa}
                     planIcon={val.planIcon}
                     planList1={val.planList1}
@@ -119,7 +122,7 @@ function SyncMain(props) {
                     planList5={val.planList5}
                     bgColor={val.bgColor}
                     billedCat={val.billedCat}
-                  />
+                   />
                 );
               })}
             </Slider>

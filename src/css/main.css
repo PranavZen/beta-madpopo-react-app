@@ -2087,6 +2087,9 @@ ul.special-helf-box-list li.not-chacked {
     transform: scale(1);
   }
 }
+/* #homeDomCard #domCard-5,#homeDomCard #domCard-6,#homeDomCard #domCard-7,#homeDomCard #domCard-8{
+  display: none;
+} */
 .coodiv-check-input {
   padding-top: 5px;
   margin-bottom: 20px;
@@ -3227,11 +3230,15 @@ a.headerphone-number {
 .wp_choice_leftBox .wp_choice_ContentBox:nth-child(1) {
   margin-bottom: 45px;
 }
-.wp_choice_leftBox .wp_choice_ContentBox h6 {
+.wp_choice_leftBox .wp_choice_ContentBox h2 {
   font-size: 22px;
   color: #fff;
   font-weight: 600;
   margin-bottom: 15px;
+}
+.wp_choice_leftBox .wp_choice_ContentBox p a{
+  color: #fff;
+  font-weight: 500;
 }
 .wp_choice_leftBox .wp_choice_ContentBox p {
   font-size: 16px;
@@ -7170,7 +7177,7 @@ ul.footer-list li a.footer-list-link {
   opacity: 0.8;
 }
 ul.footer-list li:hover a.footer-list-link {
-  margin-left: 5px;
+  /* margin-left: 5px; */
   opacity: 1;
 }
 .bottom-footer-area .payment-getway {
@@ -18481,6 +18488,7 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   .domSecRow {
     padding-left: 0;
   }
+ 
   .bg-wave-box-end-z1 {
     bottom: -2px;
     z-index: 2;

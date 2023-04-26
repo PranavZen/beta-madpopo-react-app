@@ -19,9 +19,9 @@ function WordpressHosting() {
     <div className="site-wrapper overflow-hidden wp_hostingBgImg">
     
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
-    keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
+    title="The Best WordPress Hosting for Your Website"
+    description="Get the best WordPress hosting for your website. We've reviewed top WordPress hosts to offer you reliable, secure, and fast hosting services. Our picks are loaded with features and excellent customer support to make sure you get the most out of your investment."
+    keywords="wordpress hosting, best wordpress hosting, wordpress domain, wordpress plans wp hosting, managed wordpress hosting, fastest wordpress hosting, managed wordpress, wordpress website hosting, best web hosting for wordpress, wordpress server, wordpress web hosting, wordpress hosting plans"
     />
 
       <Navbar />

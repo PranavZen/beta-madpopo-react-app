@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import LinuxData from "../../TabContentBox/HostingPlanData/LinuxHostingData";
 function LinuxCardBox(props) {
+  
   // console.log(LinuxData);
   var defaultPrice =  LinuxData[props.id - 1].priceThreeYearlyInINR;
   // console.log(defaultPrice);

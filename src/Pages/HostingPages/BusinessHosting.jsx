@@ -16,15 +16,9 @@ function BusinessHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg businessBG">
     <Seo
-    title="Professional Email Services for Businesses - Get Started Today!"
-    description="Hosting a business email is easy with the right tools. Learn how to set up and manage
-    professional emails for your company quickly and securely. Get started today with our
-    comprehensive guide to hosting a business email."
-    keywords="email marketing software, email campaigns, email services, email marketing
-    automation, email list building, email delivery, business email hosting, bulk emailing
-    software, corporate emails, bulk email sender, online email marketing, bulk email campaigns,
-    business email server, bulk mail software, mass email sender, bulk mail service, professional
-    email service, bulk mail sender"
+    title="Find the Best Email Hosting Provider & Enjoy Seamless Email Experience"
+    description="Get the best email hosting experience with our top-rated providers. Enjoy secure, reliable, and fast communication with features like advanced security protocols, 24/7 customer support, and unlimited storage. Get started today for a seamless email experience."
+    keywords="email hosting, best email provider, emailhosting, businessemail, create business email, professional business email, small business email, email host providers, custom email domain, best email for business, webmail email hosting"
     
   />
       <Navbar />

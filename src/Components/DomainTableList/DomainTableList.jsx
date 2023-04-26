@@ -1,9 +1,10 @@
 import React from "react";
 import domainListData from "../../Components/DomainTableList/DomainListTableData";
-function DomainTableList() {
+import DomainTableRows from "./DomainTableRows";
+function DomainTableList(props) {
   return (
-    <table class="table mt-12">
-      <thead class="thead-dark">
+    <table className="table mt-12">
+      <thead className="thead-dark">
         <tr>
           <th scope="col">#</th>
           <th scope="col">Domains (per year)</th>
@@ -15,13 +16,14 @@ function DomainTableList() {
       <tbody>
         {domainListData.map((domItem) => {
           return (
-            <tr key={domItem.id}>
-              <th scope="row">{domItem.id}</th>
-              <td>{domItem.domainName}</td>
-              <td>{domItem.domainRgister}</td>
-              <td>{domItem.domainRenew}</td>
-              <td>{domItem.domainTransfer}</td>
-            </tr>
+            <DomainTableRows
+              key={domItem.id}
+              id={domItem.id}
+              domainName={domItem.domainName}
+              domainRgister={domItem.domainRgister}
+              domainRenew={domItem.domainRenew}
+              domainTransfer={domItem.domainTransfer}
+            />
           );
         })}
       </tbody>

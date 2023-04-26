@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import pricingSEctionData from "./PriceCard/PricingCardData";
 import pricingSEctionData2 from "./PriceCard/PriceCardDataTwo";
 import products from "../Components/SelectPricingData";
+// console.log(products)
 // alert("ksksk");
 
 // var show_price = "";
@@ -19,6 +20,7 @@ import products from "../Components/SelectPricingData";
 // console.log(show_price);
 
 function PriceCardBox(props) {
+  
   const locationN = useLocation();
   // console.log(locationN.pathname);
   let pricingValues = pricingSEctionData2.pricingValues;
@@ -57,6 +59,7 @@ function PriceCardBox(props) {
 
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
+    
     if (storedCountry) {
       setSelectedCountry(storedCountry);
     }
@@ -65,24 +68,22 @@ function PriceCardBox(props) {
   if (selectedCountry == "$") {
     show_currency = "priceThreeYearlyInUSD";
     show_price = products.wordpressData[props.id - 1][show_currency];
+    save_show_currency = "priceThreeYearlySaveInUSD";
+    save_price = products.wordpressData[props.id - 1][save_show_currency];
+    // $('.dynamic-value').addClass("demo");
   } else if (selectedCountry == "€") {
     show_currency = "priceThreeYearlyInEUR";
     show_price = products.wordpressData[props.id - 1][show_currency];
-  } else if (selectedCountry == "₹") {
-    show_currency = "priceThreeYearlyInINR";
-    show_price = products.wordpressData[props.id - 1][show_currency];
-  }
-  // Save the currency
-  if (selectedCountry == "$") {
-    save_show_currency = "priceThreeYearlySaveInUSD";
-    save_price = products.wordpressData[props.id - 1][save_show_currency];
-  } else if (selectedCountry == "€") {
     save_show_currency = "priceThreeYearlySaveInEUR";
     save_price = products.wordpressData[props.id - 1][save_show_currency];
   } else if (selectedCountry == "₹") {
+    show_currency = "priceThreeYearlyInINR";
+    show_price = products.wordpressData[props.id - 1][show_currency];
     save_show_currency = "priceThreeYearlySaveInINR";
     save_price = products.wordpressData[props.id - 1][save_show_currency];
   }
+
+ 
   // console.log(show_price);
 
   const handleCountryChange = (e) => {
@@ -99,63 +100,41 @@ function PriceCardBox(props) {
     if (yr == "priceThreeYearlyIn") {
       if (selectedCountry == "$") {
         show_currency = "priceThreeYearlyInUSD";
+        save_show_currency = "priceThreeYearlySaveInUSD";
       } else if (selectedCountry == "€") {
         show_currency = "priceThreeYearlyInEUR";
+        save_show_currency = "priceThreeYearlySaveInEUR";
       } else if (selectedCountry == "₹") {
         show_currency = "priceThreeYearlyInINR";
+        save_show_currency = "priceThreeYearlySaveInINR";
       }
     } else if (yr == "priceTwoYearlyIn") {
       if (selectedCountry == "$") {
         show_currency = "priceTwoYearlyInUSD";
+        save_show_currency = "priceTwoYearlySaveInUSD";
       } else if (selectedCountry == "€") {
         show_currency = "priceTwoYearlyInEUR";
+        save_show_currency = "priceTwoYearlySaveInEUR";
       } else if (selectedCountry == "₹") {
         show_currency = "priceTwoYearlyInINR";
+        save_show_currency = "priceTwoYearlySaveInINR";
       }
 
       //show_price = products.wordpressData[props.id - 1][show_currency];
     } else if (yr == "priceYearlyIn") {
       if (selectedCountry == "$") {
         show_currency = "priceYearlyInUSD";
-      } else if (selectedCountry == "€") {
-        show_currency = "priceYearlyInEUR";
-      } else if (selectedCountry == "₹") {
-        show_currency = "priceYearlyInINR";
-      }
-
-      //show_price = products.wordpressData[props.id - 1][show_currency];
-    }
-    // Save the price
-    if (yr == "priceThreeYearlyIn") {
-      if (selectedCountry == "$") {
-        save_show_currency = "priceThreeYearlySaveInUSD";
-      } else if (selectedCountry == "€") {
-        save_show_currency = "priceThreeYearlySaveInEUR";
-      } else if (selectedCountry == "₹") {
-        save_show_currency = "priceThreeYearlySaveInINR";
-      }
-    } else if (yr == "priceTwoYearlyIn") {
-      if (selectedCountry == "$") {
-        save_show_currency = "priceTwoYearlySaveInUSD";
-      } else if (selectedCountry == "€") {
-        save_show_currency = "priceTwoYearlySaveInEUR";
-      } else if (selectedCountry == "₹") {
-        save_show_currency = "priceTwoYearlySaveInINR";
-      }
-
-      //show_price = products.wordpressData[props.id - 1][save_show_currency];
-    } else if (yr == "priceYearlyIn") {
-      if (selectedCountry == "$") {
         save_show_currency = "priceYearlySaveInUSD";
       } else if (selectedCountry == "€") {
+        show_currency = "priceYearlyInEUR";
         save_show_currency = "priceYearlySaveInEUR";
       } else if (selectedCountry == "₹") {
+        show_currency = "priceYearlyInINR";
         save_show_currency = "priceYearlySaveInINR";
       }
 
       //show_price = products.wordpressData[props.id - 1][show_currency];
     }
-
     show_price_1 = products.wordpressData[props.id - 1][show_currency];
     save_price_1 = products.wordpressData[props.id - 1][save_show_currency];
     setSelectPrice(show_price_1);
@@ -222,10 +201,13 @@ function PriceCardBox(props) {
           </li>
           <li>
             <span className="capTitle">Premium Theme of Value</span>
-            <span className="capAmt">
+           
+            
+              <span className="capAmt">
               Save {selectedCountry ? selectedCountry : bydefaultCurrency}
               {slectSavePrice ? slectSavePrice : save_price || defaultSavePrice}
             </span>
+          
           </li>
         </ul>
         <ul className="ddos-second-features border-top">
@@ -233,10 +215,13 @@ function PriceCardBox(props) {
             <i className="feather icon-check-circle mr-3"></i> Free Domain 1st
             Year*
           </li>
-          <li>
+         
+          
+            <li>
             <i className="feather icon-check-circle mr-3"></i> Premium
             Theme,Save {selectedCountry ? selectedCountry : bydefaultCurrency}{slectSavePrice ? slectSavePrice : save_price || defaultSavePrice}
           </li>
+        
           <li>
             <i className="feather icon-check-circle mr-3"></i> Free WP
             Installation

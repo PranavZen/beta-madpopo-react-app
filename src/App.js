@@ -61,7 +61,7 @@ function App() {
             element={<Globalinfrastructure />}
           />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/get-domains" element={<DomainRegistration />} />
+          <Route path="/domain-registration" element={<DomainRegistration />} />
           <Route path="/domain-transfer" element={<DomainTransfer />} />
           <Route path="/wcasia" element={<WcAsia />} />
           <Route path="/career" element={<Career />} />

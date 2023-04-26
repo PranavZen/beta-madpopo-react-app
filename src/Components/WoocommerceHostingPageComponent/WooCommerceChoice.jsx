@@ -6,30 +6,46 @@ function WooCommerceChoice() {
     <div className="wpBestChoiceWrap pt-15">
       <div className="container">
         <div className="wpChoiceSecTitle">
-            <h2 className="mb-12">Madpopo  and WooCommerce: a winning combination</h2>
-            <p className="woopara"> With our Managed WordPress Ecommerce platform featuring WooCommerce, you have the flexibility to sell a variety of products and services online, from physical items to digital downloads, subscriptions, and more. Additionally, your plan comes equipped with free, exclusive WooCommerce Storefront extensions to enhance your online store.
-            </p>
+          <h2 className="mb-12">
+            Madpopo and WooCommerce: a winning combination
+          </h2>
+          <p className="woopara">
+            You have the ability to sell a variety of goods and services online,
+            from tangible items to digital downloads, subscriptions, and more,
+            thanks to our Managed WordPress Ecommerce platform with WooCommerce.
+            To further improve your online business, your subscription also
+            includes free, exclusive WooCommerce Storefront extensions.
+          </p>
         </div>
-        <div className="wpBest_choiceRow padBtm_50" data-aos="fade-left" data-aos-duration='1200'>
+        <div
+          className="wpBest_choiceRow padBtm_50"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
           <div className="col-md-5">
             <div className="wp_choice_leftBox">
               <div className="wp_choice_ContentBox">
-                <h6>Extremely Fast Performance</h6>
+                <h2>Easy to start online ecommerce business</h2>
                 <p>
-                  Faster load times lead to better user experience, greater
-                  conversion rates, and improved search engine optimization. At
-                  MadPopo, we utilize LiteSpeed servers and include the LSCWP
-                  plugin to provide fast WooCommerce hosting solutions.
+                  Starting an online ecommerce business can be a daunting task,
+                  but with our WooCommerce hosting, it's never been easier. Our
+                  platform provides all the tools and resources you need to
+                  create and manage your online store. With a user-friendly
+                  interface and seamless integration with WooCommerce, you can
+                  start selling in no time!
                 </p>
               </div>
               <div className="wp_choice_ContentBox">
-                <h6>Managed WooCommerce Hosting</h6>
+                <h2>Managed WooCommerce Hosting</h2>
                 <p>
-                  Our managed WooCommerce hosting plans offer web hosting services
-                  tailored for WooCommerce users. With ready-to-use features such
-                  as user-friendly hPanel, a 1-click installer, and
-                  pre-installed performance plugins, you can build a fast
-                  website and boost your online presence today.
+                  Our managed WooCommerce hosting plans offer web hosting
+                  services tailored for WooCommerce users. With ready-to-use
+                  features such as user-friendly hPanel, a 1-click installer,
+                  and pre-installed performance plugins, you can build a fast
+                  website and boost your online presence today.{" "}
+                  <a href="https://blog.madpopo.com/how-to-supercharge-your-woocommerce-store-15-proven-tips-to-boost-website-speed-and-performance/">
+                    Learn More!
+                  </a>
                 </p>
               </div>
             </div>
@@ -42,7 +58,11 @@ function WooCommerceChoice() {
             </div>
           </div>
         </div>
-        <div className="wpBest_choiceRow" data-aos="fade-right" data-aos-duration='1200'>
+        <div
+          className="wpBest_choiceRow"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
           <div className="col-md-6">
             <div className="wp_choice_rightBox">
               <div className="wp_choiceImgWrap">
@@ -53,16 +73,17 @@ function WooCommerceChoice() {
           <div className="col-md-5">
             <div className="wp_choice_leftBox">
               <div className="wp_choice_ContentBox">
-                <h6>24/7 Support</h6>
+                <h2>Round-the-Clock Live Assistance</h2>
                 <p>
                   Our Customer Success team is available at all times through
-                  live chat. We’ve also got WooCommerce tutorials and an extensive
-                  knowledge base maintained by our in-house WooCommerce experts to
-                  help you succeed online.
+                  live chat. We’ve also got WooCommerce tutorials and an
+                  extensive knowledge base maintained by our in-house
+                  WooCommerce experts to help you succeed online.{" "}
+                  <a href="/contact-us">Get Help!</a>
                 </p>
               </div>
               <div className="wp_choice_ContentBox">
-                <h6>Top-Notch Security Measures</h6>
+                <h2>Top-Notch Security Measures</h2>
                 <p>
                   Make use of our web application firewall developed in-house,
                   free SSL certificate, and anti-DDoS protection to keep your

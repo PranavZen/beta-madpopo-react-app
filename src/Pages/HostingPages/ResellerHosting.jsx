@@ -17,9 +17,9 @@ function ResellerHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg resellerBG">
     <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
-    keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
+    title="Affordable Reseller Hosting Plans for Maximum Profitability"
+    description="Our reseller hosting plans are designed to maximize your profitability. Get reliable, secure hosting services with 24/7 customer support and a 99.9% uptime guarantee. Choose the plan that’s right for you."
+    keywords="hosting for resellers, reseller hosting, domain reseller, best reseller hosting, reseller web hosting, reseller website, reseller web."
     />
     <Navbar />
 

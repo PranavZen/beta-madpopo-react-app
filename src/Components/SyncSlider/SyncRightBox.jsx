@@ -1,33 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import RightData from "./SyncRightData";
 
 function SyncRightBox(props) {
-  var defaultPrice = RightData.priceThreeYearlyInINR;
-  var defaultSavePrice =
-    RightData.priceThreeYearlySaveInINR;
   var bydefaultCurrency = "₹";
-  var show_price = "";
-  var save_price = "";
-  var show_currency = "";
-  var save_show_currency = "";
-  var show_price_1 = "";
-  var save_price_1 = "";
-  // var show_price_2 =""
-  // console.log(pricingValues);
-
-  // console.log(pricingValues[1][0]["cardPrice" + props.id]);
-  const [selectedFrequency, setSelectedFrequency] = useState(
-    "priceThreeYearlyIn"
-  );
 
   const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
-
-  const [selectedProductIndex, setSelectedProductIndex] = useState(0);
-
-  const [slectPrice, setSelectPrice] = useState(show_price);
-
-  const [slectSavePrice, setslectSavePrice] = useState(save_price);
 
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
@@ -36,67 +13,16 @@ function SyncRightBox(props) {
     }
   }, [selectedCountry]);
 
-  if (selectedCountry == "$") {
-    show_currency = "priceThreeYearlyInUSD";
-    show_price = RightData[show_currency];
-  } else if (selectedCountry == "€") {
-    show_currency = "priceThreeYearlyInEUR";
-    show_price = RightData[show_currency];
-  } else if (selectedCountry == "₹") {
-    show_currency = "priceThreeYearlyInINR";
-    show_price = RightData[show_currency];
+  if (selectedCountry === "₹") {
+    // console.log(props.planPiceF);
+    var price1 = props.planPiceF;
+  } else if (selectedCountry === "$") {
+    // console.log(props.planPiceF2);
+    var price2 = props.planPiceF2;
+  } else if (selectedCountry === "€") {
+    // console.log(props.planPiceF3);
+    var price3 = props.planPiceF3;
   }
-  // console.log(show_price);
-
-  const handleCountryChange = (e) => {
-    //alert(selectedCountry);
-
-    setSelectedCountry(e.target.value);
-    localStorage.setItem("selectedCountry", e.target.value);
-  };
-
-  const handleFrequencyChange = (e) => {
-    var yr = e.target.value;
-    setSelectedFrequency(e.target.value);
-
-    if (yr == "priceThreeYearlyIn") {
-      if (selectedCountry == "$") {
-        show_currency = "priceThreeYearlyInUSD";
-      } else if (selectedCountry == "€") {
-        show_currency = "priceThreeYearlyInEUR";
-      } else if (selectedCountry == "₹") {
-        show_currency = "priceThreeYearlyInINR";
-      }
-    } else if (yr == "priceTwoYearlyIn") {
-      if (selectedCountry == "$") {
-        show_currency = "priceTwoYearlyInUSD";
-      } else if (selectedCountry == "€") {
-        show_currency = "priceTwoYearlyInEUR";
-      } else if (selectedCountry == "₹") {
-        show_currency = "priceTwoYearlyInINR";
-      }
-
-      //show_price = products.wordpressData[props.id - 1][show_currency];
-    } else if (yr == "priceYearlyIn") {
-      if (selectedCountry == "$") {
-        show_currency = "priceYearlyInUSD";
-      } else if (selectedCountry == "€") {
-        show_currency = "priceYearlyInEUR";
-      } else if (selectedCountry == "₹") {
-        show_currency = "priceYearlyInINR";
-      }
-
-      //show_price = products.wordpressData[props.id - 1][show_currency];
-    }
-    show_price_1 = RightData[show_currency];
-    save_price_1 = RightData[save_show_currency];
-    setSelectPrice(show_price_1);
-    setslectSavePrice(save_price_1);
-    // console.log(show_price_1);
-
-    // console.log(selectedCountry);
-    //console.log(products.wordpressData[props.id - 1]);
-  };
 
   return (
     <div
@@ -118,7 +44,8 @@ function SyncRightBox(props) {
                                                 line-spacing-none
                                                 text-blackish-blue"
           >
-          {selectedCountry ? selectedCountry : bydefaultCurrency}{props.planCurrency}
+            {selectedCountry ? selectedCountry : bydefaultCurrency}
+            {props.planCurrency}
           </span>
           <h2
             className="price-value coodiv-text-2
@@ -127,16 +54,21 @@ function SyncRightBox(props) {
                                                 dynamic-value
                                                 text-blackish-blue"
           >
-            {props.planPiceF} <span className="coodiv-text-8
-            subCurrencyPrice">{props.planPicePaisa} </span>
+            {selectedCountry ? price1 || price2 || price3 : selectedCountry}
+            <span
+              className="coodiv-text-8
+            subCurrencyPrice"
+            >
+              {props.planPicePaisa}{" "}
+            </span>
             {
-            //     <span
-            //   className="coodiv-text-8
-            //                                         subCurrencyPrice"
-            // >
-            //   {props.planPicePaisa}
-            // </span>
-        }
+              //     <span
+              //   className="coodiv-text-8
+              //                                         subCurrencyPrice"
+              // >
+              //   {RightData.planPicePaisa}
+              // </span>
+            }
           </h2>
         </div>
         <span
@@ -151,11 +83,11 @@ function SyncRightBox(props) {
           className="card-list list-style-check
                                             pl-0 mt-5 mt-lg-11"
         >
-         { 
-        //     <li className="coodiv-text-10 mb-2">
-        //     {props.planIcon} {props.planList1}
-        //   </li>
-        }
+          {
+            //     <li className="coodiv-text-10 mb-2">
+            //     {props.planIcon} {props.planList1}
+            //   </li>
+          }
           <li className="coodiv-text-10 mb-2">
             {props.planIcon} {props.planList2}
           </li>

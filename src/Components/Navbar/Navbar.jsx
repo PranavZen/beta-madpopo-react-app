@@ -16,6 +16,30 @@ import { Link } from "react-router-dom";
 import CountrySelect from "../CountrySelect/CountrySelect";
 function Navbar() {
   const [scroll, setScroll] = useState(false);
+  var bydefaultCurrency = "₹";
+
+  const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
+
+  useEffect(() => {
+    const storedCountry = localStorage.getItem("selectedCountry");
+    if (storedCountry) {
+      setSelectedCountry(storedCountry);
+    }
+  }, [selectedCountry]);
+  if (selectedCountry === "₹") {
+    
+    var dT = (12.99 * 88.55).toFixed(2);
+    var drT = (12.99 * 88.55).toFixed(2);
+    
+  } else if (selectedCountry === "$") {
+     var dT1 = 12.99;
+     var drT1 = 12.99;
+     
+  } else if (selectedCountry === "€") {
+     var dT2 = (12.99 * 0.93).toFixed(2);
+     var drT2 = (12.99 * 0.93).toFixed(2);
+    
+  }
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY > 50);
@@ -492,7 +516,7 @@ function Navbar() {
                                                             subTitleDrop"
                           >
                             Grab a .com starting at{" "}
-                            <span className="textPBold">$12.95/yr*</span>.
+                            <span className="textPBold">{selectedCountry ? selectedCountry : bydefaultCurrency}{selectedCountry? drT || drT1 || drT2 : selectedCountry} /yr*</span>.
                           </span>
                         </h1>
                       </a>
@@ -526,7 +550,7 @@ function Navbar() {
                                                             subTitleDrop"
                           >
                             starting at
-                            <b className="textPBold"> $5.88/yr*</b>.
+                            <b className="textPBold"> {selectedCountry ? selectedCountry : bydefaultCurrency}{selectedCountry? dT || dT1 || dT2 : selectedCountry} /yr*</b>.
                           </span>
                         </h1>
                       </a>
@@ -595,7 +619,7 @@ function Navbar() {
                         <div className="col-xl-12 col-lg-12 col-md-12">
                           <div className="domaulListing d-flex flex-wrap pb-5">
                             <div className="col-md-6 listTitle">
-                              <Link to="/get-domains">
+                              <Link to="/domain-registration">
                                 <p>Free with Domain Registration</p>
                                 <ul className="listFeatureDomain">
                                   <li>
@@ -620,7 +644,7 @@ function Navbar() {
                               </Link>
                             </div>
                             <div className="col-md-6 listTitle">
-                              <Link to="/get-domains">
+                              <Link to="/domain-registration">
                                 <p>Free DNS Services</p>
                                 <ul className="listFeatureDomain">
                                   <li>

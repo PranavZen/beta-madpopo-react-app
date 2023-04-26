@@ -1,24 +1,46 @@
 import React from "react";
 import Footer from "../Components/Footer/Footer";
 import {
-  domainimg1,
-  domainimg10,
-  domainimg3,
-  domainimg4,
-  domainimg5,
-  domainimg6,
-  domainimg7,
-  domainimg8,
+  
   footerPose1,
 } from "../Components/index";
 import Navbar from "../Components/Navbar/Navbar";
-import { Link, animateScroll as scroll } from "react-scroll";
 import DomainTableList from "../Components/DomainTableList/DomainTableList";
 import domainFeatData from "../Components/DomainTableList/DomainFeatData";
 import DomainTransferFeatures from "../Components/DomainTransferPageComponent/DomainTransferFeatures";
 import Seo from "../Components/SEO/Seo";
+import { useState, useEffect } from "react";
+import domainListData from "../Components/DomainSectionData/DomainListingData";
+import DomainListBox from "../Components/DomainSectionData/DomainListBox";
 function DomainTransfer() {
   const [show, setShow] = React.useState(false);
+  var bydefaultCurrency = "₹";
+
+  const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
+
+  useEffect(() => {
+    const storedCountry = localStorage.getItem("selectedCountry");
+    if (storedCountry) {
+      setSelectedCountry(storedCountry);
+    }
+  }, [selectedCountry]);
+  if (selectedCountry === "₹") {
+    
+    var acaT = (29.10 * 88.55).toFixed(2);
+    var armT = (34.99 * 88.55).toFixed(2);
+    var bioT = (58.79 * 88.55).toFixed(2);
+    var bhaT = (11.79 * 88.55).toFixed(2);
+  } else if (selectedCountry === "$") {
+     var acaT1 = 29.10;
+     var armT1 = 34.99;
+     var bioT1 = 58.79;
+     var bhaT1 = 11.79;
+  } else if (selectedCountry === "€") {
+     var acaT2 = (29.10 * 0.93).toFixed(2);
+     var armT2 = (34.99 * 0.93).toFixed(2);
+     var bioT2 = (58.79 * 0.93).toFixed(2);
+     var bhaT2 = (11.79 * 0.93).toFixed(2);
+  }
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg domTransBG">
     <Seo
@@ -51,242 +73,19 @@ function DomainTransfer() {
             </div>
           </div>
           <div className="row justify-content-center aws-domains-ltds-prices row-1 imgAnch">
-            <div className="col-md-3 aws-domains-ltds-prices-item white-bg ">
-              <Link
-                to="domSearch"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                <img src={domainimg3} alt="domain tld" />
-              </Link>
-              <p className="coodiv-text-11 font-weight-light">
-                Exhibit and sell your <b className="font-weight-bold">.com</b>{" "}
-                online
-              </p>
-              <span className="aws-domains-ltds-price-item mb-8">
-                $12.99<small>per year</small>
-              </span>
-              <Link
-                to="domSearch"
-                className="btn btn-outline-black coodiv-text-11 px-10 font-weight-bold rounded-0 d-block w-100 d-flex align-items-center justify-content-center btn-with-hide-icon"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                Check Availability
-                <i className="feather icon-arrow-right font-weight-bold"></i>
-              </Link>
-            </div>
-            <div className="col-md-3 aws-domains-ltds-prices-item white-bg">
-              <Link
-                to="domSearch"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                <img src={domainimg4} alt="domain tld" />
-              </Link>
-              <p className="coodiv-text-11 font-weight-light">
-                Exhibit and sell your <b className="font-weight-bold">.in</b>{" "}
-                online
-              </p>
-              <span className="aws-domains-ltds-price-item mb-8">
-                $9.99<small>per year</small>
-              </span>
-              <Link
-                to="domSearch"
-                className="btn btn-outline-black coodiv-text-11 px-10 font-weight-bold rounded-0 d-block w-100 d-flex align-items-center justify-content-center btn-with-hide-icon"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                Check Availability
-                <i className="feather icon-arrow-right font-weight-bold"></i>
-              </Link>
-            </div>
-            <div className="col-md-3 aws-domains-ltds-prices-item white-bg">
-              <Link
-                to="domSearch"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                <img src={domainimg10} alt="domain tld" />
-              </Link>
-              <p className="coodiv-text-11 font-weight-light">
-                Exhibit and sell your <b className="font-weight-bold">.shop</b>{" "}
-                online
-              </p>
-              <span className="aws-domains-ltds-price-item mb-8">
-                $0.99<small>per year</small>
-              </span>
-              <Link
-                to="domSearch"
-                className="btn btn-outline-black coodiv-text-11 px-10 font-weight-bold rounded-0 d-block w-100 d-flex align-items-center justify-content-center btn-with-hide-icon"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                Check Availability
-                <i className="feather icon-arrow-right font-weight-bold"></i>
-              </Link>
-            </div>
-            <div className="col-md-3 aws-domains-ltds-prices-item white-bg">
-              <Link
-                to="domSearch"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                <img src={domainimg7} alt="domain tld" />
-              </Link>
-              <p className="coodiv-text-11 font-weight-light">
-                Exhibit and sell your <b className="font-weight-bold">.net</b>{" "}
-                online
-              </p>
-              <span className="aws-domains-ltds-price-item mb-8">
-                $3.99<small>per year</small>
-              </span>
-              <Link
-                to="domSearch"
-                className="btn btn-outline-black coodiv-text-11 px-10 font-weight-bold rounded-0 d-block w-100 d-flex align-items-center justify-content-center btn-with-hide-icon"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                Check Availability
-                <i className="feather icon-arrow-right font-weight-bold"></i>
-              </Link>
-            </div>
+          {domainListData.map((item) => {
+            return (
+              <DomainListBox
+                key={item.id}
+                id={item.id}
+                img={item.img}
+                domainName={item.domainName}
+                dollarPrice={item.dollarPrice}
+              />
+            );
+          })}
           </div>
-          <div className="row justify-content-center aws-domains-ltds-prices row-1 imgAnch">
-            <div className="col-md-3 aws-domains-ltds-prices-item white-bg">
-              <Link
-                to="domSearch"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                <img src={domainimg8} alt="domain tld" />
-              </Link>
-
-              <p className="coodiv-text-11 font-weight-light">
-                Exhibit and sell your{" "}
-                <b className="font-weight-bold">.online</b> online
-              </p>
-              <span className="aws-domains-ltds-price-item mb-8">
-                $12.99<small>per year</small>
-              </span>
-              <Link
-                to="domSearch"
-                className="btn btn-outline-black coodiv-text-11 px-10 font-weight-bold rounded-0 d-block w-100 d-flex align-items-center justify-content-center btn-with-hide-icon"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                Check Availability
-                <i className="feather icon-arrow-right font-weight-bold"></i>
-              </Link>
-            </div>
-            <div className="col-md-3 aws-domains-ltds-prices-item white-bg">
-              <Link
-                to="domSearch"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                <img src={domainimg5} alt="domain tld" />
-              </Link>
-              <p className="coodiv-text-11 font-weight-light">
-                Exhibit and sell your <b className="font-weight-bold">.info</b>{" "}
-                online
-              </p>
-              <span className="aws-domains-ltds-price-item mb-8">
-                $9.99<small>per year</small>
-              </span>
-              <Link
-                to="domSearch"
-                className="btn btn-outline-black coodiv-text-11 px-10 font-weight-bold rounded-0 d-block w-100 d-flex align-items-center justify-content-center btn-with-hide-icon"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                Check Availability
-                <i className="feather icon-arrow-right font-weight-bold"></i>
-              </Link>
-            </div>
-            <div className="col-md-3 aws-domains-ltds-prices-item white-bg">
-              <Link
-                to="domSearch"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                <img src={domainimg1} alt="domain tld" />
-              </Link>
-              <p className="coodiv-text-11 font-weight-light">
-                Exhibit and sell your <b className="font-weight-bold">.tech</b>{" "}
-                online
-              </p>
-              <span className="aws-domains-ltds-price-item mb-8">
-                $0.99<small>per year</small>
-              </span>
-              <Link
-                to="domSearch"
-                className="btn btn-outline-black coodiv-text-11 px-10 font-weight-bold rounded-0 d-block w-100 d-flex align-items-center justify-content-center btn-with-hide-icon"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                Check Availability
-                <i className="feather icon-arrow-right font-weight-bold"></i>
-              </Link>
-            </div>
-            <div className="col-md-3 aws-domains-ltds-prices-item white-bg">
-              <Link
-                to="domSearch"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                <img src={domainimg6} alt="domain tld" />
-              </Link>
-              <p className="coodiv-text-11 font-weight-light">
-                Exhibit and sell your <b className="font-weight-bold">.name</b>{" "}
-                online
-              </p>
-              <span className="aws-domains-ltds-price-item mb-8">
-                $3.99<small>per year</small>
-              </span>
-              <Link
-                to="domSearch"
-                className="btn btn-outline-black coodiv-text-11 px-10 font-weight-bold rounded-0 d-block w-100 d-flex align-items-center justify-content-center btn-with-hide-icon"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                Check Availability
-                <i className="feather icon-arrow-right font-weight-bold"></i>
-              </Link>
-            </div>
-          </div>
+          
         </div>
       </section>
       <section
@@ -335,22 +134,22 @@ function DomainTransfer() {
                 <div className="aws-homepage-ltds-box col-md-3 col-6 border-lg-bottom-0 border-bottom border-right">
                   <h6 className="tld-domain">.ACADEMY</h6>
                   <span className="tld-subtitle">Special offer</span>
-                  <span className="tld-price">$0.95/yr</span>
+                  <span className="tld-price">{selectedCountry ? selectedCountry : bydefaultCurrency}{selectedCountry? acaT || acaT1 || acaT2 : selectedCountry} /yr</span>
                 </div>
                 <div className="aws-homepage-ltds-box col-md-3 col-6 border-lg-bottom-0 border-bottom border-lg-right">
                   <h6 className="tld-domain">.ARMY</h6>
                   <span className="tld-subtitle">Special offer</span>
-                  <span className="tld-price">FREE</span>
+                  <span className="tld-price">{selectedCountry ? selectedCountry : bydefaultCurrency}{selectedCountry? armT || armT1 || armT2 : selectedCountry} /yr</span>
                 </div>
                 <div className="aws-homepage-ltds-box col-md-3 col-6 border-right">
                   <h6 className="tld-domain">.BIO</h6>
                   <span className="tld-subtitle">Special offer</span>
-                  <span className="tld-price">$5.12/yr</span>
+                  <span className="tld-price">{selectedCountry ? selectedCountry : bydefaultCurrency}{selectedCountry? bioT || bioT1 || bioT2 : selectedCountry} /yr</span>
                 </div>
                 <div className="aws-homepage-ltds-box col-md-3 col-6">
                   <h6 className="tld-domain">.BHARAT</h6>
                   <span className="tld-subtitle">Special offer</span>
-                  <span className="tld-price">$11.95/yr</span>
+                  <span className="tld-price">{selectedCountry ? selectedCountry : bydefaultCurrency}{selectedCountry? bhaT || bhaT1 || bhaT2 : selectedCountry} /yr</span>
                 </div>
               </div>
             </div>

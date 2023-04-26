@@ -20,7 +20,7 @@ function WoocommerceHosting() {
     <Seo
     title="Get Reliable Woocommerce Hosting Solutions Now!"
     description="Get reliable and secure WooCommerce hosting solutions tailored to your business needs. Enjoy faster load times, enhanced security, and improved performance with our cutting-edge hosting solution. Our team of experts will help you get up and running quickly and easily."
-    keywords="woocommerce, woocommerce plugin, woocommerce wordpress, woocommerce website, managed woocommerce hosting, wordpress woocommerce hosting. woocommerce website hosting, best woocommerce hosting."
+    keywords="woocommerce, woocommerce plugin, woocommerce wordpress, woocommerce website, managed woocommerce hosting, wordpress woocommerce hosting. woocommerce website hosting, best woocommerce hosting"
     />
       <Navbar />
 
