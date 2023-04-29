@@ -57,13 +57,7 @@ function LinuxWebHosting() {
       <div className="wp_plansListing">
         <LinuxHostingPlans />
       </div>
-      <div
-        className="trusedPlanSection"
-        data-aos="fade-right"
-        data-aos-duration="1200"
-      >
-        <TrustedClientsSlide />
-      </div>
+      
       <div className="wp_hostingFaqSection">
         <div className="pose_1 linuxPose">
           <img src={footerPose1} alt="Footer Imgage" />

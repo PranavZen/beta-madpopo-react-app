@@ -17,6 +17,12 @@ function WordpressHostingFAQ() {
             <p>
             {faqItems.faqAns}
             </p>
+            <p className="pt-5">
+            {faqItems.faqAns1}
+            </p>
+            <p className="pt-5">
+            {faqItems.faqAns2}
+            </p>
           </div>
         )
       })

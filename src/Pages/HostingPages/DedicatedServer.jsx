@@ -1,26 +1,25 @@
-import React from 'react'
-import Footer from '../../Components/Footer/Footer'
-import Navbar from '../../Components/Navbar/Navbar'
+import React from "react";
+import Footer from "../../Components/Footer/Footer";
+import Navbar from "../../Components/Navbar/Navbar";
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import { dsImg, footerPose1 } from '../../Components';
-import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
-import DediecatedServerComponent from '../../Components/Tabs/TabContentBox/DediecatedServerComponent';
-import Seo from '../../Components/SEO/Seo';
-import DedecatedServerFaq from '../../Components/DedecatedServerPageComponent/DedecatedServerFaq';
-import DedicatedPlansListing from '../../Components/DedecatedServerPageComponent/DedicatedPlansListing';
-import DedicatedServerFeatures from '../../Components/DedecatedServerPageComponent/DedicatedServerFeatures';
+import { dsImg, footerPose1 } from "../../Components";
+import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
+import DediecatedServerComponent from "../../Components/Tabs/TabContentBox/DediecatedServerComponent";
+import Seo from "../../Components/SEO/Seo";
+import DedecatedServerFaq from "../../Components/DedecatedServerPageComponent/DedecatedServerFaq";
+import DedicatedPlansListing from "../../Components/DedecatedServerPageComponent/DedicatedPlansListing";
+import DedicatedServerFeatures from "../../Components/DedecatedServerPageComponent/DedicatedServerFeatures";
 function DedicatedServer() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg dedicatedServerBG">
-    <Seo
-    title="Reliable Dedicated Server Hosting Solutions for Your Business"
-    description="Get the best dedicated server hosting solutions for your business. Enjoy fast and reliable hosting on enterprise-grade equipment with 24/7 support. Our dedicated server hosting solutions are designed to keep your business running smoothly and securely, so you can focus on what matters"
-    keywords="dedicated server, dedicated server hosting, hosted server, server hosting dedicated, server hosting, dedicated hosting, best dedicated server hosting."
-    
-  />
+      <Seo
+        title="Reliable Dedicated Server Hosting Solutions for Your Business"
+        description="Get the best dedicated server hosting solutions for your business. Enjoy fast and reliable hosting on enterprise-grade equipment with 24/7 support. Our dedicated server hosting solutions are designed to keep your business running smoothly and securely, so you can focus on what matters"
+        keywords="dedicated server, dedicated server hosting, hosted server, server hosting dedicated, server hosting, dedicated hosting, best dedicated server hosting."
+      />
       <Navbar />
 
       <div className="wp_img_overlayContent dedicatedIgOverlay">
@@ -42,28 +41,30 @@ function DedicatedServer() {
         data-aos="zoom-in"
         data-aos-duration="2200"
       >
-      <DediecatedServerComponent />
+        <DediecatedServerComponent />
       </div>
 
       {
-      //   <div className="wpChoiceSection">
-      //   <WpBestChoice />
-      // </div>
+        //   <div className="wpChoiceSection">
+        //   <WpBestChoice />
+        // </div>
       }
 
       <div className="wp_features dedecatedFeatures">
-        <DedicatedServerFeatures /> 
+        <DedicatedServerFeatures />
       </div>
       <div className="wp_plansListing">
         <DedicatedPlansListing />
       </div>
-      <div
-        className="trusedPlanSection"
-        data-aos="fade-right"
-        data-aos-duration="1200"
-      >
-        <TrustedClientsSlide />
-      </div>
+      {
+        // <div
+        //   className="trusedPlanSection"
+        //   data-aos="fade-right"
+        //   data-aos-duration="1200"
+        // >
+        //   <TrustedClientsSlide />
+        // </div>
+      }
       <div className="wp_hostingFaqSection">
         <div className="pose_1 dsPose">
           <img src={footerPose1} alt="Footer Imgage" />
@@ -85,7 +86,7 @@ function DedicatedServer() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default DedicatedServer
+export default DedicatedServer;

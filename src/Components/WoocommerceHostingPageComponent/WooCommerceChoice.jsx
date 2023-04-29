@@ -40,9 +40,9 @@ function WooCommerceChoice() {
                 <p>
                   Our managed WooCommerce hosting plans offer web hosting
                   services tailored for WooCommerce users. With ready-to-use
-                  features such as user-friendly Popo Power Panel, a 1-click installer,
-                  and pre-installed performance plugins, you can build a fast
-                  website and boost your online presence today.{" "}
+                  features such as user-friendly Popo Power Panel, a 1-click
+                  installer, and pre-installed performance plugins, you can
+                  build a fast website and boost your online presence today.{" "}
                   <a href="https://blog.madpopo.com/how-to-supercharge-your-woocommerce-store-15-proven-tips-to-boost-website-speed-and-performance/">
                     Learn More!
                   </a>
@@ -89,7 +89,7 @@ function WooCommerceChoice() {
                   free SSL certificate, and anti-DDoS protection to keep your
                   website safe from all kinds of cyber attacks. Our plans also
                   include automated daily backups, so you don’t need to worry
-                  about losing your data.
+                  about losing your data. <a href="">Get Help!</a>
                 </p>
               </div>
             </div>

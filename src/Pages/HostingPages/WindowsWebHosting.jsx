@@ -56,13 +56,7 @@ function WindowsWebHosting() {
       <div className="wp_plansListing">
         <WindowsPlansHosting />
       </div>
-      <div
-        className="trusedPlanSection"
-        data-aos="fade-right"
-        data-aos-duration="1200"
-      >
-        <TrustedClientsSlide />
-      </div>
+      
       <div className="wp_hostingFaqSection">
         <div className="pose_1 winPose">
           <img src={footerPose1} alt="Footer Imgage" />

@@ -3290,6 +3290,7 @@ margin-bottom: 0;
 .wp_choice_leftBox .wp_choice_ContentBox p a{
   color: #fff;
   font-weight: 500;
+  text-decoration: underline;
 }
 .wp_choice_leftBox .wp_choice_ContentBox p {
   font-size: 16px;

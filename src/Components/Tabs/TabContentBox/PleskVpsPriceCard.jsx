@@ -1,5 +1,4 @@
 import React from 'react'
-import PleskVDSPricingCardBox from '../../PleskPageComponent/PleskVDSPricingCardBox'
 import PleskVpsData from './HostingPlanData/PleskVpsData'
 import PleskVPSPricingCardBox from '../../PleskPageComponent/PleskVPSPricingCardBox'
 

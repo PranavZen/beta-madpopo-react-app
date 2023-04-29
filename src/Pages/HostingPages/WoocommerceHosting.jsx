@@ -7,7 +7,6 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
 import WooComPriceCard from "../../Components/PriceCard/WooComPriceCard";
 import Seo from "../../Components/SEO/Seo";
 import WooCommerceChoice from "../../Components/WoocommerceHostingPageComponent/WooCommerceChoice";
@@ -53,13 +52,6 @@ function WoocommerceHosting() {
       </div>
       <div className="wp_plansListing">
         <WooCommercePlanListing />
-      </div>
-      <div
-        className="trusedPlanSection"
-        data-aos="fade-right"
-        data-aos-duration="1200"
-      >
-        <TrustedClientsSlide />
       </div>
       <div className="wp_hostingFaqSection">
         <div className="pose_1 wooComPose">

@@ -46,22 +46,18 @@ function ResellerHosting() {
     >
     <ResellerHostingComponent />
     </div>
-    <div className="wpChoiceSection"> 
-      <WpBestChoice />
-    </div>
+    {
+      // <div className="wpChoiceSection"> 
+      // <WpBestChoice />
+      // </div>
+  }
     <div className="wp_features">
       <WordpressHostingFeatures />
     </div>
     <div className="wp_plansListing">
       <ResellerHosingPlansListing />
     </div>
-    <div
-      className="trusedPlanSection"
-      data-aos="fade-right"
-      data-aos-duration="1200"
-    >
-      <TrustedClientsSlide />
-    </div>
+    
     <div className="wp_hostingFaqSection">
       <div className="pose_1">
         <img src={footerPose1} alt="Footer Imgage" />

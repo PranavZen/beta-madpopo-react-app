@@ -57,13 +57,6 @@ function BusinessHosting() {
       <div className="wp_plansListing">
         <BuisnessEmailPalnsListing />
       </div>
-      <div
-        className="trusedPlanSection"
-        data-aos="fade-right"
-        data-aos-duration="1200"
-      >
-        <TrustedClientsSlide />
-      </div>
       <div className="wp_hostingFaqSection">
         <div className="pose_1">
           <img src={footerPose1} alt="Footer Imgage" />

@@ -100,7 +100,7 @@ function MainTabSection() {
             <div className="services-box-tab">
               <i className="fa fa-windows"></i>
               <h5 className="coodiv-text-10 mb-0 mt-3 slickSyncBtnText">
-              Virtual Private Server
+              Virtual Dedicated Server
               </h5>
               <p className="coodiv-text-12 mb-0 slickSyncSubBtnText">
               Grow Your Business with Cloud Hosting

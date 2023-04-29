@@ -16,7 +16,7 @@ function WpBestChoice() {
           <div className="col-md-5">
             <div className="wp_choice_leftBox">
               <div className="wp_choice_ContentBox">
-                <h6>Blazing Speed Performance</h6>
+                <h2>Blazing Speed Performance</h2>
                 <p>
                   At MadPopo, we prioritise fast load times to enhance user
                   experience, conversion rates, and SEO. Powered by Popo servers
@@ -25,9 +25,9 @@ function WpBestChoice() {
                 </p>
               </div>
               <div className="wp_choice_ContentBox">
-                <h6>Managed WordPress Hosting</h6>
+                <h2>Managed WordPress Hosting</h2>
                 <p>
-                  Our managed WordPress hosting plans cater to WordPress users'
+                  Our <a href="https://blog.madpopo.com/why-choose-madpopo-for-wordpress-managed-hosting/">managed WordPress hosting</a> plans cater to WordPress users'
                   needs, providing user-friendly features such as Popo Panel, a
                   1-click installer, and pre-installed performance plugins.
                   Build a fast website and boost your online presence with ease.
@@ -58,16 +58,16 @@ function WpBestChoice() {
           <div className="col-md-5">
             <div className="wp_choice_leftBox">
               <div className="wp_choice_ContentBox">
-                <h6>24/7 Support</h6>
+                <h2>24/7 Support</h2>
                 <p>
                   Our Customer Success team is available at all times through
                   live chat. We’ve also got WordPress tutorials and an extensive
                   knowledge base maintained by our in-house WordPress experts to
-                  help you succeed online.
+                  help you succeed online. <a href="/help-center">Get help</a>
                 </p>
               </div>
               <div className="wp_choice_ContentBox">
-                <h6>Top-Notch Security Measures</h6>
+                <h2>Top-Notch Security Measures</h2>
                 <p>
                   Make use of our web application firewall developed in-house,
                   free SSL certificate, and anti-DDoS protection to keep your
