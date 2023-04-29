@@ -1062,6 +1062,9 @@ a.btn {
   outline: none;
   box-shadow: none;
 }
+.trusedPlanSection{
+  padding-top: 120px;
+}
 .trusedPlanSection .clientTestSecTitle h5 {
   color: #252526;
   text-align: center;
@@ -3050,6 +3053,9 @@ a.headerphone-number {
 .wp_hostingBgImg.careerBg {
   background-image: url(.././image/pages/innner-page-2.webp);
 }
+.wp_hostingBgImg.privacyBg {
+  background-image: url(.././image/pages/innner-page-1.webp);
+}
 .wp_hostingBgImg.jdBg {
   background-image: url(.././image/pages/innner-page-1.webp);
 }
@@ -3073,6 +3079,12 @@ a.headerphone-number {
 }
 .wp_hostingBgImg.vdsBG {
   background-image: url(.././image/header/HostingPages/hosting5.webp);
+}
+.wp_hostingBgImg.vpsBG {
+  background-image: url(.././image/header/HostingPages/hosting5.webp);
+}
+.wp_hostingBgImg.cpanelBG {
+  background-image: url(.././image/header/HostingPages/hosting1.webp);
 }
 .wp_hostingBgImg.dedicatedServerBG {
   background-image: url(.././image/header/HostingPages/woo-commercebg.webp);
@@ -3107,8 +3119,43 @@ a.headerphone-number {
 .wp_img_overlayContent.vdsImgOverlay {
   top: 5.8%;
 }
+.wp_img_overlayContent.vdsImgOverlay.cpanelOverlay{
+  top: 5.5%;
+}
 .wp_img_overlayContent.businessImgOverlay {
   top: 5.8%;
+}
+.vsTabBtnWrap{
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+.vsTabBtnWrap .tabBtnRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.vsTabBtnWrap .tabBtnRow .btn.btnVs{
+  background: #ff8726;
+  color: #fff;
+}
+.vsTabBtnWrap .tabBtnRow .btn.btnVs.active-tabs{
+  background: #fff;
+  color: #202020;
+}
+.vsTabBtnWrap.pleskTab{
+  margin-top: -30px;
+  z-index: 9;
+  display: block;
+  position: relative;
+}
+.virtualServerTabPanel .panel{
+display: none;
+background-color: transparent;
+}
+.virtualServerTabPanel .panel.active-content{
+display: block;
+margin-bottom: 0;
 }
 .wp_img_overlayContent p {
   text-align: center;
@@ -3153,6 +3200,9 @@ a.headerphone-number {
   background: #0056ed;
   padding: 40px 0 65px;
 }
+.wpBestChoiceWrap.cpanelChoice{
+  margin-bottom: 120px;
+}
 .wpBestChoiceWrap .wpChoiceSecTitle {
   padding-top: 60px;
 }
@@ -3169,6 +3219,7 @@ a.headerphone-number {
   font-weight: 500;
   text-align: center;
   line-height: 1.8;
+  padding-bottom: 50px;
 }
 .wp_innerBox {
   display: flex;
@@ -3263,9 +3314,15 @@ a.headerphone-number {
   margin-top: 0px;
   padding-bottom: 95px;
 }
+.windows_pricingBox.pleskCard{
+  margin-top: -35px;
+}
 .vds_pricingBox {
-  margin-top: 15px;
+  margin-top: -25px;
   padding-bottom: 95px;
+}
+.vds_pricingBox.cpanelBox{
+  margin-top: 60px;
 }
 .ds_pricingBox {
   margin-top: 30px;
@@ -8331,7 +8388,50 @@ ul.footer-list li:hover a.footer-list-link {
   font-weight: 500;
   margin-bottom: 0;
 }
-/*---------------- template color & backgrounds -----------------*/
+
+#privacySection .privacyPara{
+  padding-top: 22%;
+  margin-bottom: 30px;
+}
+#privacySection .privacyPara p{
+  line-height: 1.8;
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+#privacySection .privacyPara .textBold{
+   font-weight: 600;
+}
+.privacyListWrap .listWrap{
+  padding-bottom: 30px;
+}
+.privacyListWrap .listWrap:last-child{
+  padding-bottom: 0;
+}
+.privacyListWrap .listWrap h2{
+  font-weight: 700;
+  font-size: 24px;
+  color: #252526;
+  margin-bottom: 20px;
+}
+.privacyListWrap .listWrap .firstUL{
+  padding-left: 20px;
+  list-style: upper-alpha;
+}
+.privacyListWrap .listWrap .firstUL li{
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.privacyListWrap .listWrap .secondUL{
+  list-style: auto;
+  padding-top: 20px;
+}
+.privacyListWrap .listWrap .secondUL li{
+  line-height: 1.6;
+}
+/*-----
+----------- template color & backgrounds -----------------*/
 /*--- template bg primary ---*/
 .coodiv-bg-primary-opacity-visible {
   background-color: #473bf0;
@@ -10331,6 +10431,7 @@ ul.footer-list li:hover a.footer-list-link {
 }
 .faq-section {
   padding: 100px 0 220px;
+  border: 0 !important;
 }
 .pose_1.homeFooImg {
   bottom: -72%;
@@ -17958,6 +18059,31 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   }
 }
 @media screen and (max-width: 767px) {
+  #privacySection{
+    padding: 0 15px;
+  }
+  #privacySection .privacyPara{
+    padding-top: 5%;
+    margin-bottom: 15px;
+  }
+  #privacySection .privacyPara p{
+    font-size: 14px;
+  }
+  .privacyListWrap .listWrap h2{
+    font-size: 18px;
+  }
+  .privacyListWrap .listWrap .firstUL li{
+    font-size: 14px;
+  }
+  .privacyListWrap .listWrap .firstUL{
+    padding-left: 15px;
+  }
+  .privacyListWrap .listWrap .secondUL{
+    padding-left: 15px;
+  }
+  .privacyListWrap .listWrap{
+    padding-bottom: 10px;
+  }
   .hcSerachBody {
     padding-top: 5%;
   }
@@ -18261,6 +18387,7 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   .wp_img_overlayContent.vdsImgOverlay {
     top: 210px;
   }
+  
   .wp_img_overlayContent.businessImgOverlay {
     top: 215px;
   }
@@ -18290,6 +18417,7 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   .topBarStrip .topInner .numSpan .textBold {
     display: none;
   }
+ 
   .circle {
     height: 220px;
     width: 220px;

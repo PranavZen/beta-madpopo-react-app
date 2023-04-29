@@ -11,6 +11,7 @@ import SyncMain from "../Components/SyncSlider/SyncMain";
 import MaximizeSection from "../Components/MaximizeSection";
 import DomainSection from "../Components/DomainSection";
 import Seo from "../Components/SEO/Seo";
+import TrustedClientsSlide from "../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
 function Home() {
   return (
     <div className="site-wrapper overflow-hidden">
@@ -26,6 +27,13 @@ function Home() {
       <DomainSection />
       <MaximizeSection />
       <Hostareawrap />
+      <div
+        className="trusedPlanSection"
+        data-aos="fade-right"
+        data-aos-duration="1200"
+      >
+        <TrustedClientsSlide />
+      </div>
       <FAQ />
       <Footer />
     </div>

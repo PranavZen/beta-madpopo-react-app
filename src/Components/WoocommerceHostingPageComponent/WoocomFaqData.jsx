@@ -20,19 +20,19 @@ const WoocomFaqData = [
     {
       id: 4,
       faqQue: `What is the cost of using WooCommerce?`,
-      faqAns: `Pricing for WooCommerce hosting is flexible and clear on Cloudways. For a recommended 2GB DigitalOcean server, hosting your online store starts at just $2 per month, or $0.0305 per hour. The cost of a comparable Cloudways managed Vultr server is about $23 per month, or $0.0319 per hour.`,
+      faqAns: `Pricing for WooCommerce hosting is flexible and clear on MadPopo. For a recommended 2GB DigitalOcean server, hosting your online store starts at just $2 per month, or $0.0305 per hour. The cost of a comparable MadPopo managed Vultr server is about $23 per month, or $0.0319 per hour.`,
       faqAns2:`With our Pay-As-You-Go pricing structure, you only pay for the services you really use. No more, no less! For instance, if you use a server for five hours and then delete it, the invoice will be $0.0305 * 5 (hours) = $0.1525 only.`,
-      faqAns3:`Note that this is just the price for hosting the store on a Cloudways managed server. If you need more details about the operational costs of your ecommerce store based on WooCommerce, you can read this detailed guide on WooCommerce pricing.`,
+      faqAns3:`Note that this is just the price for hosting the store on a MadPopo managed server. If you need more details about the operational costs of your ecommerce store based on WooCommerce, you can read this detailed guide on WooCommerce pricing.`,
     },
     {
       id: 5,
       faqQue: `Is it possible to build WooCommerce Multisite?`,
-      faqAns: `Yes, WooCommerce Multisite networks are simple to set up on Cloudways. Create a new WordPress Multisite instance, then install a WooCommerce store on it.`,
+      faqAns: `Yes, WooCommerce Multisite networks are simple to set up on MadPopo. Create a new WordPress Multisite instance, then install a WooCommerce store on it.`,
     },
     {
         id: 6,
-        faqQue: `Why does the WooCommerce store load more quickly on Cloudways?`,
-        faqAns: `Many thought leaders and influencers in the market have rated Cloudways as one of the top hosting providers for WooCommerce. When comparing price to performance, our web hosting exceeds several rival hosting companies.`,
+        faqQue: `Why does the WooCommerce store load more quickly on MadPopo?`,
+        faqAns: `Many thought leaders and influencers in the market have rated MadPopo as one of the top hosting providers for WooCommerce. When comparing price to performance, our web hosting exceeds several rival hosting companies.`,
       },
       {
         id: 7,
@@ -42,7 +42,7 @@ const WoocomFaqData = [
       {
         id: 8,
         faqQue: `Can I install many WooCommerce instances on the same server?`,
-        faqAns: `On Cloudways's fastest WooCommerce Hosting, you may host an infinite number of Woo Sites on a single server.`,
+        faqAns: `On MadPopo's fastest WooCommerce Hosting, you may host an infinite number of Woo Sites on a single server.`,
       },
       {
         id: 9,
@@ -52,7 +52,7 @@ const WoocomFaqData = [
       {
         id: 10,
         faqQue: `What plugins for caching are supported by your Managed WooCommerce hosting?`,
-        faqAns: `Every WooCommerce store hosted on Cloudways has the built-in Breeze - WordPress Cache Plugin. However, there are no limitations if you wish to utilise different caching plugins, such as WPRocket or W3TC.`,
+        faqAns: `Every WooCommerce store hosted on MadPopo has the built-in Breeze - WordPress Cache Plugin. However, there are no limitations if you wish to utilise different caching plugins, such as WPRocket or W3TC.`,
       },
       {
         id: 11,

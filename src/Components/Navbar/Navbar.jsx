@@ -28,16 +28,16 @@ function Navbar() {
   }, [selectedCountry]);
   if (selectedCountry === "₹") {
     
-    var dT = (12.99 * 88.55).toFixed(2);
-    var drT = (12.99 * 88.55).toFixed(2);
+    var dT = (11.71 * 88.55).toFixed(2);
+    var drT = (11.71 * 88.55).toFixed(2);
     
   } else if (selectedCountry === "$") {
-     var dT1 = 12.99;
-     var drT1 = 12.99;
+     var dT1 = 11.71;
+     var drT1 = 11.71;
      
   } else if (selectedCountry === "€") {
-     var dT2 = (12.99 * 0.93).toFixed(2);
-     var drT2 = (12.99 * 0.93).toFixed(2);
+     var dT2 = (11.71 * 0.93).toFixed(2);
+     var drT2 = (11.71 * 0.93).toFixed(2);
     
   }
   useEffect(() => {
@@ -285,7 +285,7 @@ function Navbar() {
                                                             col-lg-3 mb-10 menusHover"
                           >
                             <Link
-                              to="/virtual-dedicated-server"
+                              to="/virtual-server"
                               className="feature-widget
                                                                 d-sm-flex"
                             >
@@ -310,7 +310,7 @@ function Navbar() {
                                                                         mb-2
                                                                         color-blackish-blue wblink"
                                 >
-                                  Virtual Dedicated Server
+                                  Virtual Server
                                 </h3>
                                 <p
                                   className="coodiv-text-11

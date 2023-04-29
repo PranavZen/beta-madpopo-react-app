@@ -96,20 +96,18 @@ function DomainRegistration() {
           <div className="row justify-content-start align-items-center">
             <div className="col-md-7 col-12">
               <form
-                className="domain-checker-emyui-aws-homepage position-relative"
-                method="post"
-                action="#"
+                className="domain-checker-emyui-aws-homepage position-relative"  
               >
                 <div className="input-group">
                   <span className="input-group-input w-100">
                     <input
-                      name="domain"
+                      name=""
                       autoComplete="off"
                       autoCorrect="off"
                       autoCapitalize="off"
                       spellCheck="false"
                       className="searchInput form-control rounded-0"
-                      aria-label="eg. example.com"
+                      
                       type="text"
                       placeholder="eg. example.com"
                     />
@@ -117,10 +115,8 @@ function DomainRegistration() {
                   <span className="input-group-btn">
                     <button
                       className="btn btn-search"
-                      type="Submit"
-                      id="btnDomainSearch"
-                      aria-label="Search Domain"
-                      fdprocessedid="4xnnn"
+                      type=""
+                      id=""
                     >
                       <i className="fa fa-angle-right"></i>
                       <span className="searchText">Register</span>

@@ -40,7 +40,7 @@ function WooCommerceChoice() {
                 <p>
                   Our managed WooCommerce hosting plans offer web hosting
                   services tailored for WooCommerce users. With ready-to-use
-                  features such as user-friendly hPanel, a 1-click installer,
+                  features such as user-friendly Popo Power Panel, a 1-click installer,
                   and pre-installed performance plugins, you can build a fast
                   website and boost your online presence today.{" "}
                   <a href="https://blog.madpopo.com/how-to-supercharge-your-woocommerce-store-15-proven-tips-to-boost-website-speed-and-performance/">

@@ -14,7 +14,7 @@ import WordpressHosting from "./Pages/HostingPages/WordpressHosting";
 import WoocommerceHosting from "./Pages/HostingPages/WoocommerceHosting";
 import ResellerHosting from "./Pages/HostingPages/ResellerHosting";
 import DedicatedServer from "./Pages/HostingPages/DedicatedServer";
-import VirtualDedicatedServer from "./Pages/HostingPages/VirtualDedicatedServer";
+import VirtualServer from "./Pages/HostingPages/VirtualServer";
 import WindowsWebHosting from "./Pages/HostingPages/WindowsWebHosting";
 import LinuxWebHosting from "./Pages/HostingPages/LinuxWebHosting";
 import ScrollToTop from "./Components/ScrollToTop";
@@ -32,6 +32,9 @@ import Error404 from "./Components/404Page/Error404";
 import Career from "./Pages/Career";
 import Jd from "./Components/CareerPageComponent/Jd";
 import HelpCenter from "./Pages/HelpCenter";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import Cpanel from "./Pages/Cpanel";
+import Plesk from "./Pages/Plesk";
 function App() {
   const helmetContext = {};
   useEffect(() => {
@@ -48,9 +51,10 @@ function App() {
           <Route path="/linux-web-hosting" element={<LinuxWebHosting />} />
           <Route path="/windows-hosting" element={<WindowsWebHosting />} />
           <Route
-            path="/virtual-dedicated-server"
-            element={<VirtualDedicatedServer />}
+            path="/virtual-server"
+            element={<VirtualServer />}
           />
+          
           <Route path="/dedicated-server" element={<DedicatedServer />} />
           <Route path="/business-email-hosting" element={<BusinessHosting />} />
           <Route path="/reseller-hosting" element={<ResellerHosting />} />
@@ -66,6 +70,9 @@ function App() {
           <Route path="/wcasia" element={<WcAsia />} />
           <Route path="/career" element={<Career />} />
           <Route path="/help-center" element={<HelpCenter />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/cPanel" element={<Cpanel />} />
+          <Route path="/plesk" element={<Plesk />} />
           <Route path="/career/:jdUrlName" element={<Jd />} />
           <Route path="/Error404" element={<Error404 />} />
           <Route path="*" element={<Navigate to="/Error404" />} />

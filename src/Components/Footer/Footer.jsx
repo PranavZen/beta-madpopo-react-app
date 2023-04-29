@@ -93,18 +93,20 @@ function Footer() {
                       Server Services
                     </h4>
                     <ul className="footer-list list-unstyled">
+                      
                       <li className="py-1">
-                        <Link className="footer-list-link" to="">
-                          Virtual Private Server
+                        <Link
+                          className="footer-list-link"
+                          to="/virtual-server"
+                        >
+                          Virtual Serve
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="/virtual-dedicated-server">
-                          Virtual Dedicated Serve
-                        </Link>
-                      </li>
-                      <li className="py-1">
-                        <Link className="footer-list-link" to="/dedicated-server">
+                        <Link
+                          className="footer-list-link"
+                          to="/dedicated-server"
+                        >
                           Dedicated Server
                         </Link>
                       </li>
@@ -127,7 +129,7 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="">
+                        <Link className="footer-list-link" to="/domain-registration">
                           Check Free Domain
                         </Link>
                       </li>
@@ -149,12 +151,12 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="">
+                        <Link className="footer-list-link" to="/cPanel">
                           cPanel
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="">
+                        <Link className="footer-list-link" to="/plesk">
                           Plesk
                         </Link>
                       </li>
@@ -174,24 +176,15 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="">
-                          About Us
-                        </Link>
-                      </li>
-                      <li className="py-1">
-                        <Link className="footer-list-link" to="/contact-us">
-                          Contact Us
-                        </Link>
-                      </li>
-                      <li className="py-1">
-                        <Link className="footer-list-link" to="/career">
-                          Careers
-                        </Link>
-                      </li>
-                      <li className="py-1">
-                        <Link className="footer-list-link"  onClick={() =>
-                        window.open("https://my.madpopo.com/affiliates.php", "_blank")
-                      }>
+                        <Link
+                          className="footer-list-link"
+                          onClick={() =>
+                            window.open(
+                              "https://my.madpopo.com/affiliates.php",
+                              "_blank"
+                            )
+                          }
+                        >
                           Affiliate Program
                         </Link>
                       </li>
@@ -206,22 +199,40 @@ function Footer() {
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="/global-infrastructure">
+                        <Link className="footer-list-link" to="/career">
+                          Careers
+                        </Link>
+                      </li>
+                      <li className="py-1">
+                        <Link className="footer-list-link" to="/contact-us">
+                          Contact Us
+                        </Link>
+                      </li>
+
+                      <li className="py-1">
+                        <Link
+                          className="footer-list-link"
+                          to="/global-infrastructure"
+                        >
                           Servers Locations
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="/terms-conditions">
+                      <Link className="footer-list-link" to="">
+                        SLA
+                      </Link>
+                    </li>
+                      <li className="py-1">
+                        <Link
+                          className="footer-list-link"
+                          to="/terms-conditions"
+                        >
                           Terms & Conditions
                         </Link>
                       </li>
+                     
                       <li className="py-1">
-                        <Link className="footer-list-link" to="">
-                          SLA
-                        </Link>
-                      </li>
-                      <li className="py-1">
-                        <Link className="footer-list-link" to="">
+                        <Link className="footer-list-link" to="/privacy-policy">
                           Privacy
                         </Link>
                       </li>
@@ -253,7 +264,10 @@ function Footer() {
                     <h4 className="block-title coodiv-text-9 mb-4 position-relative">
                       Do you need support?
                     </h4>
-                    <p className="coodiv-text-11">This can be handy to get the necessary information right away.</p>
+                    <p className="coodiv-text-11">
+                      This can be handy to get the necessary
+                      information right away.
+                    </p>
                     {
                       // <ul className="footer-list list-unstyled">
                       //   <li className="py-1">

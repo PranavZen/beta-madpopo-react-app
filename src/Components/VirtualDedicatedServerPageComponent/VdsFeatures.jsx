@@ -3,7 +3,6 @@ import {
     
   vdsImgFive,
   vdsImgFour,
-  vdsImgOne,
   vdsImgSeven,
   vdsImgSix,
   vdsImgThree,
