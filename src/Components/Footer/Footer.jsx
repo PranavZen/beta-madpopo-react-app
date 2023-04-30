@@ -99,7 +99,7 @@ function Footer() {
                           className="footer-list-link"
                           to="/virtual-server"
                         >
-                          Virtual Serve
+                          Virtual Server
                         </Link>
                       </li>
                       <li className="py-1">
@@ -134,7 +134,7 @@ function Footer() {
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="">
+                        <Link className="footer-list-link" to="/ssl-certificate">
                           SSL Certificate
                         </Link>
                       </li>

@@ -35,6 +35,7 @@ import HelpCenter from "./Pages/HelpCenter";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import Cpanel from "./Pages/Cpanel";
 import Plesk from "./Pages/Plesk";
+import SslCertificate from "./Pages/SslCertificate";
 function App() {
   const helmetContext = {};
   useEffect(() => {
@@ -73,6 +74,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/cPanel" element={<Cpanel />} />
           <Route path="/plesk" element={<Plesk />} />
+          <Route path="/ssl-certificate" element={<SslCertificate />} />
           <Route path="/career/:jdUrlName" element={<Jd />} />
           <Route path="/Error404" element={<Error404 />} />
           <Route path="*" element={<Navigate to="/Error404" />} />

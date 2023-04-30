@@ -122,6 +122,7 @@ function SyncMain(props) {
                     planList5={val.planList5}
                     bgColor={val.bgColor}
                     billedCat={val.billedCat}
+                    link={val.link}
                    />
                 );
               })}

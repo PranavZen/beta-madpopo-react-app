@@ -22,6 +22,7 @@ const RightData = [
     planbadgeBgColor: "#ecebfd",
     planbadgeTextColor: "#000",
     billedCat: "Triannually",
+    link:'/woocommerce-hosting'
   },
   {
     id: 1,
@@ -41,6 +42,7 @@ const RightData = [
     bgColor:
       "linear-gradient(150deg, rgba(9,187,254,1) 36%, rgba(74,201,237,1) 70%)",
     billedCat: "Triannually",
+    link:'/business-email-hosting'
   },
   {
     id: 2,
@@ -60,6 +62,7 @@ const RightData = [
     bgColor:
       "linear-gradient(150deg, rgba(9,187,254,1) 36%, rgba(74,237,180,1) 70%)",
     billedCat: "Triannually",
+    link:'/ssl-certificate'
   },
   {
     id: 3,
