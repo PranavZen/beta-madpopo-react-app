@@ -32,18 +32,14 @@ function Navbar() {
     }
   }, [selectedCountry]);
   if (selectedCountry === "₹") {
-    
     var dT = (11.71 * 88.55).toFixed(2);
     var drT = (11.71 * 88.55).toFixed(2);
-    
   } else if (selectedCountry === "$") {
-     var dT1 = 11.71;
-     var drT1 = 11.71;
-     
+    var dT1 = 11.71;
+    var drT1 = 11.71;
   } else if (selectedCountry === "€") {
-     var dT2 = (11.71 * 0.93).toFixed(2);
-     var drT2 = (11.71 * 0.93).toFixed(2);
-    
+    var dT2 = (11.71 * 0.93).toFixed(2);
+    var drT2 = (11.71 * 0.93).toFixed(2);
   }
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -103,8 +99,14 @@ function Navbar() {
                     aria-expanded="false"
                   >
                     Hosting{" "}
-                    <span className="downArrowMenu whiteArrow"> <img src={downArrowWhite} alt="down arrow"></img></span>
-                    <span className="downArrowMenu blackArrow"> <img src={downArrowBlack} alt="down arrow"></img></span>
+                    <span className="downArrowMenu whiteArrow">
+                      {" "}
+                      <img src={downArrowWhite} alt="down arrow"></img>
+                    </span>
+                    <span className="downArrowMenu blackArrow">
+                      {" "}
+                      <img src={downArrowBlack} alt="down arrow"></img>
+                    </span>
                   </Link>
                   <div
                     className="coodiv-megamenu-dropdown
@@ -321,7 +323,8 @@ function Navbar() {
                                                                         color-blackish-blue-opacity
                                                                         mb-0 wbsubLink"
                                 >
-                                Streamline IT Infrastructure with Cloud Servers
+                                  Streamline IT Infrastructure
+                                  with Cloud Servers
                                 </p>
                               </div>
                             </Link>
@@ -474,8 +477,14 @@ function Navbar() {
                     aria-expanded="false"
                   >
                     Domains
-                    <span className="downArrowMenu whiteArrow"> <img src={downArrowWhite} alt="down arrow"></img></span>
-                    <span className="downArrowMenu blackArrow"> <img src={downArrowBlack} alt="down arrow"></img></span>
+                    <span className="downArrowMenu whiteArrow">
+                      {" "}
+                      <img src={downArrowWhite} alt="down arrow"></img>
+                    </span>
+                    <span className="downArrowMenu blackArrow">
+                      {" "}
+                      <img src={downArrowBlack} alt="down arrow"></img>
+                    </span>
                   </Link>
                   <div
                     className="coodiv-megamenu-dropdown
@@ -519,7 +528,16 @@ function Navbar() {
                                                             subTitleDrop"
                           >
                             Grab a .com starting at{" "}
-                            <span className="textPBold">{selectedCountry ? selectedCountry : bydefaultCurrency}{selectedCountry? drT || drT1 || drT2 : selectedCountry} /yr*</span>.
+                            <span className="textPBold">
+                              {selectedCountry
+                                ? selectedCountry
+                                : bydefaultCurrency}
+                              {selectedCountry
+                                ? drT || drT1 || drT2
+                                : selectedCountry}{" "}
+                              /yr*
+                            </span>
+                            .
                           </span>
                         </h1>
                       </a>
@@ -553,7 +571,17 @@ function Navbar() {
                                                             subTitleDrop"
                           >
                             starting at
-                            <b className="textPBold"> {selectedCountry ? selectedCountry : bydefaultCurrency}{selectedCountry? dT || dT1 || dT2 : selectedCountry} /yr*</b>.
+                            <b className="textPBold">
+                              {" "}
+                              {selectedCountry
+                                ? selectedCountry
+                                : bydefaultCurrency}
+                              {selectedCountry
+                                ? dT || dT1 || dT2
+                                : selectedCountry}{" "}
+                              /yr*
+                            </b>
+                            .
                           </span>
                         </h1>
                       </a>
@@ -586,25 +614,25 @@ function Navbar() {
                                                                     text-lg-left
                                                                     text-center dom_mobForm"
                               >
-                              <input
-                              className="form-control
+                                <input
+                                  className="form-control
                                                                   coodiv-text-9
                                                                   border-separate
                                                                   mb-lg-6
                                                                   mb-2
                                                                   min-height-px-64"
-                              type="text"
-                              id="domain"
-                              name="domain"
-                              onChange={(e) =>
-                                setdomainName(action + e.target.value)
-                              }
-                              placeholder="Enter
+                                  type="text"
+                                  id="domain"
+                                  name="domain"
+                                  onChange={(e) =>
+                                    setdomainName(action + e.target.value)
+                                  }
+                                  placeholder="Enter
                                                                   your
                                                                   domain
                                                                   name"
-                              fdprocessedid="ie3xhm"
-                            />
+                                  fdprocessedid="ie3xhm"
+                                />
                                 <button
                                   className="form-btn
                                                                         btn
@@ -693,44 +721,47 @@ function Navbar() {
                             className="domain-search-form
                                                             mb-8"
                           >
-                            <form action="">
-                              <div
-                                className="form-group
-                                                                    position-relative
-                                                                    text-lg-left
-                                                                    text-center"
-                              >
-                                <input
-                                  className="form-control
-                                                                        coodiv-text-9
-                                                                        border-separate
-                                                                        mb-lg-6
-                                                                        mb-2
-                                                                        min-height-px-64"
-                                  type="text"
-                                  id="domain"
-                                  name="domaine"
-                                  placeholder="Enter
-                                                                        your
-                                                                        domain
-                                                                        name"
-                                  fdprocessedid="ie3xhm"
-                                />
-                                <button
-                                  className="form-btn
-                                                                        btn
-                                                                        btn-primary
-                                                                        mr-2
-                                                                        coodiv-abs-md-cr
-                                                                        min-height-px-50
-                                                                        w-100
-                                                                        w-md-auto"
-                                  fdprocessedid="6zse4p"
-                                >
-                                  check
-                                </button>
-                              </div>
-                            </form>
+                          <form action={domainName} method="post">
+                          <div
+                            className="form-group
+                                                                position-relative
+                                                                text-lg-left
+                                                                text-center dom_mobForm"
+                          >
+                            <input
+                              className="form-control
+                                                              coodiv-text-9
+                                                              border-separate
+                                                              mb-lg-6
+                                                              mb-2
+                                                              min-height-px-64"
+                              type="text"
+                              id="domain"
+                              name="domain"
+                              onChange={(e) =>
+                                setdomainName(action + e.target.value)
+                              }
+                              placeholder="Enter
+                                                              your
+                                                              domain
+                                                              name"
+                              fdprocessedid="ie3xhm"
+                            />
+                            <button
+                              className="form-btn
+                                                                    btn
+                                                                    btn-primary
+                                                                    mr-2
+                                                                    coodiv-abs-md-cr
+                                                                    min-height-px-50
+                                                                    w-100
+                                                                    w-md-auto"
+                              fdprocessedid="6zse4p"
+                            >
+                              check
+                            </button>
+                          </div>
+                        </form>
                           </div>
                         </div>
                         <div className="col-xl-12 col-lg-12 col-md-12">
@@ -1048,8 +1079,14 @@ function Navbar() {
                     aria-expanded="false"
                   >
                     About Us{" "}
-                    <span className="downArrowMenu whiteArrow"> <img src={downArrowWhite} alt="down arrow"></img></span>
-                    <span className="downArrowMenu blackArrow"> <img src={downArrowBlack} alt="down arrow"></img></span>
+                    <span className="downArrowMenu whiteArrow">
+                      {" "}
+                      <img src={downArrowWhite} alt="down arrow"></img>
+                    </span>
+                    <span className="downArrowMenu blackArrow">
+                      {" "}
+                      <img src={downArrowBlack} alt="down arrow"></img>
+                    </span>
                   </Link>
                   <ul
                     className="coodiv-megamenu-dropdown

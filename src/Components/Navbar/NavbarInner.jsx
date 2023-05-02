@@ -633,7 +633,7 @@ function NavbarInner() {
                                                                       w-md-auto"
                                   fdprocessedid="6zse4p"
                                 >
-                                  check In
+                                  check
                                 </button>
                               </div>
                             </form>
@@ -710,44 +710,47 @@ function NavbarInner() {
                             className="domain-search-form
                                                           mb-8"
                           >
-                            <form action="">
-                              <div
-                                className="form-group
-                                                                  position-relative
-                                                                  text-lg-left
-                                                                  text-center"
-                              >
-                                <input
-                                  className="form-control
-                                                                      coodiv-text-9
-                                                                      border-separate
-                                                                      mb-lg-6
-                                                                      mb-2
-                                                                      min-height-px-64"
-                                  type="text"
-                                  id="domain"
-                                  name="domaine"
-                                  placeholder="Enter
-                                                                      your
-                                                                      domain
-                                                                      name"
-                                  fdprocessedid="ie3xhm"
-                                />
-                                <button
-                                  className="form-btn
-                                                                      btn
-                                                                      btn-primary
-                                                                      mr-5
-                                                                      coodiv-abs-md-cr
-                                                                      min-height-px-50
-                                                                      w-100
-                                                                      w-md-auto"
-                                  fdprocessedid="6zse4p"
-                                >
-                                  check
-                                </button>
-                              </div>
-                            </form>
+                          <form action={domainName} method="post">
+                          <div
+                            className="form-group
+                                                                position-relative
+                                                                text-lg-left
+                                                                text-center dom_mobForm"
+                          >
+                            <input
+                              className="form-control
+                                                              coodiv-text-9
+                                                              border-separate
+                                                              mb-lg-6
+                                                              mb-2
+                                                              min-height-px-64"
+                              type="text"
+                              id="domain"
+                              name="domain"
+                              onChange={(e) =>
+                                setdomainName(action + e.target.value)
+                              }
+                              placeholder="Enter
+                                                              your
+                                                              domain
+                                                              name"
+                              fdprocessedid="ie3xhm"
+                            />
+                            <button
+                              className="form-btn
+                                                                    btn
+                                                                    btn-primary
+                                                                    mr-2
+                                                                    coodiv-abs-md-cr
+                                                                    min-height-px-50
+                                                                    w-100
+                                                                    w-md-auto"
+                              fdprocessedid="6zse4p"
+                            >
+                              check
+                            </button>
+                          </div>
+                        </form>
                           </div>
                         </div>
                         <div className="col-xl-12 col-lg-12 col-md-12">
