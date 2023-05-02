@@ -22,6 +22,9 @@ function Navbar() {
 
   const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
 
+  const [domainName, setdomainName] = useState("");
+  const action = "https://my.madpopo.com/cart.php?a=add&domain=register&query=";
+
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
     if (storedCountry) {
@@ -576,29 +579,32 @@ function Navbar() {
                             className="domain-search-form
                                                             mb-8"
                           >
-                            <form action="">
+                            <form action={domainName} method="post">
                               <div
                                 className="form-group
                                                                     position-relative
                                                                     text-lg-left
                                                                     text-center dom_mobForm"
                               >
-                                <input
-                                  className="form-control
-                                                                        coodiv-text-9
-                                                                        border-separate
-                                                                        mb-lg-6
-                                                                        mb-2
-                                                                        min-height-px-64"
-                                  type="text"
-                                  id="domain"
-                                  name="domaine"
-                                  placeholder="Enter
-                                                                        your
-                                                                        domain
-                                                                        name"
-                                  fdprocessedid="ie3xhm"
-                                />
+                              <input
+                              className="form-control
+                                                                  coodiv-text-9
+                                                                  border-separate
+                                                                  mb-lg-6
+                                                                  mb-2
+                                                                  min-height-px-64"
+                              type="text"
+                              id="domain"
+                              name="domain"
+                              onChange={(e) =>
+                                setdomainName(action + e.target.value)
+                              }
+                              placeholder="Enter
+                                                                  your
+                                                                  domain
+                                                                  name"
+                              fdprocessedid="ie3xhm"
+                            />
                                 <button
                                   className="form-btn
                                                                         btn

@@ -20,7 +20,7 @@ function NavbarInner() {
   var bydefaultCurrency = "₹";
 
   const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
-
+  const [domainName, setdomainName] = useState("");
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
     if (storedCountry) {
@@ -28,24 +28,21 @@ function NavbarInner() {
     }
   }, [selectedCountry]);
   if (selectedCountry === "₹") {
-    
     var dT = (11.71 * 88.55).toFixed(2);
     var drT = (11.71 * 88.55).toFixed(2);
-    
   } else if (selectedCountry === "$") {
-     var dT1 = 11.71;
-     var drT1 = 11.71;
-     
+    var dT1 = 11.71;
+    var drT1 = 11.71;
   } else if (selectedCountry === "€") {
-     var dT2 = (11.71 * 0.93).toFixed(2);
-     var drT2 = (11.71 * 0.93).toFixed(2);
-    
+    var dT2 = (11.71 * 0.93).toFixed(2);
+    var drT2 = (11.71 * 0.93).toFixed(2);
   }
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY > 50);
     });
   }, []);
+  const action = "https://my.madpopo.com/cart.php?a=add&domain=register&query=";
   return (
     <header
       className={
@@ -99,7 +96,10 @@ function NavbarInner() {
                     aria-expanded="false"
                   >
                     Hosting{" "}
-                    <span className="downArrowMenu"> <img src={downArrowBlack} alt="down arrow"></img></span>
+                    <span className="downArrowMenu">
+                      {" "}
+                      <img src={downArrowBlack} alt="down arrow"></img>
+                    </span>
                   </Link>
                   <div
                     className="coodiv-megamenu-dropdown
@@ -316,7 +316,8 @@ function NavbarInner() {
                                                                     color-blackish-blue-opacity
                                                                     mb-0 wbsubLink"
                                 >
-                                Streamline IT Infrastructure with Cloud Servers
+                                  Streamline IT Infrastructure
+                                  with Cloud Servers
                                 </p>
                               </div>
                             </Link>
@@ -469,7 +470,10 @@ function NavbarInner() {
                     aria-expanded="false"
                   >
                     Domains
-                    <span className="downArrowMenu"> <img src={downArrowBlack} alt="down arrow"></img></span>
+                    <span className="downArrowMenu">
+                      {" "}
+                      <img src={downArrowBlack} alt="down arrow"></img>
+                    </span>
                   </Link>
                   <div
                     className="coodiv-megamenu-dropdown
@@ -513,7 +517,16 @@ function NavbarInner() {
                                                           subTitleDrop"
                           >
                             Grab a .com starting at{" "}
-                            <span className="textPBold">{selectedCountry ? selectedCountry : bydefaultCurrency}{selectedCountry? drT || drT1 || drT2 : selectedCountry} /yr*</span>.
+                            <span className="textPBold">
+                              {selectedCountry
+                                ? selectedCountry
+                                : bydefaultCurrency}
+                              {selectedCountry
+                                ? drT || drT1 || drT2
+                                : selectedCountry}{" "}
+                              /yr*
+                            </span>
+                            .
                           </span>
                         </h1>
                       </a>
@@ -547,7 +560,17 @@ function NavbarInner() {
                                                           subTitleDrop"
                           >
                             starting at
-                            <b className="textPBold"> {selectedCountry ? selectedCountry : bydefaultCurrency}{selectedCountry? dT || dT1 || dT2 : selectedCountry} /yr*</b>.
+                            <b className="textPBold">
+                              {" "}
+                              {selectedCountry
+                                ? selectedCountry
+                                : bydefaultCurrency}
+                              {selectedCountry
+                                ? dT || dT1 || dT2
+                                : selectedCountry}{" "}
+                              /yr*
+                            </b>
+                            .
                           </span>
                         </h1>
                       </a>
@@ -573,7 +596,7 @@ function NavbarInner() {
                             className="domain-search-form
                                                           mb-8"
                           >
-                            <form action="">
+                            <form action={domainName} method="post">
                               <div
                                 className="form-group
                                                                   position-relative
@@ -589,7 +612,10 @@ function NavbarInner() {
                                                                       min-height-px-64"
                                   type="text"
                                   id="domain"
-                                  name="domaine"
+                                  name="domain"
+                                  onChange={(e) =>
+                                    setdomainName(action + e.target.value)
+                                  }
                                   placeholder="Enter
                                                                       your
                                                                       domain
@@ -607,7 +633,7 @@ function NavbarInner() {
                                                                       w-md-auto"
                                   fdprocessedid="6zse4p"
                                 >
-                                  check
+                                  check In
                                 </button>
                               </div>
                             </form>
@@ -1039,7 +1065,10 @@ function NavbarInner() {
                     aria-expanded="false"
                   >
                     About Us{" "}
-                    <span className="downArrowMenu"> <img src={downArrowBlack} alt="down arrow"></img></span>
+                    <span className="downArrowMenu">
+                      {" "}
+                      <img src={downArrowBlack} alt="down arrow"></img>
+                    </span>
                   </Link>
                   <ul
                     className="coodiv-megamenu-dropdown

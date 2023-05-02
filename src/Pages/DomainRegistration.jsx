@@ -40,6 +40,8 @@ function DomainRegistration() {
      var bioT2 = (58.79 * 0.93).toFixed(2);
      var bhaT2 = (11.79 * 0.93).toFixed(2);
   }
+  const [domainName, setdomainName] = useState("");
+  const action = "https://my.madpopo.com/cart.php?a=add&domain=register&query=";
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg domBG">
     <Seo
@@ -97,18 +99,18 @@ function DomainRegistration() {
             <div className="col-md-7 col-12">
               <form
                 className="domain-checker-emyui-aws-homepage position-relative"  
+                action={domainName} method="post"
               >
                 <div className="input-group">
                   <span className="input-group-input w-100">
                     <input
-                      name=""
-                      autoComplete="off"
-                      autoCorrect="off"
-                      autoCapitalize="off"
-                      spellCheck="false"
-                      className="searchInput form-control rounded-0"
-                      
-                      type="text"
+                    type="text"
+                    id="domain"
+                    name="domain"
+                    className="homeinput searchInput form-control rounded-0"
+                    onChange={(e) =>
+                      setdomainName(action + e.target.value)
+                    }
                       placeholder="eg. example.com"
                     />
                   </span>
