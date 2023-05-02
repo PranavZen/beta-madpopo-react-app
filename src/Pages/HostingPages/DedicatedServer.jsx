@@ -24,8 +24,8 @@ function DedicatedServer() {
 
       <div className="wp_img_overlayContent dedicatedIgOverlay">
         <p>Dedicated Server</p>
-        <h1>Choose flexible pricing plan for you and more...</h1>
-        <span>Unlimited boards and workflows. no credit card needed</span>
+        <h1>High-Performance Dedicated Server Hosting for Your Business</h1>
+        <span>Powerful and reliable dedicated servers, you can achieve lightning-fast website load times, high availability, and optimal performance</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
         <MouseParallaxChild

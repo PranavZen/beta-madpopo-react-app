@@ -25,8 +25,8 @@ function BusinessHosting() {
 
       <div className="wp_img_overlayContent businessImgOverlay">
         <p>Business Email Hosting</p>
-        <h1>Choose flexible pricing plan for you and more...</h1>
-        <span>Unlimited boards and workflows. no credit card needed</span>
+        <h1>Business-Class Email Hosting for Enhanced Communication        </h1>
+        <span>We offer a variety of options to fit your specific needs, including GSuite, Office 365, and our own email solution</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
         <MouseParallaxChild

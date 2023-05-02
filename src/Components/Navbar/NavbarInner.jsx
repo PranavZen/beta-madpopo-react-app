@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import React from "react";
 import {
+  downArrowBlack,
   logo1,
   navicon1,
   navicon2,
@@ -98,9 +99,7 @@ function NavbarInner() {
                     aria-expanded="false"
                   >
                     Hosting{" "}
-                    <i className="material-symbols-outlined">
-                      keyboard_arrow_down
-                    </i>
+                    <span className="downArrowMenu"> <img src={downArrowBlack} alt="down arrow"></img></span>
                   </Link>
                   <div
                     className="coodiv-megamenu-dropdown
@@ -317,7 +316,7 @@ function NavbarInner() {
                                                                     color-blackish-blue-opacity
                                                                     mb-0 wbsubLink"
                                 >
-                                  Upgrade to a virtual dedicated server.
+                                Streamline IT Infrastructure with Cloud Servers
                                 </p>
                               </div>
                             </Link>
@@ -470,9 +469,7 @@ function NavbarInner() {
                     aria-expanded="false"
                   >
                     Domains
-                    <i className="material-symbols-outlined">
-                      keyboard_arrow_down
-                    </i>
+                    <span className="downArrowMenu"> <img src={downArrowBlack} alt="down arrow"></img></span>
                   </Link>
                   <div
                     className="coodiv-megamenu-dropdown
@@ -1042,9 +1039,7 @@ function NavbarInner() {
                     aria-expanded="false"
                   >
                     About Us{" "}
-                    <i className="material-symbols-outlined">
-                      keyboard_arrow_down
-                    </i>
+                    <span className="downArrowMenu"> <img src={downArrowBlack} alt="down arrow"></img></span>
                   </Link>
                   <ul
                     className="coodiv-megamenu-dropdown
@@ -1088,7 +1083,7 @@ function NavbarInner() {
                       </div>
                       <div className="col-md-4 abtMenuList">
                         <li className="drop-menu-item">
-                          <Link to="#">Happy Customers</Link>
+                          <Link to="/happy-customer">Happy Customers</Link>
                         </li>
                         <li className="drop-menu-item">
                           <Link to="/contact-us">Contact</Link>

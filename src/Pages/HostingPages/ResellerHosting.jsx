@@ -23,10 +23,10 @@ function ResellerHosting() {
     />
     <Navbar />
 
-    <div className="wp_img_overlayContent">
+    <div className="wp_img_overlayContent resellerOverlay">
       <p>Reseller Hosting</p>
-      <h1>Choose flexible pricing plan for you and more...</h1>
-      <span>Unlimited boards and workflows. no credit card needed</span>
+      <h1>The Ideal Solution for Web Designers and Developers      </h1>
+      <span>An ideal solution for web designers and developers who want to expand their offerings and provide hosting services to their clients</span>
     </div>
 {
     // <MouseParallaxContainer className={"wp_outerBox"}>

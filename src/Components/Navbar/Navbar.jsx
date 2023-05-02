@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import React from "react";
 import {
+  downArrowBlack,
+  downArrowWhite,
   logo1,
   navicon1,
   navicon2,
@@ -98,9 +100,8 @@ function Navbar() {
                     aria-expanded="false"
                   >
                     Hosting{" "}
-                    <i className="material-symbols-outlined">
-                      keyboard_arrow_down
-                    </i>
+                    <span className="downArrowMenu whiteArrow"> <img src={downArrowWhite} alt="down arrow"></img></span>
+                    <span className="downArrowMenu blackArrow"> <img src={downArrowBlack} alt="down arrow"></img></span>
                   </Link>
                   <div
                     className="coodiv-megamenu-dropdown
@@ -317,7 +318,7 @@ function Navbar() {
                                                                         color-blackish-blue-opacity
                                                                         mb-0 wbsubLink"
                                 >
-                                  Upgrade to a virtual dedicated server.
+                                Streamline IT Infrastructure with Cloud Servers
                                 </p>
                               </div>
                             </Link>
@@ -470,9 +471,8 @@ function Navbar() {
                     aria-expanded="false"
                   >
                     Domains
-                    <i className="material-symbols-outlined">
-                      keyboard_arrow_down
-                    </i>
+                    <span className="downArrowMenu whiteArrow"> <img src={downArrowWhite} alt="down arrow"></img></span>
+                    <span className="downArrowMenu blackArrow"> <img src={downArrowBlack} alt="down arrow"></img></span>
                   </Link>
                   <div
                     className="coodiv-megamenu-dropdown
@@ -1042,9 +1042,8 @@ function Navbar() {
                     aria-expanded="false"
                   >
                     About Us{" "}
-                    <i className="material-symbols-outlined">
-                      keyboard_arrow_down
-                    </i>
+                    <span className="downArrowMenu whiteArrow"> <img src={downArrowWhite} alt="down arrow"></img></span>
+                    <span className="downArrowMenu blackArrow"> <img src={downArrowBlack} alt="down arrow"></img></span>
                   </Link>
                   <ul
                     className="coodiv-megamenu-dropdown
@@ -1088,7 +1087,7 @@ function Navbar() {
                       </div>
                       <div className="col-md-4 abtMenuList">
                         <li className="drop-menu-item">
-                          <Link to="#">Happy Customers</Link>
+                          <Link to="/happy-customer">Happy Customers</Link>
                         </li>
                         <li className="drop-menu-item">
                           <Link to="/contact-us">Contact</Link>

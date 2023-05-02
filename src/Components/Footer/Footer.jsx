@@ -161,7 +161,7 @@ function Footer() {
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="">
+                        <Link className="footer-list-link" to="/ddos-protection">
                           DDoS Protection
                         </Link>
                       </li>

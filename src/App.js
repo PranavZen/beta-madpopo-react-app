@@ -36,6 +36,8 @@ import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import Cpanel from "./Pages/Cpanel";
 import Plesk from "./Pages/Plesk";
 import SslCertificate from "./Pages/SslCertificate";
+import Ddos from "./Pages/Ddos";
+import HappyCustomer from "./Pages/HappyCustomer";
 function App() {
   const helmetContext = {};
   useEffect(() => {
@@ -75,6 +77,8 @@ function App() {
           <Route path="/cPanel" element={<Cpanel />} />
           <Route path="/plesk" element={<Plesk />} />
           <Route path="/ssl-certificate" element={<SslCertificate />} />
+          <Route path="/ddos-protection" element={<Ddos />} />
+          <Route path="/happy-customer" element={<HappyCustomer />} />
           <Route path="/career/:jdUrlName" element={<Jd />} />
           <Route path="/Error404" element={<Error404 />} />
           <Route path="*" element={<Navigate to="/Error404" />} />

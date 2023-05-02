@@ -25,8 +25,8 @@ function WoocommerceHosting() {
 
       <div className="wp_img_overlayContent">
         <p>Woocommerce Hosting</p>
-        <h1>Create an e-commerce platform using WooCommerce</h1>
-        <span>Unlimited boards and workflows. no credit card needed</span>
+        <h1>Expertly Optimized WooCommerce Hosting for Your Online Shop        </h1>
+        <span>With lightning-fast loading times and reliable uptime, your online shop will always be up and running, ensuring that your customers can access your products.</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
         <MouseParallaxChild

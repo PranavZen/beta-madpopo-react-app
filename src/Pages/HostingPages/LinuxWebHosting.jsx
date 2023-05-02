@@ -24,8 +24,8 @@ function LinuxWebHosting() {
 
       <div className="wp_img_overlayContent linux_img_overlay">
         <p>Linux Web Hosting</p>
-        <h1>Utilize the Online Space to Enhance Your Physical Business</h1>
-        <span>Unlimited boards and workflows. no credit card needed</span>
+        <h1>Powerful Linux Hosting Plans for Smooth & Efficient Web Portal        </h1>
+        <span>With a focus on smooth and efficient website operations, our hosting plans are tailored to meet the demands of businesses of all size</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
         <MouseParallaxChild

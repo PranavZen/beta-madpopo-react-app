@@ -28,8 +28,9 @@ function WordpressHosting() {
 
       <div className="wp_img_overlayContent">
         <p>Wordpress Hosting</p>
-        <h1>Choose flexible pricing plan for you and more...</h1>
-        <span>Unlimited boards and workflows. no credit card needed</span>
+        <h1>Efficient and Reliable WordPress Hosting Solutions for Your Website
+        </h1>
+        <span>Our team of experts will handle all the technical details, so you can focus on growing your business. Trust us to provide the best possible WordPress hosting solutions for your website</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
         <MouseParallaxChild

@@ -4,6 +4,10 @@ export { default as bannerBg1 } from "../../src/image/header/sunset-version/moon
 export { default as bannerBg2 } from "../../src/image/header/helf-circle-01.png";
 export { default as bannerBg3 } from "../../src/image/header/helf-circle-02.png";
 export { default as bannerBg4 } from "../../src/image/header/helf-circle-03.png";
+
+export { default as downArrowBlack } from "../../src/image/header/down-arrow-black.png";
+export { default as downArrowWhite } from "../../src/image/header/down-arrow-white.png";
+
 export { default as bannerBg5 } from "../../src/image/payment/icon-visa.png";
 export { default as bannerBg6 } from "../../src/image/payment/icon-maestro.png";
 export { default as bannerBg7 } from "../../src/image/payment/icon-bitcoin.png";

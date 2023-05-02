@@ -24,8 +24,8 @@ function WindowsWebHosting() {
 
       <div className="wp_img_overlayContent">
         <p>Windows Web Hosting</p>
-        <h1>Choose flexible pricing plan for you and more...</h1>
-        <span>Unlimited boards and workflows. no credit card needed</span>
+        <h1>Robust and High-Performance Windows Server Hosting        </h1>
+        <span>Our servers are optimized to deliver high performance, making them perfect for running .NET applications and utilizing SQL Server databases</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
         <MouseParallaxChild
