@@ -6,9 +6,6 @@ import {
 import Seo from "../Components/SEO/Seo";
 import Navbar from "../Components/Navbar/Navbar";
 import { footerPose1, windowsImg } from "../Components";
-import WindowsHostingFeatures from "../Components/WindowsHostingPageComponent/WindowsHostingFeatures";
-import WindowsPlansHosting from "../Components/WindowsHostingPageComponent/WindowsPlansHosting";
-import WindowsHostingFaq from "../Components/WindowsHostingPageComponent/WindowsHostingFaq";
 import Footer from "../Components/Footer/Footer";
 import { useState } from "react";
 import PleskVDSCard from "../Components/PriceCard/PleskVDSCard";
@@ -28,9 +25,9 @@ function Plesk() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg windowsBG">
       <Seo
-        title="Top Reasons to Choose Windows Website Hosting for Your Online Store"
-        description="Are you looking for the best Windows webhosting to power your online store? MadPopo offers top-of-the-line Windows website hosting services, with a range of features and advantages that make it the perfect choice for any business."
-        keywords="web servers host, windows hosting server, windows hosting, windows server hosting,win host, windows server website hosting, windows shared server, windows website hosting,web hosting windows, hosting windows, windows shared hosting, best windows hosting, windows website hosting."
+        title="Easily Manage Your Websites with Plesk Hosting Solutions"
+        description="Plesk is the leading web hosting control panel, offering a simple and secure way to manage all of your websites. Enjoy easy setup, powerful features, reliable performance, and advanced security solutions - all in one place. Get started with Plesk today!"
+        keywords="plesk, pleskpanel, pleskpricing, installingplesk, pleskhosting"
       />
       <Navbar />
 

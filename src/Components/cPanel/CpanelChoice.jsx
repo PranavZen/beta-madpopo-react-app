@@ -7,15 +7,13 @@ function CpanelChoice() {
       <div className="container">
         <div className="wpChoiceSecTitle">
           <h2 className="mb-12">Main cPanel Features</h2>
-          {
-            //     <p className="woopara">
-            // You have the ability to sell a variety of goods and services online,
-            // from tangible items to digital downloads, subscriptions, and more,
-            // thanks to our Managed WordPress Ecommerce platform with WooCommerce.
-            // To further improve your online business, your subscription also
-            // includes free, exclusive WooCommerce Storefront extensions.
-            // </p>
-          }
+
+          <p className="woopara">
+            With cPanel, you get the most reliable, intuitive platform for
+            managing your server and site. Its automated and configurable
+            platform allows customers to focus on growing their businesses with
+            a rich feature set and customer-oriented support.
+          </p>
         </div>
         <div
           className="wpBest_choiceRow padBtm_50"

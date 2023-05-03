@@ -24,7 +24,7 @@ function Migration() {
               We understand that changing hosting providers can be a hassle, which is why we're thrilled to offer unlimited migrations of your WordPress site from any hosting provider without any downtime or data loss.
               </p>
               <Link
-                to=""
+                to="/wordpress-hosting"
                 className="btn get_stardetWindowBtn coodiv-text-9 rounded-20"
               >
                 Get started

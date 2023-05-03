@@ -19,13 +19,13 @@ function WoocommerceHosting() {
     <Seo
     title="Get Reliable Woocommerce Hosting Solutions Now!"
     description="Get reliable and secure WooCommerce hosting solutions tailored to your business needs. Enjoy faster load times, enhanced security, and improved performance with our cutting-edge hosting solution. Our team of experts will help you get up and running quickly and easily."
-    keywords="woocommerce, woocommerce plugin, woocommerce wordpress, woocommerce website, managed woocommerce hosting, wordpress woocommerce hosting. woocommerce website hosting, best woocommerce hosting"
+    keywords="woocommerce, woocommerce plugin, woocommerce wordpress, woocommerce website, managed woocommerce hosting, wordpress woocommerce hosting, woocommerce website hosting, best woocommerce hosting."
     />
       <Navbar />
 
       <div className="wp_img_overlayContent">
         <p>Woocommerce Hosting</p>
-        <h1>Expertly Optimized WooCommerce Hosting for Your Online Shop        </h1>
+        <h1>Expertly Optimized WooCommerce Hosting for Your Online Shop</h1>
         <span>With lightning-fast loading times and reliable uptime, your online shop will always be up and running, ensuring that your customers can access your products.</span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>

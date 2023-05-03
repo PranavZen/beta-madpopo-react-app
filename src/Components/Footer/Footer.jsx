@@ -113,7 +113,7 @@ function Footer() {
                       <li className="py-1">
                         <Link
                           className="footer-list-link"
-                          to="/wordpress-hosting"
+                          to=""
                         >
                           Co-Location Server
                         </Link>

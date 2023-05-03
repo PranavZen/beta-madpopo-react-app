@@ -230,8 +230,7 @@ function PrivacyDataList() {
                 prevent such processing by checking certain boxes on the forms
                 we use to collect your data. You can also exercise the right at
                 any time by contacting us at Version Next Technologies Pvt.
-                Ltd., 829B/8, Pranik Chambers, Saki Vihar Road, Sakinaka
-                Junction, Andheri East, Mumbai-400072.
+                Ltd., 609, Pranik Chamber, Saki Vihar Road, Sakinaka Metro, Andheri East, Mumbai 400072, India
               </li>
               <li>
                 Our site may, from time to time, contain links to and from the
@@ -272,8 +271,7 @@ function PrivacyDataList() {
               <li>
                 Questions, comments and requests regarding this privacy policy
                 are welcomed and should be addressed to Version Next
-                Technologies Pvt. Ltd., 829B/8, Pranik Chambers, Saki Vihar
-                Road, Sakinaka Junction, Andheri East, Mumbai-400072.
+                Technologies Pvt. Ltd., 609, Pranik Chamber, Saki Vihar Road, Sakinaka Metro, Andheri East, Mumbai 400072, India
               </li>
             </ul>
           </div>

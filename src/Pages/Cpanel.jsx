@@ -16,9 +16,9 @@ function VirtualPrivateServer() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg cpanelBG">
       <Seo
-        title="High Performance Virtual Dedicated Server Solutions"
-        description="Our safe, dependable, and high-performance virtual dedicated server solutions will give your workloads the best performance possible. You can have the confidence that your business needs are being taken care of thanks to numerous pricing options and 24/7 support."
-        keywords="virtual server, vds, virtual hosting, virtual dedicated server, virtualserver, virtual dedicated hosting"
+        title="CPanel: The Best Web Hosting Control Panel"
+        description="CPanel is the world's most popular web hosting control panel. It's easy to use and provides an intuitive interface for managing website domains, files, databases, and more. Get the power of CPanel today and start building a better web hosting experience"
+        keywords="cpanel, cpanelhosting, cpanelhost, bestcpanelhost"
       />
       <Navbar />
 
