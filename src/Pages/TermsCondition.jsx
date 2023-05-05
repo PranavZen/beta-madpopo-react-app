@@ -23,7 +23,7 @@ function TermsCondition() {
           <p>Quick Links</p>
         </div>
         <div className="tc_boxex">
-          <h3>Eligibility, Registration and Account Security.</h3>
+          <h3>1. Eligibility, Registration and Account Security</h3>
           <p>
             This section describes the eligibility criteria we require from all
             of our users. When you register to use our Services (as defined
@@ -34,7 +34,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>HIPAA Disclaimer.</h3>
+          <h3>2. HIPAA Disclaimer</h3>
           <p>
             Our Services do not comply with the U.S. Health Insurance
             Portability and Accountability Act (“HIPAA”). This section describes
@@ -42,7 +42,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Termination Policy.</h3>
+          <h3>3. Termination Policy</h3>
           <p>
             Your Services offer plans for a fixed period of time that you select
             upon purchase (e.g. 1 month, 1 year, etc.). Even though we do not
@@ -50,7 +50,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Auto-Renewal Terms.</h3>
+          <h3>4. Auto-Renewal Terms</h3>
           <p>
             Unless otherwise provided, your Services will automatically renew on
             your renewal date to ensure uninterrupted service. This section
@@ -58,11 +58,11 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Refunds.</h3>
+          <h3>5. Refund</h3>
           <p>This section describes our refund policy.</p>
         </div>
         <div className="tc_boxex">
-          <h3>User's Responsibilities.</h3>
+          <h3>6. User's Responsibilities</h3>
           <p>
             You are required to comply with applicable law and have certain
             obligations with respect to their use of the Services. You are also
@@ -74,7 +74,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Billing and Payment.</h3>
+          <h3>7. Billing and Payment</h3>
           <p>
             We offer a great range of Services to suit everyone’s needs and at
             prices to suit everyone’s pockets. The fees you pay are based on the
@@ -83,7 +83,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Resource Usage.</h3>
+          <h3>8. Resource Usage</h3>
           <p>
             You are required to utilize server resources in an efficient and
             responsible manner. Excessive use of server CPU and memory resources
@@ -93,7 +93,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Terms of Service.</h3>
+          <h3>9. Terms of Service</h3>
           <p>
             These Terms of Service (the “Agreement”) are an agreement between
             you (“User” or “you” or “your”) and P.D.R Solutions (U.S) LLC unless
@@ -111,7 +111,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Additional Policies and Agreements.</h3>
+          <h3>10. Additional Policies and Agreements</h3>
           <p>
             Use of the Services is also governed by the following policies,
             which are incorporated into this Agreement by reference. By using
@@ -130,7 +130,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Account Eligibility.</h3>
+          <h3>11. Account Eligibility</h3>
           <p>
             By registering for or using the Services, you represent and warrant
             that:
@@ -176,7 +176,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Company Content.</h3>
+          <h3>12. Company Content</h3>
           <p>
             Except for User Content (as defined below), all content available
             through the Services, including designs, text, graphics, images,
@@ -199,7 +199,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>User Content.</h3>
+          <h3>13. User Content</h3>
           <p>
             You may upload, store, publish, display, and distribute information,
             text, photos, videos and other content for your website on or
@@ -240,7 +240,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Additional User Responsibilities.</h3>
+          <h3>14. Additional User Responsibilities</h3>
           <p>
             You will be solely responsible for all activities conducted on or
             through a User Website, whether or not authorized by you and any
@@ -261,7 +261,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Compliance with Applicable Law.</h3>
+          <h3>15. Compliance with Applicable Law</h3>
           <p>
             You agree to comply with all applicable laws, rules, and
             regulations, including without limitation all local rules where you
@@ -305,7 +305,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>HIPAA Disclaimer.</h3>
+          <h3>16. HIPAA Disclaimer</h3>
           <p>
             The Services do not comply with the U.S. Health Insurance
             Portability and Accountability Act (“HIPAA”). You are solely
@@ -329,7 +329,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Certain Services; 404 Error Page.</h3>
+          <h3>17. Certain Services; 404 Error Page</h3>
           <p>
             In the event you fail to configure a 404 error page, a default 404
             error page will be configured by the Company to appear in the event
@@ -347,7 +347,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Third Party Products and Services.</h3>
+          <h3>18. Third Party Products and Services</h3>
           <p>
             Third Party Providers We may offer certain third party products and
             services. Such products and services may be subject to the terms and
@@ -373,7 +373,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>The Company as Reseller or Sublicensor.</h3>
+          <h3>19. The Company as Reseller or Sublicensor</h3>
           <p>
             We may act as a reseller or sublicensor of certain third party
             services, hardware, software and equipment used in connection with
@@ -397,7 +397,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Third Party Websites.</h3>
+          <h3>20. Third Party Websites</h3>
           <p>
             The Services may contain links to other websites that are not owned
             or controlled by us (“Third Party Sites”), as well as articles,
@@ -416,7 +416,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Prohibited Persons (Countries, Entities, And Individuals).</h3>
+          <h3>21. Prohibited Persons (Countries, Entities, And Individuals)</h3>
           <p>
             The Services are subject to export control and economic sanctions
             laws and regulations administered or enforced by the United States
@@ -488,7 +488,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Compatibility with the Services.</h3>
+          <h3>22. Compatibility with the Services</h3>
           <p>
             You agree to cooperate fully with us in connection with our
             provision of the Services. It is solely your responsibility to
@@ -510,7 +510,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Compatibility with the Services.</h3>
+          <h3>23. Compatibility with the Services</h3>
           <p>
             You agree to cooperate fully with us in connection with our
             provision of the Services. It is solely your responsibility to
@@ -533,7 +533,7 @@ function TermsCondition() {
         </div>
         <h2 className="mainTc">Billing and Payment Information</h2>
         <div className="tc_boxex">
-          <h3>Prepayment</h3>
+          <h3>1. Prepayment</h3>
           <p>
             It is your responsibility to ensure that your payment information is
             up to date, and that all invoices are paid on time. You agree to pay
@@ -544,7 +544,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Autorenewal.</h3>
+          <h3>2. Autorenewal</h3>
           <p>
             Unless otherwise provided, you agree that until and unless you
             notify us of your desire to cancel the Services, you may be billed,
@@ -554,7 +554,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Advance Account.</h3>
+          <h3>3. Advance Account</h3>
           <p>
             If you maintain a credit balance, we will deduct from the credit
             balance when you purchase products or services from us. If the
@@ -566,7 +566,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Taxes.</h3>
+          <h3>4. Taxes</h3>
           <p>
             Listed fees for the Services do not include any applicable sales,
             use, revenue, excise or other taxes imposed by any taxing authority,
@@ -576,7 +576,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Late Payment or Non-Payment.</h3>
+          <h3>5. Late Payment or Non-Payment</h3>
           <p>
             Any invoice that is outstanding may result in the suspension or
             termination of Services. Access to the account will not be restored
@@ -597,7 +597,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Domain Payments.</h3>
+          <h3>6. Domain Payments</h3>
           <p>
             Domain registrations. No refunds will be given once a domain is
             registered. Domain Renewals. You can manage domain renewals in your
@@ -608,7 +608,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Fraud.</h3>
+          <h3>7. Fraud</h3>
           <p>
             It is a violation of this Agreement for you to misuse or
             fraudulently use credit cards, charge cards, electronic funds
@@ -620,14 +620,14 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Invoice Disputes.</h3>
+          <h3>8. Invoice Disputes</h3>
           <p>
             If you have any questions concerning a charge on your account,
             please reach out to our billing department for assistance.
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Price Change</h3>
+          <h3>9. Price Change</h3>
           <p>
             The Company reserves the right to change prices, the monthly payment
             amount, or any other charges at any time. We will provide you with
@@ -639,7 +639,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Coupons</h3>
+          <h3>10. Coupons</h3>
           <p>
             Discounts and coupon codes are reserved for first-time accounts or
             first-time customers only and may not be used towards the purchase
@@ -675,7 +675,7 @@ function TermsCondition() {
         </div>
         <h2 className="mainTc">Cancellations and Refunds</h2>
         <div className="tc_boxex">
-          <h3>Refunds.</h3>
+          <h3>1. Refunds</h3>
           <p>
             Only first-time accounts are eligible for a refund. For example, if
             you’ve had an account with us before, canceled and signed up again,
@@ -685,7 +685,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Non-refundable Products and Services.</h3>
+          <h3>2. Non-refundable Products and Services</h3>
           <p>
             Notwithstanding anything to the contrary contained in this
             Agreement, there are no refunds of any fee (including without
@@ -697,7 +697,7 @@ function TermsCondition() {
         </div>
 
         <div className="tc_boxex">
-          <h3>Cancellation Process</h3>
+          <h3>3. Cancellation Process</h3>
           <p>
             You may terminate or cancel the Services from the control panel. If
             you cancel the Services, you are obligated to pay all fees and
@@ -723,7 +723,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Termination</h3>
+          <h3>4. Termination</h3>
           <p>
             We may terminate your access to the Services, in whole or in part,
             without notice in the event that: (i) you fail to pay any fees due;
@@ -759,7 +759,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Bandwidth Usage.</h3>
+          <h3>5. Bandwidth Usage</h3>
           <p>
             Bandwidth usage is unmetered (i.e., not monitored) for shared
             hosting services only. Bandwidth usage for dedicated, reseller and
@@ -768,7 +768,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Reseller Terms and Client Responsibility</h3>
+          <h3>6. Reseller Terms and Client Responsibility</h3>
           <p>
             Shared accounts may not be used to resell web hosting to others. If
             you wish to resell hosting you must use a reseller account.
@@ -807,7 +807,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Limitation of Liability.</h3>
+          <h3>7. Limitation of Liability</h3>
           <p>
             in no event will the company, its directors, employees or agents be
             liable to you or any third person for any indirect, consequential,
@@ -826,7 +826,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Indemnification.</h3>
+          <h3>8. Indemnification</h3>
           <p>
             You agree to indemnify, defend and hold harmless the Company, our
             affiliates, and their respective officers, directors, employees and
@@ -843,7 +843,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Arbitration.</h3>
+          <h3>9. Arbitration</h3>
           <p>Your use of the Services is also governed by the following:</p>
           <p>
             Unless you are in India, you also hereby agree to the Company’s
@@ -886,7 +886,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Independent Contractor.</h3>
+          <h3>10. Independent Contractor</h3>
           <p>
             The Company and User are independent contractors and nothing
             contained in this Agreement places the Company and User in the
@@ -898,7 +898,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Governing Law; Jurisdiction</h3>
+          <h3>11. Governing Law; Jurisdiction</h3>
           <p>
             Unless you are in India, any controversy or claim arising out of or
             relating to this Agreement, the formation of this Agreement or the
@@ -917,7 +917,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Backups and Data Loss</h3>
+          <h3>12. Backups and Data Loss</h3>
           <p>
             Your use of the Services is at your sole risk. the Company does not
             maintain backups of dedicated accounts or the Services purchased by
@@ -930,7 +930,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Limited Disclaimer and Warranty</h3>
+          <h3>13. Limited Disclaimer and Warranty</h3>
           <p>
             he services provided under this agreement are provided on an “as is”
             and “as available basis.” except as expressly provided in this
@@ -952,7 +952,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Entire Agreement.</h3>
+          <h3>14. Entire Agreement</h3>
           <p>
             This Agreement, including policies and documents incorporated by
             reference, supersedes all prior discussions, negotiations and
@@ -962,7 +962,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Headings.</h3>
+          <h3>15. Headings</h3>
           <p>
             The headings herein are for convenience only and are not part of
             this Agreement. Changes to the Agreement or the Services We may
@@ -980,7 +980,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Severability.</h3>
+          <h3>16. Severability</h3>
           <p>
             If any provision or portion of any provision of this Agreement is
             found to be illegal, invalid or unenforceable by a court of
@@ -989,7 +989,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Waiver.</h3>
+          <h3>17. Waiver</h3>
           <p>
             No failure or delay by you or the Company to exercise any right or
             remedy hereunder shall operate as a waiver thereof, nor shall any
@@ -1002,7 +1002,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Assignment , Successors.</h3>
+          <h3>18. Assignment , Successors</h3>
           <p>
             You may not assign or transfer this Agreement or any of your rights
             or obligations hereunder, without the prior written consent of the
@@ -1017,7 +1017,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Force Majeure.</h3>
+          <h3>19. Force Majeure</h3>
           <p>
             Neither party is liable for any default or delay in the performance
             of any of its obligations under this Agreement (other than failure
@@ -1032,7 +1032,7 @@ function TermsCondition() {
           </p>
         </div>
         <div className="tc_boxex">
-          <h3>Third-Party Beneficiaries.</h3>
+          <h3>20. Third-Party Beneficiaries</h3>
           <p>
             Except as otherwise expressly provided in this Agreement, nothing in
             this Agreement is intended, nor shall anything herein be construed

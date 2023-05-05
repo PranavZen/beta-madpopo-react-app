@@ -6,12 +6,12 @@ import {
   MouseParallaxContainer,
 } from "react-parallax-mouse";
 import { dsImg, footerPose1 } from "../../Components";
-import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
 import DediecatedServerComponent from "../../Components/Tabs/TabContentBox/DediecatedServerComponent";
 import Seo from "../../Components/SEO/Seo";
 import DedecatedServerFaq from "../../Components/DedecatedServerPageComponent/DedecatedServerFaq";
 import DedicatedPlansListing from "../../Components/DedecatedServerPageComponent/DedicatedPlansListing";
 import DedicatedServerFeatures from "../../Components/DedecatedServerPageComponent/DedicatedServerFeatures";
+import DedicatedBestChoice from "../../Components/DedecatedServerPageComponent/DedicatedBestChoice";
 function DedicatedServer() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg dedicatedServerBG">
@@ -25,7 +25,11 @@ function DedicatedServer() {
       <div className="wp_img_overlayContent dedicatedIgOverlay">
         <p>Dedicated Server</p>
         <h1>High-Performance Dedicated Server Hosting for Your Business</h1>
-        <span>Powerful and reliable dedicated servers, you can achieve lightning-fast website load times, high availability, and optimal performance</span>
+        <span>
+          Powerful and reliable dedicated servers, you can achieve
+          lightning-fast website load times, high availability, and
+          optimal performance
+        </span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
         <MouseParallaxChild
@@ -44,11 +48,9 @@ function DedicatedServer() {
         <DediecatedServerComponent />
       </div>
 
-      {
-        //   <div className="wpChoiceSection">
-        //   <WpBestChoice />
-        // </div>
-      }
+      <div className="wpChoiceSection dedicatedBestChoice">
+        <DedicatedBestChoice />
+      </div>
 
       <div className="wp_features dedecatedFeatures">
         <DedicatedServerFeatures />

@@ -29,6 +29,7 @@
     "react-parallax-mouse": "^2.0.1",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.6.1",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "react-select": "^5.7.0",
@@ -39,7 +40,8 @@
     "slick-carousel": "^1.8.1",
     "sticky-sidebar": "^3.3.1",
     "typed.js": "^2.0.12",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "whois-json": "^2.0.4"
   },
   "scripts": {
     "predeploy": "npm run build",

@@ -38,6 +38,8 @@ import Plesk from "./Pages/Plesk";
 import SslCertificate from "./Pages/SslCertificate";
 import Ddos from "./Pages/Ddos";
 import HappyCustomer from "./Pages/HappyCustomer";
+import CoLocationServer from "./Pages/CoLocationServer";
+import DsAcceptablePolicy from "./Pages/DsAcceptablePolicy";
 function App() {
   const helmetContext = {};
   useEffect(() => {
@@ -74,11 +76,14 @@ function App() {
           <Route path="/career" element={<Career />} />
           <Route path="/help-center" element={<HelpCenter />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/cPanel" element={<Cpanel />} />
-          <Route path="/plesk" element={<Plesk />} />
+          <Route path="/cpanel-whm-hosting-panel" element={<Cpanel />} />
+          <Route path="/plesk-hosting-panel" element={<Plesk />} />
           <Route path="/ssl-certificate" element={<SslCertificate />} />
-          <Route path="/ddos-protection" element={<Ddos />} />
+          <Route path="/ddos-protection-data-center" element={<Ddos />} />
           <Route path="/happy-customer" element={<HappyCustomer />} />
+          <Route path="/colocation-server" element={<CoLocationServer />} />
+          <Route path="/dedicated-server-acceptable-use-policy" element={<DsAcceptablePolicy />} />
+          
           <Route path="/career/:jdUrlName" element={<Jd />} />
           <Route path="/Error404" element={<Error404 />} />
           <Route path="*" element={<Navigate to="/Error404" />} />

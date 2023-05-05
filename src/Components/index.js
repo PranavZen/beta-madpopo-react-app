@@ -12,7 +12,7 @@ export { default as bannerBg5 } from "../../src/image/payment/icon-visa.png";
 export { default as bannerBg6 } from "../../src/image/payment/icon-maestro.png";
 export { default as bannerBg7 } from "../../src/image/payment/icon-bitcoin.png";
 
-export { default as woldMap } from "../../src/image/world-map/global_network.webp";
+export { default as woldMap } from "../../src/image/world-map/wolrd-map.webp";
 export { default as fooLogo } from "../../src/image/header/madpopo-white-logo.svg";
 export { default as bgleftMid } from "../../src/image/left-mid-elm.png";
 export { default as bgRightMid } from "../../src/image/right-elm.png"; 

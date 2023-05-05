@@ -1,7 +1,6 @@
 import React from 'react'
 import { woldMap } from '../index'
 import AreaButtons from './AreaButtons';
-import AreaInfo from './AreaInfo';
 
 function Hostareawrap() {
   return (
@@ -14,7 +13,7 @@ function Hostareawrap() {
                         <div className="col-xl-8 col-lg-9">
                             <div className="px-md-12 text-center mb-9 mb-lg-20">
                                 <h2 className="title coodiv-text-4 mb-4">Our Availability: Expanding Worldwide</h2>
-                                <p className="coodiv-text-11 mb-0">Discover Our Worldwide Presence Offering High Performing Servers in Strategic Regions.</p>
+                                <p className="coodiv-text-11 mb-0 pb-8">Discover Our Worldwide Presence Offering High Performing Servers in Strategic Regions.</p>
                             </div>
                         </div>
                     </div> 

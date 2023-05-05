@@ -90,6 +90,7 @@ function DomainTransfer() {
           
         </div>
       </section>
+      <section id="check-free-domain"></section>
       <section
         className="domain-checker-emyui-aws-homepage dark-mode-texts py-12"
         id="domSearch"
@@ -156,6 +157,7 @@ function DomainTransfer() {
           </div>
         </div>
       </section>
+
       <section className="dom_viewAllSection">
         <div className="container">
           <div className="dom_viewAllBtnWrap text-center">

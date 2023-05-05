@@ -318,6 +318,34 @@ function AreaButtons() {
             }}
           ></span>
         </div>
+        <div className="mobBtnsWrap">
+        {state === "state8" ? (
+          <div
+            className={
+              state === "state8"
+                ? "mob_btn_1 code8 active"
+                : "mob_btn_1 code8"
+            }
+          >
+            <span className="coodiv-text-12">
+              Australia<small>Canberra</small>
+            </span>
+            <i className="network-country-bottom-border"></i>
+          </div>
+        ) : (
+          ""
+        )}
+        <span
+          className={
+            state === "state8"
+              ? "mob_btn_circle cir8 active"
+              : "mob_btn_circle cir8"
+          }
+          onClick={() => {
+            setstate("state8");
+          }}
+        ></span>
+      </div>
       </div>
     </>
   );

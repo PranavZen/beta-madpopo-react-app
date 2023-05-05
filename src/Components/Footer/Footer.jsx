@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import {
   amex,
   discover,
@@ -10,6 +9,7 @@ import {
   mastercard,
   visa,
 } from "../../Components/index";
+import { HashLink } from "react-router-hash-link";
 
 function Footer() {
   return (
@@ -32,7 +32,7 @@ function Footer() {
                       <Link to={process.env.PUBLIC_URL + "/"}>
                         <img
                           src={fooLogo}
-                          alt=""
+                          alt="MadPopo Logo"
                           className="dark-version-logo"
                         />
                       </Link>
@@ -93,12 +93,8 @@ function Footer() {
                       Server Services
                     </h4>
                     <ul className="footer-list list-unstyled">
-                      
                       <li className="py-1">
-                        <Link
-                          className="footer-list-link"
-                          to="/virtual-server"
-                        >
+                        <Link className="footer-list-link" to="/virtual-server">
                           Virtual Server
                         </Link>
                       </li>
@@ -113,7 +109,7 @@ function Footer() {
                       <li className="py-1">
                         <Link
                           className="footer-list-link"
-                          to=""
+                          to="/colocation-server"
                         >
                           Co-Location Server
                         </Link>
@@ -129,12 +125,27 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="/domain-registration">
-                          Check Free Domain
-                        </Link>
+                        {
+                          //   <Link className="footer-list-link" to="/domain-registration">
+                          //   Check Free Domain
+                          // </Link>
+                        }
+
+                        <HashLink
+                          className="footer-list-link"
+                          to="/domain-registration/#check-free-domain"
+                          smooth={true}
+                          
+                        >
+                          {" "}
+                          Check Free Domain{" "}
+                        </HashLink>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="/ssl-certificate">
+                        <Link
+                          className="footer-list-link"
+                          to="/ssl-certificate"
+                        >
                           SSL Certificate
                         </Link>
                       </li>
@@ -151,17 +162,26 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link className="footer-list-link" to="/cPanel">
+                        <Link
+                          className="footer-list-link"
+                          to="/cpanel-whm-hosting-panel"
+                        >
                           cPanel
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="/plesk">
+                        <Link
+                          className="footer-list-link"
+                          to="/plesk-hosting-panel"
+                        >
                           Plesk
                         </Link>
                       </li>
                       <li className="py-1">
-                        <Link className="footer-list-link" to="/ddos-protection">
+                        <Link
+                          className="footer-list-link"
+                          to="/ddos-protection-data-center"
+                        >
                           DDoS Protection
                         </Link>
                       </li>
@@ -218,10 +238,10 @@ function Footer() {
                         </Link>
                       </li>
                       <li className="py-1">
-                      <Link className="footer-list-link" to="">
-                        SLA
-                      </Link>
-                    </li>
+                        <Link className="footer-list-link" to="">
+                          SLA
+                        </Link>
+                      </li>
                       <li className="py-1">
                         <Link
                           className="footer-list-link"
@@ -230,7 +250,7 @@ function Footer() {
                           Terms & Conditions
                         </Link>
                       </li>
-                     
+
                       <li className="py-1">
                         <Link className="footer-list-link" to="/privacy-policy">
                           Privacy

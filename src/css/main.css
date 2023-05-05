@@ -2826,88 +2826,100 @@ a.headerphone-number {
   cursor: pointer;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_1.code1 {
-  right: 19.8%;
-  top: 42%;
+  right: 24.8%;
+  top: 6%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_1.code2 {
-  right: 10%;
-  top: 60%;
+  right: 13.5%;
+  top: 23%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_1.code3 {
-  left: 43.5%;
-  bottom: 75%;
+  left: 44.2%;
+  top: -18%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_1.code4 {
-  left: 42.5%;
-  top: 7%;
+  left: 42.1%;
+  top: -20%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_1.code5 {
-  left: 13.7%;
-  top: 35%;
+  left: 18.2%;
+  top: -1%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_1.code6 {
-  top: 34%;
-  left: 6.1%;
+  top: -7%;
+  left: 5.1%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_1.code7 {
-  top: 38%;
-  left: 7.5%;
+  top: -2%;
+  left: 10.5%;
+}
+.mobShowHideButtonWrap .mobBtnsWrap .mob_btn_1.code8 {
+  top: 37%;
+  right: 5%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir1 {
-  right: 22.8%;
-  bottom: 17%;
+  right: 27.5%;
+  top: 45%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir2 {
-  right: 13.6%;
-  bottom: 0px;
+  right: 17.3%;
+  bottom: 34%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir3 {
-  left: 50%;
-  bottom: 46%;
+  left: 50.8%;
+  top: 20%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir4 {
-  left: 46%;
-  bottom: 54%;
+  left: 44.6%;
+  top: 17%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir5 {
-  left: 16%;
-  top: 72%;
+  left: 20.5%;
+  top: 37%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir6 {
-  left: 8%;
-  top: 69%;
+  left: 7%;
+  top: 32%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir7 {
-  left: 11%;
-  top: 72%;
+  left: 13.8%;
+  top: 37%;
+}
+.mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir8 {
+  top: 75%;
+  right: 9.5%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir1.active {
-  bottom: 18%;
-  right: 22.8%;
+  top: 44%;
+  right: 27.8%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir2.active {
-  right: 13.7%;
-  bottom: 0;
+  right: 17.2%;
+  bottom: 33%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir3.active {
-  left: 49.9%;
-  bottom: 47%;
+  left: 50.6%;
+  top: 20%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir4.active {
-  left: 45.6%;
-  bottom: 53%;
+  left: 45.1%;
+  top: 18%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir5.active {
-  left: 16%;
-  top: 70%;
+  left: 20.5%;
+  top: 37%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir6.active {
-  top: 69%;
-  left: 8.5%;
+  top: 31%;
+  left: 7.5%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir7.active {
-  top: 72%;
-  left: 10.7%;
+  top: 36%;
+  left: 13.7%;
+}
+.mobShowHideButtonWrap .mobBtnsWrap .mob_btn_circle.cir8.active {
+  top: 75%;
+  right: 9.5%;
 }
 .mobShowHideButtonWrap .mobBtnsWrap .mob_btn_1.active {
   display: block;
@@ -3137,7 +3149,7 @@ a.headerphone-number {
   top: 4.8%;
 }
 .wp_img_overlayContent.vdsImgOverlay {
-  top: 5.8%;
+  top: 4.8%;
 }
 .wp_img_overlayContent.vdsImgOverlay.cpanelOverlay{
   top: 5.5%;
@@ -3146,22 +3158,78 @@ a.headerphone-number {
   top: 5.8%;
 }
 .vsTabBtnWrap{
-  margin-top: 0px;
+  margin-top: -30px;
   margin-bottom: 60px;
 }
 .vsTabBtnWrap .tabBtnRow{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 0;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 18px;
 }
-.vsTabBtnWrap .tabBtnRow .btn.btnVs{
-  background: #ff8726;
+
+.tabBtnRow .tabs {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0px 15px 15px -15px #414141;
+  padding: 0.75rem;
+  border-radius: 99px;
+}
+.tabBtnRow .tabs * {
+  z-index: 2;
+}
+
+.tabBtnRow .tabs input[type=radio] {
+  display: none;
+}
+#check-free-domain{
+  height: 100px;
+}
+.tabBtnRow .tabs .tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 240px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #202020;
+  border-radius: 99px;
+  cursor: pointer;
+  transition: color 0.15s ease-in;
+  margin-bottom: 0;
+}
+
+
+.tabBtnRow .tabs input[type=radio]:checked + label {
   color: #fff;
 }
-.vsTabBtnWrap .tabBtnRow .btn.btnVs.active-tabs{
-  background: #fff;
-  color: #202020;
+
+.tabBtnRow .tabs input[id=radio-1]:checked ~ .glider {
+  transform: translateX(0);
+}
+
+.tabBtnRow .tabs input[id=radio-2]:checked ~ .glider {
+  transform: translateX(100%);
+}
+
+.tabBtnRow .tabs input[id=radio-3]:checked ~ .glider {
+  transform: translateX(200%);
+}
+
+.tabBtnRow .tabs .glider {
+  position: absolute;
+  display: flex;
+  height: 55px;
+  width: 240px;
+  background-color: #ff8726;
+  z-index: 1;
+  border-radius: 99px;
+  transition: 0.25s ease-out;
 }
 .vsTabBtnWrap.pleskTab{
   margin-top: -30px;
@@ -3215,6 +3283,18 @@ margin-bottom: 0;
 } */
 .Word_host_price_Sec .ddosPriceCardRow {
   padding: 0 15px;
+}
+.wpChoiceSection.vsBestchoiceSection{
+  margin-bottom: 100px;
+}
+.wpChoiceSection.dedicatedBestChoice{
+  margin-bottom: 100px;
+}
+.wpChoiceSection.businessBeChoice{
+  margin-bottom: 100px;
+}
+.wpChoiceSection.resellerBeChoice{
+  margin-bottom: 30px;
 }
 .wpBestChoiceWrap {
   background: #0056ed;
@@ -11549,10 +11629,10 @@ a.coodiv-hover-text-blue:hover i {
   background: url(../image/patterns/pattern-2.png) no-repeat center;
   background-size: cover;
 }
-.bg-pattern.pattern-3:before {
+/* .bg-pattern.pattern-3:before {
   background: url(../image/patterns/pattern-3.png) no-repeat 50% 100%;
   background-size: cover;
-}
+} */
 .bg-pattern.pattern-4:before {
   background: url(../image/patterns/pattern-4.png) no-repeat 50% 100%;
   background-size: cover;
@@ -18117,6 +18197,9 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
 }
 @media screen and (max-width: 767px) {
   
+  #mouse-parallax-container .wp_innerBox img{
+    display: none;
+  }
   .trusedPlanSection.happyCust {
     padding-top: 65%;
 }
@@ -18127,16 +18210,19 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   padding-top: 70%;
 }
 .vsTabBtnWrap {
-  margin-top: 190px;
+  margin-top: 350px;
   margin-bottom: 0;
 }
 .vsTabBtnWrap.pleskTab{
-  margin-top: 170px;
+  margin-top: 315px;
   padding: 0 15px;
 }
 .vsTabBtnWrap .tabBtnRow .btn.btnVs{
   font-size: 12px;
-    padding: 15px;
+    padding: 14px;
+}
+.windows_pricingBox.pleskCard {
+  margin-top: 15px;
 }
 .wp_img_overlayContent.vdsImgOverlay.cpanelOverlay {
   top: 2%;
@@ -18642,7 +18728,7 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
     top: 27%;
   }
   .woo_commSection {
-    margin-top: 235px;
+    margin-top: 355px;
     padding-bottom: 40px;
   }
   .web_speed_section .webSpeedWrap {
@@ -18773,9 +18859,12 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
     background-position: 40% 0%;
   }
   .wp_img_overlayContent {
-    top: 205px;
+    top: 205px !important;
     width: 100%;
   }
+  .vds_pricingBox.cpanelBox {
+    margin-top: 265px;
+}
   .wp_img_overlayContent p {
     font-size: 14px;
   }
@@ -18784,6 +18873,7 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   }
   .wp_img_overlayContent span {
     font-size: 14px;
+    padding: 0 15px;
   }
   .wp_innerBox img {
     width: 55%;
@@ -18791,7 +18881,7 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
     margin-top: 12%;
   }
   .wp_pricingBox {
-    margin-top: 115px;
+    margin-top: 350px;
     padding-bottom: 20px;
   }
   .dark-mode-texts .hamburger-box.outer i {
@@ -18922,11 +19012,11 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   }
   .linux_pricingBox {
     padding-bottom: 20px;
-    margin-top: 210px;
+    margin-top: 315px;
   }
   .windows_pricingBox {
     padding-bottom: 20px;
-    margin-top: 210px;
+    margin-top: 315px;
   }
   .windows_pricingBox .main-homepage-item .header-hero-pricing-plans {
     padding: 0 15px;
@@ -18937,11 +19027,11 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
     padding-bottom: 20px;
   }
   .ds_pricingBox {
-    padding-top: 210px;
+    padding-top: 335px;
     padding-bottom: 20px;
   }
   .cloudHost_pricingBox {
-    margin-top: 210px;
+    margin-top: 340px;
     padding-bottom: 40px;
   }
   .resellerHosting_pricingBox {

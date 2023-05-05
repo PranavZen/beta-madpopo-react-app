@@ -73,7 +73,7 @@ function DomainRegistration() {
               </p>
             </div>
           </div>
-          <div className="row justify-content-center aws-domains-ltds-prices row-1 imgAnch">
+          <div className="row justify-content-center aws-domains-ltds-prices row-1 imgAnch" id="mySearch">
             
             {domainListData.map((item) => {
               return (
@@ -90,8 +90,9 @@ function DomainRegistration() {
           
         </div>
       </section>
+      <section id="check-free-domain"></section>
       <section
-        className="domain-checker-emyui-aws-homepage dark-mode-texts py-12"
+        className="domain-checker-emyui-aws-homepage dark-mode-texts py-12 regTarget"
         id="domSearch"
       >
         <div className="container-fluid">

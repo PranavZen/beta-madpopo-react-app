@@ -11,12 +11,12 @@ function PrivacyDataList() {
           </p>
           <p>
             This policy (together with our terms of use{" "}
-            <a href="https://www.version-next.com/dedicated-server-acceptable-use-policy/">
-              https://www.version-next.com/dedicated-server-acceptable-use-policy/
+            <a href="/dedicated-server-acceptable-use-policy">
+              https://www.madpopo.com/dedicated-server-acceptable-use-policy
             </a>
             , terms and conditions of supply{" "}
-            <a href="https://www.version-next.com/terms-and-conditions/">
-              https://www.version-next.com/terms-and-conditions/
+            <a href="/terms-conditions">
+            https://madpopo.com/terms-conditions
             </a>{" "}
             and any other documents referred to on it) sets out the basis on
             which any personal data we collect from you, or that you provide to
@@ -36,9 +36,9 @@ function PrivacyDataList() {
                   <li>
                     Information that you provide by filling in forms on our
                     website
-                    <a href=" https://my.version-next.com">
+                    <a href="https://my.madpopo.com/">
                       {" "}
-                      https://my.version-next.com
+                      https://my.madpopo.com/
                     </a>{" "}
                     (our "billing site"). This includes information provided at
                     the time of registering an account, purchasing services from
@@ -211,8 +211,8 @@ function PrivacyDataList() {
                     data in order to comply with any legal obligation, or in
                     order to enforce or apply our terms of use <a href="https://www.version-next.com/dedicated-server-acceptable-use-policy/">
                       https://www.version-next.com/dedicated-server-acceptable-use-policy/
-                    </a> or terms and conditions of supply <a href="https://www.version-next.com/terms-and-conditions/">
-                      https://www.version-next.com/terms-and-conditions/
+                    </a> or terms and conditions of supply <a href="/terms-conditions">
+                    https://madpopo.com/terms-conditions
                     </a>  and other agreements; or to protect our rights, property, or
                     safety, or that of our customers, or others. This includes
                     exchanging information with other companies and
