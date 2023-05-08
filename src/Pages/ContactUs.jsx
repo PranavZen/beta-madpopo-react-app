@@ -167,7 +167,7 @@ function ContactUs() {
                   <div>
                     <h5 className="coodiv-text-8 mb-0">Visit our office</h5>
                     <p className="coodiv-text-11 mb-0">
-                    609, Pranik Chamber, Saki Vihar Road, Sakinaka Metro, Andheri East, Mumbai 400072, India
+                    607/608, Pranik Chamber, Saki Vihar Road, Sakinaka Metro, Andheri East, Mumbai 400072, India
                       
                     </p>
                   </div>

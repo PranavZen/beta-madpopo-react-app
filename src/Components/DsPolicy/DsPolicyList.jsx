@@ -26,7 +26,7 @@ function DsPolicyList() {
             Technologies Pvt. Ltd. ("we", "us" and "our"). We are registered in
             India under company number{" "}
             <strong>U72200MH200MH2008PTC182529</strong> and we have our
-            registered office and trading address is at 609, Pranik Chamber,
+            registered office and trading address is at 607/608, Pranik Chamber,
             Saki Vihar Road, Sakinaka Metro, Andheri East, Mumbai 400072, India
           </p>
         </div>

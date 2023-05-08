@@ -1612,6 +1612,9 @@ button:focus {
 .btn_circleBg {
   background: #ff912c;
 }
+.currencyTag{
+  font-weight: 600;
+}
 /*---------------- ul list stylesheets -----------------*/
 .list-bill-plan {
   display: block;
@@ -3155,7 +3158,7 @@ a.headerphone-number {
   top: 5.5%;
 }
 .wp_img_overlayContent.businessImgOverlay {
-  top: 5.8%;
+  top: 4.8%;
 }
 .vsTabBtnWrap{
   margin-top: -30px;
@@ -3232,7 +3235,7 @@ a.headerphone-number {
   transition: 0.25s ease-out;
 }
 .vsTabBtnWrap.pleskTab{
-  margin-top: -30px;
+  margin-top: -75px;
   z-index: 9;
   display: block;
   position: relative;
@@ -10543,6 +10546,9 @@ ul.footer-list li:hover a.footer-list-link {
 .pose_1.winPose {
   bottom: -90%;
 }
+.pose_1.pleskPose {
+  bottom: -70%;
+}
 .pose_1.vdsPose {
   bottom: -79%;
 }
@@ -10572,6 +10578,176 @@ ul.footer-list li:hover a.footer-list-link {
 }
 .domTextLeft p {
   text-align: left !important;
+}
+#whoisChecker{
+  padding-top: 15%;
+}
+#whoisChecker .sectionTitle{
+  text-align: center;
+  padding-bottom: 30px;
+}
+#whoisChecker .sectionTitle h4{
+  font-size: 1.3125rem;
+  line-height: 1.5;
+}
+#whoisChecker .sectionTitle h2{
+  color: #252526;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+}
+#whoisChecker .checkerFormWrap{
+  background-color: #161414;
+  padding: 60px 0;
+}
+#whoisChecker .checkerFormWrap .whoisCHeckerForm{
+  display: flex;
+}
+#whoisChecker .checkerFormWrap .whoisCHeckerForm .captcta{
+  position: absolute;
+  right: -40%;
+}
+#whoisChecker .checkerFormWrap .whoisCHeckerForm input{
+  width: 100%;
+  height: 60px;
+  padding: 0 20px;
+  position: relative;
+  border: 0;
+}
+#whoisChecker .checkerFormWrap .whoisCHeckerForm input:focus{
+  outline: none;
+  box-shadow: none;
+}
+#whoisChecker .checkerFormWrap .whoisCHeckerForm button{
+  position: absolute;
+  right: 15px;
+  top: 0;
+  background: #ff8726;
+  border-radius: 0;
+  font-weight: 900;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border: 0;
+  width: 20%;
+}
+#whoisChecker .checkerFormWrap .whoisCHeckerForm button:focus{
+  outline: none;
+  box-shadow: none;
+}
+.checkerReusltBox{
+  padding: 35px 40px;
+  background: #fff;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+.checkerReusltBox .resutltBoxTitle{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.checkerReusltBox .resutltBoxTitle h3{
+  color: #252526;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+.whoisDataWrap .resultData{
+  color: #252526;
+  font-weight: 400;
+  font-size: 16px;
+}
+#pricingCardSection{
+  padding: 100px 0;
+}
+#pricingCardSection .sectionTitle{
+  text-align: center;
+  margin-bottom: 30px;
+}
+#pricingCardSection .sectionTitle h4{
+  color: #252526;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+}
+.whoisCheckerPricingCardWrap{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.whoisCheckerPricingCardWrap .col-md-3{
+padding: 0;
+}
+.whoisCheckerPricingCardWrap .plansInner{
+  padding: 20px 15px;
+  border: 2px solid #b4c3cd;
+  box-shadow: 0px 5px 5px #323c4626;
+  border-radius: 10px;
+}
+.whoisCheckerPricingCardWrap .plansInner .plansDetails h4{
+  color: #252526;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.whoisCheckerPricingCardWrap .plansInner .plansDetails p{
+  color: #252526;
+  font-size: 14px;
+  font-weight: 400;
+    /* text-align: justify; */
+  line-height: 1.6;
+  margin-bottom: 0px;
+}
+.whoisCheckerPricingCardWrap .plansInner .plansPrices{
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+}
+.whoisCheckerPricingCardWrap .plansInner .plansPrices h5{
+  color: #252526;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.whoisCheckerPricingCardWrap .plansInner .plansPrices h5 span{
+  color: #252526;
+  font-size: 34px;
+  font-weight: 500;
+}
+.whoisCheckerPricingCardWrap .plansInner .plansPrices span{
+  color: #9a9aa2;
+  font-size: 13px;
+  font-weight: 400;
+}
+.whoisCheckerPricingCardWrap .plansInner .plansDiscount p{
+  color: #252526;
+  font-size: 16px;
+  font-weight: 400;
+    /* text-align: justify; */
+  line-height: 1.6;
+}
+.whoisCheckerPricingCardWrap .plansInner .plansDiscount p del{
+  color: #9a9aa2;
+}
+.whoisCheckerPricingCardWrap .plansInner .plansBuyWrap{
+  text-align: center;
+}
+.whoisCheckerPricingCardWrap .plansInner .plansBuyWrap a{
+  width: 100%;
+  background: #ff8726;
+  display: block;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
 }
 /* .madPopoEl::before{
 content: "";
@@ -18196,7 +18372,26 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   }
 }
 @media screen and (max-width: 767px) {
-  
+  #whoisChecker .checkerFormWrap{
+    padding: 60px 0 150px;
+  }
+  #whoisChecker {
+    padding-top: 0;
+}
+#whoisChecker .sectionTitle h2{
+  font-size: 28px;
+}
+#pricingCardSection {
+  padding: 40px 0;
+}
+  #whoisChecker .checkerFormWrap .whoisCHeckerForm button{
+    width: 27%;
+    font-size: 12px;
+  }
+  #whoisChecker .checkerFormWrap .whoisCHeckerForm .captcta{
+    right: 10%;
+    top: 130%;
+  }
   #mouse-parallax-container .wp_innerBox img{
     display: none;
   }

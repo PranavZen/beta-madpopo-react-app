@@ -12,8 +12,9 @@ function PleskFeatures() {
   return (
     <div className="wp_featuersWrapper">
       <div className="wpSectionTitle">
-        <h2 className="wooTitle">What’s Included in Our Plesk Plans?</h2>
-        <p className="winPara">We make your Windows web hosting experience the best one by providing you with the most prominent features. Seamlessly host your applications that require ASP.NET, MS SQL, and PHP with these top-notch features</p>
+        <h2 className="wooTitle">Are you wondering which Plesk edition you require?</h2>
+        <p className="winPara">The specific features included in your Plesk hosting plan may vary depending on the hosting provider and the plan you choose. It's always a good idea to research different hosting providers and compare their plans to find the one that best meets your needs.
+        </p>
       </div>
       <div className="container">
         <div className="wp_FeatureRow">

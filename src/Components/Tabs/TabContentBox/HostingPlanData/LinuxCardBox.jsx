@@ -119,11 +119,11 @@ function LinuxCardBox(props) {
           </form>
         </div>
         <h2
-          className="price-of-plan coodiv-text-3
+          className="price-of-plan coodiv-text-4
                     font-weight-bold text-blackish-blue
                     line-spacing-none mb-2 mt-5"
         >
-        {selectedCountry ? selectedCountry : bydefaultCurrency}
+       <span className="currencyTag"> {selectedCountry ? selectedCountry : bydefaultCurrency}</span>
         { slectPrice ? slectPrice : show_price || defaultPrice }
           <span
             className="coodiv-text-11

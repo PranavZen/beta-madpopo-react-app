@@ -13,15 +13,13 @@ import PleskVPSCard from "../Components/PriceCard/PleskVPSCard";
 import PleskFeatures from "../Components/PleskPageComponent/PleskFeatures";
 import PleskPlansListing from "../Components/PleskPageComponent/PleskPlansListing";
 import PleskFaq from "../Components/PleskPageComponent/PleskFaq";
+import PleskChoice from "../Components/PleskPageComponent/PleskChoice";
 function Plesk() {
-  const [ToggleState, setToggleState] = useState(1);
+  const [activeTab, setActiveTab] = useState(0);
 
-  const toggleTab = (index) => {
-    setToggleState(index);
+  const handleTabClick = (index) => {
+    setActiveTab(index);
   };
-
-  const getActiveClass = (index, className) =>
-    ToggleState === index ? className : "";
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg windowsBG">
       <Seo
@@ -47,41 +45,63 @@ function Plesk() {
       </MouseParallaxContainer>
       <div className="vsTabBtnWrap pleskTab">
         <div className="tabBtnRow">
-          <button
-            className={`btn btnVs ${getActiveClass(1, "active-tabs")}`}
-            onClick={() => toggleTab(1)}
-          >
-            Virtual Dedicated Server
-          </button>
-          <button
-            className={`btn btnVs ${getActiveClass(2, "active-tabs")}`}
-            onClick={() => toggleTab(2)}
-          >
-            Virtual Private Server
-          </button>
+          <div className="tabs">
+            <input
+              type="radio"
+              id="radio-1"
+              name="tabs"
+              checked={activeTab === 0}
+              onChange={() => handleTabClick(0)}
+            />
+            <label className="tab" htmlFor="radio-1">
+              Dedicated Server
+            </label>
+
+            <input
+              type="radio"
+              id="radio-2"
+              name="tabs"
+              checked={activeTab === 1}
+              onChange={() => handleTabClick(1)}
+            />
+            <label className="tab" htmlFor="radio-2">
+              Virtual Server
+            </label>
+
+            <span
+              className="glider"
+              style={{ transform: `translateX(${activeTab * 100}%)` }}
+            ></span>
+          </div>
         </div>
       </div>
       <div className="virtualServerTabPanel">
-        <div className={`panel ${getActiveClass(1, "active-content")}`}>
-          <div
-            className="windows_pricingBox container px-0 pleskCard"
-            data-aos="zoom-in"
-            data-aos-duration="2200"
-          >
-            <PleskVDSCard />
+        {activeTab === 0 && (
+          <div className="tab-content">
+            <div
+              className="windows_pricingBox container px-0 pleskCard"
+              data-aos="zoom-in"
+              data-aos-duration="2200"
+            >
+              <PleskVDSCard />
+            </div>
           </div>
-        </div>
-        <div className={`panel ${getActiveClass(2, "active-content")}`}>
-          <div
-            className="windows_pricingBox container px-0 pleskCard"
-            data-aos="zoom-in"
-            data-aos-duration="2200"
-          >
-            <PleskVPSCard />
+        )}
+        {activeTab === 1 && (
+          <div className="tab-content">
+            <div
+              className="windows_pricingBox container px-0 pleskCard"
+              data-aos="zoom-in"
+              data-aos-duration="2200"
+            >
+              <PleskVPSCard />
+            </div>
           </div>
-        </div>
+        )}
       </div>
-
+      <div className="wpChoiceSection">
+        <PleskChoice />
+      </div>
       <div className="wp_features">
         <PleskFeatures />
       </div>
@@ -89,7 +109,7 @@ function Plesk() {
         <PleskPlansListing />
       </div>
       <div className="wp_hostingFaqSection">
-        <div className="pose_1 winPose">
+        <div className="pose_1 pleskPose">
           <img src={footerPose1} alt="Footer Imgage" />
         </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
