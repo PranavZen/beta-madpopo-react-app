@@ -24,13 +24,14 @@ function CheckerApp() {
     // console.log(response);
 
     const data = await response.text();
+    console.log(data)
     const parser = new DOMParser();
     const xml = parser.parseFromString(data, "application/xml");
     const json = xmlToJson(xml);
-
-    const whoisData = json.WhoisRecord.rawText["#text"]["@text"];
+    // console.log(json.WhoisRecord.registryData.rawText["#text"]["@text"]);
+    const whoisData = json.WhoisRecord.registryData.rawText["#text"]["@text"];
     //   const datas = json.WhoisRecord.rawText["#text"]["@text"];
-    // console.log(whoisData);
+    
     if(whoisData === showBox){
       
       setshowBox(false)

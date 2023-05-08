@@ -12,7 +12,7 @@ function DedicatedServerFeatures() {
   return ( 
     <div className="wp_featuersWrapper">
       <div className="wpSectionTitle">
-        <h2>Get a Your Dedicated Server Running in Seconds</h2>
+        <h2>We can set up your dedicated server in seconds</h2>
       </div>
       <div className="container">
         <div className="wp_FeatureRow">

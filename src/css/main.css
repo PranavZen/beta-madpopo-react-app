@@ -10559,7 +10559,7 @@ ul.footer-list li:hover a.footer-list-link {
   bottom: -88%;
 }
 .pose_1.dsPose {
-  bottom: -86%;
+  bottom: -75%;
 }
 .pose_1 img {
   width: 20%;
@@ -10660,7 +10660,7 @@ ul.footer-list li:hover a.footer-list-link {
   font-size: 16px;
 }
 #pricingCardSection{
-  padding: 100px 0;
+  padding: 100px 0 0;
 }
 #pricingCardSection .sectionTitle{
   text-align: center;
@@ -16484,7 +16484,7 @@ body.demo-page #toTop {
 }
 @media (min-width: 1200px) {
   .pose_1.gb_fooPose {
-    bottom: -7%;
+    bottom: -15%;
   }
   .gb_infraDataSection {
     padding: 90px 0;
