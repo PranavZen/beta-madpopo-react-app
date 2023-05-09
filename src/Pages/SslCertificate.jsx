@@ -15,13 +15,13 @@ function SslCertificate() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg windowsBG">
       <Seo
-        title="Top Reasons to Choose Windows Website Hosting for Your Online Store"
-        description="Are you looking for the best Windows webhosting to power your online store? MadPopo offers top-of-the-line Windows website hosting services, with a range of features and advantages that make it the perfect choice for any business."
-        keywords="web servers host, windows hosting server, windows hosting, windows server hosting,win host, windows server website hosting, windows shared server, windows website hosting,web hosting windows, hosting windows, windows shared hosting, best windows hosting, windows website hosting."
+        title="Get Secure with the Best SSL Certificate for Your Website"
+        description="Get secure with the best SSL certificate for your website. Protect your customers, enhance your reputation, and increase conversions with reliable encryption. Our certificates are easy to install and provide high-grade security for websites of any size."
+        keywords="sslcertificate, sslcertificatecost, typesofsslcertificates, sslcertificateprice, buysslcertificate, sslcertificateforwebsite, getsslcertificate, purchasesslcertificate"
       />
       <Navbar />
 
-      <div className="wp_img_overlayContent">
+      <div className="wp_img_overlayContent sslOverlay">
         <p>SSL Certificate</p>
         <h1>Choose flexible pricing plan for you and more...</h1>
         <span>Unlimited boards and workflows. no credit card needed</span>
@@ -37,7 +37,7 @@ function SslCertificate() {
       </MouseParallaxContainer>
 
       <div
-        className="windows_pricingBox container px-0 pleskCard"
+        className="windows_pricingBox container px-0 pleskCard sslCard"
         data-aos="zoom-in"
         data-aos-duration="2200"
       >
@@ -51,7 +51,7 @@ function SslCertificate() {
         <PleskPlansListing />
       </div>
       <div className="wp_hostingFaqSection">
-        <div className="pose_1 winPose">
+        <div className="pose_1 sslPose">
           <img src={footerPose1} alt="Footer Imgage" />
         </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">

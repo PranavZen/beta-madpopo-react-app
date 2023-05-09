@@ -5,7 +5,7 @@ function CheckerApp() {
   const [domainName, setDomainName] = useState("");
   const [whoisData, setWhoisData] = useState("");
   const [showBox, setshowBox] = useState(false);
-  const [verifed, setverifed] = useState(false)
+  const [verifed, setverifed] = useState(false);
   const testSiteKey = "6Lc7Ze8lAAAAALRp1WYcyt_QvdI7dnWwZsAf-XB6";
   function onRecaptchaChange(value) {
     // console.log("Captcha value:", value);
@@ -24,20 +24,18 @@ function CheckerApp() {
     // console.log(response);
 
     const data = await response.text();
-    console.log(data)
+    console.log(data);
     const parser = new DOMParser();
     const xml = parser.parseFromString(data, "application/xml");
     const json = xmlToJson(xml);
     // console.log(json.WhoisRecord.registryData.rawText["#text"]["@text"]);
     const whoisData = json.WhoisRecord.registryData.rawText["#text"]["@text"];
     //   const datas = json.WhoisRecord.rawText["#text"]["@text"];
-    
-    if(whoisData === showBox){
-      
-      setshowBox(false)
-    }
-    else{
-      setshowBox(true)
+
+    if (whoisData === showBox) {
+      setshowBox(false);
+    } else {
+      setshowBox(true);
     }
     setWhoisData(whoisData);
   }
@@ -76,10 +74,9 @@ function CheckerApp() {
 
     return obj;
   }
-  
 
   return (
-
+    <>
       <div className="checkerFormWrap">
         <div className="container">
           <div className="row justify-content-center">
@@ -92,33 +89,38 @@ function CheckerApp() {
                   onChange={(event) => setDomainName(event.target.value)}
                 />
                 <div className="captcta">
-                <ReCAPTCHA sitekey={testSiteKey} onChange={onRecaptchaChange} />
+                  <ReCAPTCHA
+                    sitekey={testSiteKey}
+                    onChange={onRecaptchaChange}
+                  />
                 </div>
-                <button onClick={queryWhois} disabled={!verifed}>Check WHOIS</button>
+                <button onClick={queryWhois} disabled={!verifed}>
+                  Check WHOIS
+                </button>
               </div>
-              
-              <div className={showBox ? "checkerReusltBox show" : "checkerReusltBox  hide"}>
-                <div className="container">
-                  <div className="resutltBoxTitle">
-                    <h3>WHOIS search results</h3>
-                  </div>
-                  <div className="row">
-                    <div className="whoisDataWrap">
-                      {whoisData.split("\n").map((line, index) => (
-                        <p key={index} className="resultData">
-                          {line}
-                        </p>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>
       </div>
-  
+      <div
+        className={showBox ? "checkerReusltBox show" : "checkerReusltBox hide"}
+      >
+        <div className="container">
+          <div className="resutltBoxTitle">
+            <h3>WHOIS search results</h3>
+          </div>
+          <div className="row">
+            <div className="whoisDataWrap col-md-10">
+              {whoisData.split("\n").map((line, index) => (
+                <p key={index} className="resultData">
+                  {line}
+                </p>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 export default CheckerApp;

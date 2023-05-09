@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import CoLocationServerData from "./CoLocationServerData";
 function CoLocationCard(props) {
-  console.log(CoLocationServerData);
+  // console.log(CoLocationServerData);
  var defaultPrice3 =  CoLocationServerData[props.id - 1].priceThreeYearlyInINR;
 // console.log(defaultPrice3);
 var bydefaultCurrency = "₹";

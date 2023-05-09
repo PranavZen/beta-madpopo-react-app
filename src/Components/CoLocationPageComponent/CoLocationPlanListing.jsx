@@ -7,7 +7,7 @@ function CoLocationPlanListing(props) {
     <div className="wp_plans_listSection" data-aos="fade-left" data-aos-duration='1200'>
       <div className="container">
         <div className="wp_plansSectionTitle">
-          <h2>All Dedicated Server Hosting Plans Include.</h2>
+          <h2>Plans & Prices for Colocation Servers</h2>
         </div>
         <div className="wp_plansRow">
           {CoLocationListingData.map((list) => {

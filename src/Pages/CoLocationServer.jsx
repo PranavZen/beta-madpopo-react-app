@@ -16,9 +16,9 @@ function CoLocationServer() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg dedicatedServerBG">
       <Seo
-        title="Reliable Dedicated Server Hosting Solutions for Your Business"
-        description="Get the best dedicated server hosting solutions for your business. Enjoy fast and reliable hosting on enterprise-grade equipment with 24/7 support. Our dedicated server hosting solutions are designed to keep your business running smoothly and securely, so you can focus on what matters"
-        keywords="dedicated server, dedicated server hosting, hosted server, server hosting dedicated, server hosting, dedicated hosting, best dedicated server hosting."
+        title="The best solutions for your business when it comes to colocation server hosting"
+        description="Get the best performance and reliability for your business with colocation server hosting from Madpopo. With top-notch security, fast connections, and 24/7 support, you can rest assured that your data is secure and running at peak efficiency."
+        keywords="colocation, colocationserver, colocationservices, colocationhosting"
       />
       <Navbar />
 
@@ -68,7 +68,7 @@ function CoLocationServer() {
         // </div>
       }
       <div className="wp_hostingFaqSection">
-        <div className="pose_1 dsPose">
+        <div className="pose_1 colocPose">
           <img src={footerPose1} alt="Footer Imgage" />
         </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">

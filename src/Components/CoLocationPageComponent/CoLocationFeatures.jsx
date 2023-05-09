@@ -12,7 +12,7 @@ function CoLocationFeatures() {
   return ( 
     <div className="wp_featuersWrapper">
       <div className="wpSectionTitle">
-        <h2>Get a Your Dedicated Server Running in Seconds.</h2>
+        <h2>We'll get your colocation server up and running in seconds</h2>
       </div>
       <div className="container">
         <div className="wp_FeatureRow">

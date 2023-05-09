@@ -1210,7 +1210,7 @@ a.btn {
   text-align: justify;
 }
 .wp_hostingFaqSection {
-  padding: 80px 0 240px;
+  padding: 0px 0 240px;
   height: 100%;
   position: relative;
 }
@@ -3142,6 +3142,12 @@ a.headerphone-number {
   text-align: center;
   z-index: 1;
 }
+.wp_img_overlayContent.winOverlay{
+  top: 4.8%;
+}
+.wp_img_overlayContent.sslOverlay{
+  top: 6.8%;
+} 
 .wp_img_overlayContent.resellerOverlay{
   top: 5.8%;
 }
@@ -3423,6 +3429,9 @@ margin-bottom: 0;
 }
 .windows_pricingBox.pleskCard{
   margin-top: -35px;
+}
+.windows_pricingBox.pleskCard.sslCard{
+  margin-top: 15px;
 }
 .vds_pricingBox {
   margin-top: -25px;
@@ -10516,11 +10525,13 @@ ul.footer-list li:hover a.footer-list-link {
   bottom: 0;
   z-index: 0;
   opacity: 0.02;
+  pointer-events: none;
 }
 .bg-wave-box-end-z1 {
   position: absolute;
   bottom: 0;
   z-index: 0;
+  pointer-events: none;
 }
 .pose_1 {
   width: 100%;
@@ -10544,7 +10555,13 @@ ul.footer-list li:hover a.footer-list-link {
   bottom: 0%;
 }
 .pose_1.winPose {
-  bottom: -90%;
+  bottom: -82%;
+}
+.pose_1.sslPose {
+  bottom: -70%;
+}
+.pose_1.colocPose {
+  bottom: -75%;
 }
 .pose_1.pleskPose {
   bottom: -70%;
@@ -10644,6 +10661,9 @@ ul.footer-list li:hover a.footer-list-link {
   margin-top: 30px;
   border-radius: 8px;
 }
+.checkerReusltBox .row{
+  justify-content: center;
+}
 .checkerReusltBox .resutltBoxTitle{
   text-align: center;
   margin-bottom: 30px;
@@ -10654,13 +10674,22 @@ ul.footer-list li:hover a.footer-list-link {
   font-weight: 700;
   font-size: 30px;
 }
+.whoisDataWrap{
+  background: #fff;
+  padding: 50px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 0px #d2d0d0;
+}
 .whoisDataWrap .resultData{
   color: #252526;
   font-weight: 400;
   font-size: 16px;
 }
+.whoisDataWrap .resultData:last-child{
+  margin-bottom: 0;
+}
 #pricingCardSection{
-  padding: 100px 0 0;
+  padding: 60px 0 0;
 }
 #pricingCardSection .sectionTitle{
   text-align: center;

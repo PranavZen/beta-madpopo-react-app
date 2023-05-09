@@ -1,31 +1,35 @@
-import React from 'react'
-import Footer from '../../Components/Footer/Footer'
-import Navbar from '../../Components/Navbar/Navbar'
+import React from "react";
+import Footer from "../../Components/Footer/Footer";
+import Navbar from "../../Components/Navbar/Navbar";
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import {  footerPose1, windowsImg } from '../../Components';
-import WindowsTabContent from '../../Components/Tabs/TabContentBox/WindowsTabContent';
-import TrustedClientsSlide from '../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide';
-import WindowsHostingFeatures from '../../Components/WindowsHostingPageComponent/WindowsHostingFeatures';
-import WindowsHostingFaq from '../../Components/WindowsHostingPageComponent/WindowsHostingFaq';
-import WindowsPlansHosting from '../../Components/WindowsHostingPageComponent/WindowsPlansHosting';
-import Seo from '../../Components/SEO/Seo';
+import { footerPose1, windowsImg } from "../../Components";
+import WindowsTabContent from "../../Components/Tabs/TabContentBox/WindowsTabContent";
+import WindowsHostingFeatures from "../../Components/WindowsHostingPageComponent/WindowsHostingFeatures";
+import WindowsHostingFaq from "../../Components/WindowsHostingPageComponent/WindowsHostingFaq";
+import WindowsPlansHosting from "../../Components/WindowsHostingPageComponent/WindowsPlansHosting";
+import Seo from "../../Components/SEO/Seo";
+import WindowsBestChoice from "../../Components/WindowsHostingPageComponent/WindowsBestChoice";
 function WindowsWebHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg windowsBG">
-    <Seo
-    title="Top Reasons to Choose Windows Website Hosting for Your Online Store"
-    description="Are you looking for the best Windows webhosting to power your online store? MadPopo offers top-of-the-line Windows website hosting services, with a range of features and advantages that make it the perfect choice for any business."
-    keywords="web servers host, windows hosting server, windows hosting, windows server hosting,win host, windows server website hosting, windows shared server, windows website hosting,web hosting windows, hosting windows, windows shared hosting, best windows hosting, windows website hosting."
-    />
+      <Seo
+        title="Top Reasons to Choose Windows Website Hosting for Your Online Store"
+        description="Are you looking for the best Windows webhosting to power your online store? MadPopo offers top-of-the-line Windows website hosting services, with a range of features and advantages that make it the perfect choice for any business."
+        keywords="web servers host, windows hosting server, windows hosting, windows server hosting,win host, windows server website hosting, windows shared server, windows website hosting,web hosting windows, hosting windows, windows shared hosting, best windows hosting, windows website hosting."
+      />
       <Navbar />
 
-      <div className="wp_img_overlayContent">
+      <div className="wp_img_overlayContent winOverlay">
         <p>Windows Web Hosting</p>
-        <h1>Robust and High-Performance Windows Server Hosting        </h1>
-        <span>Our servers are optimized to deliver high performance, making them perfect for running .NET applications and utilizing SQL Server databases</span>
+        <h1>Robust and High-Performance Windows Server Hosting</h1>
+        <span>
+          Our servers are optimized to deliver high performance, making them
+          perfect for running .NET applications and utilizing SQL
+          Server databases
+        </span>
       </div>
       <MouseParallaxContainer className={"wp_outerBox"}>
         <MouseParallaxChild
@@ -41,22 +45,20 @@ function WindowsWebHosting() {
         data-aos="zoom-in"
         data-aos-duration="2200"
       >
-      <WindowsTabContent />
+        <WindowsTabContent />
       </div>
 
-      {
-      //   <div className="wpChoiceSection">
-      //   <WpBestChoice />
-      // </div>
-      }
+      <div className="wpChoiceSection">
+        <WindowsBestChoice />
+      </div>
 
-      <div className="wp_features"> 
+      <div className="wp_features">
         <WindowsHostingFeatures />
       </div>
       <div className="wp_plansListing">
         <WindowsPlansHosting />
       </div>
-      
+
       <div className="wp_hostingFaqSection">
         <div className="pose_1 winPose">
           <img src={footerPose1} alt="Footer Imgage" />
@@ -78,7 +80,7 @@ function WindowsWebHosting() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default WindowsWebHosting
+export default WindowsWebHosting;

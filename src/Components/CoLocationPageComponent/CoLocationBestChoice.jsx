@@ -6,16 +6,10 @@ function CoLocationBestChoice() {
     <div className="wpBestChoiceWrap">
       <div className="container">
         <div className="wpChoiceSecTitle">
-          <h2 className="mb-12">
-            Get the Ultimate Performance with Dedicated Server Hosting from
-            Madpopo
-          </h2>
+          <h2 className="mb-12">BEST COLOCATIONS AT THE BEST PRICE</h2>
           <p className="woopara">
-            For businesses that require powerful and dedicated resources for
-            their websites or applications, Madpopo offers a range of dedicated
-            server hosting solutions. Our hosted servers are designed to deliver
-            the ultimate performance and reliability, providing you with a
-            premium hosting experience.
+            For Your Colocation Needs, We Provide Trustworthy and Secure
+            Solutions.
           </p>
         </div>
         <div
@@ -26,20 +20,26 @@ function CoLocationBestChoice() {
           <div className="col-md-5">
             <div className="wp_choice_leftBox">
               <div className="wp_choice_ContentBox">
-                <h2>Full Control</h2>
+                <h2>What We Provide</h2>
                 <p>
-                  With our dedicated server hosting, you have complete control
-                  over your server's resources, configurations, and settings,
-                  giving you the flexibility to customize your hosting
-                  environment according to your needs.
+                  Everything may be taken care of for you by us. We provide a
+                  versatile, safe, and reasonably priced approach to advance
+                  your web application.
+                </p>
+                <p>
+                  Now that you are familiar with the fundamentals of
+                  co-location, you may begin. Madpopo is dedicated to offering
+                  you the best colocation services out there.{" "}
+                  <a href="/help-center">Get Help!</a>
                 </p>
               </div>
               <div className="wp_choice_ContentBox">
-                <h2>High Performance</h2>
+                <h2>Co-location Server Hosting Solutions for Businesses</h2>
                 <p>
-                  Our dedicated servers are equipped with the latest hardware
-                  and software technologies, delivering exceptional performance
-                  and speed for your website or application.
+                  Co-location server hosting services are advantageous for
+                  businesses of all sizes. We offer a secure and affordable
+                  solution for businesses to access data storage so they can
+                  concentrate on their core competencies.
                 </p>
               </div>
             </div>
@@ -67,21 +67,23 @@ function CoLocationBestChoice() {
           <div className="col-md-5">
             <div className="wp_choice_leftBox">
               <div className="wp_choice_ContentBox">
-                <h2>Customization</h2>
+                <h2>An Insight to Colocation Server Hosting</h2>
                 <p>
-                  We provide you with complete freedom to customize your server
-                  according to your specific needs, including your choice of
-                  operating system, applications, and control panel.
+                  Businesses that require a high degree of server control and
+                  are prepared to spend money on the requisite hardware and IT
+                  personnel may find colocation hosting to be a smart
+                  alternative. It is also an excellent option for companies that
+                  want reliable infrastructure and high-speed internet
+                  connectivity but lacks the funds to establish and run their
+                  own data centers.
                 </p>
               </div>
               <div className="wp_choice_ContentBox">
-                <h2>Security</h2>
+                <h2>We are always available to help you</h2>
                 <p>
-                  Our dedicated server hosting solutions come equipped with
-                  advanced security features such as firewalls, DDoS protection,
-                  and SSL certificates to keep your website or application
-                  secure and protected.
+                24/7 Assistance
                 </p>
+                <p>Every colocation option includes Remote Hands, which gives you 24/7 access to thorough on-site support for any need.</p>
               </div>
             </div>
           </div>
