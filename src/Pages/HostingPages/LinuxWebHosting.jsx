@@ -6,7 +6,6 @@ import {
   MouseParallaxContainer,
 } from "react-parallax-mouse";
 import { footerPose1, linusRightImg } from "../../Components";
-import TrustedClientsSlide from "../../Components/WordpressHostingPageComponent/TrustedClients/TrustedClientsSlide";
 import SecondTabContent from "../../Components/Tabs/TabContentBox/SecondTabContent";
 import LinuxHostingFeatures from "../../Components/LinuxHostingPageComponent/LinuxHostingFeatures";
 import Seo from "../../Components/SEO/Seo";
