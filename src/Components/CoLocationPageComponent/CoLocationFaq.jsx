@@ -1,5 +1,5 @@
 import React from "react";
-import CoLocationFaqData from "./CoLocationFaqData";
+import CoLocationFaqData from "./CoLocationFaqData"; 
 
 function CoLocationFaq() {
   return (
