@@ -7,7 +7,7 @@ function CoLocationFaq() {
       <div className="wp_faqSectionTitle">
         <h5>Frequently Asked Questions Co-Location</h5>
       </div>
-      <div className="wp_faqRow">
+      <div className="wp_faqRow"> 
 
       {
         CoLocationFaqData.map((faqItems)=>{
