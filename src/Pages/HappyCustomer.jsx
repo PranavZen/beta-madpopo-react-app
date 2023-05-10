@@ -29,7 +29,7 @@ function HappyCustomer() {
         </div>
       
       <div className="wp_hostingFaqSection">
-        <div className="pose_1 tcFooPose">
+        <div className="pose_1 happyPose">
           <img src={footerPose1} alt="Footer Imgage" />
         </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">

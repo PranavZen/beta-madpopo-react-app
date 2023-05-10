@@ -7,7 +7,7 @@ function LinuxHostingPlans(props) {
     <div className="wp_plans_listSection" data-aos="fade-left" data-aos-duration='1200'>
       <div className="container">
         <div className="wp_plansSectionTitle">
-          <h2>All Linux Hosting Plans Include</h2>
+          <h2>All LinuxHostings Plans Include</h2>
         </div>
         <div className="wp_plansRow">
           {planListingData.map((list) => {

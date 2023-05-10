@@ -6,12 +6,12 @@ import Navbar from "../../Components/Navbar/Navbar";
 //   MouseParallaxContainer,
 // } from "react-parallax-mouse";
 import { footerPose1 } from "../../Components";
-import WordpressHostingFeatures from "../../Components/WordpressHostingPageComponent/WordpressHostingFeatures";
-import WordpressHostingFAQ from "../../Components/WordpressHostingPageComponent/WordpressHostingFAQ";
 import ResellerHostingComponent from "../../Components/Tabs/TabContentBox/HostingPlanData/ResellerHostingComponent";
 import ResellerHosingPlansListing from "../../Components/ResellerHostingPageComponent/ResellerHosingPlansListing";
 import Seo from "../../Components/SEO/Seo";
 import ResellerBestChoices from "../../Components/ResellerHostingPageComponent/ResellerBestChoices";
+import ResellerHostingFaq from "../../Components/ResellerHostingPageComponent/ResellerHostingFaq";
+import ResellerHostingFeatures from "../../Components/ResellerHostingPageComponent/ResellerHostingFeatures";
 function ResellerHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg resellerBG">
@@ -54,14 +54,14 @@ function ResellerHosting() {
       </div>
 
       <div className="wp_features">
-        <WordpressHostingFeatures />
+        <ResellerHostingFeatures />
       </div>
       <div className="wp_plansListing">
         <ResellerHosingPlansListing />
       </div>
 
       <div className="wp_hostingFaqSection">
-        <div className="pose_1">
+        <div className="pose_1 resellPose">
           <img src={footerPose1} alt="Footer Imgage" />
         </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
@@ -77,7 +77,7 @@ function ResellerHosting() {
             d="M0,128L80,138.7C160,149,320,171,480,192C640,213,800,235,960,234.7C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
         </svg>
-        <WordpressHostingFAQ />
+        <ResellerHostingFaq />
       </div>
       <Footer />
     </div>

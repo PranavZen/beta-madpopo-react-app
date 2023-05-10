@@ -7,10 +7,10 @@ import Seo from "../Components/SEO/Seo";
 import Navbar from "../Components/Navbar/Navbar";
 import { footerPose1, windowsImg } from "../Components";
 import Footer from "../Components/Footer/Footer";
-import PleskFeatures from "../Components/PleskPageComponent/PleskFeatures";
-import PleskPlansListing from "../Components/PleskPageComponent/PleskPlansListing";
-import PleskFaq from "../Components/PleskPageComponent/PleskFaq";
 import SslPricingCard from "../Components/Tabs/TabContentBox/SslPricingCard";
+import SslBestChoice from "../Components/SslCertificatePageContent/SslBestChoice";
+import SslPlanlisting from "../Components/SslCertificatePageContent/SslPlanlisting";
+import SslFaq from "../Components/SslCertificatePageContent/SslFaq";
 function SslCertificate() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg windowsBG">
@@ -43,12 +43,16 @@ function SslCertificate() {
       >
         <SslPricingCard />
       </div>
-
-      <div className="wp_features">
-        <PleskFeatures />
+      <div className="wpChoiceSection ">
+        <SslBestChoice />
       </div>
+      {
+      //   <div className="wp_features">
+      //   <PleskFeatures />
+      // </div>
+    }
       <div className="wp_plansListing">
-        <PleskPlansListing />
+        <SslPlanlisting />
       </div>
       <div className="wp_hostingFaqSection">
         <div className="pose_1 sslPose">
@@ -67,7 +71,7 @@ function SslCertificate() {
             d="M0,128L80,138.7C160,149,320,171,480,192C640,213,800,235,960,234.7C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
         </svg>
-        <PleskFaq />
+        <SslFaq />
       </div>
       <Footer />
     </div>

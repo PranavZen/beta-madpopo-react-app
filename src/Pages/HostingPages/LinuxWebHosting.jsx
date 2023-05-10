@@ -11,6 +11,7 @@ import LinuxHostingFeatures from "../../Components/LinuxHostingPageComponent/Lin
 import Seo from "../../Components/SEO/Seo";
 import LinuxFaq from "../../Components/LinuxHostingPageComponent/LinuxFaq";
 import LinuxHostingPlans from "../../Components/LinuxHostingPageComponent/LinuxHostingPlans";
+import LinuxBestChoice from "../../Components/LinuxHostingPageComponent/LinuxBestChoice";
 function LinuxWebHosting() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg linuxBG">
@@ -43,11 +44,11 @@ function LinuxWebHosting() {
         <SecondTabContent />
       </div>
 
-      {
-        // <div className="wpChoiceSection">
-        //   <WpBestChoice />
-        // </div>
-      }
+      
+        <div className="wpChoiceSection">
+          <LinuxBestChoice/>
+        </div>
+      
 
       <div className="wp_features linuxFeature">
         <LinuxHostingFeatures />

@@ -3483,6 +3483,7 @@ margin-bottom: 0;
 }
 .ddosWrap{
   padding-top: 45%;
+  padding-bottom: 80px;
 }
 .ddosWrap .ddosParaWrap p{
   font-size: 16px;
@@ -10542,15 +10543,22 @@ ul.footer-list li:hover a.footer-list-link {
   left: 5%;
   pointer-events: none;
 }
-.pose_1.tcFooPose {
-  bottom: 0%;
-}
+
 .pose_1.gb_fooPose {
   bottom: 0%;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   left: -10%;
 } 
+.pose_1.tcFooPose {
+  bottom: 0%;
+}
+.pose_1.happyPose {
+  bottom: 30%;
+}
+.pose_1.whoisPose {
+  bottom: 30%;
+}
 .pose_1.domReg {
   bottom: 0%;
 }
@@ -10558,7 +10566,7 @@ ul.footer-list li:hover a.footer-list-link {
   bottom: -82%;
 }
 .pose_1.sslPose {
-  bottom: -70%;
+  bottom: -78%;
 }
 .pose_1.colocPose {
   bottom: -75%;
@@ -10569,11 +10577,20 @@ ul.footer-list li:hover a.footer-list-link {
 .pose_1.vdsPose {
   bottom: -79%;
 }
+.pose_1.cpanelPose{
+  bottom: -70%;
+}
 .pose_1.wooComPose {
   bottom: -85%;
 }
+.pose_1.buisnessPose {
+  bottom: -75%;
+}
+.pose_1.resellPose {
+  bottom: -72%;
+}
 .pose_1.linuxPose {
-  bottom: -88%;
+  bottom: -84%;
 }
 .pose_1.dsPose {
   bottom: -75%;

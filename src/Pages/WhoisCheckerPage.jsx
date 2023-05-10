@@ -251,7 +251,7 @@ function WhoisCheckerPage() {
         </div>
       </section>
       <div className="wp_hostingFaqSection">
-        <div className="pose_1 gb_fooPose">
+        <div className="pose_1 whoisPose">
           <img src={footerPose1} alt="Footer Imgage" />
         </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">

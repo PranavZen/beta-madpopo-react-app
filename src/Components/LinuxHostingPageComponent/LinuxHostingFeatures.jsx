@@ -10,11 +10,10 @@ import {
 
 function LinuxHostingFeatures() {
   return (
-    <div className="wp_featuersWrapper">
+    <div className="wp_featuersWrapper pt-20">
       <div className="wpSectionTitle">
-        <h2>Superior Benefits in Higher Plans
+        <h2>Superior Benefits in Higher Plans ?
         </h2>
-        <p className="linuxpara">Designed to Support Growth and Deliver High Performance.</p>
       </div>
       <div className="container">
         <div className="wp_FeatureRow">

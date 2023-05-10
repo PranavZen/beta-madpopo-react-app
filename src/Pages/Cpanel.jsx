@@ -56,7 +56,7 @@ function VirtualPrivateServer() {
       </div>
       
       <div className="wp_hostingFaqSection">
-        <div className="pose_1 vdsPose">
+        <div className="pose_1 cpanelPose">
           <img src={footerPose1} alt="Footer Imgage" />
         </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
