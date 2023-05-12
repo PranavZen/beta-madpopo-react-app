@@ -14,9 +14,9 @@ function ContactUs() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg contactBgImg">
       <Seo
-        title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
-        description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
-        keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
+        title="Please contact us at Madpopo.com for any assistance or guidance you may need"
+        description="Need help with a project? Madpopo provides reliable and affordable support and advice. Get in touch with us today and get tailored solutions to your problems. Our experts are here to answer your questions and provide you with the best guidance."
+        keywords="WordPress hosting, woo commerce, windows web hosting, web hosting, virtual server, dedicated server, business email hosting, reseller hosting, SSL certificate, whois checker, whois domain lookup, e-commerce hosting, co-location server, Cpanel, Plesk, performance, security, reliability, Windows hosting, scalability, .NET Framework, MS SQL Hosting, ASP support, Linux web hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling, contact, contact us"
       />
       <Navbar />
       {
