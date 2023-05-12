@@ -209,8 +209,8 @@ function PrivacyDataList() {
                   <li>
                     If we are under a duty to disclose or share your personal
                     data in order to comply with any legal obligation, or in
-                    order to enforce or apply our terms of use <a href="https://www.version-next.com/dedicated-server-acceptable-use-policy/">
-                      https://www.version-next.com/dedicated-server-acceptable-use-policy/
+                    order to enforce or apply our terms of use <a href="/dedicated-server-acceptable-use-policy">
+                    https://www.madpopo.com/dedicated-server-acceptable-use-policy
                     </a> or terms and conditions of supply <a href="/terms-conditions">
                     https://madpopo.com/terms-conditions
                     </a>  and other agreements; or to protect our rights, property, or
