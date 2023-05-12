@@ -7303,11 +7303,110 @@ a.popover-host-features:hover {
 .five-rows-hosting-table tbody tr > th:first-child {
   width: 8%;
 }
-.contactPB{
-  padding-bottom: 0 !important;
-}
+
 .contPT{
   padding-top: 0 !important;
+}
+.onlineChatBotWrapper{
+  padding-top: 80px;
+}
+.onlineChatBotWrapper .sectionTitle{
+  text-align: center;
+  padding-bottom: 80px;
+}
+.onlineChatBotWrapper .sectionTitle h4{
+  font-size: 38px;
+  font-weight: 700;
+}
+.onlineChatBotWrapper .sectionTitle p{
+  font-size: 18px;
+  font-weight: 300;
+}
+.onlineChatBotWrapper .onlineChatRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.onlineChatBotWrapper .onlineChatRow .col-md-4{
+  position: relative;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter{
+  text-align: center;
+  background: #fff;
+  padding: 50px 20px 0;
+  box-shadow: 0px 0px 12px -2px #ccc;
+  border-radius: 12px;
+  height: 330px;
+  position: relative;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .boxCenterIconWrap{
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .boxCenterIconWrap span img{
+  width: 45%;
+  height: auto;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .ChatBoxInner .boxTitle h6{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .ChatBoxInner .boxTitle p{
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .ChatBoxInner .responsiveTimeBox{
+  background: #ffcda447;
+  border-radius: 4px;
+  padding: 15px 0;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .ChatBoxInner .responsiveTimeBox span{
+  font-size: 14px;
+  font-weight: 300;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .ChatBoxInner .responsiveTimeBox p{
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .ChatBoxInner .btnWrap{
+  border-bottom-right-radius: 12px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #ff8726;
+  width: 100%;
+  border-bottom-left-radius: 12px;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .ChatBoxInner .btnWrap button{
+  background: #ff8726;
+  width: 100%;
+  border-radius: 0;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: #fff;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .ChatBoxInner .btnWrap a{
+  background: #ff8726;
+  width: 100%;
+  border-radius: 0;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: #fff;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .ChatBoxInner .btnWrap a:focus{
+  outline: none;
+  box-shadow: none;
+}
+.onlineChatBotWrapper .onlineChatRow .chatBoxOuter .ChatBoxInner .btnWrap button:focus{
+  outline: none;
+  box-shadow: none;
 }
 /*---------------- footer stylesheets -----------------*/
 .footer-block .footer-contact-list li span {
@@ -10551,7 +10650,7 @@ ul.footer-list li:hover a.footer-list-link {
   left: -10%;
 } 
 .pose_1.tcFooPose {
-  bottom: 0%;
+  bottom: 30%;
 }
 .pose_1.happyPose {
   bottom: 30%;
@@ -10559,8 +10658,11 @@ ul.footer-list li:hover a.footer-list-link {
 .pose_1.whoisPose {
   bottom: -85%;
 }
+.pose_1.helpcenterPose {
+  bottom: 40%;
+}
 .pose_1.domReg {
-  bottom: 0%;
+  bottom: 40%;
 }
 .pose_1.winPose {
   bottom: -82%;
@@ -16531,7 +16633,7 @@ body.demo-page #toTop {
 }
 @media (min-width: 1200px) {
   .pose_1.gb_fooPose {
-    bottom: -15%;
+    bottom: 20%;
   }
   .gb_infraDataSection {
     padding: 90px 0;
@@ -18386,7 +18488,9 @@ body.aws-html-theme .main-menu .nav-item .nav-link:before {
   }
 }
 @media screen and (max-width: 834px) {
- 
+  .onlineChatBotWrapper .onlineChatRow{
+    gap: 85px;
+  }
   .brand-logo.newBrandLogo a img {
     width: 110px;
   }

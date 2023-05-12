@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import { footerPose1 } from "../Components";
 import Footer from "../Components/Footer/Footer";
 import HelpCenterBody from "../Components/HelpCenterPageComponent/HelpCenterBody";
+import { Link } from "react-router-dom";
 
 function HelpCenter() {
   return (
@@ -24,8 +25,92 @@ function HelpCenter() {
         </div>
       </div>
       <HelpCenterBody/>
+      <div className="popular-topics-section pt-15 pb-md-20 pb-15 pt-lg-15 pb-lg-20 bg-default-1 position-relative contactPB">
+      <div className="container">
+        <div className="row justify-content-center align-items-center position-relative coodiv-z-index-2">
+          <div
+            className="col-11 col-md-9 col-lg-9 order-lg-1 aos-init aos-animate"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-once="true"
+          >
+            <div className="hero-content mt-11 mt-lg-0 mb-20">
+              <h1 className="title coodiv-text-5 mb-5 text-center">
+                Or you can see Popular Topics
+              </h1>
+              <p className="coodiv-text-9 mb-11 text-center">
+                Our extraordinary Technical Support and Customer Service is
+                one of the main reasons why our clients rate us as the number.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="popular-topics row align-items-center justify-content-center mt-n5">
+          <div className="col-lg-3 col-md-6">
+            <div className="popular-topics-box bg-default-2 rounded-20 px-8 py-8 mb-4">
+              <i className="feather icon-server color-blackish-blue coodiv-text-5 d-block mb-2"></i>
+              <h5 className="coodiv-text-9 mb-3">
+                Shared Hosting departement
+              </h5>
+              <Link
+                className="coodiv-text-11 font-weight-bold mt-8 d-flex justify-content-between"
+                to="#"
+              >
+                Open a ticket{" "}
+                <i className="ml-2 fa fa-chevron-circle-right coodiv-text-7"></i>
+              </Link>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div className="popular-topics-box bg-default-2 rounded-20 px-8 py-8 mb-4">
+              <i className="feather icon-anchor color-blackish-blue coodiv-text-5 d-block mb-2"></i>
+              <h5 className="coodiv-text-9 mb-3">
+                Advanced Topics &amp; Customization
+              </h5>
+              <Link
+                className="coodiv-text-11 font-weight-bold mt-8 d-flex justify-content-between"
+                to="#"
+              >
+                Open a ticket{" "}
+                <i className="ml-2 fa fa-chevron-circle-right coodiv-text-7"></i>
+              </Link>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div className="popular-topics-box bg-default-2 rounded-20 px-8 py-8 mb-4">
+              <i className="feather icon-credit-card color-blackish-blue coodiv-text-5 d-block mb-2"></i>
+              <h5 className="coodiv-text-9 mb-3">
+                Account Management &amp; Billing
+              </h5>
+              <Link
+                className="coodiv-text-11 font-weight-bold mt-8 d-flex justify-content-between"
+                to="#"
+              >
+                Open a ticket{" "}
+                <i className="ml-2 fa fa-chevron-circle-right coodiv-text-7"></i>
+              </Link>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div className="popular-topics-box bg-default-2 rounded-20 px-8 py-8 mb-4">
+              <i className="feather icon-package color-blackish-blue coodiv-text-5 d-block mb-2"></i>
+              <h5 className="coodiv-text-9 mb-3">
+                One-Click Installs &amp; 3rd-Party Apps
+              </h5>
+              <Link
+                className="coodiv-text-11 font-weight-bold mt-8 d-flex justify-content-between"
+                to="#"
+              >
+                Open a ticket{" "}
+                <i className="ml-2 fa fa-chevron-circle-right coodiv-text-7"></i>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       <div className="wp_hostingFaqSection">
-        <div className="pose_1 gb_fooPose">
+        <div className="pose_1 helpcenterPose">
           <img src={footerPose1} alt="Footer Imgage" />
         </div>
         <svg className="bg-wave-box-end-z1" viewBox="0 0 1440 320">
