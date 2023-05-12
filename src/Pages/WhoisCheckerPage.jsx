@@ -4,9 +4,10 @@ import Navbar from "../Components/Navbar/Navbar";
 import { footerPose1 } from "../Components";
 import Footer from "../Components/Footer/Footer";
 import CheckerApp from "./CheckerApp";
+import WhoisCheckerBestChoice from "../Components/WhoisCheckerPageComponent/WhoisCheckerBestChoice";
+import WhoisCheckerFaq from "../Components/WhoisCheckerPageComponent/WhoisCheckerFaq";
 
 function WhoisCheckerPage() {
-  const [show, setShow] = React.useState(false);
   var bydefaultCurrency = "₹";
 
   const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
@@ -39,16 +40,16 @@ function WhoisCheckerPage() {
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg careerBg">
       <Seo
-        title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
-        description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
-        keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
+        title="Get Accurate Domain Info with WHOIS Domain Lookup"
+        description="Get detailed information about any domain name with WHOIS Domain Lookup. Our powerful, accurate search engine will quickly provide you with the WHOIS records for any domain name, including registration and expiration dates, contact information, and more. Get started now!"
+        keywords="whois, whois lookup, whois domain, whois domain lookup, whois domain tools, whois lookup, whois domain hosting"
       />
       <Navbar />
       <div className="gb_infraWrap">
         <div className="container">
           <div className="gb_top_para">
             <div className="gb_pageTitle">
-              <h1>WHOIS Checker</h1>
+              <h1>Whois Checker</h1>
             </div>
           </div>
         </div>
@@ -60,10 +61,15 @@ function WhoisCheckerPage() {
         </div>
         <CheckerApp />
       </section>
+      <div className="wpChoiceSection ">
+        <WhoisCheckerBestChoice />
+      </div>
       <section id="pricingCardSection">
         <div className="container">
           <div className="sectionTitle">
-            <h4>We are recommended plans</h4>
+            <h4 className="mb-12 mt-12">
+              Establish your brand with our recommended plans
+            </h4>
           </div>
           <div className="whoisCheckerPricingCardWrap">
             <div className="col-md-3">
@@ -246,7 +252,6 @@ function WhoisCheckerPage() {
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
       </section>
@@ -267,6 +272,7 @@ function WhoisCheckerPage() {
             d="M0,128L80,138.7C160,149,320,171,480,192C640,213,800,235,960,234.7C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
         </svg>
+        <WhoisCheckerFaq />
       </div>
       <Footer />
     </div>

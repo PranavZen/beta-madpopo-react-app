@@ -5,7 +5,7 @@ function VdsFaq() {
   return (
     <div className="container" data-aos="fade-left" data-aos-duration='1200'>
       <div className="wp_faqSectionTitle">
-        <h5>Frequently Asked Questions VDS</h5>
+        <h5>Frequently Asked Questions</h5>
       </div>
       <div className="wp_faqRow">
 

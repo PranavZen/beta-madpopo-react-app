@@ -22,7 +22,7 @@ const SslFaqData = [
       {
         id: 5,
         faqQue: `How do you get an SSL certificate?`,
-        faqAns: `Madpopo is offering SSL certificates for open-source projects which are valid for a year. They have three options available - QuickSSL Premium, True BusinessID Wildcard, and True BusinessID with EV. QuickSSL Premium is the most affordable option at ₹399 per year and is recommended for beginners. True BusinessID Wildcard is priced at ₹499 per year and is a good choice for personal websites. Finally, True BusinessID with EV costs ₹699 per year and is suitable for small businesses. The choice of SSL certificate will depend on the specific needs of the project or website, and Madpopo's offerings provide a range of options to choose from.`,
+        faqAns: `Madpopo will give you an SSL certificate that is good for a year if your project is open-source. QuickSSL® Premium, the best choice for novices, costs ₹399 per month when purchased annually. When purchased annually, True BusinessID Wildcard costs ₹499 per month (great for personal websites). True BusinessID with EV (designed for small businesses) costs ₹699 per month when paid annually.`,
       },
   ];
   

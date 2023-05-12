@@ -7,7 +7,7 @@ function VdsListing(props) {
     <div className="wp_plans_listSection" data-aos="fade-left" data-aos-duration='1200'>
       <div className="container">
         <div className="wp_plansSectionTitle">
-          <h2>Operating Systems, Apps, and Deployment Options for Your Virtual Dedicated Server</h2>
+          <h2>Operating Systems, Apps, and Deployment Options for Your Virtual Server</h2>
         </div>
         <div className="wp_plansRow">
           {vdsListing.map((list) => {

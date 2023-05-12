@@ -3128,7 +3128,7 @@ a.headerphone-number {
   background-image: url(.././image/pages/innner-page-1.webp);
 }
 .contatc_mt {
-  margin-top: 540px;
+  margin-top: 485px;
 }
 .fsz {
   font-size: 16px;
@@ -3149,7 +3149,7 @@ a.headerphone-number {
   top: 6.8%;
 } 
 .wp_img_overlayContent.resellerOverlay{
-  top: 5.8%;
+  top: 4.8%;
 }
 .wp_img_overlayContent.linux_img_overlay {
   top: 4.8%;
@@ -10557,7 +10557,7 @@ ul.footer-list li:hover a.footer-list-link {
   bottom: 30%;
 }
 .pose_1.whoisPose {
-  bottom: 30%;
+  bottom: -85%;
 }
 .pose_1.domReg {
   bottom: 0%;
@@ -10575,7 +10575,7 @@ ul.footer-list li:hover a.footer-list-link {
   bottom: -70%;
 }
 .pose_1.vdsPose {
-  bottom: -79%;
+  bottom: -86%;
 }
 .pose_1.cpanelPose{
   bottom: -70%;
@@ -10677,6 +10677,7 @@ ul.footer-list li:hover a.footer-list-link {
   background: #fff;
   margin-top: 30px;
   border-radius: 8px;
+  margin-bottom: 80px;
 }
 .checkerReusltBox .row{
   justify-content: center;

@@ -8,7 +8,7 @@ function VsBestChoice() {
         <div className="wpChoiceSecTitle">
           <h2 className="mb-12">Experience the Power of Virtual Server Hosting with Madpopo</h2>
           <p className="woopara">
-            Madpopo offers virtual dedicated hosting that is perfect for
+            Madpopo offers virtual server hosting that is perfect for
             businesses and individuals who require dedicated resources for their
             websites or applications. Our virtual servers are hosted in top-tier
             data centers, ensuring reliable performance and fast load times:
@@ -62,7 +62,7 @@ function VsBestChoice() {
               <div className="wp_choice_ContentBox">
                 <h2>Performance Optimization</h2>
                 <p>
-                Our virtual dedicated servers are optimized for high-performance, ensuring that your website or application
+                Our virtual servers are optimized for high-performance, ensuring that your website or application
                 always runs smoothly.    
                 </p>
               </div>
