@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 
-function HcPanel({ label, content, activeTab, index, activateTab, ankLink }) {
+function HcPanel({ label, content, activeTab, index, activateTab, ankLink, id }) {
   const [height, setHeight] = useState(0);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ function HcPanel({ label, content, activeTab, index, activateTab, ankLink }) {
   };
   return (
     // eslint-disable-next-line jsx-a11y/role-supports-aria-props
-    <div className="panel" role="tabpanel" aria-expanded={isActive}>
+    <div className="panel" role="tabpanel" aria-expanded={isActive} id={id}>
       <button className="panel__label" role="tab" onClick={activateTab}>
         {label}
       </button>

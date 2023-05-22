@@ -41,6 +41,8 @@
     "react-slick": "^0.29.0",
     "react-slick-adaptive-height-fixed": "^0.23.2",
     "react-sticky-box": "^2.0.0",
+    "react-three-fiber": "^6.0.13",
+    "react-youtube": "^10.1.0",
     "slick-carousel": "^1.8.1",
     "sticky-sidebar": "^3.3.1",
     "stream-browserify": "^3.0.0",

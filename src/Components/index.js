@@ -5,6 +5,8 @@ export { default as bannerBg2 } from "../../src/image/header/helf-circle-01.png"
 export { default as bannerBg3 } from "../../src/image/header/helf-circle-02.png";
 export { default as bannerBg4 } from "../../src/image/header/helf-circle-03.png";
 
+export { default as bgVideo } from "../../src/image/madpopo-data-center.mp4";
+
 export { default as conImg1 } from "../../src/image/pages/contact/madpopo_chat.png";
 export { default as conImg2 } from "../../src/image/pages/contact/madpopo_email.png";
 
