@@ -158,7 +158,7 @@ var bydefaultCurrency = "₹";
             <i className="feather icon-check-circle mr-3"></i> Unlimited
             Incoming
           </li>
-          <li>
+          {/* <li>
             <i className="feather icon-check-circle mr-3"></i> 1 IPv4 Address
           </li>
           <li>
@@ -184,7 +184,7 @@ var bydefaultCurrency = "₹";
           <li>
             <i className="feather icon-check-circle mr-3"></i>Advanced 24/7
             Expert Support
-          </li>
+          </li> */}
         </ul>
         <Link to="#" className="btn-order">
           <span>Order Now</span>

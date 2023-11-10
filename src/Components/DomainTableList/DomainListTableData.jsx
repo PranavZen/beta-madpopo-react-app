@@ -2,7 +2,7 @@ const domainListData = [
     {
         id:1,
         domainName: `.ACADEMY`,
-        domainRgister: `29.10`,
+        domainRgister: `29.10`, 
         domainRenew: `29.10`,
         domainTransfer: `29.10`,
     },

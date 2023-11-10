@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import domainListData from "./DomainListingData";
 import { Link, animateScroll as scroll } from "react-scroll";
-function DomainListBox(props) {
+function DomainListBox(props) { 
   var bydefaultCurrency = "₹";
 
   const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);

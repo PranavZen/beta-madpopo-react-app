@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import React from "react";
 import {
   downArrowBlack,
@@ -17,6 +17,11 @@ import { Link } from "react-router-dom";
 import CountrySelect from "../CountrySelect/CountrySelect";
 function NavbarInner() {
   const [scroll, setScroll] = useState(false);
+  const scrollRef = useRef(null);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  };
   var bydefaultCurrency = "₹";
 
   const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
@@ -58,7 +63,7 @@ function NavbarInner() {
               <span className="textBold">
                 <i className="fa fa-phone"></i> Need Help ?
               </span>{" "}
-              Call Us 24/7 : <a href="tel:+91 99300 19195">+91 99300 19195</a>
+              Call Us 24/7 : <a href="tel:+91 7039 003 001">+91 7039 003 001</a>
             </span>
             <div className="inrSelectWrap">
               <div className="inrSelectBox">
@@ -72,7 +77,11 @@ function NavbarInner() {
                         navbar-expand-lg px-0"
         >
           <div className="brand-logo mr-8 newBrandLogo">
-            <Link to={process.env.PUBLIC_URL + "/"}>
+            <Link
+              to={process.env.PUBLIC_URL + "/"}
+              ref={scrollRef}
+              onClick={scrollToTop}
+            >
               <img src={logo1} alt="" className="light-version-logo" />
               <img src={logo1} alt="" className="dark-version-logo" />
             </Link>
@@ -309,7 +318,7 @@ function NavbarInner() {
                                                                     mb-2
                                                                     color-blackish-blue wblink"
                                 >
-                                  Virtual Server
+                                  Cloud Server
                                 </h3>
                                 <p
                                   className="coodiv-text-11
@@ -444,15 +453,17 @@ function NavbarInner() {
                             </Link>
                           </div>
 
-                          <Link
+                          <a
                             className="btn
                         btn-primary
                                                         coodiv-text-9
                                                         d-block w-50 buyBtnW100"
-                            to="#"
+                            href="https://my.madpopo.com/login"
+                            target="_blank"
+                            rel="noreferrer"
                           >
                             Buy Now
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -710,34 +721,34 @@ function NavbarInner() {
                             className="domain-search-form
                                                           mb-8"
                           >
-                          <form action={domainName} method="post">
-                          <div
-                            className="form-group
+                            <form action={domainName} method="post">
+                              <div
+                                className="form-group
                                                                 position-relative
                                                                 text-lg-left
                                                                 text-center dom_mobForm"
-                          >
-                            <input
-                              className="form-control
+                              >
+                                <input
+                                  className="form-control
                                                               coodiv-text-9
                                                               border-separate
                                                               mb-lg-6
                                                               mb-2
                                                               min-height-px-64"
-                              type="text"
-                              id="domain"
-                              name="domain"
-                              onChange={(e) =>
-                                setdomainName(action + e.target.value)
-                              }
-                              placeholder="Enter
+                                  type="text"
+                                  id="domain"
+                                  name="domain"
+                                  onChange={(e) =>
+                                    setdomainName(action + e.target.value)
+                                  }
+                                  placeholder="Enter
                                                               your
                                                               domain
                                                               name"
-                              fdprocessedid="ie3xhm"
-                            />
-                            <button
-                              className="form-btn
+                                  fdprocessedid="ie3xhm"
+                                />
+                                <button
+                                  className="form-btn
                                                                     btn
                                                                     btn-primary
                                                                     mr-2
@@ -745,12 +756,12 @@ function NavbarInner() {
                                                                     min-height-px-50
                                                                     w-100
                                                                     w-md-auto"
-                              fdprocessedid="6zse4p"
-                            >
-                              check
-                            </button>
-                          </div>
-                        </form>
+                                  fdprocessedid="6zse4p"
+                                >
+                                  check
+                                </button>
+                              </div>
+                            </form>
                           </div>
                         </div>
                         <div className="col-xl-12 col-lg-12 col-md-12">
@@ -813,11 +824,10 @@ function NavbarInner() {
                 </li>
 
                 <li className="nav-item dropdown">
-                  <Link to="/help-center" className="nav-link">
-                    Help Center
+                  <Link to="/affiliates" className="nav-link">
+                    Affiliate
                   </Link>
                 </li>
-
                 {
                   //     <li className="nav-item dropdown dropdown-mega">
                   //     <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
@@ -1193,7 +1203,11 @@ function NavbarInner() {
                     }
                   </ul>
                 </li>
-
+                <li className="nav-item dropdown">
+                  <Link to="/help-center" className="nav-link">
+                    Help Center
+                  </Link>
+                </li>
                 {
                   //     <li className="nav-item">
                   //      <Link

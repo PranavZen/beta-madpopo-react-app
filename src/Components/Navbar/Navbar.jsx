@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import React from "react";
 import {
   downArrowBlack,
@@ -18,6 +18,11 @@ import { Link } from "react-router-dom";
 import CountrySelect from "../CountrySelect/CountrySelect";
 function Navbar() {
   const [scroll, setScroll] = useState(false);
+  const scrollRef = useRef(null);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  };
   var bydefaultCurrency = "₹";
 
   const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
@@ -46,6 +51,7 @@ function Navbar() {
       setScroll(window.scrollY > 50);
     });
   }, []);
+
   return (
     <header
       className={
@@ -61,7 +67,7 @@ function Navbar() {
               <span className="textBold">
                 <i className="fa fa-phone"></i> Need Help ?
               </span>{" "}
-              Call Us 24/7 : <a href="tel:+91 99300 19195">+91 99300 19195</a>
+              Call Us 24/7 : <a href="tel:+91 7039 003 001">+91 7039 003 001</a>
             </span>
             <div className="inrSelectWrap">
               <div className="inrSelectBox">
@@ -75,7 +81,7 @@ function Navbar() {
                         navbar-expand-lg px-0"
         >
           <div className="brand-logo mr-8 newBrandLogo">
-            <Link to={process.env.PUBLIC_URL + "/"}>
+            <Link to={process.env.PUBLIC_URL + "/"} ref={scrollRef} onClick={scrollToTop}>
               <img src={logo1} alt="" className="light-version-logo" />
               <img src={logo2} alt="" className="dark-version-logo" />
             </Link>
@@ -316,7 +322,7 @@ function Navbar() {
                                                                         mb-2
                                                                         color-blackish-blue wblink"
                                 >
-                                  Virtual Server
+                                  Cloud Server
                                 </h3>
                                 <p
                                   className="coodiv-text-11
@@ -451,15 +457,17 @@ function Navbar() {
                             </Link>
                           </div>
 
-                          <Link
+                          <a
                             className="btn
                             btn-primary
                                                             coodiv-text-9
                                                             d-block w-50 buyBtnW100"
-                            to="#"
+                            href="https://my.madpopo.com/login"
+                            target="_blank"
+                            rel="noreferrer"
                           >
                             Buy Now
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -823,12 +831,12 @@ function Navbar() {
                   </div>
                 </li>
 
+                
                 <li className="nav-item dropdown">
-                  <Link to="/help-center" className="nav-link">
-                    Help Center
-                  </Link>
-                </li>
-
+                <Link to="/affiliates" className="nav-link">
+                  Affiliate
+                </Link>
+              </li>
                 {
                   //     <li className="nav-item dropdown dropdown-mega">
                   //     <Link className="nav-link dropdown-toggle coodiv-toggle-arrow"
@@ -1208,7 +1216,11 @@ function Navbar() {
                     }
                   </ul>
                 </li>
-
+                <li className="nav-item dropdown">
+                <Link to="/help-center" className="nav-link">
+                  Help Center
+                </Link>
+              </li>
                 {
                   //     <li className="nav-item">
                   //      <Link

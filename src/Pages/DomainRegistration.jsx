@@ -65,7 +65,7 @@ function DomainRegistration() {
                 All what you need is a featured domain name to start.
               </h2>
               <p className="coodiv-text-10 font-weight-light mb-13">
-                The perfect domain lets people know at a glance why you're
+                The perfect domain lets people know at a glance why you're 
                 online{" "}
                 <b className="font-weight-bold">and why you're awesome</b>. Find
                 the right domain extension now to grab more attention and

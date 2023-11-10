@@ -5,7 +5,7 @@ function DomainTableRows(props) {
   var bydefaultCurrency = "₹";
 
   const [selectedCountry, setSelectedCountry] = useState(bydefaultCurrency);
-
+ 
   useEffect(() => {
     const storedCountry = localStorage.getItem("selectedCountry");
     if (storedCountry) {

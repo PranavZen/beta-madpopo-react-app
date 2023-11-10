@@ -6,7 +6,7 @@ function DomainTableList(props) {
     <table className="table mt-12">
       <thead className="thead-dark">
         <tr>
-          <th scope="col">#</th>
+          <th scope="col">#</th> 
           <th scope="col">Domains (per year)</th>
           <th scope="col">Register per year</th>
           <th scope="col">Renew per year</th>

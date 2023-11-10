@@ -4,13 +4,90 @@ import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import Seo from "../Components/SEO/Seo";
 import { conImg1, conImg2 } from "../Components";
+import axios from "axios";
+import ReCAPTCHA from "react-google-recaptcha";
+
 function ContactUs() {
+  const testSiteKey = "6LcgkwApAAAAAO3aILJwmebdXVAE3NjRJRQeglNn";
+  const [recaptchaChecked, setRecaptchaChecked] = useState(false);
   const [scroll, setScroll] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [nameError, setNameError] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  const [formResponse, setResponse] = useState("");
+
+  const isValidName = (name) => {
+    const nameRegex = /^[A-Za-z\s]+$/;
+    return nameRegex.test(name);
+  };
+
+  const isValidEmail = (email) => {
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return emailRegex.test(email);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setNameError("");
+    setEmailError("");
+    let isValid = true;
+    if (name === "") {
+      setNameError("Name is required");
+      isValid = false;
+    } else if (!isValidName(name)) {
+      setNameError("Name should only contain text");
+      isValid = false;
+    }
+
+    if (email === "") {
+      setEmailError("Email is required");
+      isValid = false;
+    } else if (!isValidEmail(email)) {
+      setEmailError("Email should be in a valid format");
+      isValid = false;
+    }
+
+    if (isValid) {
+      axios
+        .post("https://madpopo.com/contact-us-form-save-data.php", {
+          name: name,
+          email: email,
+          subject: subject,
+          message: message,
+        })
+        .then((response) => {
+          if (response.data.type == "success") {
+            setResponse(response.data.message);
+            setSuccessMessage(response.data.message);
+          } else {
+            setResponse(response.data.message);
+          }
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    }
+  };
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY >= 1580);
     });
   }, []);
+  const handleRecaptchaSuccess = () => {
+    setRecaptchaChecked(true);
+  };
+  const handleCancel = () => {
+    
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+    setSuccessMessage(""); 
+  };
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg contactBgImg">
       <Seo
@@ -51,10 +128,29 @@ function ContactUs() {
           <div className="row justify-content-center pb-10 position-relative coodiv-z-index-2">
             <div className="col-md-12 col-lg-8">
               <div className="contact-form-container bg-white border-opacity px-8 pt-8 pb-9 px-sm-11 py-sm-11 shadow-2 rounded-20 position-relative overflow-hidden">
-                <form className="contact-form" method="post" action="#">
-                  <div className="output_message">
-                    <span className="output_message_text coodiv-text-6 font-weight-bold color-blackish-blue"></span>
-                    <Link className="btn btn-danger">cancel</Link>
+                <form className="contact-form" onSubmit={handleSubmit}>
+                  <div
+                    className={`output_message ${
+                      successMessage ? "success_message" : ""
+                    }`}
+                  >
+                    {successMessage ? (
+                      <div>
+                        <span className="output_message_text coodiv-text-6 font-weight-bold color-blackish-blue">
+                          {successMessage}
+                        </span>
+                        <Link
+                          className="btn btn-danger mx-auto"
+                          onClick={() => {
+                            setSuccessMessage("");
+                            handleCancel();
+                            window.location.reload();
+                          }}
+                        >
+                          Ok
+                        </Link>
+                      </div>
+                    ) : null}
                   </div>
                   <div className="row">
                     <div className="col-md-12">
@@ -70,8 +166,12 @@ function ContactUs() {
                           type="text"
                           id="name"
                           placeholder="i.e. John Doe"
-                          fdprocessedid="u5fe9"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
                         />
+                        <div className="error-message" id="name-error">
+                          {nameError}
+                        </div>
                       </div>
                     </div>
                     <div className="col-md-12">
@@ -87,8 +187,12 @@ function ContactUs() {
                           type="text"
                           id="email"
                           placeholder="i.e. john@mail.com"
-                          fdprocessedid="12vuy"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
                         />
+                        <div className="error-message" id="name-error">
+                          {emailError}
+                        </div>
                       </div>
                     </div>
                     <div className="col-md-12">
@@ -103,8 +207,9 @@ function ContactUs() {
                           className="form-control coodiv-text-11 border"
                           type="text"
                           id="subject"
-                          placeholder="i.e. I need a help"
-                          fdprocessedid="qy51j5"
+                          placeholder="i.e. I need help"
+                          value={subject}
+                          onChange={(e) => setSubject(e.target.value)}
                         />
                       </div>
                     </div>
@@ -120,14 +225,26 @@ function ContactUs() {
                           name="textblock"
                           id="message"
                           className="form-control coodiv-text-11 border-gray-3 coodiv-textarea-height"
+                          value={message}
+                          onChange={(e) => setMessage(e.target.value)}
                         ></textarea>
                       </div>
                     </div>
+
+                    <div className="col-md-12">
+                      <div className="g-recaptcha mb-5">
+                        <ReCAPTCHA
+                          sitekey={testSiteKey}
+                          onChange={handleRecaptchaSuccess}
+                        />
+                      </div>
+                    </div>
+
                     <div className="col-md-12">
                       <div className="form-group button-block mt-3">
                         <button
                           className="form-btn btn btn-warning d-block w-100"
-                          fdprocessedid="fvvd0o"
+                          disabled={!recaptchaChecked}
                         >
                           Send
                         </button>
@@ -145,7 +262,7 @@ function ContactUs() {
                   </div>
                   <div>
                     <h5 className="coodiv-text-8 mb-0">Sales</h5>
-                    <p className="coodiv-text-11 mb-0">+91 99300 19195</p>
+                    <p className="coodiv-text-11 mb-0">+91 7039 003 001</p>
                   </div>
                 </div>
                 <div className="col-md-12 text-left px-8 pb-8 pt-5 d-flex justify-content-start align-items-center border-bottom-separate">
@@ -194,32 +311,50 @@ function ContactUs() {
                     <h5 className="coodiv-text-8 mb-0">
                       Follow us in Social Media
                     </h5>
-                    <div className="social-numbers contact-page d-flex mt-3">
+                    <div className="social-numbers contact-page d-flex mt-3 gap3">
                       {
                         //   <Link className="mr-1 fb" to="#">
                         //   <i className="fa fa-facebook-f"></i>
                         // </Link>
                       }
                       <a
-                        className="mr-1 tw"
+                        className=" tw"
                         href="https://www.facebook.com/madpopowp?mibextid=ZbWKwL"
                       >
                         <i className="fa fa-facebook"></i>
                       </a>
-                      <a
-                        className="mr-1 tw"
-                        href="https://twitter.com/madpopowp"
-                      >
-                        <i className="fa fa-twitter"></i>
+                      <a className="tw" href="https://twitter.com/madpopowp">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 48 48"
+                          width="24px"
+                          clipRule="evenodd"
+                          baseProfile="basic"
+                        >
+                          <polygon
+                            fill="#379ff6"
+                            points="41,6 9.929,42 6.215,42 37.287,6"
+                          />
+                          <polygon
+                            fill="#379ff6"
+                            fillRule="evenodd"
+                            points="31.143,41 7.82,7 16.777,7 40.1,41"
+                            clipRule="evenodd"
+                          />
+                          <path
+                            fill="#379ff6"
+                            d="M15.724,9l20.578,30h-4.106L11.618,9H15.724 M17.304,6H5.922l24.694,36h11.382L17.304,6L17.304,6z"
+                          />
+                        </svg>
                       </a>
                       <a
-                        className="mr-1 tw"
+                        className="tw"
                         href="https://www.linkedin.com/company/madpopowp"
                       >
                         <i className="fa fa-linkedin"></i>
                       </a>
                       <a
-                        className="mr-1 tw"
+                        className="tw"
                         href="https://www.instagram.com/madpopowp/?igshid=MDM4ZDc5MmU="
                       >
                         <i className="fa fa-instagram"></i>
@@ -240,13 +375,13 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      
+
       <div className="onlineChatBotWrapper">
         <div className="container">
-        <div className="sectionTitle">
-          <h4>Reach out to Madpopo</h4>
-          <p>Whenever you need us, please do not hesitate to contact us</p>
-        </div>
+          <div className="sectionTitle">
+            <h4>Reach out to Madpopo</h4>
+            <p>Whenever you need us, please do not hesitate to contact us</p>
+          </div>
           <div className="onlineChatRow">
             <div className="col-md-4">
               <div className="chatBoxOuter">
@@ -258,9 +393,7 @@ function ContactUs() {
                 <div className="ChatBoxInner">
                   <div className="boxTitle">
                     <h6>Chat online</h6>
-                    <p>
-                    Get Madpopo to help with your questions
-                    </p>
+                    <p>Get Madpopo to help with your questions</p>
                   </div>
                   <div className="responsiveTimeBox">
                     <span>response time</span>
@@ -289,7 +422,14 @@ function ContactUs() {
                     <p>8-9 hours</p>
                   </div>
                   <div className="btnWrap">
-                    <button onClick={() => window.location.href = "mailto:support@madpopo.com"} className="btn">Email us</button>
+                    <button
+                      onClick={() =>
+                        (window.location.href = "mailto:support@madpopo.com")
+                      }
+                      className="btn"
+                    >
+                      Email us
+                    </button>
                   </div>
                 </div>
               </div>

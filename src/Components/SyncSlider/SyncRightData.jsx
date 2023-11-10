@@ -82,6 +82,7 @@ const RightData = [
     bgColor:
       "linear-gradient(150deg, rgba(9,187,254,1) 36%, rgba(237,213,74,1) 70%)",
     billedCat: "Monthly",
+    link: '/object-storage'
   },
 ];
 

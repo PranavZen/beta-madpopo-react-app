@@ -42,6 +42,9 @@ import HappyCustomer from "./Pages/HappyCustomer";
 import CoLocationServer from "./Pages/CoLocationServer";
 import DsAcceptablePolicy from "./Pages/DsAcceptablePolicy";
 import WhoisCheckerPage from "./Pages/WhoisCheckerPage";
+import ObjectStorage from "./Pages/ObjectStorage";
+import AffliatePage from "./Pages/AffliatePage";
+import MarketingLandingPage from "./Pages/MarketingLandingPage";
 function App() {
   const helmetContext = {};
   useEffect(() => {
@@ -86,8 +89,11 @@ function App() {
           <Route path="/colocation-server" element={<CoLocationServer />} />
           <Route path="/dedicated-server-acceptable-use-policy" element={<DsAcceptablePolicy />} />
           <Route path="/whois-checker" element={<WhoisCheckerPage />} />
+          <Route path="/object-storage" element={<ObjectStorage />} />
+          <Route path="/affiliates" element={<AffliatePage />} />
           <Route path="/career/:jdUrlName" element={<Jd />} />
           <Route path="/Error404" element={<Error404 />} />
+          <Route path="/landing" element={<MarketingLandingPage />} />
           <Route path="*" element={<Navigate to="/Error404" />} />
         </Routes>
       </Router>

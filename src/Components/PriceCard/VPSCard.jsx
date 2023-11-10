@@ -133,8 +133,9 @@ var bydefaultCurrency = "₹";
         <ul className="ddos-first-features">
           <li>
             <span className="capTitle">Processor</span>
-            <span className="capAmt">{props.cardVpsWebSpace} vCPU Cores</span>
+            <span className="capAmt">{props.cardVpsWebSpace} Physical Cores<br/>AMD EPYC 7282 2.8 GHz</span>
           </li>
+          
           <li>
             <span className="capTitle">Memory</span>
             <span className="capAmt">{props.cardVpsCapacity} GB RAM</span>
@@ -142,15 +143,15 @@ var bydefaultCurrency = "₹";
           <li>
             <span className="capTitle">Storage</span>
             <span className="capAmt">
-              {props.cardVpsCapacity2} NVMe or {props.cardVpsCapacity3} SSD
+              {props.cardVpsCapacity2}
             </span>
           </li>
         </ul>
         <ul className="ddos-second-features border-top">
-          <li>
+          {/* <li>
             <i className="feather icon-check-circle mr-3"></i> Snapshot{" "}
             {props.cardVpsSnap}
-          </li>
+          </li> */}
           <li>
             <i className="feather icon-check-circle mr-3"></i> 32 TB Traffic*
           </li>
@@ -159,6 +160,9 @@ var bydefaultCurrency = "₹";
             Incoming
           </li>
           <li>
+            <i className="feather icon-check-circle mr-3"></i> One Time Setup: $39/ Rs. 3500 / EURO 35
+          </li>
+          {/* <li>
             <i className="feather icon-check-circle mr-3"></i> 1 IPv4 Address
           </li>
           <li>
@@ -184,7 +188,7 @@ var bydefaultCurrency = "₹";
           <li>
             <i className="feather icon-check-circle mr-3"></i>Advanced 24/7
             Expert Support
-          </li>
+          </li> */}
         </ul>
         <Link to="#" className="btn-order">
           <span>Order Now</span>

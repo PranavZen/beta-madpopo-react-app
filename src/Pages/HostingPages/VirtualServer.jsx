@@ -12,15 +12,8 @@ import VdsListing from "../../Components/VirtualDedicatedServerPageComponent/Vds
 import VdsFaq from "../../Components/VirtualDedicatedServerPageComponent/VdsFaq";
 import Seo from "../../Components/SEO/Seo";
 import VPS2CardPrice from "../../Components/Tabs/TabContentBox/VPS2CardPrice";
-import VpsFeatures from "../../Components/VirtualPrivateServerPageComponent/VpsFeatures";
-import VpsListing from "../../Components/VirtualPrivateServerPageComponent/VpsListing";
-import VpsFaq from "../../Components/VirtualPrivateServerPageComponent/VpsFaq";
 import VsBestChoice from "../../Components/VsPageComponent/VsBestChoice";
 import VssCardPrice from "../../Components/Tabs/TabContentBox/VssCardPrice";
-import VssBestChoice from "../../Components/VSSPageComponent/VssBestChoice";
-import VssFeatures from "../../Components/VSSPageComponent/VssFeatures";
-import VssPlanListing from "../../Components/VSSPageComponent/VssPlanListing";
-import VssFaq from "../../Components/VSSPageComponent/VssFaq";
 function VirtualServer() {
   const [activeTab, setActiveTab] = useState(0);
 
@@ -37,8 +30,8 @@ function VirtualServer() {
       <Navbar />
 
       <div className="wp_img_overlayContent vdsImgOverlay ">
-        <p>Virtual Server</p>
-        <h1>Fast and Secure Virtual Servers for Your Business Needs</h1>
+        <p>Cloud Server</p>
+        <h1>Fast and Secure Cloud Servers for Your Business Needs</h1>
         <span>
           Get more hosting for a lower price.Take advantage of your hosting
           plan's increased security and management at a reasonable cost.
@@ -64,7 +57,7 @@ function VirtualServer() {
               onChange={() => handleTabClick(0)}
             />
             <label className="tab" htmlFor="radio-1">
-              Virtual Dedicated Server
+              Virtual Cloud Server
             </label>
 
             <input
@@ -75,7 +68,7 @@ function VirtualServer() {
               onChange={() => handleTabClick(1)}
             />
             <label className="tab" htmlFor="radio-2">
-              Virtual Private Server
+              Virtual Storage Server
             </label>
 
             <input
@@ -86,7 +79,7 @@ function VirtualServer() {
               onChange={() => handleTabClick(2)}
             />
             <label className="tab" htmlFor="radio-3">
-              Virtual Storage Server
+              Virtual Dedicated Server
             </label>
 
             <span
@@ -97,7 +90,7 @@ function VirtualServer() {
         </div>
       </div>
       <div className="virtualServerTabPanel">
-        {activeTab === 0 && (
+        {activeTab === 2 && (
           <div className="tab-content">
             <div
               className="vds_pricingBox container px-0"
@@ -108,7 +101,7 @@ function VirtualServer() {
             </div>
           </div>
         )}
-        {activeTab === 1 && (
+        {activeTab === 0 && (
           <div className="tab-content">
             <div
               className="vds_pricingBox container px-0"
@@ -119,7 +112,7 @@ function VirtualServer() {
             </div>
           </div>
         )}
-        {activeTab === 2 && (
+        {activeTab === 1 && (
           <div className="tab-content">
             <div
               className="vds_pricingBox container px-0"

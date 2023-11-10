@@ -110,18 +110,18 @@ var bydefaultCurrency = "₹";
             <select
               onChange={handleFrequencyChange}
               value={selectedFrequency}
-              className="selectDay"
+              className="selectDay newSelectBox"
             >
-              <option value="priceThreeYearlyIn">3 Years</option>
-              <option value="priceTwoYearlyIn">2 Years</option>
-              <option value="priceYearlyIn">1 Year</option>
+              <option value="priceThreeYearlyIn">1 Year</option>
+              <option value="priceTwoYearlyIn">Quarterly</option>
+              <option value="priceYearlyIn">Monthly</option>
             </select>
           </form>
         </div>
-            <h2 className="text-blackish-blue">
+            <h2 className="text-blackish-blue newText">
             {selectedCountry ? selectedCountry : bydefaultCurrency}
             { slectPrice ? slectPrice : show_price || defaultPrice5 }
-              <span className="payment-type-m">monthly</span>
+              {/* <span className="payment-type-m">monthly</span> */}
             </h2>
           </div>
         </div>

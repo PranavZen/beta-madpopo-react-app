@@ -47,6 +47,15 @@ export { default as wpFeatureImg12 } from "../../src/image/wordpress/malware-sca
 export { default as wpFeatureImg13 } from "../../src/image/wordpress/free-sssl-certificate.png";
 export { default as wpFeatureImg14 } from "../../src/image/wordpress/highly-secure-reliable.png";
 
+export { default as ico1 } from "../../src/image/pages/affiliate/domain.png";
+export { default as ico2 } from "../../src/image/pages/affiliate/webico.png";
+export { default as ico3 } from "../../src/image/pages/affiliate/sslcertificate.png";
+export { default as ico4 } from "../../src/image/pages/affiliate/server.png";
+export { default as ico5 } from "../../src/image/pages/affiliate/mail-service.png";
+export { default as ico6 } from "../../src/image/pages/affiliate/wordpress.png";
+export { default as ico7 } from "../../src/image/pages/affiliate/hosting.png";
+export { default as ico8 } from "../../src/image/pages/affiliate/offer.png";
+
 export { default as navicon1 } from "../../src/image/header/navbaricon/wordpressicon.png";
 export { default as navicon2 } from "../../src/image/header/navbaricon/woocomicon.png";
 export { default as navicon3 } from "../../src/image/header/navbaricon/linuxicon.png";
@@ -83,6 +92,7 @@ export { default as physicalsecurity } from "../../src/image/pages/globalInfra/p
 export { default as migrationWp } from "../../src/image/wordpress/wp-3d-logo.webp";
 export { default as bus_rightImg } from "../../src/image/pages/businessemail/besrightimg.webp";
 export { default as linusRightImg } from "../../src/image/pages/linuxwebhosting/linux-hosting.webp";
+export { default as affiliatesImg } from "../../src/image/pages/affiliateBanner.png";
 export { default as windowsImg } from "../../src/image/pages/windows/windows-object.webp";
 export { default as vdsImg } from "../../src/image/pages/virtualserver/cloud-server.webp";
 export { default as dsImg } from "../../src/image/pages/dedicatedserver/dedicatedserverimg.webp";
@@ -118,3 +128,36 @@ export { default as reason4 } from "../../src/image/pages/career/icon_mobile-off
 export { default as reason5 } from "../../src/image/pages/career/icon_refreshments.svg";
 export { default as reason6 } from "../../src/image/pages/career/icon_growth.svg";
 
+export { default as objImg1 } from "../../src/image/pages/objectstorage/icon_api.svg";
+export { default as objImg2 } from "../../src/image/pages/objectstorage/icon_ddos-protection.svg";
+export { default as objImg3 } from "../../src/image/pages/objectstorage/icon_redundancy.svg";
+export { default as objImg4 } from "../../src/image/pages/objectstorage/icon_auto-installer.svg";
+export { default as objImg5 } from "../../src/image/pages/objectstorage/icon_global-availability.svg";
+export { default as objImg6 } from "../../src/image/pages/objectstorage/icon_sharing.svg";
+export { default as objImg7 } from "../../src/image/pages/objectstorage/icon_scaling.svg";
+export { default as objImg8 } from "../../src/image/pages/objectstorage/icon_webinterface.svg";
+export { default as objImg9 } from "../../src/image/pages/objectstorage/icon_admin.svg";
+export { default as ois1 } from "../../src/image/pages/objectstorage/Aspark.webp";
+export { default as ois2 } from "../../src/image/pages/objectstorage/nextcloud.webp";
+export { default as ois3 } from "../../src/image/pages/objectstorage/rclone.webp";
+export { default as ois4 } from "../../src/image/pages/objectstorage/cyberduck.webp";
+export { default as ois5 } from "../../src/image/pages/objectstorage/velero.webp";
+export { default as ois6 } from "../../src/image/pages/objectstorage/aws.webp";
+
+export { default as datacenterVideo } from "../../src/image/videos/madpopo-data-center-video.mp4";
+export { default as datacenterVideoThumbnail } from "../../src/image/videos/thumbnail.png";
+export { default as playIcon } from "../../src/image/videos/playIcon.png";
+
+export { default as india } from "../../src/image/svg/india.svg";
+export { default as usa } from "../../src/image/svg/usa.svg";
+export { default as europe } from "../../src/image/svg/europe.svg";
+
+export { default as ebookImg1 } from "../../src/image/pages/landing/audience.png";
+export { default as ebookImg2 } from "../../src/image/pages/landing/webdesign.png";
+export { default as ebookImg3 } from "../../src/image/pages/landing/complainingcontent.png";
+export { default as ebookImg4 } from "../../src/image/pages/landing/seo.png";
+export { default as ebookImg5 } from "../../src/image/pages/landing/socialmedia.png";
+export { default as ebookImg6 } from "../../src/image/pages/landing/dataanalytics.png";
+export { default as ebookImg7 } from "../../src/image/pages/landing/ecomm.png";
+export { default as ebookImg8 } from "../../src/image/pages/landing/proofing.png";
+export { default as successstoryImg } from "../../src/image/pages/book-img.png";

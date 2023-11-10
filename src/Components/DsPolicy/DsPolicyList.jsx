@@ -125,7 +125,7 @@ function DsPolicyList() {
                 with or without notice to You. Current Service prices and
                 features may be obtained by visiting the Version Next
                 Technologies website www.version-next.com. or by calling {""}
-                <a href="tel:+919930019195">(+91) 99300 19195</a>
+                <a href="tel:+919930019195">(+91) 7039 003 001</a>
               </li>
             </ul>
           </div>

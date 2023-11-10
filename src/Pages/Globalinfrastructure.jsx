@@ -1,23 +1,35 @@
-import React from "react";
-import {
-  dc,
-  footerPose1,
-  nc,
-  rigions,
-} from "../Components";
+import React, { useRef, useState } from "react";
+import { datacenterVideo, datacenterVideoThumbnail, dc, footerPose1, nc, rigions } from "../Components";
 import Footer from "../Components/Footer/Footer";
 import Hostareawrap from "../Components/HostingArea/Hostareawrap";
 import Navbar from "../Components/Navbar/Navbar";
 import Seo from "../Components/SEO/Seo";
 
 function Globalinfrastructure() {
+  const [showControls, setShowControls] = useState(false);
+  const [showPlayIcon, setShowPlayIcon] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef(null);
+  const handleVideoClick = () => {
+    setShowControls(true);
+    setShowPlayIcon(false);
+
+    if (isPlaying) {
+      videoRef.current.pause();
+    } else {
+      videoRef.current.play();
+    }
+
+    setIsPlaying(!isPlaying);
+  };
+
   return (
     <div className="site-wrapper overflow-hidden wp_hostingBgImg gbInfraBg">
-    <Seo
-    title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
-    description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
-    keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
-    />
+      <Seo
+        title="MadPopo Best Hosting Solution which is Secure, Scalable, Reliable and Affordable for your Online Business"
+        description="Our WordPress hosting services provide top-notch performance, security, high availability, load balancing, uto-scaling and reliability for your website. With optimized servers and expert support, your website online presence will be in good hands."
+        keywords="WordPress hosting, web hosting, performance, security, reliability, Windows hosting, scalability, .NET framework, MS SQL Hosting, ASP support, Linux hosting, affordability, reliability, Apache, PHP, MySQL, Cloud server hosting, high availability, load balancing, auto-scaling"
+      />
       <Navbar />
 
       <div className="gb_infraWrap">
@@ -79,7 +91,44 @@ function Globalinfrastructure() {
           </p>
         </div>
         <Hostareawrap />
-
+        <section className="infraCenterSection">
+          <div className="gb_infraBoxTitle">
+            <h5 className="gb_infraTitle">
+              Version Next MadPopo Infrastructure Facility Center
+            </h5>
+          </div>
+          <div className="centerVideo">
+            <div className="row">
+              <div className="col-lg-8 col-md-11 col-11 mx-auto">
+                <div className="videoWrapper">
+                  <div className={`playIconWrapper ${showPlayIcon ? "" : "show"}`}>
+                    <div className="playIcon" onClick={handleVideoClick}></div>
+                  </div>
+                  <video
+                    ref={videoRef}
+                    id="my-video"
+                    className={`video-js ${
+                      showControls
+                        ? "vjs-controls-enabled"
+                        : "vjs-controls-disabled"
+                    }`}
+                    controls={showControls ? "controls" : ""}
+                    preload="auto"
+                    poster={datacenterVideoThumbnail}
+                    data-setup=""
+                    loop
+                    onClick={handleVideoClick}
+                  >
+                    <source
+                      src={datacenterVideo}
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <div className="gb_infraDataSection">
           <div className="container">
             <div className="dataCenterTitle">
@@ -88,7 +137,7 @@ function Globalinfrastructure() {
               </h5>
             </div>
             <div className="dataCentersWrap">
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-4">
                 <div className="dataCenterBoxWrap">
                   <h3>Power Supply Redundancy</h3>
                   <p>
@@ -99,7 +148,7 @@ function Globalinfrastructure() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-4">
                 <div className="dataCenterBoxWrap">
                   <h3>Internet Connection Redundancy</h3>
                   <p>
@@ -110,7 +159,7 @@ function Globalinfrastructure() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-4">
                 <div className="dataCenterBoxWrap">
                   <h3>Cooling Redundancy</h3>
                   <p>
@@ -121,7 +170,7 @@ function Globalinfrastructure() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-4">
                 <div className="dataCenterBoxWrap">
                   <h3>DC Security</h3>
                   <p>
@@ -132,7 +181,7 @@ function Globalinfrastructure() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-4">
                 <div className="dataCenterBoxWrap">
                   <h3>Efficient Energy</h3>
                   <p>
@@ -144,7 +193,7 @@ function Globalinfrastructure() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-4">
                 <div className="dataCenterBoxWrap">
                   <h3>On-premises profressionals</h3>
                   <p>

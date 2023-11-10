@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import {
   amex,
@@ -12,6 +12,11 @@ import {
 import { HashLink } from "react-router-hash-link";
 
 function Footer() {
+  const scrollRef = useRef(null);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  };
   return (
     <div className="dark-mode-texts footer-gradient-default overflow-hidden position-relative madPopoEl">
       <svg className="bg-wave-box-end" viewBox="0 0 1440 320">
@@ -29,7 +34,11 @@ function Footer() {
                 <div className="col-12 col-lg-3">
                   <div className="footer-block mb-13 mb-lg-9">
                     <div className="brand-logo mb-7">
-                      <Link to={process.env.PUBLIC_URL + "/"}>
+                      <Link
+                        to={process.env.PUBLIC_URL + "/"}
+                        ref={scrollRef}
+                        onClick={scrollToTop}
+                      >
                         <img
                           src={fooLogo}
                           alt="MadPopo Logo"
@@ -45,7 +54,7 @@ function Footer() {
                       </li>
                       <li>
                         <span className="badge coodiv-badge badge badge-info rounded-pill coodiv-text-12 position-relative">
-                          <i className="fa fa-phone"></i> +91 99300 19195
+                          <i className="fa fa-phone"></i> +91 7039 003 001
                         </span>
                       </li>
                     </ul>
@@ -135,7 +144,6 @@ function Footer() {
                           className="footer-list-link"
                           to="/domain-registration/#check-free-domain"
                           smooth={true}
-                          
                         >
                           {" "}
                           Check Free Domain{" "}
@@ -196,15 +204,7 @@ function Footer() {
                     </h4>
                     <ul className="footer-list list-unstyled">
                       <li className="py-1">
-                        <Link
-                          className="footer-list-link"
-                          onClick={() =>
-                            window.open(
-                              "https://my.madpopo.com/affiliates.php",
-                              "_blank"
-                            )
-                          }
-                        >
+                        <Link className="footer-list-link" to="/affiliates">
                           Affiliate Program
                         </Link>
                       </li>
@@ -333,8 +333,28 @@ function Footer() {
                         </li>
                         <li>
                           <a href="https://twitter.com/madpopowp">
-                            {" "}
-                            <i className="fa fa-twitter-square"></i>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 48 48"
+                              width="20px"
+                              clipRule="evenodd"
+                              baseProfile="basic"
+                            >
+                              <polygon
+                                fill="#282c3b"
+                                points="41,6 9.929,42 6.215,42 37.287,6"
+                              />
+                              <polygon
+                                fill="#282c3b"
+                                fillRule="evenodd"
+                                points="31.143,41 7.82,7 16.777,7 40.1,41"
+                                clipRule="evenodd"
+                              />
+                              <path
+                                fill="#282c3b"
+                                d="M15.724,9l20.578,30h-4.106L11.618,9H15.724 M17.304,6H5.922l24.694,36h11.382L17.304,6L17.304,6z"
+                              />
+                            </svg>
                           </a>
                         </li>
                       </ul>
